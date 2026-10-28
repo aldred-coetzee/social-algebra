@@ -17,8 +17,12 @@ notation, later the modelling of interactions in it.
 
 The name was chosen over `group-grammar` and `group-mechanics` because
 operators and operands make it an algebra, and "social" keeps a mathematical
-reader from expecting group theory. "Mechanics" is kept for the first
-article's title.
+reader from expecting group theory.
+
+**The goal is the algebra, not writing about it.** Aldred, 2026-10-29: *"It
+is not about an article; it is about developing the algebra."* Success is a
+notation that captures a group's mechanics well enough to model interactions
+in it. If articles follow, they are a by-product.
 
 ## Layout
 
@@ -29,9 +33,9 @@ article's title.
 
 ## How it connects to the rest
 
-- Articles that come out of this flow through the normal path: notes in the
-  `writing` workspace via the Publisher app, drafted and published to
-  `nextpattern-site`. This repo holds the thinking, not the pipeline.
+- Separate from the writing pipeline. Nothing here is drafted or published
+  unless Aldred one day decides to write about it, and then it goes through
+  the normal path from the `writing` workspace. This repo is the work.
 - Private to start, like the others. Open-sourcing is a licence and a
   visibility flip; nothing personal beyond the thinking itself lives here.
 
