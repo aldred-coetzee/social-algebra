@@ -4,8 +4,9 @@ This file is the standing brief. Keep it current — each session starts with
 no memory of the last, and the repo is the only continuity. Environment and
 working-style rules are in `~/.claude/CLAUDE.md` and are not repeated here.
 
-**Started 2026-10-29. A thinking strand, not an app.** No code, no server, no
-Remote Control session until it earns one. `STATUS.md` is the honest state.
+**Started 2026-10-29. A thinking strand, not an app.** No code, no server. Its own
+Remote Control session, `claude-rc-social-algebra`, since 2026-10-29 (Aldred:
+"we need a session for it"); unit file in `deploy/systemd/`. `STATUS.md` is the honest state.
 
 ## What it is
 
