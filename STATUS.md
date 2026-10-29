@@ -25,7 +25,7 @@ in place and appends a `## Validation log`.
 | 06 | group-dynamics frameworks | running (interrupted by usage limit, resumed 04:05) |
 | 07 | applied control (cybernetics, reflexive control, prediction limits) | done |
 | 08 | history | done |
-| 09 | biology and ecology | running (as 06) |
+| 09 | biology and ecology | done |
 | 10 | economics, politics, anthropology, linguistics | running (as 06) |
 | 11 | classical theory and statecraft | running (as 06) |
 | 12 | narrative, games, AI agents | running (as 06) |
