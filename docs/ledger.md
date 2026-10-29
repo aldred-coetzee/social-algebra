@@ -30,13 +30,29 @@ report gives the yield per cluster.
   or finding steers people with or without their consent. Positive
   steering (improving efficiency, wellbeing, decision quality) is in scope.
 
-## Convergence rule
+## Convergence rule (replaced 2026-10-29, next-pattern)
 
-A cluster of the research map is **closed** when a batch of its directions
-adds fewer than one new `open`-or-`adopted` claim per five directions, or
-when its directions are exhausted. The research is **deep enough** when
-every cluster is closed and every claim the equation set rests on is
-`read`.
+The first rule (a cluster closes when a batch adds fewer than one new claim
+per five directions) cannot bite at extraction grain: iteration 1 yielded
+14–43 new lines per direction in every cluster. The unit is now the draft
+equation set itself. **Once v0 exists, the ledger claims it rests on are the
+unit, and the research is deep enough when every one of them is `read` and
+unrefuted.** Each v0 term names its ledger line(s); a term resting on an
+`sa` line, or on a line with an open contradiction, is not yet admissible.
+
+## v0 scope guard (next-pattern, 2026-10-29)
+
+One outcome (hold together or split, and who leaves); three sizes (3,
+8–12, 100+); the fewest drives the evidence forces; every term credited;
+and a stated test for each size — what observation would refute it —
+BEFORE any simulation code. The no-circularity rule of
+`notes/2026-10-29-modelled-population-testbed.md` applies from the first run.
+
+## Hygiene before v0 draws on the ledger
+
+Duplicates stay marked, not deleted. Contradictions that touch cohesion,
+split or exit are resolved first, by deep-read, because v0 depends on
+them; all other contradictions wait.
 
 ## Seeding, 2026-10-29
 
