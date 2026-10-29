@@ -24,7 +24,7 @@ DOIs confirmed through Crossref this session:
 3. **Coupling does not by itself cause instability; it moves the equilibrium.** In the worked model (separable quadratic drives, a public-good effort game) gradient play has a real, strictly positive spectrum for every w that keeps the game well-posed. What coupling does is shift the equilibrium effort up, toward the team optimum, and reduce free-riding without removing it for w < 1. `[derived]`
 4. **Free-riding persists for any w below the team value.** At w = 0 the shortfall relative to the team optimum is a fixed function of the cost-to-benefit ratio and approaches 1/N for large effort cost. A weight of 1 is the team game and removes it exactly. `[derived]`
 5. **Simultaneous best-response dynamics, not gradient play, can diverge, and coupling lowers the threshold.** The condition is (N−2)·b²·v < k². `[derived]`
-6. **Yoshida & Man's two multi-agent experiments cannot show any of this**: in the food-sharing task only the possessor acts; the grid partner is fixed; and the 2-D field shares network weights across agents, which by itself turns the training objective into a team objective whatever w is. Only w = 0.5 was run. No free-riding, stability or convergence discussion appears. `[read]` for the facts, `[derived]` for the shared-weights inference.
+6. **Yoshida & Man's experiments cannot show any of this**: in the food-sharing task only the possessor acts; the grid partner is fixed; and the 2-D field shares network weights across agents. Only w = 0.5 is stated (for food sharing; the mobile environments give no value). No free-riding, stability or convergence discussion appears. `[read]` *(Validation 2026-10-29: this item first said shared weights "by itself turns the training objective into a team objective whatever w is". That was wrong on two counts, see section 6: independent PPO learners with tied weights do not follow the gradient of the summed return, and the paper's own 2-D field None condition, shared weights with no coupling, showed no prosocial behaviour.)*
 
 ---
 
@@ -39,7 +39,8 @@ DOIs confirmed through Crossref this session:
 - Food sharing: "only the Possessor takes actions"; the Partner is passive. Condition "none": "The Possessor optimizes only for its own homeostasis."
 - Grid: the Partner is fixed to the left side of the grid (whether it learns is not said on the page).
 - 2-D field: "all agents were trained in a situation where the network weights were shared"; Section 3 (Appendix A): "we optimized the network weights and shared the acquired experience with all agents to facilitate learning".
-- Only w = 0.5 is reported. The page has no limitations section; Section 4 closes with a pointer to going beyond "giving agents direct access to partners' internal states".
+- 2-D field: "there is no distinction between Partners and Possessors, as both agents can move and act freely" (identical roles). Section 3.1, covering both mobile environments: "No prosocial behavior was observed in the None and Cognitive conditions"; prosocial behaviour is shown for the Affective condition (Fig. 5B). n = 20 runs. Algorithm: PPO with an MLP encoder and LSTM. (Added in validation 2026-10-29, `[read]`.)
+- Only w = 0.5 is reported, and only for the food-sharing task; the mobile-environment text states no value. The page has no limitations section; Section 4 closes with a pointer to going beyond "giving agents direct access to partners' internal states".
 - No mention of free-riding, stability, convergence, or a selfish agent beyond the "none" condition.
 
 **Yoshida & Man (2025)**, arXiv 2506.12894 `[from abstract]`: adds learned empathy, where agents decode a partner's displayed emotion to infer the internal state and so reconstruct D_partner. No theorem claimed in the abstract.
@@ -75,6 +76,8 @@ All `[derived]` unless marked. Throughout, the drive functions are bounded below
 
 For agent i, with D^i fixed:
 V_i = D^i(x_0) + (γ−1)·S_i − (tail term that tends to 0 as the horizon grows, for bounded D^i).
+
+(With the reward scale β_i of 2.1 the whole right side is multiplied by β_i > 0, which changes no ordering.)
 
 Proof: Abel summation of r_t = D^i_t − D^i_{t+1}, as in K&G's S4-S5 with the terminal correction in 047. The identity holds pointwise on each trajectory, so it holds in expectation, for any dynamics and any joint policy.
 
@@ -146,7 +149,7 @@ One resource unit R held by agent 1, who consumes c and passes R − c. Deficits
 
 c* = (d_1 − w·d_2 + w·R)/(1 + w). For d_1 = d_2 = d: c* = (d(1−w) + wR)/(1+w), and the passed amount is R − c* = (R − d(1−w))/(1+w).
 
-At w = 0 the possessor passes only the surplus R − d. At w = 1 it splits R equally. At 0 < w < 1 the passed amount is in between and grows with w. Under the **scarce** case R < d(1−w) the passed amount is negative, i.e. the corner solution (no sharing) applies: **below a critical w, no sharing is optimal whatever the partner's deficit.** This restates the paper's informal claim (a self-interested possessor will not share) with a threshold, and shows why w = 0.5 can look like "prosociality" in one environment and be inert in a scarcer one. Not in the paper: the paper only tested w = 0.5 `[read]`.
+At w = 0 the possessor passes only the surplus R − d. At w = 1 it splits R equally. At 0 < w < 1 the passed amount is in between and grows with w. Under the **scarce** case R < d(1−w) the passed amount is negative, i.e. the corner solution (no sharing) applies: **below the critical w = 1 − R/d, no sharing is optimal.** (In general the passed amount is (R − d_1 + w·d_2)/(1 + w), positive iff w·d_2 > d_1 − R, so the threshold does depend on the partner's deficit; an earlier wording, "whatever the partner's deficit", was wrong and was corrected in validation.) This restates the paper's informal claim (a self-interested possessor will not share) with a threshold, and shows why w = 0.5 can look like "prosociality" in one environment and be inert in a scarcer one. Not in the paper: the paper only tested w = 0.5 `[read]`.
 
 ---
 
@@ -160,8 +163,9 @@ Two dynamics are treated: simultaneous gradient play (the model of a continuousl
 
 - J is a diagonal shift of a rank-one matrix, so its eigenvalues are 2k² (multiplicity N−1) and 2k² + 2b²·Σ_i v_i (once). All are real. All are positive as long as Σ_i v_i > −k²/b², which holds for every nonnegative coupling and for moderate negative ones.
 - So **gradient play is locally, and because the system is linear, globally, asymptotically stable at the Nash equilibrium for any non-negative couplings and any heterogeneity in them**, in this model. Coupling does not destabilise it. Numeric check, N = 2 with w = (0, 1) and k = 0.5: eigenvalues of J are 0.5 and 6.5.
-- **When is the game an exact potential game** (Monderer & Shapley 1996 `[from abstract/standard account]`)? Iff ∂²U_i/∂e_i∂e_j = ∂²U_j/∂e_j∂e_i, i.e. v_i = v_j. So **equal coupling weights give a potential game**, and its maximiser is the equilibrium, which makes better-response and gradient dynamics converge to it. Unequal weights give a game that is not an exact potential game in these coordinates but is still stable by the spectrum.
-- **Rosen's sufficient condition** (Rosen 1965 `[from abstract/standard account]`, diagonal strict concavity, i.e. the symmetric part of J positive definite) is **not implied** by heterogeneous weights. The symmetric part has smallest eigenvalue 2k² + b²·(1ᵀv − ‖1‖·‖v‖) (by the rank-two structure). For v_i unequal, ‖1‖·‖v‖ > 1ᵀv, so for small k it can go negative. Numeric: N = 2, w = (0, 1), k = 0.5, b = 1 gives smallest symmetric eigenvalue 0.338, still positive; I did not search for a case that goes negative, and the claim "can" rests on the bound, not on an example. So uniqueness through Rosen is guaranteed only for equal weights or large enough k.
+- **When is the game an exact potential game** (Monderer & Shapley 1996 `[from abstract/standard account]`)? Iff ∂²U_i/∂e_i∂e_j = ∂²U_j/∂e_j∂e_i, i.e. v_i = v_j. So **equal coupling weights give a potential game**, and (the U_i being costs) the potential's minimiser is the equilibrium, which makes better-response and gradient dynamics converge to it. Unequal weights give a game that is not an exact potential game in these coordinates but is still stable by the spectrum.
+- **Rosen's sufficient condition** (Rosen 1965 `[from abstract/standard account]`, diagonal strict concavity, i.e. the symmetric part of J positive definite) is **not implied** by heterogeneous weights. The symmetric part has smallest eigenvalue 2k² + b²·(1ᵀv − ‖1‖·‖v‖) (by the rank-two structure). For v_i unequal, ‖1‖·‖v‖ > 1ᵀv, so for small k it can go negative. Numeric: N = 2, w = (0, 1), k = 0.5, b = 1 gives smallest symmetric eigenvalue 0.338, still positive; at k = 0.2 it is −0.082 (checked in validation with numpy; the expression is the exact eigenvalue, not a bound).
+- **Correction (validation 2026-10-29)**: this file first concluded that "uniqueness through Rosen is guaranteed only for equal weights or large enough k". That is wrong. Rosen's diagonal strict concavity is required only for *some* positive weighting r of the players' payoffs `[standard account; Rosen 1965 not opened]`. Taking r_i = 1/v_i gives diag(1/v)·J = 2k²·diag(1/v) + 2b²·11ᵀ, whose symmetric part is positive definite for every positive v (numeric, N = 2, v = (1, 2), k = 0.2: smallest eigenvalue 0.060). So Rosen's condition holds for all non-negative couplings in this model; the unweighted symmetric part is simply the wrong test. (Uniqueness here also follows directly from the linear FOC system.)
 
 ### 5.2 Simultaneous best-response iteration
 
@@ -171,7 +175,7 @@ Each agent jumps to its best response each round, all at once (Jacobi iteration)
 
 - For N = 2 this always holds (nonnegative coupling): two-agent best-response converges.
 - For N > 2 it fails once the group is large enough or the coupling strong enough: at k = 0.5, b = 1, N = 5 the spectral radius is 3.20 at w = 0, 3.69 at w = 0.5 and 3.81 at w = 1. At N = 10, w = 0.5, k = 1: 7.6. Coupling raises v and so **lowers the stability threshold**: stronger coupling makes simultaneous best-response oscillate sooner.
-- Interpretation `[derived]`: agents who each read "everyone else's effort" and move to the optimum together overshoot, more so the more they care about the group (v large) and the more of them there are. Damped updating, sequential updating or a learning rate small relative to 1/(1 + b²v/k²) restores convergence, in line with the gradient-play result above.
+- Interpretation `[derived]`: agents who each read "everyone else's effort" and move to the optimum together overshoot, more so the more they care about the group (v large) and the more of them there are. Damped updating e ← (1−α)e + α·BR(e) converges iff α < 2/(1 + (N−1)·s) (symmetric case; corrected in validation from "a learning rate small relative to 1/(1 + b²v/k²)", which is 1 − s and is not sufficient in general, e.g. s = 0.5, N = 10), and sequential updating also restores convergence, in line with the gradient-play result above.
 
 ### 5.3 What this means for the claim "coupling stabilises the group"
 
@@ -183,14 +187,15 @@ For w < −1/(N−1), v < 0: the agent wants to reduce total effort below zero, 
 
 ---
 
-## 6. The parameter-sharing issue in Yoshida & Man's 2-D field experiment `[derived]`
+## 6. The parameter-sharing issue in Yoshida & Man's 2-D field experiment `[derived; corrected in validation 2026-10-29]`
 
-If all N agents share network weights and the weight update uses the pooled experience, then the training objective for the single shared policy is Σ_i V_i, not any one V_i. With coupled rewards, Σ_i V_i = Σ_j (Σ_i W_ij)·(agent j's own-reward return), i.e. each agent's own return is weighted by its **column sum** c_j = Σ_i W_ij. For a symmetric W with equal weights c_j = 1 + (N−1)w for every j.
+Algebra that stands: with coupled rewards, Σ_i V_i = Σ_j (Σ_i W_ij)·(agent j's own-reward return), i.e. each agent's own return is weighted by its **column sum** c_j = Σ_i W_ij; for a symmetric W with equal weights c_j = 1 + (N−1)w for every j.
 
-Consequences:
-- The shared policy is trained on a team-like objective. For homogeneous agents it chooses the policy that maximises the group's total return, which is the cooperative optimum for symmetric roles, **regardless of w**, because every c_j is positive and equal when W is symmetric with a constant off-diagonal. At w = 0 the objective still equals the unweighted total of own returns.
-- So the shared-weights experiment would show cooperation even for w = 0 unless roles are asymmetric or the policy sees an agent-specific signal. Whether Yoshida & Man's 2-D experiment includes a w = 0 control I did **not** establish from the page text; Section 3 as quoted does not name one. If it does not, the experiment cannot isolate the effect of coupling from the effect of sharing parameters.
-- This does not rebut the food-sharing result, where only the possessor acts and nothing is shared.
+What was wrong in the first version: it claimed that sharing network weights and pooling experience makes the training objective Σ_i V_i, so the 2-D field "would show cooperation even for w = 0". Both halves fail.
+- **Theory.** The paper trains with PPO `[read]`. Standard parameter sharing with independent learners updates θ by Σ_i E[∇log π_θ(a_i | o_i)·Â_i], each agent's action credited with *its own* advantage. The true gradient of Σ_i V_i(θ) also contains the cross terms ∇log π_θ(a_j | o_j)·Â_i for j ≠ i (how j's action, under the shared θ, changes i's return). Tied weights without those terms are tied independent learners, not a team optimiser. The paper does not say which credit scheme it uses `[read: not stated]`, so the inference cannot be drawn either way from the text.
+- **Evidence.** The paper's 2-D field has identical roles and a None condition (no coupling) under the same shared-weights training, and reports "No prosocial behavior was observed in the None and Cognitive conditions" `[read]`. So the experiment does contain an uncoupled control, and that control did not cooperate; the effect of coupling is not confounded with parameter sharing in the way first claimed.
+
+What remains: a single shared policy does constrain all agents to the same mapping from observation to action, which can make symmetric conventions easier to find; that is a weaker point, untested here.
 
 ---
 
@@ -210,7 +215,7 @@ Consequences:
 **Exists.**
 - K&G's single-agent identity (proved by telescoping) `[read, 047]`.
 - Yoshida & Man's explicit coupled drive and its empirical effect on a possessor's sharing in three small environments (affective coupling is necessary for sharing there) `[read]`.
-- Standard game-theory machinery for the shape of the problem: public-good provision with altruism (Bergstrom-Blume-Varian 1986, the standard result being that voluntary provision falls short of the optimum and altruism narrows but does not close the gap `[from abstract/standard account]`), potential games (Monderer-Shapley 1996), monotone games (Rosen 1965), a general theory of altruistic preference (Becker 1974), inequity aversion (Fehr-Schmidt 1999). I did not read any of these at source this session; I confirmed only that the citations exist.
+- Standard game-theory machinery for the shape of the problem: private provision of public goods (Bergstrom-Blume-Varian 1986: existence and uniqueness of the Nash equilibrium of voluntary contribution and its underprovision `[standard account]`; the further statement that altruism narrows but does not close the gap was attributed to them in the first version and is not confirmed as theirs, see Unconfirmed), potential games (Monderer-Shapley 1996), monotone games (Rosen 1965), a general theory of altruistic preference (Becker 1974), inequity aversion (Fehr-Schmidt 1999). I did not read any of these at source this session; I confirmed only that the citations exist.
 
 **Does not exist (found).**
 - A statement that the K&G equivalence holds, as a game-level equivalence of equilibria, for coupled homeostatic agents. Section 3.2-3.3 is my derivation; it is a short corollary of the single-agent identity, so a published source may exist that I did not find.
@@ -223,10 +228,12 @@ Consequences:
 ## 9. Unconfirmed
 
 - Whether anyone has published a game-theoretic treatment of drive-reduction reward in multi-agent RL (searched only by direct recall and the two Yoshida-Man papers' pages; **no literature search was run on this**). The statement in section 8 is limited to what I looked at.
-- Whether Yoshida & Man's 2-D experiment has a w = 0 control and whether its agents have identical roles (section 6).
+- *(Resolved in validation: the 2-D field has a None control, no prosocial behaviour, and identical roles; see sections 1 and 6.)* Still open: whether the PPO update with shared weights credits each agent with its own advantage or a pooled one; the paper does not say.
 - Whether the 2025 follow-up (2506.12894) varies w; abstract only.
 - The Bergstrom-Blume-Varian and Rosen/Monderer-Shapley statements are given as standard accounts; neither was opened.
-- The sign and size of the Rosen symmetric-part bound in 5.1 for heterogeneous weights was derived, not demonstrated on an example where it fails.
+- *(Resolved in validation: the unweighted symmetric part goes negative at k = 0.2, but Rosen's weighted condition with r_i = 1/v_i holds for all positive v; see 5.1.)* Rosen's definition with a weight vector is from the standard account; the paper was not opened.
+- The Bergstrom-Blume-Varian 'altruism narrows but does not close the gap' statement: not confirmed as appearing in BBV 1986; Becker 1974 or later work (e.g. Andreoni) may be the right credit. Not checked.
+- The 'does not exist' claims of section 8 were not tested by a literature search in validation either: the web search budget was exhausted before any query ran.
 - The model of section 4 is a one-shot static game, not a Markov game; the claim that its structure transfers to a learned RL policy is untested.
 - The Fehr-Schmidt form written over drives (3.4(4)) is my extension, not theirs.
 
@@ -236,3 +243,48 @@ Consequences:
 - https://arxiv.org/abs/2506.12894
 - doi:10.7554/eLife.04811 (K&G 2014)
 - doi:10.1006/game.1996.0044 ; doi:10.2307/1911749 ; doi:10.1016/0047-2727(86)90024-1 ; doi:10.1086/260265 ; doi:10.1162/003355399556151
+
+## Validation log (2026-10-29)
+
+- ✎ Yoshida & Man 2024, arXiv 2412.12103, "Empathic Coupling of Homeostatic States for Intrinsic Prosociality" (Naoto Yoshida, Kingson Man; v1 16 Nov 2024): existence, authors and every quoted item in section 1 confirmed on the HTML `[read]`. Corrected: the 2-D field *does* have a None (uncoupled) control with identical roles and shared weights, which showed no prosocial behaviour; w = 0.5 is stated only for food sharing. Section 6's shared-weights inference rewritten; summary item 6 corrected.
+- ✓ Yoshida & Man 2025, arXiv 2506.12894, "Homeostatic Coupling for Prosocial Behavior" (same authors, 15 Jun 2025): abstract confirmed; learned decoding of partner emotion via own emotion-generation functions matches.
+- ✓ Keramati & Gutkin 2014, eLife 3, doi:10.7554/eLife.04811, "Homeostatic reinforcement learning for integrating reward collection and physiological stability": Crossref resolves, authors match. Telescoping identity re-derived (V = D_0 + (γ−1)S) and correct; content relied on 047, not re-read.
+- ✓ Rosen 1965, Econometrica 33(3):520-534, doi:10.2307/1911749: Crossref resolves (title "Existence and Uniqueness of Equilibrium Points for Concave N-Person Games"). ✎ The file's use of it was wrong: weighted diagonal strict concavity (r_i = 1/v_i) holds for all positive couplings; fixed in 5.1.
+- ✓ Monderer & Shapley 1996, GEB 14(1):124-143, doi:10.1006/game.1996.0044: Crossref resolves. Exact-potential condition v_i = v_j re-derived correct; ✎ "maximiser" changed to "minimiser" (costs).
+- ✎ Bergstrom, Blume & Varian 1986, J. Public Econ. 29(1):25-49, doi:10.1016/0047-2727(86)90024-1: Crossref resolves. The altruism claim attributed to them moved to Unconfirmed.
+- ✓ Becker 1974, JPE 82(6):1063-1093, doi:10.1086/260265: Crossref resolves.
+- ✓ Fehr & Schmidt 1999, QJE 114(3):817-868, doi:10.1162/003355399556151: Crossref resolves; the description of the two max terms matches their standard form; the drive-level version is correctly labelled as this file's extension.
+- Own derivations re-checked by hand and numpy: e(w), free-riding ratio and all its numerics (0.667/0.750/0.800; 0.833/0.9375/0.9615; 0.591; 6% and 17%), gradient-play spectrum (0.5, 6.5), Rosen symmetric eigenvalue 0.338, best-response condition (N−2)b²v < k² and radii 3.20/3.69/3.81/7.6, sharing-game c*, negative-weight example 0.25 vs 0.333, time-varying-w correction term: all ✓. ✎ sharing-game "whatever the partner's deficit" (false in general); ✎ damping bound in 5.2 (exact bound α < 2/(1+(N−1)s)).
+- ? "Nothing published" claims (section 8, 9): not testable this pass, web search budget exhausted.
+
+**Verdict.** Citations are all real and correctly credited, and the core algebra (per-agent identity, equal Nash sets, public-good equilibrium, free-riding ratio, stability spectra) checks out. Two substantive errors were corrected: the claim that parameter sharing makes Yoshida & Man's 2-D field a team objective (contradicted by the paper's own None control and by how independent PPO credits actions), and the claim that Rosen's uniqueness condition fails for unequal weights (it holds with Rosen's own weighting). The absence claims remain unverified.
+
+## Cross-checks (2026-10-29)
+
+Method: grepped the other files in this directory for Yoshida/Man, Keramati/Gutkin, Fehr-Schmidt, Hughes, Rosen, Monderer-Shapley, Bergstrom-Blume-Varian, Becker, public goods, free-riding, Nash and best-response, then read the overlapping sections. One primary-source check (arXiv 2412.12103v1 HTML, via WebFetch). No other file edited.
+
+### Agreements
+
+- **Y&M 2024 facts** (D = D_possessor + w·D_partner, w = 0.5 for food sharing only, r = β(D_t − D_{t+1}), PPO + LSTM, no theorem, possessor-only acts): agree with file 19 section 14 and file 047 section 4 ("published coupling"), and with 047's validation log.
+- **K&G identity** r = D(H_t) − D(H_{t+1}), SD_R = D_0 + (γ−1)·SD_D: agrees with 047 sections 2-3 and 19 section 12. 062 section 3.1 matches 047 section 4 items 1-2 (terminal term kept).
+- **Time-varying w correction** Σ_{t≥1} γ^{t−1}(w_t − w_{t−1})·D_{p,t} and "w is a parameter of an operator, not a state": identical in 047 section 4 item 3 and 062 section 3.4(1).
+- **N-agent form** D^i = Σ_j W_ij D_j, r^i = Σ_j W_ij ρ_j: identical to 047 section 4 item 5. Tempered product e^{−D} = P*(s_1)·P*(s_2)^w: same as 047 section 4.
+- **Two-agent weights**: 062 section 3.5 (different objectives unless weights are common; w = 1 is the team case) agrees with 047 section 4 item 4 (same ordering iff w_1·w_2 = 1 and w_2 > 0; w_1 = w_2 = 1 is the team).
+- **Potential games** (section 5.1): consistent with file 23 section 9. 23 gives the decomposition "payoff = common coordination game + dummy game"; checked here: with equal v, U_i − Φ = (w−1)k²Σ_{j≠i}e_j², a dummy term, for Φ = v(a−bg)² + k²Σe_j², so 062's "exact potential iff v_i = v_j" fits it. 23 says "maximiser of Φ" for payoffs; 062 says "minimiser" for costs. Same statement, opposite sign convention.
+- **Simultaneous vs sequential updating** (section 5.2): 23 section 9 states simultaneous updating can cycle while sequential better/best-reply stops at a Nash equilibrium. Agrees with 062's divergence of Jacobi best-response and the sequential fix.
+- **Free-riding / underprovision** (section 4): qualitatively consistent with 23 (Bauch & Earn voluntary uptake below group optimum), file 10 section 2 (Olson: large groups under-provide) and file 24 (Olson as the free-riding null model). No numbers shared.
+- **Fehr-Schmidt form** (section 3.4(4)): the two max terms match file 23 section on Hughes (α on max(e_j − e_i, 0), β on max(e_i − e_j, 0)) and file 21 section 1 and 6.
+- **Fixed-weight equilibria**: file 081 section on coupling ("for fixed weight coupling the equilibria are the Nash equilibria of the joint game [derived, 062]") restates 062 section 3.3 correctly.
+- **Existence claims** (K&G has no multi-agent theory; Y&M is the nearest explicit agent-to-agent drive law, simulation only): agree with file 19 sections 12, 14, 16 and 047 section 8. File 082 does not test any claim of 062 section 8.
+
+### Contradictions and slips
+
+1. **Parameter sharing in the 2-D field.** 047 section 4 item 4 says Y&M's shared network weights "sidestep" the game problem; 062 section 6 and summary item 6 say sharing does not make the objective a team objective, and the None control (shared weights, no coupling) showed no prosocial behaviour. Source check: the paper reports "No prosocial behavior was observed in the None and Cognitive conditions" and the 2-D field has a None condition. **062 is right**; 047's wording is too strong (047's own validation log already concedes this).
+2. **Condition names.** 047 section 4 lists "Affective and Full" conditions; 062 sections 1 and 2.2 list None, Cognitive, Affective only, and omit Full. Source check: food sharing and grid have None, Cognitive, Affective and Full (Appendix D compares Affective and Full); the 2-D field has only None, Cognitive, Affective. **Not a real contradiction**: both are right for their environments, but 062 section 2.2 should say a Full condition exists in food sharing and grid. The 047 "unresolved" flag is resolved by this.
+3. **Cross-reference slip in 062 section 7.** It cites "section 5 of 047's Neumann-series suggestion". The Neumann-series remark is in 047 section 4 item 5; 047 section 5 is Juechems & Summerfield. **047 is right**; correct the pointer to "047 section 4, item 5".
+4. **Scope of the Monderer-Shapley use (minor, unresolved in file)**. 23 section 9 states the improvement-path convergence results for finite games; 062 section 5.1 applies "better-response and gradient dynamics converge" to a continuous quadratic game. The conclusion holds here by the explicit spectrum (also in 062), so the result stands, but the potential-game route is cited beyond the finite-game statement in 23. Not tested at source.
+5. **Hughes et al. (file 23, 048) vs 062 section 3.4(4)**. Hughes' inequity term acts on temporally smoothed rewards (e_j^t = γλe_j^{t−1} + r_j^t), so it is not a function of the joint drive state at one time. 062's claim that the identity holds "verbatim" applies to 062's own drive-level F-S form, not to Hughes' shaped reward. 062 does not cite Hughes, so no direct conflict; flagged to prevent the two being conflated. Also 062's symmetric λ·|D_i − D_j| is the α = β special case of F-S (23 sets α = 5, β = 0.05 for Hughes' best sweep).
+
+### Not covered elsewhere
+
+Rosen 1965, Bergstrom-Blume-Varian 1986 and Becker 1974 appear in no other file; the 062 claims about them (and the "does not exist" list in section 8) have no cross-check here and remain as in section 9.

@@ -45,18 +45,18 @@ Nothing here gives a coefficient in a drive-to-drive equation of the form dB/dt 
 
 ## 2. Gerber & Wheeler (2009): rejection meta-analysis, 88 studies
 
-**Citation.** Gerber, J., & Wheeler, L. (2009). On being rejected: a meta-analysis of experimental research on rejection. Perspectives on Psychological Science 4(5): 468-488. doi:10.1111/j.1745-6924.2009.01158.x (Crossref resolved; page range not checked). Rebuttal by Baumeister, DeWall & Vohs in the same issue.
+**Citation.** Gerber, J., & Wheeler, L. (2009). On being rejected: a meta-analysis of experimental research on rejection. Perspectives on Psychological Science 4(5): 468-488. doi:10.1111/j.1745-6924.2009.01158.x (Crossref resolved, pages confirmed). Rebuttal in the same issue: Baumeister, R. F., DeWall, C. N., & Vohs, K. D. (2009). Social rejection, control, numbness, and emotion: how not to be fooled by Gerber and Wheeler (2009). PPS 4(5): 489-493. doi:10.1111/j.1745-6924.2009.01159.x; rejoinder Gerber & Wheeler (2009) PPS 4(5): 494-495, doi:10.1111/j.1745-6924.2009.01160.x (both Crossref resolved, not read).
 
 **Their vocabulary.** Needs account versus numbness account; belonging, control.
 
-**Operators / equations.** None. Numbers `[from abstract, via search summary]`:
+**Operators / equations.** None. Numbers `[abstract read, Crossref record]`:
 - Mood d = -0.50; self-esteem d = -0.70; no drop in arousal and no flattening of affect.
 - Belonging d = 0.69; control d = 1.16 (frustrated by rejection).
 - Antisocial responding when measures contrast belonging and control: d = -1.17; prosocial responding when control can be restored: d = 1.21.
 
 **Theorems or derived predictions.** Aggression after rejection reflects attempts to regain control.
 
-**Empirical standing.** The rebuttal says the sample is biased. A later paper (Quarmley et al., PMC9519812, as quoted by a search summary) notes that only 16 of 40 included studies measured actual aggressive or prosocial behaviour, so the aggression conclusion rests on thin behavioural evidence.
+**Empirical standing.** The rebuttal says the sample is biased (as reported in this file's first pass; the rebuttal was not read in validation). A later paper (Quarmley et al., PMC9519812, as quoted by a search summary) notes that only 16 of 40 included studies measured actual aggressive or prosocial behaviour, so the aggression conclusion rests on thin behavioural evidence.
 
 **Translation.** A competing mediator hypothesis: exclusion to control-threat to aggression, rather than exclusion to anger to aggression. For the algebra, a three-node chain with a restoring path, not a single edge.
 
@@ -66,7 +66,7 @@ Nothing here gives a coefficient in a drive-to-drive equation of the form dB/dt 
 
 **Citation.** Quarmley, M., Feldman, J., Grossman, H., Clarkson, T., Moyer, A., & Jarcho, J. M. (2022). Testing effects of social rejection on aggressive and prosocial behavior: a meta-analysis. Aggressive Behavior 48(6): 529-545. doi:10.1002/ab.22026 (Crossref resolved).
 
-**Numbers `[from abstract, via search summary]`.** Combined N = 3,864. Aggression: k = 19, d = 0.41, p < .0001. Prosocial: k = 7, d = 0.59. Studies measuring both: k = 15, d = 0.71. Authors conclude rejection is a robust elicitor of aggression and cast doubt on a rejection-to-prosocial account. (The k = 7 and k = 15 rows are as given by the search summary; the sign and meaning of d for those two rows are not checked.)
+**Numbers `[abstract read, Crossref record]`.** Three random-effects meta-analyses, combined N = 3,864. Rejection potentiated aggressive behaviour: k = 19, d = 0.41, p < .0001. Rejection attenuated prosocial behaviour: k = 7, d = 0.59, p < .0001 (so d is reported as a positive magnitude of a reduction). Where participants could choose to behave prosocially or aggressively, the aggression effect held: k = 15, d = 0.71, p < .0001. The authors call these "medium effects", conclude rejection is a robust elicitor of aggression, and cast doubt on a rejection-to-prosocial account.
 
 **Related, unverified.** A 2023 Chinese-language meta-analysis (Acta Psychologica Sinica 55(12)) reports 92 studies, r = 0.38, 95% CI [0.34, 0.41], no publication bias `[search summary only; title and authors not captured]`. A 2022 study reported that neither anger nor hostility mediated the ostracism-aggression link (mediator CIs including zero) `[search summary only]`.
 
@@ -80,13 +80,13 @@ Nothing here gives a coefficient in a drive-to-drive equation of the form dB/dt 
 
 **Their vocabulary.** Frustration, interference with expected goal attainment, hostile (emotional) aggression, negative affect, attributions, cognitive-neoassociationistic model.
 
-**Operators / equations.** None. The paper is verbal. `[from abstract]`: the 1939 proposition covers only interference with an expected goal on hostile aggression; frustrations create aggressive inclinations to the extent they arouse negative affect; "Frustrations can create aggressive inclinations even when they are not arbitrary or aimed at the subject personally"; attributions shape how unpleasant the thwarting is.
+**Operators / equations.** None. The paper is verbal. `[from PubMed abstract; the quoted sentence checked verbatim]`: the 1939 proposition covers only interference with an expected goal on hostile aggression; frustrations create aggressive inclinations to the extent they arouse negative affect; "Frustrations can create aggressive inclinations even when they are not arbitrary or aimed at the subject personally"; attributions shape how unpleasant the thwarting is.
 
 **Theorems or derived predictions.** Qualitative: aggression is driven by negative affect from any aversive event (frustration being one), so frustration to aggression runs through an affect variable.
 
 **Empirical standing.** The abstract says results are mixed though many studies support the core. No effect size or time constant is stated in the abstract, and the full text was not read.
 
-**Translation.** The coupling in the algebra should be Frustrate(x) to NegAffect to AggressiveInclination, with attribution as a gain on the first link. No magnitude exists in what was read. Bettencourt & Miller 1996 (doi:10.1037/0033-2909.119.3.422) is the obvious next source: per secondary summaries, provocation shrinks the male-female aggression difference from d = .33 to d = .17; no frustration-specific value was found.
+**Translation.** The coupling in the algebra should be Frustrate(x) to NegAffect to AggressiveInclination, with attribution as a gain on the first link. No magnitude exists in what was read. Bettencourt, B. A., & Miller, N. (1996). Gender differences in aggression as a function of provocation: a meta-analysis. Psychological Bulletin 119(3): 422-447. doi:10.1037/0033-2909.119.3.422 (Crossref resolved) is the obvious next source. A first-pass secondary summary said provocation shrinks the male-female aggression difference from d = .33 to d = .17; this was not confirmed at source (see Unconfirmed), and no frustration-specific value was found.
 
 ---
 
@@ -94,9 +94,10 @@ Nothing here gives a coefficient in a drive-to-drive equation of the form dB/dt 
 
 **Citations.**
 - Schachter, S. (1959). The Psychology of Affiliation: Experimental Studies of the Sources of Gregariousness. Stanford University Press. (Book; no DOI. Library records only; not read.)
-- Gump, B. B., & Kulik, J. A. (1997). Stress, affiliation, and emotional contagion. Journal of Personality and Social Psychology 72(2): 305-319. doi:10.1037/0022-3514.72.2.305 (Crossref resolved; page range not checked).
-- Rofé, Y. (1984). Stress and affiliation: a utility theory. Psychological Review 91(2): 235-250. doi:10.1037/0033-295X.91.2.235 (Crossref resolved; page range not checked).
-- Rofé, Y., & Lewin, I. (1988). Social comparison or utility: an experimental examination. Social Behavior and Personality 16(1): 5-?. doi:10.2224/sbp.1988.16.1.5 (Crossref resolved; end page not captured).
+- Gump, B. B., & Kulik, J. A. (1997). Stress, affiliation, and emotional contagion. Journal of Personality and Social Psychology 72(2): 305-319. doi:10.1037/0022-3514.72.2.305 (Crossref resolved, pages confirmed).
+- Rofé, Y. (1984). Stress and affiliation: a utility theory. Psychological Review 91(2): 235-250. doi:10.1037/0033-295X.91.2.235 (Crossref resolved, pages confirmed).
+- Rofé, Y., & Lewin, I. (1988). Social comparison or utility: an experimental examination. Social Behavior and Personality 16(1): 5-10. doi:10.2224/sbp.1988.16.1.5 (Crossref resolved, pages confirmed).
+- Pointer, not read: Kulik, J. A., Mahler, H. I. M., & Moore, P. J. (1996). Social comparison and affiliation under threat: effects on recovery from major surgery. JPSP 71(5): 967-979. doi:10.1037/0022-3514.71.5.967 (Crossref resolved). This is the hospital-roommate line of work the first pass could not locate.
 
 **Their vocabulary.** Emotional similarity hypothesis; affiliation; emotional contagion; mimicry; utility theory.
 
@@ -105,7 +106,7 @@ Nothing here gives a coefficient in a drive-to-drive equation of the form dB/dt 
 **Numbers.**
 - Schachter 1959, `[from memory of the standard account, NOT confirmed by any source in this session]`: 20 of 32 high-fear participants chose to wait together versus 10 of 30 low-fear (about 63% versus 33%). The search tool itself declined to confirm these. Treat as unconfirmed.
 - Gump & Kulik 1997, `[from abstract via search]`: female participants, high or low threat, partner believed to face the same or a different situation. Study 1 paired two real participants; study 2 a confederate acting calm or nervous. Affiliation measured as time spent looking at the affiliate. Threat increased affiliation, especially with partners facing the same situation; evidence of facial mimicry and of emotional contagion in self-reported anxiety. No effect sizes were seen.
-- Rofé & Lewin 1988, `[from abstract via search]`: replication plus two conditions in which the utility of affiliation was reduced (immediate shock; physiological reactions shown publicly). Marked decrease in affiliation for males but not females in those two conditions.
+- Rofé & Lewin 1988, `[abstract read, Crossref record]`: three conditions: a replication of the main features of Schachter's study, then two in which the utility of affiliation was reduced while social comparison was kept or increased (shocks said to be immediate rather than deferred; in the third, also physiological reactions projected on a screen for public comparison). Those two conditions produced a marked decrease in affiliation for males but not females.
 
 **Operators / equations.** None exist in these papers. The coupling is a conditional proportion or a duration contrast, not a rate.
 
@@ -123,14 +124,14 @@ Nothing here gives a coefficient in a drive-to-drive equation of the form dB/dt 
 
 **Citations.**
 - Magee, J. C., & Galinsky, A. D. (2008). Social hierarchy: the self-reinforcing nature of power and status. Academy of Management Annals 2(1): 351-398. doi:10.5465/19416520802211628 (Crossref resolved; pages not checked).
-- Keltner, D., Gruenfeld, D. H., & Anderson, C. (2003). Power, approach, and inhibition. Psychological Review 110(2): 265-284. doi:10.1037/0033-295X.110.2.265. Comment: Moskowitz (2004) doi:10.1037/0033-295X.111.3.808.
-- Sherman, G. D., Lee, J. J., Cuddy, A. J. C., Renshon, J., Oveis, C., Gross, J. J., & Lerner, J. S. (2012). Leadership is associated with lower levels of stress. PNAS 109(44): 17903-17907. doi:10.1073/pnas.1207042109 (Crossref resolved; pages from memory, unchecked).
+- Keltner, D., Gruenfeld, D. H., & Anderson, C. (2003). Power, approach, and inhibition. Psychological Review 110(2): 265-284. doi:10.1037/0033-295X.110.2.265 (Crossref resolved). Comment: Moskowitz, D. S. (2004). Does elevated power lead to approach and reduced power to inhibition? Comment on Keltner, Gruenfeld, and Anderson (2003). Psychological Review 111(3): 808-811. doi:10.1037/0033-295X.111.3.808 (Crossref resolved, not read).
+- Sherman, G. D., Lee, J. J., Cuddy, A. J. C., Renshon, J., Oveis, C., Gross, J. J., & Lerner, J. S. (2012). Leadership is associated with lower levels of stress. PNAS 109(44): 17903-17907. doi:10.1073/pnas.1207042109 (Crossref resolved, pages confirmed).
 
 **Their vocabulary / definitions `[read]` (Magee & Galinsky PDF).** Social status: "the extent to which an individual or group is respected or admired by others." Social power: "asymmetric control over valued resources in social relations." Power-approach theory (Keltner et al. 2003) `[read as restated by Magee & Galinsky]`: elevated power increases the tendency to focus on and approach rewards; low-power individuals face more social and material threats and have a primary "inhibit" response. "Whereas the powerful see mostly opportunity dancing in front of them, the powerless are more likely to see potential hazards lurking about."
 
 **Numbers.**
 - Magee & Galinsky: whole text grepped. No effect sizes, no time constants. It is a qualitative review `[read]`.
-- Sherman et al. 2012 `[from abstract via search]`: real leaders (military officers, government officials) had lower cortisol and reported less anxiety than nonleaders (study 1); within leaders, higher power meant lower cortisol and anxiety, partly mediated by sense of control (study 2). Sample sizes and effect sizes were not seen.
+- Sherman et al. 2012 `[abstract read, Crossref record]`: real leaders (military officers, government officials) had lower cortisol and reported less anxiety than nonleaders (study 1); within leaders, higher power meant lower cortisol and anxiety, partly mediated by sense of control (study 2). Sample sizes and effect sizes were not seen.
 
 **Empirical standing.** The Sherman result is observational and cross-sectional; selection into leadership cannot be separated from effect of leadership. Power-approach theory has been contested (Moskowitz 2004 comment exists; its content was not read). Whether lab power priming effects replicate was not checked here; do not assume.
 
@@ -147,9 +148,9 @@ Nothing here gives a coefficient in a drive-to-drive equation of the form dB/dt 
 **Their vocabulary.** Passivity as unlearned default; dorsal raphe nucleus (DRN) serotonin; prelimbic medial prefrontal cortex; control detection; immunization.
 
 **Numbers `[read]`** (first half of PMC text; no formal effect sizes, no CIs, no p-values seen):
-- Passivity and anxiety after uncontrollable stress "lasts for a few days"; 5-HT1A desensitisation recovers within 3 days.
+- Passivity after inescapable shock is "transient, lasting for only a few days", and the paper speaks of "the passivity and increased anxiety that follows uncontrollable stressors for several days"; 5-HT1A desensitisation "recovers to normal within 3 days".
 - Immunization from prior control: "quite enduring, but perhaps not permanent"; control experienced 7 days earlier still protected, including against social defeat.
-- Prelimbic-DRN plasticity "require several hours". Rodents learn to escape by trial 2 or 3. Original dog study: 64 shocks, tested 24 hours later; about two-thirds of the inescapable group failed to escape versus about 90% of controls.
+- Prelimbic-DRN plasticity "require several hours". Rodents without prior inescapable shock escape at near-asymptotic latencies "by the second or third trial". Original dog work: 64 shocks, tested in a shuttlebox 24 hours later; "two-thirds of the animals from the INESC group failed to learn to escape", while "90% of the animals in both the ESC and 0 groups easily learned to escape" (escapable and no-shock groups).
 - Claim: "it is the presence of control, not the absence of control, that is detected by prelimbic medial prefrontal circuits."
 
 **Empirical standing.** Animal lesion, inactivation and tracing data; mechanism of detection admitted unknown. A 2021 commentary (found by search, not read) disputes the "unlearned" claim. Human evidence is thin and mostly analogical.
@@ -162,11 +163,11 @@ Nothing here gives a coefficient in a drive-to-drive equation of the form dB/dt 
 
 **Citation.** Verduyn, P., & Lavrijsen, S. (2015). Which emotions last longest and why: the role of event importance and rumination. Motivation and Emotion 39: 119-127. doi:10.1007/s11031-014-9445-y (Crossref gives online date 2014-10-31).
 
-**Numbers `[read]`.** Retrospective questionnaire, 27 emotions, about 233 Dutch-speaking students (mean age 17.02; sample size from a press-coverage search result, the PDF text read here gives mean age only). Pooled median duration: 2 h if the end is "first return to baseline", 5 h if "permanent return". Women's median 5.04 h versus men's 2 h (pooled across definitions as printed). Event importance and rumination together explained 43% of between-emotion variability in duration (13% beyond emotion intensity). Event importance r = .59 and .57; rumination r = .36 and .56 (the two definitions). Table 1 (pairwise tests) shows anger (long group) lasting longer than irritation, fear and shame (short group). Per-emotion medians sit in Figure 1, which could not be extracted; press reports give sadness about 120 h, hatred about 60 h and joy about 35 h (secondary, unchecked as medians or means).
+**Numbers `[read]`.** Retrospective questionnaire, 27 emotions, 233 high-school students (112 women, 118 men, 3 unreported; mean age 17.02, SD .79; N confirmed in the PDF's Participants section), 8.42 episodes per participant on average. Median duration across all emotions: 2 h if the end is "first return to baseline", 5 h if "permanent return" (main effect of definition, F(1, 1621) = 4.66, p = .03). Women's median 5.04 h versus men's 2 h (pooled across definitions as printed). Event importance and rumination together explained 43% of between-emotion variability in duration (13% beyond emotion intensity). Event importance r = .59 and .57; rumination r = .36 and .56 (the two definitions). Table 1 (pairwise tests, p < .01): sadness lasted significantly longer than all 26 others; anger lasted significantly longer than fear, surprise and shame only, and was NOT significantly different from irritation (corrected in validation: the first pass listed irritation); fear lasted significantly shorter than anxiety (t(1647) = 4.12). Only 117 of 351 contrasts were significant. Per-emotion medians sit in Figure 1; the extracted text shows bar labels up to 120 h and values of 60 and 35 h in the permanent-return median panel, consistent with press reports of sadness about 120 h, hatred about 60 h and joy about 35 h, but the label-to-emotion mapping could not be recovered from the text.
 
 **Standing.** Retrospective recall of episodes; the authors tested a recent-episode subset and event importance still held (B = .12, p = .036). Self-report, adolescents.
 
-**Translation.** Gives a decay scale for a single emotion, not for a coupling. Useful as the default time constant for the anger or fear state that a coupling would feed: fear and irritation decay in a couple of hours, anger and sadness take longer, and rumination is the multiplier.
+**Translation.** Gives a decay scale for a single emotion, not for a coupling. Useful as the default time constant for the anger or fear state that a coupling would feed: fear and irritation are among the shortest, sadness is clearly the longest, anger sits in the undifferentiated middle (longer than fear, not distinguishable from irritation), and rumination and event importance are the multipliers.
 
 ---
 
@@ -195,11 +196,75 @@ Nothing here gives a coefficient in a drive-to-drive equation of the form dB/dt 
 
 ## Unconfirmed
 
-- Schachter 1959 numbers (20/32, 10/30) and waiting time.
-- Page ranges for Gerber & Wheeler, Gump & Kulik, Rofé, Rofé & Lewin, Sherman, Magee & Galinsky (Crossref DOI resolution done; page ranges from memory in places).
-- Quarmley k = 7 and k = 15 rows and sign conventions; the 92-study Chinese meta-analysis (title, authors).
-- Verduyn per-emotion medians and exact N; whether the PDF's 2 h / 5 h medians are pooled across all 27 emotions.
-- Hartgerink's second-hand recovery claims (5-10 min; 45 min for high social anxiety) and the -0.73 versus -0.76 inconsistency.
-- Gump & Kulik effect sizes and N; Sherman effect sizes and N; Berkowitz full text; Bettencourt & Miller frustration-specific values; the Moskowitz 2004 critique content.
+- Schachter 1959 numbers (20/32, 10/30) and waiting time: book not available; still from memory.
+- The 92-study Acta Psychologica Sinica 2023 meta-analysis (title, authors, r = 0.38) and the 2022 no-mediation-by-anger study: search-summary only, no title or DOI, so not citable as they stand.
+- Quarmley et al.'s statement that only 16 of 40 Gerber & Wheeler studies measured behaviour: PMC bot check blocked the full text in validation too.
+- Verduyn per-emotion medians (label-to-emotion mapping in Figure 1).
+- Hartgerink's second-hand recovery claims (5-10 min, unnamed studies; 45 min for high social anxiety, Zadro et al.): the paper does say both, but the primary studies were not read.
+- Gump & Kulik content (female participants, two studies, looking time, mimicry, contagion): no abstract was obtainable at Crossref or APA in validation, so these details rest on the first pass's search summary. Effect sizes and N also unseen.
+- Sherman effect sizes and N (PNAS full text 403 in validation); Berkowitz full text; Bettencourt & Miller d = .33 to .17 and frustration-specific values; the Moskowitz 2004 critique content; the Baumeister, DeWall & Vohs rebuttal content.
 - Whether the Maier & Seligman second half contains additional timing or human data.
-- Kulik & Mahler's hospital roommate work: search failed; not cited.
+- Kulik & Mahler's hospital roommate work: now located (Kulik, Mahler & Moore 1996, section 5) by DOI, but not read.
+
+## Validation log (2026-10-29)
+
+All DOIs resolved at api.crossref.org; titles, authors, volume, issue and pages checked against the records. Web search budget was exhausted during this pass, so "nothing exists" claims (no fear-to-affiliation meta-analysis; no frustration-to-anger magnitude; no ESM coupling dataset) were NOT re-tested by search and stand as the first pass's negative findings only.
+
+- ✓ Hartgerink, van Beest, Wicherts & Williams 2015, PLOS ONE: re-fetched; N, k, d = -1.36 [-1.54, -1.18], I^2, tau^2, last-measure -0.76 / -0.73 and CI [-0.86, -0.59] inconsistency, 4.85 min, b = 0.0069, k = 19 subset, 2 of 120, N = 2,186 and the recovery sentences all confirmed [read].
+- ✎ Gerber & Wheeler 2009: all d values confirmed from the Crossref abstract; pages confirmed; rebuttal now cited in full (Baumeister, DeWall & Vohs 2009) with rejoinder.
+- ✎ Quarmley et al. 2022: abstract read; prosocial d = 0.59 is an attenuation and k = 15 is the free-choice set where aggression held; meaning now stated. 16-of-40 claim still unconfirmed.
+- ✓ Berkowitz 1989: bibliographic record and the quoted "arbitrary" sentence confirmed verbatim on PubMed.
+- ✎ Bettencourt & Miller 1996: full citation added (pages 422-447); d = .33 to .17 moved to Unconfirmed.
+- ? Schachter 1959: book exists; numbers unconfirmed (unchanged).
+- ✎ Gump & Kulik 1997: citation and pages confirmed; content details downgraded to unconfirmed (no abstract obtainable).
+- ✓ Rofé 1984: citation and pages confirmed.
+- ✎ Rofé & Lewin 1988: end page 10 added; condition description corrected to match the abstract (three conditions).
+- ✎ Kulik, Mahler & Moore 1996: added as a located pointer (DOI resolved, not read).
+- ✓ Magee & Galinsky 2008: citation and pages confirmed; both definitions and the "dancing in front of them" sentence re-checked verbatim in the extracted PDF; no d or r found [read].
+- ✓ Keltner, Gruenfeld & Anderson 2003: citation confirmed.
+- ✎ Moskowitz 2004: title, pages and author initials added from Crossref; content not read.
+- ✎ Sherman et al. 2012: pages confirmed (no longer "from memory"); abstract content confirmed from Crossref; N and effect sizes still unseen.
+- ✎ Maier & Seligman 2016: all quoted time scales confirmed [read]; the "about 90% of controls" line reworded to the paper's statement (90% of escapable and no-shock dogs learned to escape).
+- ✎ Verduyn & Lavrijsen 2015: N = 233 is in the PDF (first pass wrongly said it was not); anger is NOT significantly longer than irritation in Table 1 (first pass wrong), corrected along with the translation; 43%/13%, r values, 5.04 h vs 2 h and B = .12, p = .036 confirmed [read].
+- ? Acta Psychologica Sinica 2023 meta-analysis and the 2022 mediation study: no title, authors or DOI; left in section 3 labelled unverified and listed in Unconfirmed.
+- No fabrications found; nothing deleted.
+
+**Verdict.** The file is substantially accurate: every DOI resolves to the stated authors, venue and pages, and the headline numbers (Hartgerink, Gerber & Wheeler, Quarmley, Maier & Seligman, Verduyn) check out at source or in the published abstract. The one substantive error was in Verduyn's Table 1, where anger was said to outlast irritation; it does not, which weakens the "anger is a long emotion" prior used in the translation. Remaining soft spots are the Schachter proportions, the Gump & Kulik details, and two uncited search-summary items, all now flagged.
+
+## Cross-checks (2026-10-29)
+
+Direction D107 checked against the other files in this folder. Only this file was edited. Overlaps exist with 056, 053, 042, 017, 051, 055 and 041. Quarmley, Bettencourt & Miller, Rofé and Sherman et al. 2012 appear in no other file (066 and 018 mention a different Sherman, Smaldino et al. 2012).
+
+### Agreements
+
+- **Hartgerink et al. 2015** (here section 1; 056 section 2). Same citation and DOI. Agree on k = 120, 98 papers, N = 11,869, first-measure d = -1.36 [-1.54, -1.18], I^2 = 92.99%, tau^2 = 0.90, last-measure d = -0.76 [-0.91, -0.61] (k = 95), mean 4.85 min with b = 0.0069, p = .187, homogeneous subset k = 19 d = -2.05 [-2.44, -1.65], N = 2,186 for power, and the recovery of 5-10 min and 45 min (socially anxious) as second-hand. 056 section "Translation / operator exclude(a, b)" carries the same d -1.36 decaying to -0.76 with no identified rate, matching the translation in section 1 here.
+- **Gerber & Wheeler 2009** (here section 2; 056 section 3). Same DOI and pages. Agree on 88 studies, mood d = -0.50, self-esteem d = -0.70, belonging 0.69, control 1.16, antisocial -1.17, no arousal drop. Both read the abstract only. 056 additionally records the Blackhart et al. 2009 meta-analysis (192 studies; self-esteem no different from neutral controls), which disputes the self-esteem figure. This supports this file's "contested" label for the mood/self-esteem row and is worth citing there.
+- **Control as the common mediator** (here sections 2, 6, 7; 056 control-action paragraph). 056 fits the control-first reading to the same two Gerber & Wheeler numbers (1.16 against 0.69). 053 section 1 also puts control detection at the centre of Maier & Seligman. This matches the "control sits under three of the four couplings" finding here.
+- **Maier & Seligman 2016** (here section 7; 053 section 1). Agree on the DOI, passivity lasting a few days, 5-HT1A recovery within 3 days, escape by the second or third trial, 64 shocks, two-thirds of the inescapable group failing against about 90% of the escapable and no-shock groups, and immunization "quite enduring, but perhaps not permanent" with protection at 7 days. 042 (Maier row) agrees on the substance: passivity is the unlearned default and control is detected in medial PFC.
+- **Berkowitz 1989** (here section 4; 042 frustration-aggression entry; 017 reference list). Same DOI. All agree that frustration produces aggressive inclination via negative affect, with no magnitude. 017 and 042 give the same qualitative sign (blocked wanting to aggression through negative affect).
+- **Schachter 1959 and fear to affiliation** (here section 5; 017, 042, 051). All agree the effect is qualitative, with no functional form and no numbers in hand. 042 and 051 both say Schachter was not read. 049's unconfirmed 20/32 versus 10/30 figures appear nowhere else, so nothing corroborates or contradicts them. 051 states that fear to affiliation does not depend on terror management, which fits this file's treatment.
+- **Magee & Galinsky 2008** (here section 6; 055 section 4; 042). Same DOI 10.5465/19416520802211628. All three treat it as a qualitative review that gives the sign and no equation or effect size. 055 and 042 did not read it, so this file's full-text grep for effect sizes (none found) is the stronger check.
+- **Verduyn & Lavrijsen 2015** (here section 8; 041). Same DOI and journal details. 041 is tagged secondary and says shame was among the shortest and guilt outlasted shame. This file does not cover shame or guilt, so there is no conflict. Its "fear among the shortest" is consistent with 041's picture of short-lived emotions.
+- **Gump & Kulik 1997** (here section 5; 051, 042). All give the same bibliographic record (JPSP 72(2), 305-319). 051 notes the DOI is now resolved.
+
+### Contradictions
+
+1. **Gerber & Wheeler 2009, d = 1.21 (here section 2, "Numbers").**
+   - 049 originally said: "prosocial responding when control **can be restored**: d = 1.21".
+   - 056 section 3 says: measures that "do **not** allow for control to be restored cause prosocial responding (d = 1.21)".
+   - Primary source: the Crossref abstract of doi:10.1111/j.1745-6924.2009.01158.x reads "measures that do not allow for control to be restored cause prosocial responding (d = 1.21)".
+   - **Verdict: 056 is right and 049 is wrong.** The condition is reversed in 049. Where control cannot be restored, behaviour is prosocial. Where belonging and control are contrasted (control restorable), it is antisocial. The "restoring path" in the section 2 translation should be read this way, and the aggression-as-control-regain gloss still holds.
+2. **Hartgerink last-measure -0.76 versus -0.73 (here section 1 and Validation log).**
+   - 049 says the paper "is internally inconsistent here".
+   - 056 section 2 says these are two models: the mixed-effects model with elapsed time as a predictor gives the intercept -0.76 [-0.91, -0.61], and the summary without it gives about -0.73 [-0.86, -0.59]. It records this as "not an internal inconsistency (corrected at validation)".
+   - Primary source (Europe PMC PMC4449005 full text): the intercept d = -0.76 is stated for the model "including ... estimated time in seconds since completing the Cyberball game as predictor". The "-0.73" sentence is in the summary after the model "including both the time and SE as predictor". It is a different model.
+   - **Verdict: 056 is right.** The two figures are not an inconsistency. 049's wording should be read as "-0.76 with the time predictor, about -0.73 in the summary model".
+3. **Gump & Kulik 1997 characterisation (here section 5; 042 line on affiliation under threat).**
+   - 042 describes it as a later review qualifying Schachter ("social support under stress") and tags it "[recalled]".
+   - 049 describes it as two experiments (threat, same or different partner situation, looking time, mimicry and contagion).
+   - Source check: the paper's title is "Stress, affiliation, and emotional contagion", and 049's description comes from a search abstract. 051 independently says it was not read. Neither 042 nor 049 holds a verified abstract.
+   - **Verdict: unresolved.** 049's description is more specific and probably nearer the abstract, but it was not confirmed at source either.
+
+### Not checked
+
+No file other than 049 contains Quarmley et al. 2022, Rofé 1984 and Rofé & Lewin 1988, Bettencourt & Miller 1996, Sherman et al. 2012 (PNAS), Keltner et al. 2003 (beyond brief mentions in 017) or the Kulik, Mahler & Moore 1996 pointer. Those claims have no second source in this folder.

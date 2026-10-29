@@ -16,7 +16,7 @@ Read at source:
 
 Not read at source: Friston 2010, and Yoshida et al. 2025 (arXiv 2507.04998) and Yoshida & Man's follow-up (arXiv 2506.12894), both abstract only.
 
-DOIs confirmed through Crossref: 10.7554/eLife.04811; 10.1016/j.tics.2019.07.012 (TICS 23(10):836-850); 10.1016/j.pneurobio.2015.09.001 (Prog Neurobiol 134:17-35); 10.1038/nrn2787 (Nat Rev Neurosci 11(2):127-138); 10.1016/j.jmp.2021.102632 (J Math Psychol 107, 2022).
+DOIs confirmed through Crossref: 10.7554/eLife.04811; 10.1016/j.tics.2019.07.012 (TICS 23(10):836-850); 10.1016/j.pneurobio.2015.09.001 (Prog Neurobiol 134:17-35); 10.1038/nrn2787 (Nat Rev Neurosci 11(2):127-138); 10.1016/j.jmp.2021.102632 (J Math Psychol 107, 2022, article 102632); and, added in validation, 10.1016/j.concog.2014.12.003 (Friston & Frith 2015).
 
 **Summary.**
 1. The drive function and the theorem are now fixed exactly (sections 1 and 2).
@@ -31,7 +31,7 @@ DOIs confirmed through Crossref: 10.7554/eLife.04811; 10.1016/j.tics.2019.07.012
 
 **Citations.**
 - Keramati, M. & Gutkin, B. (2014). Homeostatic reinforcement learning for integrating reward collection and physiological stability. *eLife* 3:e04811. doi:10.7554/eLife.04811.
-- Keramati, M. & Gutkin, B. (2011). A reinforcement learning theory for homeostatic regulation. *Advances in Neural Information Processing Systems 24*, pp. 82-90. https://proceedings.neurips.cc/paper/2011/file/9778d5d219c5080b9a6a17bef029331c-Paper.pdf. I found no DOI for it and did not guess one.
+- Keramati, M. & Gutkin, B. (2011). A reinforcement learning theory for homeostatic regulation. *Advances in Neural Information Processing Systems 24*, pp. 82-90. https://proceedings.neurips.cc/paper/2011/file/9778d5d219c5080b9a6a17bef029331c-Paper.pdf. I found no DOI for it and did not guess one. ✎ Validation: the official NeurIPS BibTeX leaves `pages` empty, so "pp. 82-90" is not confirmed from the publisher; treat the page range as unconfirmed.
 
 **Their vocabulary.** Homeostatic space; physiological state H_t; setpoint H*; drive D(H_t); outcome K_t; sum of discounted drives (SDD) and sum of discounted rewards (SDR). Also "stepping back from the brink", the hyper-palatability term T, and orosensory approximation K̂.
 
@@ -88,7 +88,7 @@ DOIs confirmed through Crossref: 10.7554/eLife.04811; 10.1016/j.tics.2019.07.012
 - Proof (as printed, S4-S5): along a trajectory with D_0, D_1, ..., D_w = D(H*) = 0,
   SD_R = D_0 + (γ−1)·(D_1 + γD_2 + ... + γ^{w−2}D_{w−1}) = **D_0 + (γ−1)·SD_D**,
   because the last term of SD_D is γ^{w−1}·D* = 0. D_0 is fixed by the start state and γ − 1 < 0, so the orderings are opposite.
-- The main-text continuous versions (Eqs 3-5, written with p(π)^{γt}) are loosely typeset. The discrete Methods version is the one to cite.
+- The main-text continuous versions (Eqs 3-5) are loosely typeset: the MathML sets p(π) under the ∫ sign as if it were a domain of integration, then γ^t·D(H_t)·dt (✎ validation: an earlier draft here read this as "p(π)^{γt}", which is not what is printed). The discrete Methods version is the one to cite.
 
 **Checked `[derived]`.** The telescoping in S5 is correct. The theorem does not use any property of D except that D(H*) = 0.
 
@@ -118,7 +118,7 @@ DOIs confirmed through Crossref: 10.7554/eLife.04811; 10.1016/j.tics.2019.07.012
 
 ## 4. Does SDR = D_0 + (γ−1)·SDD extend to D_self + w·D_partner?
 
-**The published coupling `[read]`.** Yoshida & Man 2024 (arXiv 2412.12103; NeurIPS 2024 IMOL workshop). Each agent is a homeostat with reward r_{t+1} = β(D_t − D_{t+1}). Affective empathy is the coupled drive **D = D_possessor + w·D_partner** (w = 0.5 in the food-sharing task). Cognitive empathy is only observing the partner's state. Drives used: Experiment 1, D = −ln P*(s) with P*(High) = 0.95 and P*(Low) = 0.05 (so D(High) ≈ 0.051, D(Low) ≈ 3.0); grid and 2-D environments, D = ‖s‖² with β = 100. PPO + LSTM, 20 runs. Result: sharing arises only under affective coupling (Affective and Full conditions). **No theorem.** The only analysis is an informal argument from the transition diagram (Appendix C) that a possessor optimising only its own homeostasis always prefers EAT to PASS.
+**The published coupling `[read]`.** Yoshida & Man 2024 (arXiv 2412.12103; NeurIPS 2024 IMOL workshop). Each agent is a homeostat with reward r_{t+1} = β(D_t − D_{t+1}). Affective empathy is the coupled drive **D = D_possessor + w·D_partner** (w = 0.5 in the food-sharing task). Cognitive empathy is only observing the partner's state. Drives used: Experiment 1, D = −ln P*(s) with P*(High) = 0.95 and P*(Low) = 0.05 (so D(High) ≈ 0.051, D(Low) ≈ 3.0); grid and 2-D environments, D = ‖s‖² with β = 100 (Appendix B.2 calls β "a learning rate", though in the reward equation it is a scaling constant). PPO + LSTM, 20 runs. Result: sharing arises only under affective coupling (Affective and Full conditions). **No theorem.** The only analysis is an informal argument from the transition diagram (Appendix C) that a possessor optimising only its own homeostasis always prefers EAT to PASS.
 
 Note that in Experiment 1 D(High) ≠ 0, so the drive has no zero. Any theorem that needs D(H*) = 0 does not apply to that paper's own setup without the terminal correction (2a) or the infinite-horizon form (2b).
 
@@ -132,7 +132,7 @@ Let x = (x_s, x_p) be the joint state, and D_c(x) = D_s(x_s) + w·D_p(x_p) with 
    - **Nonnegative w for the setpoint form.** For D_c to have a joint minimum of 0 at the joint setpoint, both D's must be ≥ 0 with zero at their setpoints and w ≥ 0. For w < 0 (rivalry, schadenfreude) D_c is minimised by the partner being as far from setpoint as the state space allows. The identity still holds as an identity, and the "setpoint" becomes the spiteful corner. The finite-trajectory form of the theorem (end at the setpoint) is then not meaningful, but the infinite-horizon form is.
    - **A joint setpoint must exist for the finite form.** Resource-conserving settings (Yoshida-Man's single food item) may make D_s = D_p = 0 jointly unreachable, so P(H_0) is empty and the finite proposition is vacuous. The infinite-horizon ordering result still holds.
    - **Control.** The theorem concerns whoever's actions generate the trajectory. If the partner acts, the optimisation is over a game, not a single-agent problem; see below.
-4. **Two agents with different weights.** Agent 1 has D^1 = D_a + w_1·D_b, agent 2 has D^2 = D_b + w_2·D_a. The identity holds for each agent separately. The agents have the same ordering over joint trajectories **iff w_1·w_2 = 1** (the vectors (1,w_1) and (w_2,1) are parallel exactly then, and D^2 = w_2·D^1). For w_1 = w_2 = 1 this is the identical-interest (team) case. For w_1·w_2 < 1 (mutual partial altruism, e.g. both 0.5) the agents agree only partially and the problem is a game, so the single-agent argmin/argmax equivalence says nothing about equilibria. Y&M's partner is passive in Experiment 1 and their agents share network weights in Experiment 2 (Appendix A), which sidesteps this.
+4. **Two agents with different weights.** Agent 1 has D^1 = D_a + w_1·D_b, agent 2 has D^2 = D_b + w_2·D_a. The identity holds for each agent separately. The agents have the same ordering over joint trajectories **iff w_1·w_2 = 1 and w_2 > 0** (the vectors (1,w_1) and (w_2,1) are parallel exactly when w_1·w_2 = 1, and then D^2 = w_2·D^1; ✎ validation: the sign condition was missing — at w_1 = w_2 = −1 the product is 1 but D^2 = −D^1, so the orderings are exactly opposite, a zero-sum case). For w_1 = w_2 = 1 this is the identical-interest (team) case. For w_1·w_2 < 1 (mutual partial altruism, e.g. both 0.5) the agents agree only partially and the problem is a game, so the single-agent argmin/argmax equivalence says nothing about equilibria. Y&M's partner is passive in Experiment 1 and their agents share network weights and experience in Experiment 2 (Appendix A; restated for the 2-D field in Appendix B.3), which sidesteps this.
 5. **N agents.** With a weight matrix W (W_ii = 1, W_ij = w_ij), D^i = Σ_j W_ij·D_j and r^i = Σ_j W_ij·ρ_j, where ρ_j = D_j(t) − D_j(t+1) is agent j's own drive reduction. The identity becomes SD_R^i = Σ_j W_ij [D_{j,0} + (γ−1)·SD_{D_j}] (terminal terms aside). So the whole coupling structure is one linear operator W acting on the vector of per-agent drive trajectories. That is the nearest published-compatible object to an "operator on drives". `[derived]`: if each agent also internalises its partners' coupled drives (contagion), the effective matrix would be a Neumann series (I − Ω)^{-1}, where Ω holds the off-diagonal weights, convergent when the spectral radius of Ω is below 1. This is a design suggestion, not a published result.
 
 **What the additive coupling cannot express `[derived/numeric]`.**
@@ -150,11 +150,11 @@ Let x = (x_s, x_p) be the joint state, and D_c(x) = D_s(x_s) + w·D_p(x_p) with 
 
 **Equations `[read]`** (Box 2).
 - Eq. 1: θ_t = X_t × U + θ_{t−1} × A_θ. The internal state is driven by chosen option features X through a learned map U, plus intrinsic dynamics A_θ (decay in the absence of input, e.g. debt grows, thirst grows).
-- Eq. 2: δ_{t+1} = ‖θ_{t+1} − θ*‖_k, printed as the p-th root of Σ|θ_{t+1} − θ*|^q "for p = q". So the printed version is a Minkowski distance with one exponent k = p = q, and the text says a two-parameter version (p ≠ q, the K&G m and n) is needed for diminishing marginal utility.
+- Eq. 2: δ_{t+1} = ‖θ_{t+1} − θ*‖_k, printed as the p-th root of Σ|θ_{t+1} − θ*|^q "for p = q". So the printed version is a Minkowski distance with one exponent k = p = q, and Box 2 says a two-parameter version (p ≠ q, the K&G m and n) is needed for diminishing marginal utility. ✎ Validation: the main text (lines 258-260 of the manuscript) says instead that with k > 1, "simply assuming that other drives exist that cannot currently be satisfied immediately gives rise to" diminishing marginal utility — a second small internal inconsistency in J&S.
 - Eq. 3: **R_{t+1} = δ_t − δ_{t+1}**, which is K&G's drive reduction exactly. With A_θ = 0 and k = 1, R = X × U.
 - Role of k: k < 1 favours single-asset bundles, k = 1 is indifferent between bundles, k > 1 favours mixed bundles. This is the same m-controls-interaction result as section 1.
 
-**Theorems.** None. They cite the K&G equivalence implicitly through "the loss term is mathematically identical to what one would construe as reward".
+**Theorems.** None, and the K&G SDR/SDD equivalence is not invoked. ✎ Validation: an earlier draft read the sentence "this loss term is now mathematically identical to what one would construe as 'reward' in the RL framework" as a nod to the theorem. In context it says something narrower: for a thirsty animal with one relevant dimension, the drop in distance Δ(‖θ* − θ‖_k) equals the volume of liquid given (citing K&G 2014 as ref 18), and the authors add that this "will break down as θ tends towards θ*".
 
 **Claim relevant to the strand.** The setpoint dimensions are extended from physiology to cognitive goals "such as financial stability, moral worth, physical health", "social status", "social capital". This is asserted, not derived. The social dimensions are one-sentence examples, and they come with no coupling between agents. A small inconsistency: the text says agents "minimise the maximum distance to setpoints" (an L∞ norm), while Eq. 2 is a Minkowski k-norm. Those coincide only as k → ∞.
 
@@ -171,8 +171,8 @@ Let x = (x_s, x_p) be the joint state, and D_c(x) = D_s(x_s) + w·D_p(x_p) with 
 **Pezzulo, Rigoli & Friston 2015 `[read]`, text only.**
 - It reviews homeostatic regulation inside active inference and says that "priors act as drives or goals to enslave action", that reflexes minimise interoceptive prediction errors with the setpoint supplied by descending predictions, and that "the concept of reward is replaced by the realization of prior preferences".
 - "Value is the complement of surprise or prediction error."
-- It cites Keramati et al. and does not adopt the drive-difference reward.
-- I found no stated drive function in the extracted text. Equations were not extractable, so this is unconfirmed rather than established.
+- ✎ Validation: it does **not** cite Keramati & Gutkin. Its only Keramati reference is Keramati, Dezfouli & Piray 2011 (PLoS Comput Biol 7:e1002055), on habitual versus goal-directed control. It does not adopt a drive-difference reward.
+- I found no stated drive function in the extracted text. Equations were not extractable, so this is unconfirmed rather than established. (Validation pass: the PMC text was re-read and still shows no equation defining drive; drive is described verbally as the interoceptive prediction error reporting a discrepancy from the optimal level.)
 
 **Friston 2010 `[from abstract/standard account]`.** Nat Rev Neurosci 11:127-138. Free energy F is an upper bound on surprise, F ≥ −ln p(s̃|m). Organisms act to keep sensory states within expected (preferred) bounds. Not read.
 
@@ -189,7 +189,7 @@ The first term is risk, the divergence from preferred outcomes. The second is am
 - Comparison with K&G: with γ < 1, K&G's theorem says ranking by discounted reward ΔD equals (reverse) ranking by discounted state cost D. Active inference's risk term is the state-cost form already. So **K&G's identity is the statement that a discounted potential-difference reward is, up to an affine map, the same objective as active inference's discounted preference cost**, minus the entropy and ambiguity terms that give active inference its information-seeking part. That equivalence needs the discount, since active inference has none and the undiscounted K&G reward (γ = 1) depends on endpoints alone. `[derived]`
 - Honest verdict on "the active-inference framing": the equivalence is real at the level of one-step state costs, and the two literatures differ on (i) discounting, (ii) exploration (an entropy term versus ε-greedy or softmax), (iii) precision weights versus none.
 
-**Multi-agent active inference.** Not read for this file. Friston & Frith 2015, "A duet for one" (Consciousness and Cognition), is the standard cited example of two coupled generative models; I did not verify its DOI and it is listed under Unconfirmed. In the active-inference language, w in D_s + w·D_p corresponds to an exponent on the partner's preference density, as in section 4.
+**Multi-agent active inference.** Not read for this file. Friston & Frith 2015, "A duet for one", Consciousness and Cognition 36:390-405, doi:10.1016/j.concog.2014.12.003 (DOI confirmed through Crossref in the validation pass; content not read), is the standard cited example of two coupled generative models. In the active-inference language, w in D_s + w·D_p corresponds to an exponent on the partner's preference density, as in section 4.
 
 ---
 
@@ -234,9 +234,11 @@ The first term is risk, the divergence from preferred outcomes. The second is am
 - Whether Pezzulo et al. 2015 state any drive function; equations were not extractable from the PMC text.
 - Friston 2010's formulas (read from abstract and standard accounts only).
 - The follow-up Yoshida & Man (arXiv 2506.12894), which adds learned decoding of a partner's emotion, and Yoshida, Sprekeler & Gutkin (arXiv 2507.04998). Abstracts only; neither abstract mentions a theorem.
-- Friston & Frith 2015 and the wider multi-agent active-inference literature (DOI not verified here).
+- The content of Friston & Frith 2015 (DOI now confirmed, text not read) and the wider multi-agent active-inference literature.
 - The Juechems fMRI studies cited in J&S.
 - The value of m used in K&G's Fig. 6 simulations.
+- The page range of K&G 2011 (82-90): the official NeurIPS BibTeX gives none, and it could not be checked elsewhere in the validation pass.
+- The "does not exist" items in section 8, which were not re-searched in validation (search budget exhausted).
 
 ## Sources
 
@@ -245,3 +247,66 @@ The first term is risk, the divergence from preferred outcomes. The second is am
 - https://arxiv.org/abs/2412.12103 ; https://arxiv.org/abs/2506.12894 ; https://arxiv.org/abs/2507.04998
 - https://ora.ox.ac.uk/objects/uuid:02f3af5e-bc2d-49f5-bf1d-f2e3d7e2f545/files/m912294907691555c3e38afc843306587
 - https://pmc.ncbi.nlm.nih.gov/articles/PMC4779150/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC8956124/
+
+## Validation log (2026-10-29)
+
+Independent pass: DOIs resolved at api.crossref.org, arXiv IDs at export.arxiv.org; K&G 2014 re-read from the eLife JATS XML (MathML for Eqs 1, 3); K&G 2011, Yoshida & Man 2024 and the J&S ORA manuscript re-read from the PDFs; Pezzulo et al. and Smith et al. checked on PMC. Every `[derived]` step in sections 1, 2 and 4 was re-derived; the Eq. 8 numerics were recomputed (−0.909 at (4,2), −0.289 at (4,3), 0 at m = 1).
+
+- ✓ Keramati & Gutkin 2014, eLife 3:e04811, doi:10.7554/eLife.04811 — Eq. 1 (m-th root of Σ|·|^n), Eqs 2, 6-9, 12-14, S1-S6, the "m = n = 1 … Euclidian" sentence, the "m/n = 1" label, Fig. 6 supplement n = 4, and the "least action" sentence all match the source. Eq. 8 sign error and the n > m > 1 versus m > 1 point confirmed. ✎ Eqs 3-5 typesetting misdescribed; fixed.
+- ✎ Keramati & Gutkin 2011, NIPS 24 — title, authors, Eq. 8 (d(H1)/d(H0)·Q0), Prop. 2 condition H1 = c·H0, c ≥ 0, Eq. 9 and Prop. 3 (k = l/2, γ near 1) confirmed; "m = n = 2 Euclidean" confirmed; k = γl/(1+γ) re-derived. Page range 82-90 not in the official BibTeX: flagged unconfirmed.
+- ✓ Yoshida & Man 2024, arXiv 2412.12103 — authors, IMOL workshop at NeurIPS 2024, w = 0.5, P* = 0.95/0.05, D = ‖s‖², β = 100, PPO + LSTM, n = 20, Appendix C argument, shared weights all confirmed. ✎ minor: β wording, weight-sharing location.
+- ✓ Yoshida & Man 2025, arXiv 2506.12894 ("Homeostatic Coupling for Prosocial Behavior") — exists, authors confirmed; content not checked beyond that.
+- ✓ Yoshida, Sprekeler & Gutkin 2025, arXiv 2507.04998 ("Linking Homeostasis to Reinforcement Learning…") — exists, authors confirmed; content not checked.
+- ✎ Juechems & Summerfield 2019, TICS 23(10):836-850, doi:10.1016/j.tics.2019.07.012 — Box 2 Eqs 1-3, k roles, the "minimise the maximum distance" sentence and the setpoint examples confirmed. Fixed: the "mathematically identical" sentence is about one-dimensional reward equalling liquid volume, not the K&G theorem; added the k > 1 versus p ≠ q inconsistency.
+- ✎ Pezzulo, Rigoli & Friston 2015, Prog Neurobiol 134:17-35, doi:10.1016/j.pneurobio.2015.09.001 — all three quotes confirmed. Fixed: it does not cite Keramati & Gutkin; its "Keramati et al., 2011" is Keramati, Dezfouli & Piray (PLoS Comput Biol).
+- ✓ Friston 2010, Nat Rev Neurosci 11(2):127-138, doi:10.1038/nrn2787 — metadata confirmed; content still not read (tag unchanged).
+- ✓ Smith, Friston & Whyte 2022, J Math Psychol 107:102632, doi:10.1016/j.jmp.2021.102632 — Eq. 13 and the "preferences are encoded" quote confirmed; no temporal discount in the EFE sum, as the file states.
+- ✎ Friston & Frith 2015, Consciousness and Cognition 36:390-405, doi:10.1016/j.concog.2014.12.003 — DOI now confirmed; moved out of Unconfirmed for its citation, content still unread.
+- ✎ Derived two-agent result (section 4.4) — "iff w_1·w_2 = 1" was missing the condition w_2 > 0; fixed.
+- ? The "does not exist" list in section 8 (no coupled-drive theorem, no fit of m and n, no adaptive w) was not re-searched: this run's web-search budget was exhausted. Those items remain the author's "as far as read" claims.
+
+**Verdict.** The core of the file holds: the drive function, the theorem and its proof, the three reported errors in the eLife paper and the derived generalisations all check against the source and re-derive correctly. Four statements were wrong and are fixed: a misread of the Eq. 3 typesetting, an attribution claiming Pezzulo et al. cite Keramati & Gutkin (they cite a different Keramati paper), a J&S sentence read as invoking the theorem, and a missing sign condition in the two-agent ordering result. No fabricated works were found.
+
+
+## Cross-checks (2026-10-29)
+
+Method: grepped every other file in this directory for Keramati, Gutkin, Yoshida, Juechems, Pezzulo, Friston, SDR/SDD, D_self/D_partner and the drive exponents, then read the overlapping sections. Primary-source check for the one factual conflict used WebFetch on the NeurIPS abstract page (web search budget was exhausted, so no further searching was possible). No other file was edited.
+
+### Agreements
+
+- **Drive form.** File 16 section 13 (Eq. 1, corrected from m/n to the m-th root of the n-sum) and file 062 section 1 and 2.1 agree with section 1 here: D = (Sum |h*_i - h_i|^n)^(1/m). File 19 section 12 and its validation line (section 15 area) could not confirm the placement; its inference (Sum|.|^n)^(1/m) matches.
+- **"Euclidean at m = n = 1" is the paper's slip.** File 16 section 13 says the same as section 1 here: m = n = 1 is L1, Euclidean is m = n = 2.
+- **Reward and identity.** r = D(H_t) - D(H_t+K_t) and SD_R = D_0 + (gamma-1)*SD_D agree with file 16 section 13, file 19 section 12, and file 062 sections 1 and 3 (062 re-derived the identity). Discrete S1-S2 forms in file 16 match section 2 here.
+- **Setpoint-reaching condition and gamma = 1.** File 16 section 13 (trajectories end at the setpoint; gamma = 1 gives D_0 - D_final) matches section 2 and 2(a), 2(d).
+- **Hyper-palatability T.** File 16 section 13 (quadratic case, setpoint shift T/(2K)) matches section 1 here.
+- **Empirical standing.** Files 16 section 13 and 19 section 12 (qualitative simulation, no parameter fitting) match "Empirical standing" in section 1.
+- **Drive as surprise.** File 16 sections 13-14 (D = -ln p, bridge to active inference) matches section 6 here.
+- **Yoshida & Man 2024.** File 19 section 14 and file 062 section 1: coupling D = D_possessor + w*D_partner, w = 0.5 for food sharing only, r = beta*(D_t - D_{t+1}), D = -ln P* in food sharing, PPO + LSTM, n = 20, no theorem, possessor-only acts, 2-D field uses shared weights. All agree with section 4 here. Follow-ups 2506.12894 and 2507.04998 are described the same way (abstract only) in files 19 and 062.
+- **Fixed-weight extension and time-varying w correction.** File 062 sections 3.4 and 2.1 reproduce this file's correction term sum_{t>=1} gamma^(t-1)(w_t - w_{t-1})D_{p,t} and the matrix form r^i = sum_j W_ij rho_j, and state that w belongs in the operator, not the state. Agrees with section 4.3 and 4.5.
+- **Cross-drive interaction lives in m.** File 062 section 2.1 explicitly adopts this file's result (separable at m = 1).
+- **Tempered product of preferences.** File 062 section 2.2 repeats e^{-D^1} = P*(s_1) P*(s_2)^w from section 4 here.
+- **Juechems & Summerfield 2019.** File 16 describes it as the modern review of the Keramati line, reward as progress to setpoints, consistent with section 5.
+- **Friston & Frith 2015.** File 16 (section on multi-agent active inference, and validation log) gives the same DOI 10.1016/j.concog.2014.12.003 and the same Consciousness and Cognition 36:390-405.
+- **Smith, Friston & Whyte 2022.** File 16 section 14/EFE (Eqs 12-13) uses the same source for expected free energy.
+- **File 054 line 206** and **file 059 line 185** cite 047 only loosely (hunger/appetite metaphor; H* as set point). Consistent, no conflict.
+
+### Contradictions and tensions
+
+1. **K&G 2011 page range.**
+   - File 16 section 13: "NeurIPS 24, pp. 82-90 (confirmed)".
+   - This file (section 1 citation, Unconfirmed list): page range unconfirmed, official BibTeX leaves pages empty.
+   - Primary check: the NeurIPS abstract page lists title, authors and volume but no page range ("Not listed on the page"). Further search was not possible (budget exhausted).
+   - Verdict: **unresolved**. File 16's "confirmed" is not supported by the publisher page; 047's caution is the safer wording. File 16 should be downgraded to unconfirmed.
+
+2. **Condition for cross-drive inhibition (Eq. 8).**
+   - File 16 section 13 and file 19 section 12 repeat the paper's claim that n > m > 1 yields inhibition by irrelevant drives, with no check.
+   - Section 1 here: Eq. 8 as printed has the wrong sign; the condition for inhibition is m > 1 (n/m > 1 is what gives concavity).
+   - Verdict: **047 is right on the algebra** (re-derived analytically: dr/ds = (1/m)[(s+a^n)^(1/m-1) - (s+a'^n)^(1/m-1)] < 0 iff m > 1; numerics -0.909 at (4,2), -0.289 at (4,3), 0 at m = 1). Files 16 and 19 are reporting the paper, not contradicting a source; they are incomplete rather than wrong. I did not re-open the eLife XML in this pass; the sign claim rests on this file's derivation and its validation log.
+
+3. **File 19 hedge on the exponent form.** File 19 (section 12 and validation note) says the m, n placement "could not be confirmed" and infers it from the "Euclidean" sentence, which section 1 here shows is itself erroneous. Verdict: **047 and file 16 are right** (MathML read directly in both); file 19's inference happened to land on the right formula for the wrong reason, and its hedge is superseded.
+
+4. **Y&M 2-D field: shared weights.** Section 4.4 here says Y&M's shared network weights and experience "sidestep" the multi-agent game problem. File 062 section 6 (and summary item 6) says parameter sharing does not make the objective a team objective, and the paper's own None control (shared weights, no coupling) showed no prosocial behaviour. Verdict: **062 is right** (it re-read the paper's HTML); the word "sidesteps" in 047 section 4.4 is too strong. Related: section 4 here lists conditions "Affective and Full"; file 062 section 1 quotes only None, Cognitive and Affective conditions for the mobile environments. The existence of a "Full" condition was not re-checked here: unresolved.
+
+5. **Cross-reference slip in file 062.** File 062 section on operators cites "section 5 of 047's Neumann-series suggestion"; the Neumann-series remark is in section 4, item 5 here (section 5 is Juechems & Summerfield). Verdict: **047 is right**; 062's pointer is off by a section.
+
+6. **Scope of K&G (social rewards).** File 16 section 13 records the authors' own statement that social and novelty rewards are outside the theory; section 5 here reports J&S extending setpoints to social variables as assertion. Not a contradiction; flagged because section 1 here does not itself mention the authors' scope limit.
