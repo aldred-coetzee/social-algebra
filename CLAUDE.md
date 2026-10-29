@@ -41,6 +41,26 @@ in it. If articles follow, they are a by-product.
                 worked examples, diagrams (D2 or SVG beside the text)
     docs/       anything written up for a reader
 
+## Citation and credit (Aldred, 2026-10-29)
+
+*"Let's be sure to keep citations and accreditation accurate."* Every
+result is credited to the people who proposed or proved it, in the work
+where they did, and every DOI must resolve to that work. In practice:
+
+- Nothing is cited from memory. A DOI is checked at Crossref before it is
+  written down; a guessed DOI that resolves to another paper is worse than
+  none.
+- Each survey file gets a separate second pass that checks every citation
+  and claim and appends a `## Validation log`; only then is it committed as
+  validated. Structural claims carry `[read]` (primary text read) or
+  `[from abstract/standard account]`; doubtful items go under
+  `Unconfirmed`, never into the body as fact.
+- Credit the originator, not the populariser (e.g. β-δ discounting is
+  Phelps & Pollak before Laibson), and say when an idea or mapping is ours
+  rather than the source's.
+- Before anything leaves the repo, a whole-corpus DOI audit resolves every
+  DOI against Crossref and compares title and authors with the citing line.
+
 ## How it connects to the rest
 
 - Separate from the writing pipeline. Nothing here is drafted or published
