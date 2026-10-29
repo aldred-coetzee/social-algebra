@@ -74,7 +74,13 @@ collective dynamics of driven agents (mean-field games, panic, fear–epidemic
 coupling), collective action and team motivation, culture-scale drives and
 norm evolution, philosophy of the passions (Spinoza's geometric derivation
 of the affects, Hobbes, Hume, rasa, Abhidharma), and measuring drive
-dynamics. Each gets the same second pass, then one drive synthesis. The
+dynamics. Then, on *"look at things like predator prey models and what
+has been done with animal groups; I assume a lot of that is base
+applicable"*: `28` predator–prey and the ecology of fear (with transfers to
+human systems), `29` animal collective behaviour in depth, `30` ecological
+stability and resilience theorems (May, keystones, regime shifts), `31`
+ethology of signals as operators on another animal's drives. Each gets the
+same second pass, then one drive synthesis. The
 first survey's finding that frames this: drive dynamics exist for single
 agents, act algebras exist for groups, nobody has joined them.
 
