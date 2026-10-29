@@ -112,7 +112,10 @@ broad** — v0 equation set tested at three group sizes (3, 8–12, 100+) on one
 common outcome (holds together or splits, who leaves). **Batch 2 landed 2026-10-30** (files 083–094; 36 agents, 5.2M tokens;
 report and v0 proposal in `docs/batches/2026-10-30-…`). Ledger: 4,299 lines
 (seeded from 043–082 and the equation-set surveys, hygiene pass applied,
-batch 2 added; rules in `docs/ledger.md`). **Awaiting Aldred's decision:
+batch 2 added; rules in `docs/ledger.md`). **Licensing check done 2026-10-30** (Aldred asked before v0): rule in
+`CLAUDE.md`, audit and fixes in `docs/licensing.md`; repo licence is his
+choice before open-sourcing (CC BY 4.0 text, MIT or Apache-2.0 code).
+**Awaiting Aldred's decision:
 write `models/00-v0.md` now (three drives the evidence forces: set point,
 gated affiliation, goal; one outcome; three sizes; sa-backed terms marked
 inadmissible), or run the nine-source deep-read batch first.** Research iterations run back to back as workflow

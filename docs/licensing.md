@@ -394,3 +394,20 @@ Copied from the Licensing section of `CLAUDE.md`:
 - synthesis-brief.md (no items)
 
 Several other files, such as 047, 048, 069 and 072, were flagged only for missing licence records. That gap is the global one noted above.
+
+## Fixes applied, 2026-10-30
+
+One Sonnet agent per flagged file (92 files, commit 22fbac5): 8 removals
+(including the access-control workaround note in 038, with its two
+dependent `[read]` tags downgraded), 27 shortenings, 172 attributions
+(mostly CC BY-SA marks on Wikipedia-derived wording), 375 licence records
+for items whose verdict was check. Every file now ends with "Licences of
+quoted and transcribed material". The whole-corpus DOI audit was re-run
+after the edits: 2,125 DOIs, none newly broken; the eight that do not
+resolve are extraction artefacts or DOIs the files themselves disclaim as
+unused, except one completed by hand (065, the OUP volume).
+
+Still open: the licence of most quoted sources is "not determined;
+publisher copyright presumed" — safe under short-quotation use, but a
+future pass could confirm open-access licences (eLife, PLOS, PNAS open
+articles, arXiv) where they exist.
