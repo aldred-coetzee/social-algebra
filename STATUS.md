@@ -115,9 +115,14 @@ report and v0 proposal in `docs/batches/2026-10-30-…`). Ledger: 4,299 lines
 batch 2 added; rules in `docs/ledger.md`). **Licensing check done 2026-10-30** (Aldred asked before v0): rule in
 `CLAUDE.md`, audit and fixes in `docs/licensing.md`; repo licence is his
 choice before open-sourcing (CC BY 4.0 text, MIT or Apache-2.0 code).
-**Aldred, 2026-10-30: "write v0 and run the nine reads."** v0 being
-written (`models/00-v0.md`, Fable); batch 3 = the nine deep-reads
-(cluster V, files 095–103) running. Then: v0 provenance update, and the
+**Aldred, 2026-10-30: "write v0 and run the nine reads."** **`models/00-v0.md` written 2026-10-30** (320 lines; 84 ledger ids,
+58 admissible now, 24 marked ⚠ pending the reads; three drives: set
+point, gated affiliation, goal attraction; four candidate theorems, three
+refutation tests; merge/split of drive state declared absent). Spot-checked
+by this session: the D1 derivation, the θ_c = 2·arccos r identity and its
+three numeric checks, and the monotone-cascade theorem all hold. Batch 3 =
+the nine deep-reads (cluster V, files 095–103) running; when it lands, v0's
+⚠ marks are revisited. Then: v0 provenance update, and the
 question of what comes next goes back to him. Research iterations run back to back as workflow
 batches from `docs/research-map.md`: dive → separate validation pass →
 cross-check against existing files → commit → next batch. No synthesis and
