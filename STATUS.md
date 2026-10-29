@@ -52,13 +52,15 @@ short entries added and **not** second-passed: role theory (06), White's
 closest precedents and what each lacks, requirements R1-R11, six candidate
 formal homes with fit and cost, and ten open questions. No recommendation.
 
-**Next: Aldred's answers to the three gating questions** in
-`docs/synthesis-brief.md` (Q1 operands, Q4 quantities and affect, Q5
-dynamics; defaults offered by next-pattern). The other seven open questions
-at the end of the synthesis wait until those are answered. Then the first
-model file is `models/00-sorts-and-state.md`: sorts, the state each carries,
+**Gating questions answered 2026-10-29** (all three defaults taken; see
+`notes/2026-10-29-gating-decisions.md`): persons, roles, groups only;
+discrete relational state first; discrete nondeterministic turns with
+reachability claims.
+
+**Next:** `models/00-sorts-and-state.md` — sorts, the state each carries,
 membership as (person, group, role, time), every choice traced to an
-R-number or to Aldred's answer; operators after that. Whatever home is
-chosen, its primary texts get read in full, since the survey mostly did not.
+R-number or to Aldred's answer; operators after that. The other seven open
+questions are asked as each becomes load-bearing. Whatever home is chosen,
+its primary texts get read in full, since the survey mostly did not.
 
 No algebra of our own yet, deliberately.
