@@ -94,3 +94,11 @@ together or split, and who leaves**, so equations fitted at one size are
 tested at the others (the composition test). Composition at fixed size is
 varied only after the size test. Batch 2 is twelve targeted directions;
 the proposal is `docs/batches/2026-10-29-iteration-1-report-and-batch-2-proposal.md`.
+
+**2026-10-30, after the batch-2 report and the licensing check:** Aldred:
+*"write v0 and run the nine reads."* Both at once: `models/00-v0.md` is
+written against the ledger as it stands, with every term resting on an
+`sa` line marked inadmissible; batch 3 is exactly the nine deep-reads
+(research-map cluster V, D587–D595, files 095–103). When they land, v0's
+provenance is updated and the inadmissible marks lifted where the read
+confirms the claim.
