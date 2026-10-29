@@ -120,9 +120,19 @@ choice before open-sourcing (CC BY 4.0 text, MIT or Apache-2.0 code).
 point, gated affiliation, goal attraction; four candidate theorems, three
 refutation tests; merge/split of drive state declared absent). Spot-checked
 by this session: the D1 derivation, the θ_c = 2·arccos r identity and its
-three numeric checks, and the monotone-cascade theorem all hold. Batch 3 =
-the nine deep-reads (cluster V, files 095–103) running; when it lands, v0's
-⚠ marks are revisited. Then: v0 provenance update, and the
+three numeric checks, and the monotone-cascade theorem all hold. **Batch 3 landed and v0.1 written, 2026-10-30** (files 095–103; 11 of
+the nine sources' texts read in full, Harary 1953 not obtained, Mathieu and
+Walker & Hill abstract-level). v0.1: 144 ledger ids, 110 admissible, 21 ⚠,
+4 dropped; next-pattern's independent audit of v0 applied (citation
+hygiene, misquoted 050 basis, two theorems tightened). Changes that
+matter: the crowd gate is two-sided (Cantoni's substitutes refute a
+universal monotone threshold map); Altafini's dichotomy carries its exact
+hypotheses; dyad partner coupling is bounded tiny beside inertia, so
+"decoupling" is the rule at dyad scale; 6.1 proved in Euler turns; 6.4
+conjecture became a theorem. **Awaiting Aldred: what next** (candidates:
+name the instruments; an explicit-sign longitudinal triad dataset; the
+team-scale certificate test; or the independently built modelled
+population). Then: v0 provenance update, and the
 question of what comes next goes back to him. Research iterations run back to back as workflow
 batches from `docs/research-map.md`: dive → separate validation pass →
 cross-check against existing files → commit → next batch. No synthesis and
