@@ -254,3 +254,12 @@ All five items previously listed here were confirmed in the validation pass and 
 - Fabrications: none found; ✗ removed: only the unsupported "synchrony" finding.
 
 **Verdict.** Citations are reliable: every DOI resolved, no fabricated works, and the errors were minor (a co-author count, an initial, a wrong DOI already flagged by the author). The substantive weaknesses were interpretive: the survey under-read the Gelfand-Nau modelling programme, so it presented as unpublished a composition that the same group has partly done, and it missed that the Roos result rests on concave fitness rather than on anything fear-specific. Formulas other than the conformist-transmission equation and the Roos/De models remain standard-account and should be source-checked before entering a model.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+No passages were removed, shortened or re-attributed for this file; the audit returned three "check" items and no others.
+
+- Roos, Gelfand, Nau & Lun 2015, OBHDP (section A2, model procedure): journal article, publisher copyright (Elsevier); the open-access status of the author copy read is not determined. Use: a paraphrased restatement of the per-step simulation procedure, not verbatim. Not to be expanded into prose from the paper.
+- World Values Survey (section D1, Inglehart & Baker 2000): data licence and terms not determined here; publisher copyright presumed for the article. Use: dataset citation only, no data reproduced. If any WVS figures or derived datasets are added, record the WVS terms at that point.
+- HRAF hypothesis pages / eHRAF (section A1, the Jackson, Gelfand & Ember 2020 claim): not determined; eHRAF is believed to be subscription-only, publisher copyright presumed. Use: one finding cited, no text reproduced. The access route to the page is not recorded in this file.
+- All other sources in this file (Gelfand et al. 2011, Fincher et al. 2008, Boyd & Richerson, Henrich & Boyd, Boehm, Young, Bicchieri, Ostrom and the rest): not determined; publisher copyright presumed. Use: citations, facts, and restated equations or descriptions, not verbatim text.

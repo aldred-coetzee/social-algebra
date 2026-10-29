@@ -117,7 +117,7 @@ Di Bartolomeo, Dufwenberg, Papa & Passarelli, "Promises, expectations & causatio
 | Ederer & Stremitzer 2017 | Yes | Yes | Small positive; only under a promise |
 | Di Bartolomeo et al. 2019 | Yes | Yes | None for own-promise cell (51 vs 58 %); positive in two switched cells |
 
-Three patterns: (1) **the correlation is not good evidence** in either direction; (2) **where beliefs are shifted from outside the dictator's head, the sign is usually positive, but the size is small and cell-specific**; (3) **who the expectation belongs to and why it exists seems to matter** (promise, legitimacy) more than its magnitude. A search summary attributed to Khalmetski the gloss that people live up only to expectations "that appear to be legitimate"; the word does not occur in the accepted manuscript, whose own phrasing is that the effect appears when "high expectations can be rationalized from the sender's informational perspective". Use that wording, not the gloss.
+Three patterns: (1) **the correlation is not good evidence** in either direction; (2) **where beliefs are shifted from outside the dictator's head, the sign is usually positive, but the size is small and cell-specific**; (3) **who the expectation belongs to and why it exists seems to matter** (promise, legitimacy) more than its magnitude. An unnamed search summary (not the paper; its wording is quoted here only to reject it) attributed to Khalmetski the gloss that people live up only to expectations "that appear to be legitimate"; the word does not occur in the accepted manuscript, whose own phrasing is that the effect appears when "high expectations can be rationalized from the sender's informational perspective". Use that wording, not the gloss.
 
 ## 4. Operand/operator translation for the algebra
 
@@ -226,3 +226,20 @@ Checked against the other files in this directory by grep for the same works, au
 ### Result
 
 No numeric contradiction between this file and any validated file. One factual slip in this file (item 1), one open question that needs a primary source (item 2), and one coverage gap (item 3).
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+Licences below are not determined from the publisher pages; where no open licence was checked, publisher copyright is presumed. Nothing here is transcribed beyond short quotations, restated equations and prose descriptions of table values.
+
+| Source | Licence | How used |
+|---|---|---|
+| Charness & Dufwenberg 2006, Econometrica 74(6) | not determined; publisher copyright presumed | short quotations; values from Tables II-IV given as numbers in prose; restated model condition |
+| Vanberg 2008, Econometrica 76(6) | not determined; publisher copyright presumed | short quotations; values from Tables I and III given as numbers in prose |
+| Ellingsen et al. (WP 2007; GEB 2010) | not determined; publisher copyright presumed | reported correlations as numbers; no extended quotation |
+| Reuben, Sapienza & Zingales 2009, Economics Letters | not determined; publisher copyright presumed | reported means and test results as numbers |
+| Ederer & Stremitzer 2017, GEB (Cowles DP 1931R) | not determined; publisher copyright presumed | short quotations; restated, reconstructed equations |
+| Di Bartolomeo et al. 2019, GEB; Di Bartolomeo, Dufwenberg & Papa 2023, JESA (WP 215) | not determined; publisher copyright presumed | short quotations; Table 5 summarised in prose |
+| Khalmetski 2016, GEB; Khalmetski, Ockenfels & Werner 2015, JET (Bath accepted manuscripts) | not determined; publisher copyright presumed | short quotations (a 5-word phrase from an unnamed search summary, attributed as such and rejected; a phrase of about 10 words from the manuscript) |
+| Battigalli & Dufwenberg 2007, 2009; Bellemare et al. 2018, 2019; Ismayilov & Potters 2016 | not determined; publisher copyright presumed | citation and description only |
+
+The comparison table in section 3 is our own synthesis in prose-level values. No dataset is quoted, transcribed or reused.

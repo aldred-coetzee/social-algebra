@@ -123,7 +123,7 @@ Date: 2026-10-29. Survey for the social-algebra strand. Cluster: drives as dynam
 
 **Verified.** Bibliographic record and summaries only (search results from 1cademy, cybsafe, Wikipedia on preparedness).
 
-- **Claim.** Fear learning is selective: evolutionarily relevant stimuli (snakes, spiders, angry faces) condition faster and extinguish more slowly than neutral ones; the module is automatic and relatively immune to conscious control. Conditioned responses to masked fear-relevant stimuli have been reported.
+- **Claim.** Fear learning is selective: evolutionarily relevant stimuli (snakes, spiders, angry faces) condition faster and extinguish more slowly than neutral ones; the module is automatic and relatively immune to conscious control. Conditioned responses to masked fear-relevant stimuli have been reported. (Wording follows the Wikipedia article 'Preparedness', CC BY-SA 4.0.)
 - **Criticism.** Davey (1995, *Behavioral and Brain Sciences* 18(2), 289-297) argued the effect reflects information-processing biases, not preparedness.
 - **Empirical standing.** Disputed in the search results; I did not assess it.
 
@@ -190,7 +190,7 @@ Lerner, J. S. & Keltner, D. (2001). Fear, anger, and risk. *JPSP* 81(1), 146-159
 
 **Sources.** Girard's own books (*Deceit, Desire and the Novel*, 1961, and later) were not retrieved; the description comes from Wikipedia's mimetic-theory page (https://en.wikipedia.org/wiki/Mimetic_theory) and secondary pieces. Treat the theory itself as [from abstract/standard account].
 
-- **Structure.** Triangular: subject, model, object. Desire is copied from the model. The subject and model become rivals for the same object, and escalation can end in scapegoating.
+- **Structure.** Triangular: subject, model, object. Desire is copied from the model. The subject and model become rivals for the same object, and escalation can end in scapegoating. (Wording follows the Wikipedia article 'Mimetic theory', CC BY-SA 4.0.)
 - **Social transmission.** Inherent. The drive is defined by other people. This is the one drive in the cluster that cannot be written for a single agent.
 - **Empirical standing.** Girard's claims are literary and anthropological. I found no experimental test. Livingston, P. (1992), *Models of Desire: René Girard and the Psychology of Mimesis*, Johns Hopkins University Press (year corrected from 2020, which was the PhilArchive record date) is a rigorous reconstruction of Girard against cognitive psychology; not read.
 - **Formal models.** *Identified in validation (PDF text extracted):* Antunes, L., Nunes, D. & Coelho, H. (2014). "The Geometry of Desire." *Proc. AAMAS 2014* (Paris), pp. 1169-1172 (https://ifmas.csc.liv.ac.uk/Proceedings/aamas2014/aamas/p1169.pdf). It proposes a BDI-style model of desire acquisition in which agents adopt goals by envy, imitation and competition after Girard (subject/mediator/object, double mediation). It is a **short position/design paper: no equations and no simulation results**. Also found: an unreviewed NetLogo agent-based model of Girardian scapegoating on the CoMSES library (tension spreads on a small-world network; past a threshold, leaders accuse marginal agents; collective tension falls). Neither is a tested mathematical model of mimetic desire.
@@ -202,7 +202,7 @@ Lerner, J. S. & Keltner, D. (2001). Fear, anger, and risk. *JPSP* 81(1), 146-159
 
 ### D1. Panksepp's seven systems
 
-Panksepp's affective neuroscience lists seven primary emotional command systems: SEEKING, FEAR, RAGE, LUST, CARE, PANIC/GRIEF, PLAY (https://wiki.p2pfoundation.net/Panksepp's_Seven_Basic_Emotions; Wikipedia Jaak Panksepp page; PLoS ONE 2011 summary, https://doaj.org/article/741e0a4592d74458ad61efefd3c74e53). **Verified** at summary level only; I did not find the primary book (Panksepp 1998, *Affective Neuroscience*, OUP, recalled).
+Panksepp's affective neuroscience lists seven primary emotional command systems: SEEKING, FEAR, RAGE, LUST, CARE, PANIC/GRIEF, PLAY (framing sentence follows the Wikipedia article 'Jaak Panksepp', CC BY-SA 4.0; the seven names are factual; https://wiki.p2pfoundation.net/Panksepp's_Seven_Basic_Emotions; Wikipedia Jaak Panksepp page; PLoS ONE 2011 summary, https://doaj.org/article/741e0a4592d74458ad61efefd3c74e53). **Verified** at summary level only; I did not find the primary book (Panksepp 1998, *Affective Neuroscience*, OUP, recalled).
 
 - Mapped mainly by brain stimulation, pharmacology and lesions in mammals. He judged evidence insufficient to include social dominance as a primary system.
 - **Critique.** Barrett calls the hard-wired-from-birth claim a hypothesis.
@@ -410,3 +410,17 @@ Not found: any study measuring status against belonging directly (the "status vs
 - No fabrications found: every cited work exists.
 
 **Verdict.** Bibliographically the survey is sound — every work exists and the recalled volume/page details were right — and it was honest about what it had not read. Its weaknesses were interpretive: it overstated the formality of the fear literature, misread the 2025 power meta-analysis's conclusion, mis-attributed the curiosity inverted U, and filled several matrix cells with sources that do not show the interaction claimed. Use the revised matrix, not the draft's, and treat every [T] cell as a hypothesis.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+No verbatim quotation over a short phrase, no transcribed table and no dataset is in this file; the audit's flagged items are handled as below.
+
+- Wikipedia, 'Mimetic theory' (B/C3 Girard structure bullet): CC BY-SA 4.0; description of a theory in wording that follows the article, now marked in the text.
+- Wikipedia, 'Preparedness' (B3 Ohman & Mineka claim bullet): CC BY-SA 4.0; summary-level description, now marked in the text.
+- Wikipedia, 'Jaak Panksepp' (D1 framing sentence): CC BY-SA 4.0; the list of seven system names is factual, the framing is marked in the text.
+- P2P Foundation wiki, Panksepp's seven basic emotions (D1): not determined; used as a citation for the factual list only.
+- Panksepp (1998), *Affective Neuroscience*, OUP: publisher copyright presumed; cited, not read, nothing reproduced.
+- Anderson, Hildreth & Howland (2015), Psychological Bulletin (D2): publisher copyright (APA); abstract-level paraphrase in our own words. Flagged "check": wording to be confirmed as the file's own before the repo is opened.
+- Keltner, Gruenfeld & Anderson (2003), Psychological Review (D4): publisher copyright (APA); abstract-level paraphrase, same "check" flag.
+- Antunes, Nunes & Coelho (2014), AAMAS: not determined; publisher copyright presumed; described, not quoted.
+- All other sources (Berlyne, Gruber et al., Kidd et al., Gottlieb et al., Oudeyer & Kaplan, LeDoux & Pine, Mobbs et al., Klein et al., Haaf et al., Baumeister & Leary, and the rest): not determined; publisher copyright presumed (open-access licences, e.g. PMC or PLoS ONE items, not individually checked). Used as citations with descriptions of findings and figures; no restated equations.

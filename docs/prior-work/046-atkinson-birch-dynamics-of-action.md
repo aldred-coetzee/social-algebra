@@ -272,3 +272,19 @@ Method: grepped every other file in this directory for Atkinson, Birch, Revelle,
 5. **Revelle's reference to Kuhl & Blankenship (1979).** 46 notes the draft prints Psych. Rev. 85, 239-248 against Crossref 86(2), 141-151. No other file cites it, so no conflict; recorded so 16 and 34 are not later seeded with the misprint.
 
 No file contradicts 046 on any equation, number or DOI. All real clashes are in 16 section 6 (items 1, 2, 4) and are staleness or scope, already flagged inside 046; 16 itself was not edited, per the task.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+Audit result: every flagged item had verdict "check", so no text was changed. Each source is listed with the licence as determined and how this file uses it.
+
+| Source | Licence as determined | Use in this file |
+|---|---|---|
+| Revelle (2008), "Cues, Tendencies and Actions", working draft 10/10/08 (cta.pdf, with R code) | Not determined; publisher copyright presumed (unpublished author draft, no licence recorded) | Short quotations (8 to 19 words each: Table 1 row T, Eq. 5 negaction text, selection sentence, Fig. 2 and Fig. 5 captions, the "What 16 said" passage, repeated in Cross-checks); restated equations; the section 1.1 vocabulary table is a description of Table 1's role column, not a copy. Keep only once a licence is recorded, or reduce to paraphrase. |
+| Revelle & Condon (2015), author draft of "A model for personality at three levels", J. Research in Personality 56 | Not determined; publisher copyright presumed (draft header reads "Please do not cite without ..."; published version not checked) | Short quotations (8 to 29 words: Fig. 2 caption, Table 3 passage, section 5 first bullet, repeated in Cross-checks). Check the published version's wording or licence, or paraphrase, before open-sourcing. |
+| Blankenship, Tumlinson & Sims (1995), Behav. Res. Methods, Instruments, & Computers 27(2) | Not determined; publisher copyright presumed (Springer) | Read in full; restated equations and values only. Access route to the Springer PDF not recorded: confirm it was legitimate. |
+| Slade & Rush (1991), J. Personality and Social Psychology 60(1) | Not determined; publisher copyright presumed (APA); the copy read came from an unofficial third-party host | Introduction read; claims reported in our own words. Confirm the copy was legitimately obtained; keep the text out of the repo. |
+| Blankenship (1992); Kuhl & Blankenship (1979); Revelle & Michaels (1976); Revelle (1986) | Not determined; publisher copyright presumed | Dataset-style citation only (title, venue, pages, DOI); not read or not reproduced. |
+| Atkinson (1957); Antill (1974) abstract; Atkinson & Birch (1970, 1974) | Not determined; publisher copyright presumed | Citation and restated equations only. The 1970 book was not read; the A&B 1970 characterisation is second-hand via Revelle. |
+| psych::cta documentation (R, rdocumentation.org) | Not determined; package documentation (psych is GPL-licensed software, documentation licence not checked) | Short title phrase and reference-list facts only. |
+
+Open items before open-sourcing: record or confirm the Revelle draft licences, check the published 2015 version, and confirm legitimate access to the Springer and Slade & Rush copies (readable copy provenance; re-read needed if not).

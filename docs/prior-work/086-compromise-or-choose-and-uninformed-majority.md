@@ -292,3 +292,20 @@ Checked against the other prior-work files by grep for each work, author and key
 **Related, not the same work.** `091-group-size-scaling-thresholds-and-what-is-held-fixed.md` section 4 reads Kao & Couzin 2014 (group size and decision accuracy). It is a different paper by one of the same authors and bears on the group-size question here. Not a duplicate; no claim is shared.
 
 **Ledger.** Returned to the orchestrating step as structured lines (provenance taken as tagged here: [read] as `read`; abstract-only and [sa] as `sa`; [derived] lines carry the provenance of the [read] equation they come from, with the derived step in the note). Nothing committed.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+Every flagged item in the licensing audit for this file has verdict "check", so no text above was changed. Licences below are "not determined; publisher copyright presumed" unless stated. Use of each source is short attributed quotation, restated equation, description of a figure or table, or summary statistics only. No table, dataset or figure is reproduced.
+
+- Leonard et al. 2012, *PNAS* 109(1) 227-232 (Princeton author PDF; PMC3252942 copy). Licence: not determined; publisher copyright presumed. Use: equations 1-10 restated, worked numbers, short quotations ("glue", preference-weight sentence, and two short phrases attributed to the SI).
+- Couzin et al. 2011, *Science* 334, 1578-1580 (Konstanz repository copy). Licence: not determined; publisher copyright (AAAS) presumed. Use: short quotations; the Fig. 2B caption is described in our own words, not copied; fish-trial statistics cited as summary numbers.
+- Strandburg-Peshkin et al. 2015, *Science* 348, 1358-1361 (Konstanz repository copy). Licence: not determined; publisher copyright (AAAS) presumed. Use: short quotations (under 30 words each); GPS data cited as summary statistics only. The underlying data licence is unknown and must be recorded before any fitting.
+- Conradt & Roper 2005, *Trends Ecol. Evol.* 20, 449-456 (paywalled). Licence: publisher copyright (Elsevier) presumed. Use: short attributed quotations (section 4). Open item: the validation log says the full text was read from a "third-party copy of the published PDF" without recording where it came from. Provenance must be recorded, or the review re-read from an authorised source, before the section 4 quotations are kept; until then treat them as unconfirmed for licensing purposes.
+- Conradt & Roper 2003, *Nature* 421, 155-158 (paywalled; body not read). Licence: publisher copyright presumed. Use: three short quotations from the abstract as shown at Europe PMC.
+- Dyer et al. 2009, *Phil. Trans. R. Soc. B* 364, 781-789. Licence: not determined; publisher copyright (Royal Society) presumed. Use: one abstract quotation of about 31 words. Open item: the wording should be checked verbatim against the abstract at source, since the same paragraph notes the page was read through a tool summary.
+- Pinkoviezky, Couzin & Gov 2018, *Phys. Rev. E* 97, 032304. Licence: not determined; publisher copyright (APS) presumed. Use: one abstract quotation of about 17 words. Open item: confirm the wording at source.
+- Sridhar et al. 2021, *PNAS* 118(50). Licence: not determined; publisher copyright presumed. Use: abstract content paraphrased; no quotation.
+- Couzin et al. 2011 abstract wording in Cross-checks (about 18 words, carried over from file 29, not read in this file). Licence: publisher copyright (AAAS) presumed. Open item: verify verbatim at source.
+- Couzin et al. 2005, Dyer et al. 2008, Nabet 2009 thesis: cited only; nothing quoted or transcribed.
+
+Wording checks recorded, text not changed: the line-84 quotation attributed to the Leonard SI (the file elsewhere says the SI was not read) needs its source confirmed; the Strandburg-Peshkin phrase "agnostic to intention and motivation" appears in two slightly different forms (one with "individual") and one is wrong; fix against the source on the next read.

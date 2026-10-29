@@ -18,7 +18,7 @@ Date: 2026-10-29. Kind: deep-read. Question: can despair / learned helplessness 
 
 **Drives/operands.** Not drives in the algebra's sense. Operands are neural states: DRN serotonergic activity (passivity, heightened fear), and a control-detection / control-expectation signal in mPFC and the vmPFC-DRN pathway.
 
-**Original theory [read, as relayed by the fetch].** Three groups; the next day in a shuttlebox about two-thirds of inescapable-shock animals failed to escape, while about 90% of escapable and no-shock animals learned. Abstract's original claim: animals learned that outcomes were independent of their responses, "that nothing they did mattered". Original dog study used 64 shocks, each preceded by a tone.
+**Original theory [read, as relayed by the fetch].** Three groups; the next day in a shuttlebox about two-thirds of inescapable-shock animals failed to escape, while about 90% of escapable and no-shock animals learned. The original claim as stated in the abstract of Maier & Seligman 2016 (Psychological Review): animals learned that outcomes were independent of their responses, "that nothing they did mattered". Original dog study used 64 shocks, each preceded by a tone.
 
 **Revised theory [read].** Quotes as relayed: passivity "is not learned"; it is "the default, unlearned response to prolonged aversive events"; "excitation of the dorsal raphe nucleus is necessary and sufficient for passivity and heightened fear"; "the detection of uncontrollability is not necessary nor is it sufficient for passivity"; end of article: "passivity and heightened anxiety are the default mammalian reaction to prolonged bad events", with the top-down vmPFC-DRN circuitry acting to inhibit it. What is learned is that bad events can be controlled.
 
@@ -104,7 +104,7 @@ Date: 2026-10-29. Kind: deep-read. Question: can despair / learned helplessness 
 **Empirical standing, blunt.**
 - 2014 PNAS is between-person: higher indicators at baseline in people who later changed state. Bos & De Jonge titled their reply that the idea "still needs empirical proof", and the authors' reply says between-subject data give "first empirical support". The within-person claim is a separate question.
 - 2016 is n = 1 and a pharmacological withdrawal, not a natural onset.
-- Dablander et al. 2023 (simulation of a bistable system varying sampling frequency, noise and approach speed): whether EWS occur "strongly depends on the specifics of the system", contrasting with their reputation as "generic or model-agnostic", and they are "very sensitive to noise" [abstract, via Europe PMC record in validation; quote wording corrected].
+- Dablander et al. 2023 (simulation of a bistable system varying sampling frequency, noise and approach speed): whether EWS occur "strongly depends on the specifics of the system", contrasting with the field's reputation as "generic or model-agnostic" (the phrase as quoted in the Dablander et al. 2023 abstract), and they are "very sensitive to noise" [abstract, via Europe PMC record in validation; quote wording corrected].
 - Smit et al. 2025: 37 formerly depressed individuals **discontinuing antidepressant medication**, ecological momentary assessments five times a day for 4 months (about 524 per person); EWS (rising window autocorrelation and variance) preceded recurrence in **32.9%** of participants across robustness checks; recurrence cases showed significantly more positive trends in variance but **not** in autocorrelation, and more than three times as many significant EWS on average; the authors call the low sensitivity "a substantial challenge for clinical applications" [abstract, read from Crossref in validation; full paper not read]. Like Wichers 2016, this is a medication-discontinuation design. A third search summary mentions a 2024 relapse study (Tonge and colleagues) and a 2025 bipolar preprint (Ludwig et al.); neither was verified.
 - Net: CSD in depression is a live, partly supported, weakly sensitive hypothesis. It has not been replicated as a clinically usable predictor.
 
@@ -213,3 +213,14 @@ Checked against the other prior-work files by grep on the same works, authors, e
 7. **Brain regions in Maier & Seligman.** 42 states the abstract assigns detection of control to medial PFC and the expectation of control to the vmPFC-DRN pathway. 53 section 1 uses "prelimbic / mPFC" and "vmPFC-DRN pathway" and its model (section 5) has c gating P. This matches 42's corrected wording; no conflict.
 
 No file was found to contradict 53 on a point where 53 is wrong. The two items that need a fix in 53 are the missing Helmich 2023 and 2024 evidence (item 3) and the 1,474 versus 1,478 note (item 1).
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+- Maier & Seligman 2016, Psychological Review 123(4) (full text on PMC4920136): not determined; publisher copyright presumed. Used as short quotations (each under 60 words, attributed) and description of findings.
+- Huys, Vogelstein & Dayan 2008 (NeurIPS proceedings): not determined; publisher copyright presumed. Used as restated equations 1-5 and one short quotation; the heading says "transcribed", but the content is the file's own notation and notes (checked, text unchanged).
+- Abramson, Metalsky & Alloy 1989 (Psychological Review): not determined; publisher copyright presumed. Used as description only, via secondary search summaries.
+- Scheffer et al. 2009 and van de Leemput et al. 2014 (PNAS): not determined; publisher copyright presumed. Used as short abstract quotations and description.
+- Wichers & Groot 2016: not determined; publisher copyright presumed. Used as description and two short quotations.
+- Dablander et al. 2023 and Smit et al. 2025: abstracts read via Europe PMC and Crossref; licence not determined; publisher copyright presumed. Used as short quotations and a restated numeric result.
+- Wichers & Groot dataset (Journal of Open Psychology Data, 10.5334/jopd.29): licence not determined; used only as a numeric cross-check (1,478 measurements, 239 days), nothing redistributed.
+- Generic critical-slowing-down theory (dx/dt = f(x, p), fold bifurcation, eigenvalue to zero) in sections 1, 3 and 4: standard textbook account in the file's own words; no copied wording found. Wikipedia's critical-slowing-down and learned-helplessness articles (CC BY-SA 4.0) are possible common sources; if wording is ever found to follow them, mark it "(wording follows the Wikipedia article '<title>', CC BY-SA 4.0)".

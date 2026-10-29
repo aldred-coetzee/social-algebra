@@ -178,3 +178,19 @@ Method: grepped the other files in this directory for the same works, authors, e
 5. **Minor: 079 Section 4 Lafit et al. versus file 80 Section 4 power arithmetic.** Different methods (Monte Carlo for multilevel fixed effects versus Fisher-z N for one correlation). Not in conflict; flagged so neither number is read as a rule for the other.
 
 No numerical or equation contradiction was found between 079 and the other files. Items 1, 2, 3 and 4 are the changes a reader should carry; none requires editing 079's validated body.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+No passage in this file was removed, shortened or re-attributed by the licensing audit; the audit verdicts were all "check". The quotations are single phrases or sentences (under 60 words), and no table or list was transcribed.
+
+| Source | Licence | How used |
+|---|---|---|
+| Brunton, Proctor & Kutz (2016), PNAS (arXiv v1 read) | not determined; publisher copyright presumed (arXiv licence of v1 not recorded) | restated equations and short quotations |
+| Fasel, Kutz, Brunton & Brunton (2022), Proc. R. Soc. A 478(2260) (arXiv v1 read) | not determined; publisher copyright presumed | short quotations ("enabling model identification...", the data-uncertainty caveat); numbers and settings restated |
+| Hudson Bay lynx and hare pelt counts, 1900-1920 (Hudson's Bay Company records, as used by Fasel et al.) | not determined; provenance is historical company records and the dataset is not reproduced here | dataset citation only (21 points per species named, no values) |
+| Ryan, Kuiper & Hamaker (2018), pre-print (OSF ukdv3) | not determined; publisher copyright presumed | one short quotation on the matrix logarithm; restated equations |
+| Boker line (latent differential equations) | not determined; publisher copyright presumed | description only |
+| Lafit et al. (2021), AMPPS 4(1) | not determined; publisher copyright presumed | description of the method and worked case (Illustration 1), numbers restated |
+| Clinical dataset used by Lafit et al. 2021 | not determined; not reproduced | dataset citation only |
+| Oravecz, Tuerlinckx & Vandekerckhove (2011), Psychological Methods 16 | not determined; publisher copyright presumed | citation only |
+| Section 5 derivations and simulation | own work, no third-party material | n/a |

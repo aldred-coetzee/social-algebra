@@ -26,13 +26,7 @@ Date: 2026-10-29. Kind: data (with a cross-check of file 03's ACT section). Cros
 
 **Exact feature vector for the agent's turn, as printed by Hoey et al. eq. (3), which they give as their rewriting of Heise (2007) eq. (11.16)** [read; subscripts: a actor, b behaviour, c object/client; e, p, a = E, P, A; "tau_ae" = transient evaluation of the actor; "f_be" = fundamental evaluation of the behaviour]. G has 29 entries in this order: 1, tau_ae, tau_ap, tau_aa, f_be, f_bp, f_ba, tau_ce, tau_cp, tau_ca, then the two-way products tau_ae f_be, tau_ae f_bp, tau_ae tau_ce, tau_ae tau_cp, tau_ap f_be, tau_ap f_bp, tau_ap tau_cp, tau_ap tau_ca, tau_aa f_ba, tau_ce f_be, tau_cp f_be, tau_ce f_bp, tau_cp f_bp, tau_ca f_bp, tau_cp f_ba, and the three-way products tau_ae tau_ce f_be, tau_ae tau_cp f_bp, tau_ap tau_cp f_bp, tau_ap tau_ca f_bp. (My reading of the PDF text extraction; the extraction mangled the layout, so exact ordering of a few middle terms should be re-checked against the paper before coding. The count of 29 and the use of monomials up to degree 3 are stated explicitly [read].)
 
-**Troyer's printed example, the equation for the transient evaluation of the actor** [read, Troyer 2004, attributed there to Smith-Lovin 1987]:
-
-    A_e' = c1 A_e + c2 A_p + c3 A_a + c4 B_e + c5 B_p + c6 B_a + c7 O_e + c8 O_p + c9 O_a
-         + c10 A_a B_e + c11 B_a O_e + c12 A_p B_p + c13 B_p O_p + c14 A_a B_a + c15 A_e B_p
-         + c16 A_e B_a + c17 A_p B_e + c18 A_p O_a + c19 B_e O_p + c20 B_p O_e + c21 B_p O_a
-         + c22 B_a O_e + c23 B_a O_p + c24 A_e B_e O_e + c25 A_p B_p O_p + c26 A_a B_a O_a
-         + c27 A_e B_p O_p + c28 A_p B_p O_a + e
+**Troyer's printed example, the equation for the transient evaluation of the actor** [read, Troyer 2004, attributed there to Smith-Lovin 1987]: described here rather than copied. It is a linear regression of the actor's post-event evaluation on the nine pre-event EPA values (E, P, A of actor A, behaviour B, object O; coefficients c1..c9), plus 19 selected products of those values (14 two-way, c10..c23, and 5 three-way, c24..c28), with no constant term and an error term e. The products mix actor x behaviour, behaviour x object and (once) actor x object terms.
 
 (28 coefficients c1..c28 plus error e, no constant; transcription re-checked against the PDF in validation. The source itself lists B_a O_e twice, as c11 and c22, so as printed it has 27 distinct terms: a typo in Troyer, not in this file. Troyer does not print coefficient values.) **Corrected in validation:** the coefficient values *are* published and machine-readable: Interact's "View equations" screen shows them (guide, "Handling Equations"), and Aidan Combs's R package *actdata* (github.com/ahcombs/actdata, CC0 package licence) ships them as `data-raw/eqns/<set>_<kind>_<sex>.dat`, in Interact's Z-pattern format (one row per term, a 0/1 string over Ae Ap Aa Be Bp Ba Oe Op Oa, then one coefficient column per predicted component). Sets present: nc1978, japan1984, canada1985, canada20012003, china2000, germany2007, us2010, egypt2014, morocco2015, each with impressionabo, impressionabos, selfdir, traitid, emotionid, male and female. Example, us2010 ABO male, constant row: `Z000000000 -0.16 -0.06 -0.05 -0.26 0.09 0.21 -0.18 0.00 -0.14` [read]. **Also corrected:** the earlier note that Troyer's A, B, O are "fundamental" ratings while Hoey uses transients is a false contrast. The Interact guide defines the regressors as *pre-event* impressions of A, B, O; for a first event these equal fundamentals, and Hoey's G uses previous transients for actor and object and the new fundamental for behaviour, which is the same thing. What does differ is the **term set**: Troyer's equation (from Smith-Lovin 1987) and Hoey's G (from Heise 2007) share the shape (constant/linear terms plus selected two- and three-way products, 28 non-constant terms each) but not the terms (e.g. Troyer has A_a B_e, A_e B_a, A_a B_a O_a; Hoey's G has A x O products tau_ae tau_ce, tau_ae tau_cp absent from Troyer). Different estimations, different selected terms.
 
@@ -40,7 +34,7 @@ Date: 2026-10-29. Kind: data (with a cross-check of file 03's ACT section). Cros
 
 **Equation families.** Interact carries separate coefficient sets for: U.S.A. 1978, Japan 1984, Canada 1985, China 2000 (listed in the menu), Germany 2007; and notes US 1970s equations are used for Irish and Chinese analyses, Canadian 1990s equations for Canada, Japanese 1990s for Japan, German 2007 for Germany; male and female equation sets exist [read, guide, "Changing Cultures" and "Impression-formation Equations"]. The guide states the ABO equations "were obtained in two phases" and that ABOS equations came from stepwise regression, and that methodological differences may produce differences in results [read, guide footnote 5]. Nuance: the guide's menu list (1978, 1984, 1985, 2000, 2007) and the running-text list (1990s Canada and Japan) disagree on dates inside the same document. I have not resolved which is right. (Validation: the *actdata* equation files are labelled canada1985 and japan1984, matching the menu, and the guide's own Cultures page dates the Canadian data to "the mid-1980s", so the running text's "1990s" looks like the error; the Japanese ratings, though, run 1989-1996 per that page, so it is not settled. Hoey et al. say impression-formation equations exist for English, Japanese and German [read].)
 
-**Modifier and emotion equations.** Emotions are a function of the transient impression of self and its difference from the fundamental identity sentiment; separate empirically derived equations. Hoey et al. (§3.2 in the arXiv v2 text) cite only Heise 2007 ch. 14 for these [read]. Averett & Heise 1987 (above) and Heise, D. R. & Thomas, L. (1989), Predicting impressions created by combinations of emotion and social identity, *Social Psychology Quarterly* 52, 141-, doi:10.2307/2786913 exist (Crossref) but were not opened; their attribution to emotion/amalgamation equations is from Wikipedia. Coefficients: the emotionid/traitid sets in *actdata* (see §2).
+**Modifier and emotion equations.** Emotions are a function of the transient impression of self and its difference from the fundamental identity sentiment; separate empirically derived equations. Hoey et al. (§3.2 in the arXiv v2 text) cite only Heise 2007 ch. 14 for these [read]. Averett & Heise 1987 (above) and Heise, D. R. & Thomas, L. (1989), Predicting impressions created by combinations of emotion and social identity, *Social Psychology Quarterly* 52, 141-, doi:10.2307/2786913 exist (Crossref) but were not opened; their attribution to emotion/amalgamation equations is from Wikipedia (wording follows the Wikipedia article 'Affect control theory', CC BY-SA 4.0). Coefficients: the emotionid/traitid sets in *actdata* (see §2).
 
 ## 3. Deflection and the control principle
 
@@ -127,7 +121,7 @@ Evidence cited by Hoey et al. [read as citations only; papers not opened]:
 
 - Written by Heise; first version 1972, PL/1; Java applet since 1997; current Interact.jar; features added over time: labelling 1975, settings and modifiers 1980, attributions and emotions 1984, cross-national data 1991, facial-expression display 1996, a learning capability 2005, self-sentiment/identity-actualisation 2007 [read, guide history].
 - Heise's anecdote: the first run, "Bob insults Mac; what will Mac do?", output "Mac hits Bob" and the author "didn't have much hope" it would work [read]. Anecdote, not evidence.
-- Links named in sources: indiana.edu/~socpsy/ACT (original; Hoey et al. 2013), cs.uwaterloo.ca/~jhoey/research/ACTBackup (mirror), affectcontroltheory.org, bayesact.ca (the last two from Wikipedia).
+- Links named in sources: indiana.edu/~socpsy/ACT (original; Hoey et al. 2013), cs.uwaterloo.ca/~jhoey/research/ACTBackup (mirror), affectcontroltheory.org, bayesact.ca (the last two from Wikipedia; wording follows the Wikipedia article 'Affect control theory', CC BY-SA 4.0).
 - The guide's terms: noncommercial research use.
 
 ## 8. Operand/operator translation for the algebra
@@ -158,7 +152,7 @@ File 03 says the ACT equation form was "from the validator's knowledge" and not 
 - Effect sizes or accuracy figures for the leadership, non-verbal and turn-taking studies (not opened).
 - The "eleven repositories" versus 18 listed datasets: the guide's older count against the hub's newer list.
 - ~~Whether Heise 2010 *Surveying Cultures* is the book cited~~ Resolved: Crossref doi:10.1002/9780470575789 is Heise, *Surveying Cultures*, Wiley, online 2009-12-23; Hoey et al. cite "Surveying Cultures: Discovering Shared Conceptions and Sentiments. Wiley, 2010", the same book (print year 2010).
-- Schröder (2011) as a source of emotion equations (from Wikipedia; not identified on Crossref in this pass).
+- Schröder (2011) as a source of emotion equations (from Wikipedia; wording follows the Wikipedia article 'Affect control theory', CC BY-SA 4.0; not identified on Crossref in this pass).
 - "No independent meta-analysis / no independent test" (Summary, §6, §9): not re-tested in validation, because the shared web-search budget was exhausted before this check; treat as the original author's negative finding, unverified.
 
 ## Validation log (2026-10-29)
@@ -207,3 +201,22 @@ Checked against the other files in this directory (grep for ACT, Heise, Hoey, Tr
 - 045 Validation log says Heise 2007 *Expressive Order* was "not opened, no DOI checked". 03 section 2 records doi:10.1007/978-0-387-38179-4 as Crossref-confirmed. Take that DOI from 03.
 - 06 gives Heise 1979 with "no DOI checked"; 03 marks it secondary (Wikipedia). 045 does not cite it. Nothing to reconcile.
 - No other file (16, 19, 20, 42, 059, 082, 050) cites ACT, Hoey, Troyer, Smith-Lovin or the dictionaries, so 045's dictionary sizes, deflection definition and BayesACT study numbers have no second source in the directory.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+Audit applied 2026-10-30. Changes: Troyer's displayed equation replaced by a description of its term set; three Wikipedia-derived items marked CC BY-SA 4.0. Items marked "check" were left unchanged and are recorded here.
+
+| Source | Licence as determined | How used |
+|---|---|---|
+| Troyer 2004, AAAI Spring Symposium SS-04-02 | not determined; publisher copyright presumed | description of the equation's term set (equation itself no longer copied); short factual details (rater count, Table 2 deflections) |
+| Smith-Lovin 1987, *J. Math. Sociol.* (and the other 1981-1989 journal articles) | not determined; publisher copyright presumed | citations only |
+| Hoey, Schroder & Alhothali, arXiv 1306.5279 (and AIJ 2016, ACII 2013) | arXiv preprint; licence not determined; publisher copyright presumed for the journal versions | restated equations (eq. 1, 5, 7, 8, 13, 18, 46, 49); the 29-term feature vector of eq. (3) is an enumerated list (flagged "check": keep only once the arXiv licence is confirmed, otherwise reduce to a description); one short quotation on deflection and likelihood; study numbers as facts |
+| Heise 2007, *Expressive Order* (Springer) | not determined; publisher copyright presumed (paywalled, not read) | equation numbers cited via Hoey et al.; the closed-form optimum in section 3 is a near-transcription of Hoey et al. (flagged "check": confirm it is in the file's own notation or restate) |
+| Heise, Interact guide (Indiana / cs.uwaterloo.ca mirror) | publisher copyright (Heise/Indiana); terms: noncommercial research use only | short quotations, facts and example values (child EPA, deflection figures); terms of use cited |
+| affectcontroltheory.org dataset hub (14-row table) | not determined; publisher copyright presumed; hub licence unknown | description of the table of dictionaries (country, name, year); flagged "check": record the licence or reduce to prose before open-sourcing |
+| Indiana 2003 dictionary (Francis & Heise) | not stated on the page; guide terms say noncommercial research use only | dataset citation (sizes only); public redistribution would need permission |
+| West Germany 1989 dictionary (Schneider) | not stated on the page; not determined; publisher copyright presumed | dataset citation (sizes only) |
+| Other 16 hub dictionaries | not determined; publisher copyright presumed | named only; check each before adding any facts or numbers |
+| actdata R package (Aidan Combs, github.com/ahcombs/actdata) | CC0-1.0 for the package as stated in the file; the underlying coefficients derive from Interact, whose terms are noncommercial research only, so the position is unresolved | dataset citation; one example row quoted as a fact (us2010 ABO male constant row) |
+| Wikipedia, 'Affect control theory' | CC BY-SA 4.0 | three attributions and two URLs, marked in the text as following the article's wording |
+| Crossref (api.crossref.org) | metadata, CC0 | DOIs and bibliographic details |

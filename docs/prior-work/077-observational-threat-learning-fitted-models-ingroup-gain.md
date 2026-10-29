@@ -31,7 +31,7 @@ Date: 2026-10-29. Kind: deep-read. Cluster: social transmission of fear as an op
 
 **Model comparison [read].** Compared by AIC weights (wAIC); the dotted line is wAIC = 0.95. Observational learning (Exp 2) was best explained by the competing-systems model against alternatives (outcome bonus, confirmation bias, instructed-learning-D, prior model) from the advice-taking literature (Biele et al. 2009, 2011; Li et al. 2011; Doll et al. 2009). Instructed learning (Exp 3) was best explained by a prior model, in which instruction sets initial instrumental action values via a free parameter. The paper states Bayesian random-effects comparison converges (SI). The main text says the two social routes "rest on distinct computational mechanisms".
 
-**What the paper does not contain.** There is no demonstrator-identity term, no in-group parameter, no observational learning rate separate from the direct one that I could see, no softmax temperature in the main text. The demonstrator is the same person-type for everyone. The model's social input is simply "the cue was followed by a shock for the demonstrator".
+**What the paper does not contain.** There is no demonstrator-identity term, no in-group parameter, no observational learning rate separate from the direct one that I could see, no softmax temperature in the main text. The demonstrator is the same person-type for everyone. The model's social input, in the wording of Lindström et al. 2019 (PNAS 116(10), main text), is simply "the cue was followed by a shock for the demonstrator".
 
 **Empirical standing, bluntly.** Three experiments of 40, one lab, one population (a Stockholm sample, mean age 26; the main text does not say students). The key "same controller" claim for observational vs Pavlovian rests on a null (omega not different from 0.5 and no Group x Experiment interaction), which with n = 40 per arm cannot establish equivalence (no equivalence test is reported in the main text). The instructed-learning result contradicted the authors' own prediction (they predicted it would not transfer; it did), and the model explaining it was found post hoc by comparing to published alternatives. No external replication found. Open data exist, so refit is possible.
 
@@ -147,3 +147,19 @@ Method: grepped every other file in this directory for Lindström, Golkar, Olsso
 
 ### Not checkable against other files
 Lindström 2019 omega 0.49/0.5, the GLMM betas, the reversal chi-squares and W = 295.5; Lindström, Selbing & Olsson 2016 Eqs 3-5 (alpha = 0.3, R = -1000); Golkar & Olsson 2017 statistics; the neighbouring works in section 5 (Haaker 2016 and 2017, Pärnamets 2018, Golkar, Björnstjerna & Olsson 2015). None occur in any other file. The Haaker 2017 in file 22 is the Nature Protocols paper (Haaker, Golkar, Selbing, Olsson), not the Nat Commun opioid paper in 077; they are two distinct works.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+Each source quoted, restated or taken from a dataset in this file. All quotations are under 60 words and attributed; no table or list is transcribed.
+
+- **Lindström, Golkar, Jangard, Tobler & Olsson 2019, PNAS 116(10):4732-4737** (PMC6410767): CC BY-NC-ND (open access, as recorded in section 1). Used as short quotations from the main text (model description, "competing systems", omega weight, the demonstrator-input sentence), and reported statistics (omega, betas, chi-squares) as numbers with a prose description. No table copied.
+- **Lindström, Selbing & Olsson 2016, PLoS ONE 11(8):e0160245** (PMC4972391): CC BY. Used as restated equations (Eqs 3-5, alpha = 0.3) and short quotations from the methods.
+- **Golkar & Olsson 2017, Sci Rep 7:7685** (PMC5550414): open access; licence not individually checked here (Scientific Reports articles are normally CC BY 4.0). Used as reported statistics and description only.
+- **Golkar, Castro & Olsson 2015, Biol Lett 11(1):20140817**: not determined; publisher copyright presumed (PMC record flagged not open access). Used as a short quotation from the abstract (20 words, also a 2-word fragment in the blunt answer), under the 60-word limit.
+- **Olsson, Knapska & Lindström 2020, Nat Rev Neurosci 21(4):197-212**: not determined; publisher copyright presumed (full text closed). Used as a short quotation from the abstract (14 words) and a paraphrase.
+- **Lindström, Haaker & Olsson 2018, NeuroImage 167:121-129**: not determined; publisher copyright presumed (closed access). Used as a paraphrase of the abstract; the Pearce-Hall form is restated from background knowledge.
+- **Dayan et al. 2006; Huys 2011; Biele et al. 2009, 2011; Li et al. 2011; Doll et al. 2009**: cited only (citations are free); not read here.
+- **Dataset: OSF project xfe72, `social_threat_learning_transfers_2019.csv`** (Lindström et al. 2019 data): licence not determined; not downloaded and nothing copied. Record the OSF file's licence before any refit is committed.
+- **Haaker et al. 2016/2017, Pärnamets et al. 2018, Golkar, Björnstjerna & Olsson 2015**: cited only; unread; licences not determined; no text used.
+
+Access note (verdict check, text unchanged): sections 0 and 9 record that the Golkar 2015 full text and the PNAS supplement were blocked (reCAPTCHA, HTTP 403/500) and that other routes (Europe PMC REST, PMC XML, Unpaywall) were used. Aldred should confirm those were public open-access routes and not workarounds for closed copies; if any was a workaround, downgrade the dependent [read] tags to [from abstract/standard account] with "readable copy not obtained legitimately; re-read needed".

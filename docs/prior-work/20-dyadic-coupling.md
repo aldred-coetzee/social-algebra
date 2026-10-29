@@ -254,3 +254,18 @@ Every DOI in the file was resolved on Crossref; all resolved to the stated work.
 **Added as missing:** Gottman, Swanson and Murray 1999 (the newlywed model fit); Murray *Mathematical Biology I* ch. 5; Gottman et al. 2003 (repair/damping); Coan and Gottman 2007; Kim and Capaldi 2007; Liebovitch et al. 2008 and Rojas-Pacheco et al. 2013; Liebovitch et al. 2011 and Peluso et al. 2012 (therapist-client reuse of Gottman's model); Bagarello and Oliveri 2010; Rinaldi 1998 linear couples; Dercole and Rinaldi 2014; Rinaldi et al. 2015 monograph; Sprott 2004; Butner, Diamond and Hicks 2007; Butler 2011 and Butler et al. 2017; Bielczyk, Bodnar and Foryś 2012; Kelso 2008.
 
 **Verdict.** Bibliographically reliable: every DOI resolved to the stated work and nothing was fabricated. The equations were less safe. The one the algebra would most likely copy, Gottman-Murray, was taken from a blog with the husband's lag wrong, and one headline finding (which couples have the low negativity threshold) is contradicted by the model's co-author. The survey's two strongest "does not exist" claims, nothing beyond two people and no coupled fear, were too broad: n-person models with equations exist and fear contagion is modelled at group scale, though n-person theorems and fitted n-person models are still absent.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+Audit result for this file: no passage needed removing, shortening or attribution; every flagged item was a "check", recorded here. No text above was changed. Equations are restated in this file's own notation; no tables or lists are transcribed; no Wikipedia-derived text.
+
+| Source | Licence | How used |
+|---|---|---|
+| Murray, *Mathematical Biology I*, 3rd ed. (2002), ch. 5, eqs 5.4-5.5 and the divorce-threshold passage | Not determined; publisher copyright presumed | Short quotation (about 24 words) and two restated equations. Read from an archive.org text; how that copy was obtained is not recorded, so treat the `[read]` tag as needing a re-read from a legitimately obtained copy. Cite the book itself. |
+| Gottman et al. 2003, *J. Homosexuality* 45(1):65-91 | Not determined; publisher copyright presumed | Short quotation (about 11 words) and a restated equation. Read from a lab-hosted copy at Berkeley; lawful access is not recorded here. |
+| Cook et al. 1995; Gottman, Murray et al. 1998/2002 titles; Heyman and Smith Slep; Strogatz labels | Not determined; publisher copyright presumed | Titles and brief attributed labels only (including the Strogatz wording quoted for "narcissus"-type classes). |
+| Rinaldi 1998, *SIAM J. Appl. Math.*, eqs 1-5 | Publisher copyright (paywalled journal) | Equations restated in this file's notation, no surrounding text. Read through a JSTOR subscription copy, not by bypassing any access control. |
+| IIASA blog and abstracts (Rinaldi and Gragnani 1998 equations not opened) | Not determined; blog licence not recorded | Claims paraphrased; nothing quoted. Record the licence if its wording is ever used. |
+| Kelso 2008, Scholarpedia 3(10):1612 | Believed CC BY-NC-SA 3.0 (to verify on the source page; not recorded in the file) | Equations and the critical value k = 0.25 restated; no prose copied. Prose use would need attribution and the non-commercial term would apply. |
+| Heyman and Smith Slep 2001, from the 1985 National Family Violence Survey (528 respondents) | Dataset licence not determined; figures taken from a secondary write-up and unchecked against the source | Dataset citation: counts and percentages only. |
+| Kim, Capaldi and Crosby 2007, Oregon Youth Study (85 couples) | Dataset licence or access terms not determined | Dataset citation: counts only. |

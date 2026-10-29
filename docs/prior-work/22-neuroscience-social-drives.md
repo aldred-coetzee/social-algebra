@@ -308,3 +308,27 @@ Added above: Liu et al. 2025 (*Nature*, hypothalamic social need and satiety cir
 - ✗ removed: none (no fabrications found); one doubtful five-author Cacioppo attribution dropped.
 
 **Verdict.** The bibliography is sound: every DOI in the draft (about 67, all re-checked) resolved to the stated work, and nothing was fabricated. The errors are in what papers were said to show, and they lean toward overstatement: Tomova's headline brain result was its exploratory analysis, while its preregistered test was null; Lockwood 2016 was used as the fitted model of fear transmission when it is about prosocial reward; Zink's rank finding and the oxytocin power figures were attributed loosely. Trust the citations and the overall verdicts (oxytocin, dual-hormone, polyvagal, mirror neurons as weak); check any single-paper claim against its abstract before building on it.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+Audit result for this file: one item, verdict "check", no text changed. No passage, table, figure or dataset is reproduced; the file restates numbers and findings in its own words, cites DOIs, and carries only a few very short quoted phrases. Licences below were not looked up for each publisher; where nothing was checked the entry says so.
+
+**Provenance of the [read] tags (check item).** The file marks Tomova et al. 2020 and Walum et al. 2016 as [read] (lines 7, 30-31, 98) but did not record how the full text was obtained. That route was not recorded and cannot be reconstructed from the repo; nothing in the file says an access control was bypassed. Before open-sourcing, confirm each was read through a legitimate route (open-access copy, institutional or personal subscription); if not, downgrade the tag to [from abstract/standard account] with the note "readable copy not obtained legitimately; re-read needed". No text is reproduced from either paper, only restated figures (t-values, P values, power and PPV figures, effect sizes).
+
+| Source | Licence as determined | How used |
+|---|---|---|
+| Tomova et al. 2020, Nature Neuroscience | not determined; publisher copyright presumed | restated statistics and design, citation |
+| Walum, Waldman & Young 2016, Biological Psychiatry | not determined; publisher copyright presumed | restated power and PPV figures, citation |
+| Matthews & Tye 2019, Ann. N.Y. Acad. Sci. (PMC7593988 cited as open copy) | not determined; PMC deposit, licence not checked | description, citation |
+| Lee, Chen & Tye 2021, Cell (PMC8580010 cited) | not determined; publisher copyright presumed | description of abstract, citation |
+| Liu et al. 2025, Nature | not determined; publisher copyright presumed | description of abstract, citation |
+| Matthews et al. 2016, Cell | not determined; publisher copyright presumed | description, citation |
+| Stijovic et al. 2023, Psychological Science | not determined; publisher copyright presumed | restated sample sizes and findings, citation |
+| Holt-Lunstad et al. 2010, PLoS Medicine | CC BY (PLoS open access; not re-checked here) | restated figures (148 studies, OR 1.50), citation |
+| Coan et al. 2006; Woo et al. 2014 (Nature Communications); Dekkers et al. 2019; Izuma et al. 2008; Zink et al. 2008; Mierop et al. 2020; Lane et al. 2016 | not determined; publisher copyright presumed (Woo 2014 is likely CC BY open access, not checked) | restated figures from abstracts, citation |
+| Krishnan et al. 2007; Lindström et al. 2018, 2019; Golkar et al. 2015; Grossman & Taylor 2007; Grossman 2023; Lockwood et al. 2016; Anderson et al. 2015 | not determined; publisher copyright presumed | description of abstract findings, citation |
+| All other cited works (DOI-only entries) | not applicable; citation only | bibliographic reference |
+
+Short quoted phrases, all a few words and attributed in the text: "common neural currency" (Izuma 2008), "actively maintaining an emotional homeostasis" (Krishnan 2007), "only marginal support" (Dekkers 2019), "in a strong and surprisingly inflexible manner" (Lindström 2019). Each is a fragment of an abstract, well under 60 words, used for attribution of a claim.
+
+No Wikipedia-derived text and no dataset is used in this file. Crossref metadata (titles, years, journals, DOIs) was used for confirmation; bibliographic facts are free.

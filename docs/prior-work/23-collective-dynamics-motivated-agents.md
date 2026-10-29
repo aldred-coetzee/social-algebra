@@ -625,7 +625,7 @@ the counterexamples.
 - Lacker, D. & Soret, A. (2022). A case study on stochastic games on large graphs in mean field and sparse regimes. *Math. Oper. Res.* 47, 1530-1565. DOI 10.1287/moor.2021.1179 [Crossref]
 - Huang, M. (2010). Large-population LQG games involving a major player: the Nash certainty equivalence principle. *SIAM J. Control Optim.* 48, 3318-3353. DOI 10.1137/080735370 [Crossref]
 
-**Ballester et al. (key player)** [standard]. Payoff
+**Ballester et al. (key player)** [standard]. Payoff (restated in this file's notation from Ballester, Calvo-Armengol & Zenou 2006, *Econometrica* 74(5); the theorem statement is from the standard account and was not re-read)
 `u_i = alpha x_i - (1/2) beta x_i^2 - gamma sum_{j!=i} x_i x_j + lambda sum_j g_ij x_i x_j`
 on an arbitrary network `G`: own concavity, global substitutability, local
 complementarity weighted by *who is linked to whom*. Theorem: if the decay
@@ -794,3 +794,17 @@ All 31 originally cited DOIs resolved via the Crossref API; all five arXiv IDs r
 Still missing and worth adding later: Kuramoto's own 1975/1984 work; Jadbabaie, Lin & Morse 2003 (switching consensus); DeGroot/Friedkin-Johnsen belong to file 05; Hegselmann-Krause bounded confidence; Galam / Granovetter threshold models of collective action; Kirman 1993 ants recruitment model.
 
 **Verdict.** Bibliographically sound: every DOI and arXiv ID resolved to the stated work and nothing was fabricated. The mathematics was mostly right in outline but repeatedly imprecise at the level that matters for theorems (missing hypotheses in Lasry-Lions and Altafini, Kuramoto stability overstated, Yin's result promoted to a theorem, one Lux-Marchesi result misattributed). The most consequential error was the closing thesis that theorems require sameness; the corrected thesis, that they require structure such as linear-quadratic coupling on a known network, changes what the algebra should aim for.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+Equations below are restated or lightly adapted formulas (facts and mathematics, cited), not reproductions of the surrounding text. Licences for arXiv items were not looked up in this audit.
+
+- Helbing, Farkas & Vicsek (2000), arXiv cond-mat/0009448 (Section 3): arXiv licence not determined; publisher copyright presumed. Used as restated equations (social-force dynamics, f_ij, desired direction, impatience law), cited.
+- Jaques et al. (2019), ICML, arXiv:1810.08647 (Section 8): not determined; publisher copyright presumed. Used as a restated equation (Eq. 1, influence reward and counterfactual KL), cited.
+- Hughes et al. (2018), NeurIPS, arXiv:1803.08884 (Section 8): not determined; publisher copyright presumed. Used as restated equations (Fehr-Schmidt utility, temporal smoothing), cited.
+- Ballester, Calvo-Armengol & Zenou (2006), Econometrica 74(5) (Section 14): not determined; publisher copyright presumed. Used as one restated payoff function, attributed; theorem from the standard account.
+- Epstein, Parker, Cummings & Hammond (2008), PLoS ONE 3(12), e3955 (Sections 7 and 12): not determined here; PLoS ONE articles are normally CC BY, to be confirmed for this DOI. Used as a short factual enumeration of the seven model states, in our own wording.
+- Lux & Marchesi (1999), Nature (Section 11): not determined; publisher copyright presumed. Used as a description of reported results (Pareto exponent about 2.6); the real return series are not named in the source summary used and no dataset is reproduced or redistributed. The comparison is taken from the source's own reported results.
+- Tsai et al. (2013), Auton. Agent Multi-Agent Syst. (Section 4): not determined; publisher copyright presumed. One real crowd-panic video is mentioned as the source's own comparison data; it is not identified, not reproduced and not redistributed.
+- Cimpeanu, Pereira & Han (2025), J. R. Soc. Interface 22(228), 20250164 (Section 7): not determined; publisher copyright presumed (the Royal Society journals' open-access status was not confirmed). The file marks the text as read; how it was accessed was not recorded, so the access route should be confirmed. Used as a citation only.
+- All other works cited in this file: citation and facts only; no quotation or table transcription flagged by the audit.

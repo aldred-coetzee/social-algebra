@@ -339,3 +339,43 @@ None of these was search-confirmed in validation; details are from the validator
 - No item was found to be fabricated; nothing removed except two low-quality URLs.
 
 **Verdict.** The bibliography is reliable: every main citation checked out, and the formal statements (ESS condition, Hawk-Dove, replicator equation, Hamilton's rule, Price equation, Nowak's five rules, SIR, complex contagion) are correct as mathematics. The errors are of attribution and emphasis, the most consequential being Hinde's framework, which was reduced to three levels and declared to transfer "without change", when Hinde's own later scheme adds a socio-cultural layer of norms and institutions and warns that ethology weakens at higher levels; together with the "no composition, no roles" verdict this overstated the gap the strand would fill. Treat entries marked as validator's knowledge as leads, not confirmed citations.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+Audit result: every flagged item in this file had verdict "check", so no text was changed. No passage is quoted at length, no table or list is transcribed from a source, and no dataset is used. Everything below is a short quotation, a restated equation, a description of a result, or a bibliographic citation (citations, facts and numbers are free). All licences are "not determined; publisher copyright presumed" unless stated.
+
+Short quotations (a few words each, used as terms of art):
+
+- Hinde 1976, Man 11(1), 1-17 (E1): "levels of social complexity" (4 words). Not determined; publisher copyright presumed. The 1976 text was never read (see E1 Limits and Unconfirmed), so the quotation marks attribute wording not verified against the source; confirm against the JSTOR text or drop the quotation marks.
+- Hinde, Individuals, Relationships and Culture, Cambridge UP, 1987 (E1): "severe limitations", "socio-cultural structure", taken from a publisher description (the book itself not read). Not determined; publisher copyright presumed (publisher blurb). The four-level-plus-socio-cultural structure in E1 is restated in this file's own words from that description; the blurb is the source.
+- Maynard Smith and Price 1973, Nature 246 (A1): "limited war". Not determined; publisher copyright presumed. Short term of art.
+- Couzin et al. 2002, J Theor Biol (D2): "collective memory". Not determined; publisher copyright presumed. Short term of art.
+- Hinde (E1) "surface structure": term attributed from the validator's general knowledge, not from a read source. Not determined; publisher copyright presumed.
+
+Restated equations and rules (restated, not copied with surrounding text; not copyrightable as such):
+
+- Maynard Smith and Price 1973 / Maynard Smith 1974, 1982 (A1): ESS condition and Hawk-Dove payoff matrix.
+- Taylor and Jonker 1978 (A2): replicator ODE.
+- Hamilton 1964 (B1): rb > c and k > 1/r. Price 1970 (B2): Price equation. Nowak 2006 (C1): the five b/c inequalities. Nowak and May 1992 (C3): payoff parameterisation. Ohtsuki et al. 2006 (C4): b/c > k. Hethcote 2000 and Kermack and McKendrick 1927 (F1): SIR equations and R0.
+- All publisher copyright presumed for the papers; the formulae are facts and are restated in this file's notation.
+
+Descriptions of paywalled or restricted sources (paraphrase only, no sentence copied):
+
+- Trivers 1971, QRB 46(1), 35-57 (A4): paywalled; only the abstract was seen. The five-item list (friendship, gratitude, sympathy, trust, guilt) and the claims in A4 are the file's own paraphrase of the abstract's content. Publisher copyright (QRB) presumed; the abstract is not reproduced.
+- Christakis and Fowler 2007, NEJM 357, 370-379 (F3): paywalled. Reported odds figures (57 percent, 40 percent, 37 percent) are facts cited from the abstract; described, not transcribed.
+- Other abstracts described in the entries (Wilson and Wilson 2007; Vicsek et al. 1995; Couzin et al. 2002, 2005; Seeley et al. 2012; Nowak and Sigmund 1998; Ohtsuki et al. 2006; Centola and Macy 2007; Hethcote 2000): findings described in the file's own words. Publisher copyright presumed for each; open-access status not determined.
+
+Biographical sentence with no recorded source: E1 Relevance, "Hinde was an ethologist (zoologist by training) who moved into human relationships research". Not determined; source not recorded. Does not read as Wikipedia-derived; if it was, it must be marked CC BY-SA 4.0 or re-sourced.
+
+Third-party PDF links (links only, no text reproduced). These may be unauthorised copies; before open-sourcing, cite by DOI and drop the links, or confirm the copies are authorised:
+
+- A1 and A2: energia.mta.hu copies of Maynard Smith and Price 1973 and Taylor and Jonker 1978 (publisher copyright).
+- B1: pdodds.w3.uvm.edu copy of Hamilton 1964 (publisher copyright).
+- C1: moodle2.units.it course-restricted Moodle file of Nowak 2006 (publisher copyright; course-restricted).
+- D3: cs.princeton.edu course-archive copy of Couzin et al. 2005 (publisher copyright).
+- F2: pdodds.w3.uvm.edu copy of Centola and Macy 2007 (preprint; licence not determined).
+- F3: stat.cmu.edu course-bibliography copy of Christakis and Fowler 2007 (paywalled NEJM article; publisher copyright).
+
+Open-access items linked (links and citation only): Sumpter 2006 (PMC1626537), Zhou et al. 2005 (PMC1634986), Ballerini et al. 2008 (PMC2234121), Chen 2013 (arXiv 1107.1513), Lyons 2011 (arXiv 1007.2876), Shalizi and Thomas 2011 (arXiv 1004.4704), Dercole (arXiv 1411.0075), Aleandri and Minelli (arXiv 1811.05937), Vicsek et al. (arXiv cond-mat/0611743). PMC and arXiv licences vary per item and were not checked; nothing from them is reproduced beyond citation and description.
+
+Wikipedia: no text in this file is known to derive from Wikipedia.

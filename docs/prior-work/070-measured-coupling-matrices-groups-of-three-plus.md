@@ -140,3 +140,17 @@ Compared against the other validated files by grep on works, authors, equations 
 4. **"The n-scaling that file 30's May criterion expresses with random coupling" (section 6) versus file 30 section A3.** May's criterion scales as sigma*sqrt(SC) < d (square root of size), while the deterministic exchangeable case here scales as (n-1)b. File 30's own pure-mutualism case, (S-1)*C*E - d, is the true counterpart of this file's result; May's sqrt scaling is the zero-mean random case. Not a conflict in fact, but the sentence conflates the two. Verdict: file 30 is the more precise; refine the sentence to point at its mean-coupling outlier result.
 
 No numerical contradictions were found in the overlapping figures (32 couples, 7 people, DOIs, volumes and pages). Items 1 and 3 are wording fixes in this file; none changes the headline.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+Audit result for this file: one flagged item (verdict check, no text changed); nothing removed, shortened or re-attributed.
+
+- **Moulder, Duran & D'Mello 2022 (ICMI '22), abstract**: the list of nine signals per user in section 4 is a transcribed enumeration from the abstract. Licence: CC BY per Semantic Scholar/Unpaywall, a secondary claim not confirmed at the ACM DOI page (10.1145/3536221.3556595); the ACM PDF was not read. If CC BY is not confirmed there, reduce the list to "affect, arousal, attention and expression signals". Use: short enumerated list from the abstract, plus facts and numbers (201 users, 67 triads, 15 minutes).
+- **Helm, Sbarra & Ferrer 2012 (Emotion)**: not determined; publisher copyright presumed. Use: one short quotation from the abstract (under 60 words) and facts.
+- **Ferrer & Helm 2013 (Int J Psychophysiol)**: not determined; publisher copyright presumed. Use: short abstract quotations (under 60 words each) and facts (32 couples, three tasks).
+- **Bodner et al. 2018 (Dev Psychopathol)**: not determined; publisher copyright presumed (a PMC copy exists, PMC5960596, but its licence was not checked and it was not readable). Use: a two-to-three word quotation ("a more self-sustaining network") and a description.
+- **van de Leemput et al. 2014 (PNAS), Wichers et al. 2016 (Psychother Psychosom)**: not determined; publisher copyright presumed. Use: citation and restated findings only; no quotation.
+- **Alderisio et al. 2017 (Sci Rep 7, 6846)**: not determined here (Scientific Reports is normally CC BY, not checked in this file). Use: citation and restated facts only.
+- **Bielczyk, Foryś & Płatkowski (arXiv 1202.2338)**: not determined; publisher/arXiv licence not checked. Use: citation and description.
+- **Felmlee & Greenberg 1999, Boker & Nesselroade 2002**: citation only.
+- **Equations in sections 1, 4 and 6**: restated or [derived] by us; no copied equations or surrounding text. No datasets or tables were taken from any source.

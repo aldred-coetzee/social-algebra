@@ -268,3 +268,21 @@ Direction D107 checked against the other files in this folder. Only this file wa
 ### Not checked
 
 No file other than 049 contains Quarmley et al. 2022, Rofé 1984 and Rofé & Lewin 1988, Bettencourt & Miller 1996, Sherman et al. 2012 (PNAS), Keltner et al. 2003 (beyond brief mentions in 017) or the Kulik, Mahler & Moore 1996 pointer. Those claims have no second source in this folder.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+No passage in this file was removed, shortened or re-attributed by the audit; all three audit items were "check" and are recorded here. Quotations are all under 60 words. No table is transcribed from a source: the coupling table (line 174) is our own summary of values taken from the sources, and Verduyn & Lavrijsen's Table 1 is described, not copied.
+
+| Source | Licence as determined | How used |
+|---|---|---|
+| Hartgerink, van Beest, Wicherts & Williams (2015), PLOS ONE 10(5): e0127002 | CC BY 4.0 (PLOS default; the article's own licence line was not read) | Short restated results (d values, k); no long quotation |
+| Hartgerink et al. 2015 supplementary data and code | Not determined; the PLOS ONE data statement was not read. Not accessed, not used. Read the OSF or Figshare licence before any use or redistribution | Dataset citation only (Datasets worth chasing) |
+| Gerber & Wheeler (2009), Perspectives on Psychological Science | Not determined; publisher copyright presumed (abstract and Crossref record only) | Short quotation of the abstract sentence in Cross-checks; reported d values |
+| Quarmley et al. (2022), Aggressive Behavior | Not determined; publisher copyright presumed (abstract and Crossref record only) | Restated numbers from the abstract |
+| Berkowitz (1989), Psychological Bulletin | Not determined; publisher copyright presumed (PubMed abstract only) | One short quotation (line 83), restated claims |
+| Schachter (1959), Gump & Kulik (1997), Rofé (1984), Rofé & Lewin (1988), Kulik et al. (1996), Bettencourt & Miller (1996) | Not determined; publisher copyright presumed (not read, or abstract only) | Citations and restated findings only |
+| Magee & Galinsky (2008), Academy of Management Annals | Not determined; publisher copyright presumed. The file does not record how the PDF was obtained: confirm the copy was legitimate (institutional, author-deposited or open) and that a re-read is not needed | Two short definition quotations and one short passage (line 130) |
+| Keltner et al. (2003), Sherman et al. (2012) | Not determined; publisher copyright presumed (abstract only) | Restated findings |
+| Maier & Seligman (2016), Psychological Review (PMC full text) | Not determined; publisher copyright presumed, PMC open-access terms not checked | Short quotations (lines 151-154), restated numbers |
+| Verduyn & Lavrijsen (2015), Motivation and Emotion (Springer) | Not determined; publisher copyright presumed. The file does not record how the PDF was obtained: confirm it was legitimate | Restated statistics and Table 1 findings described in prose; no table transcribed |
+| Crossref records (DOIs, titles, pages, abstracts) | Facts are not copyrightable; Crossref metadata is CC0 | Citation checking |

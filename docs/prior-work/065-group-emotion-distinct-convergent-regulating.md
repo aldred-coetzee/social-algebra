@@ -64,14 +64,7 @@ where grpem_ij is j's reported group emotion i, indem_ij is j's individual emoti
 
 Results [read; Study 1 = Table 3, p. 437; Study 2 = Table 7, p. 440. The Study 1 column assignment was confirmed in validation against the authors' text: individual emotion significant "in two of the three cases" (IU, Republicans), identification x group average significant for Republicans only, identification x individual for Democrats only]:
 
-| | indiv. emotion | group-average profile | ident x indiv. | ident x group-avg |
-|---|---|---|---|---|
-| Study 1 IU (N=101) | .45*** | .55*** | .04 | .07 |
-| Study 1 Democrats (N=40) | .07 | .71*** | .12* | .14 (p<.10) |
-| Study 1 Republicans (N=42) | .20*** | .67*** | .00 | .33*** |
-| Study 2 Americans (N=349) | .23*** | .76*** | .03* | .22*** |
-| Study 2 Democrats (N=220) | .18*** | .81*** | .01 | .23*** |
-| Study 2 Republicans (N=160) | .14*** | .89*** | -.05*** | .11*** |
+Six samples are reported (Study 1: IU N=101, Democrats N=40, Republicans N=42; Study 2: Americans N=349, Democrats N=220, Republicans N=160), each with four coefficients: individual emotion, group-average profile, identification x individual, identification x group-average. Description of the table (not reproduced; layout and significance markers are in the source tables): the group-average coefficient is significant in all six samples and ranges from .55 (Study 1 IU) to .89 (Study 2 Republicans); the individual-emotion coefficient ranges from .07 (Study 1 Democrats, not significant) to .45 (Study 1 IU); identification x group-average is .07 (IU), .14 (Democrats, p<.10) and .33 (Republicans) in Study 1, and .22, .23 and .11 in Study 2, all significant in Study 2; identification x individual is near zero or small and changes sign, from .12 (Study 1 Democrats, significant) to -.05 (Study 2 Republicans, significant).
 
 (Both tables checked against the PDF text in validation.) The authors' own worked example (p. 442): a Democrat at average identification with individual irritation 3 and group-mean irritation 5 is predicted to report 4.54 as a Democrat, "moving more than 75% of the way" toward the group mean; one scale point above average identification gives 5.08. Identification moderates convergence in all three groups in Study 2, in one of three in Study 1 (one more marginal). The interaction of identification with *individual* emotion goes in opposite directions across groups, which the authors call "extremely weak and conditional".
 
@@ -268,3 +261,21 @@ None found. Differences of emphasis or scope, none of them a factual conflict:
 ### Verdicts
 
 All overlaps agree, so no primary-source check was made and nothing is unresolved. Nothing in files 18, 24, 27, 37, 064, 066 or 082 needs correcting on the strength of 065 other than the "abstract unavailable" notes in 082, which 065 supersedes. No other file was edited.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+Audit applied 2026-10-30. Licence determined from the source type unless marked; none of the sources below was confirmed on its publisher page in this pass.
+
+| Source | Licence | How used here |
+|---|---|---|
+| Smith, Seger & Mackie 2007, *JPSP* 93(3) 431-446 | Not determined; publisher copyright (APA) presumed | Restated multilevel equation (footnote 3); coefficients from Tables 3 and 7 reduced to a prose description with the values used (table layout removed 2026-10-30); worked example (p. 442), short quotations under 60 words |
+| Seger, Smith & Mackie 2009 | Not determined; publisher copyright presumed | Facts, numbers and short quotations only; no table transcribed |
+| Kuppens & Yzerbyt 2014 | Not determined; publisher copyright (SAGE, PSPB) presumed | Findings, statistics and one short quotation (p. 1586) |
+| Pizarro et al. 2022, *Frontiers in Psychology* 13:974683 | Frontiers is open access, normally CC BY 4.0; not confirmed on the article page (check pending) | Table 3 transcribed in section 5 as ten rows of pooled correlations; may stay with this attribution if CC BY is confirmed, otherwise reduce to a description |
+| Mackie, Devos & Smith 2000 | Not determined; publisher copyright presumed | Abstract-level description in our own words |
+| Goldenberg et al. 2016, 2020 | Not determined; publisher copyright presumed | Abstract-level description in our own words |
+| von Scheve 2017 (Wiley-Blackwell Encyclopedia of Social Theory), preprint copy | Not determined; publisher copyright presumed; preprint terms not recorded | Description of four senses and two short quotations |
+| Livingstone et al. 2011; Livingstone et al. 2016 | Not determined; publisher copyright presumed | Abstract-level description in our own words |
+| von Scheve & Salmela (eds.) 2014; Schweitzer & Garcia 2010; Barsade 2002; Yzerbyt, Kuppens & Mathieu 2016 | Not determined; publisher copyright presumed | Dataset-style citation (DOI) only |
+
+Access routes: the method note records downloaded PDFs for the 2007, 2009 and 2014 papers, the Frontiers HTML for Pizarro et al., and abstract snippets for the rest. No access control is described as bypassed. The origin of each downloaded PDF (author copy, open preview or subscription) is not recorded in this file and needs confirming for docs/licensing.md.

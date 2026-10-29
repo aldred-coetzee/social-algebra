@@ -203,3 +203,16 @@ Checked by grep against every other file in this directory for Epstein, Thron & 
 5. **Wording hazard.** 063 lists "Friedkin & Johnsen 1999" (*Advances in Group Processes*) as a different work from Friedkin 1999 (*ASR*); not an Epstein issue, noted only because 067 flags it. No change needed here.
 
 No numerical contradiction was found in the equations, parameters or quoted Epstein results across files.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+Audit verdict for this file: five flagged items, all "check"; no text changed.
+
+- **Epstein (2002), PNAS 99 suppl. 3, 7243-7250, doi:10.1073/pnas.092080199 (PMC128592).** Licence: not determined; publisher copyright presumed (free to read on PMC). Used as: short quotations (grievance definition, expected-utility interpretation, k and P = 0.9, salami-tactics sentence, each under 60 words); restated equations (grievance, arrest estimate, agent rule); the agent rule of Table 1 given as a two-line description; Table 2 run settings given as the values actually used (k = 2.3 and the vision, legitimacy, jail and cop-density settings), not reproduced as a table, with the PMC extraction noted as garbled; the variable-name list (about 17 terms) is a list of names, which are facts.
+- **Thron & Jackson (2015), arXiv:1501.05838.** Licence: not determined; publisher copyright presumed (arXiv licence for this record not checked). Used as: short quotations, restated equations, description of their reduced model and simulation sweeps. They used ACLED riot-size data for Africa and Nigeria; no ACLED data is carried into this repo (dataset citation only; if figures are added, record the ACLED terms of use).
+- **Ormazabal, Urbina, Borotto & Astudillo (2022), Physical Review E 105, 054110, arXiv:2110.00835.** Licence: not determined; publisher copyright presumed (arXiv licence not checked). Used as: description of results; the phase classes (about 9) are a prose paraphrase of the phase diagram, not a copied figure.
+- **Zou, Fonoberov, Fonoberova, Mezic & Kevrekidis (2012), Physical Review E 85, 066106.** Licence: not determined; publisher copyright presumed. Used as: two short quotations from the abstract.
+- **Fonoberova et al. (2019), doi:10.1080/17440572.2019.1662304.** Licence: not determined; publisher copyright presumed. Used as: citation and description only.
+- **Moro (2016), PLoS ONE 11(4) e0154175.** Licence: not determined here (PLOS journals normally publish under CC BY); citation only, not read or used in the body.
+- **Kuran, Tocqueville, Brookings material (via file 067).** Cited at second hand; short attributed phrases only.
+- **Wikipedia:** no Wikipedia-derived text in this file.

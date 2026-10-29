@@ -174,3 +174,14 @@ Checked against the validated files in this directory (grep for Pais, Reina, See
 5. **Parameter scope (048 §2 vs here §3a).** 048 treats the Pais parameterisation as the algebra of "two equal drives resolve or stay stuck". This file shows, from Reina App. B, that the same parameterisation cannot break ties at N >= 3 for any non-negative sigma. This is not a factual conflict, but 048's translation should be read as N = 2 only.
 
 No contradiction was found with 09, 16, 046, 060, 066 or 081: their only overlaps are generic uses of "cross-inhibition" (Atkinson-Birch/CTA in 046 and 16) or of pitchfork and saddle-node bifurcations (060, 066, 081), with no shared equation or number.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+Audit verdict for this file was "check": no text changed, licences recorded here. No quotation exceeds 60 words; no table or dataset is transcribed (the one table, section 5, is our own mapping).
+
+- **Reina, Marshall, Trianni, Bose 2017**, Phys Rev E 95, 052411 / arXiv 1611.07575v2: not determined; publisher copyright presumed (the arXiv licence and any open-access status of the journal version were not checked). Use: equations restated in our own notation (Eq. 1, 2, 3, A9, B1-B4) with our own derivations; two short quotations (the r1/r2 scaling sentence, and the "limit on the maximum number of equal options" sentence); description of the phase structure and of Fig. 6b and Fig. 7 without reproducing figures. To settle: check the licence on the arXiv abstract page.
+- **Reina, Zakir, De Masi, Ferrante 2023**, Commun Phys 6, 236, doi 10.1038/s42005-023-01345-3 (arXiv 2211.09531): not determined here; publisher copyright presumed (Communications Physics is normally open access under CC BY, but this was not checked). Use: paraphrase of the abstract only, no quotation.
+- **Pais et al. 2013**, PLoS ONE 8, e73216: not determined here; PLoS ONE articles are normally CC BY, not checked in this session. Use: restated equations (Eq. 1 deterministic part, threshold) cited via file 29, and the Weber-law property described; no quotation.
+- **Seeley et al. 2012** (Science 335, 108-111), **Couzin et al. 2005** (Nature 433, 513-516), **Marshall et al. 2009** (J R Soc Interface 6, 1065-1074): not determined; publisher copyright presumed. Use: citation and paraphrase of abstract-level facts only.
+- **Seeley and Visscher 2004**, **Seeley 2010**, **Sumpter 2010**, and the works in Reina's reference list (refs 8, 9, 21-25): not determined; publisher copyright presumed. Use: citation only; not read.
+- **Crossref** (DOIs and bibliographic metadata): CC0 facts; used as citations only.

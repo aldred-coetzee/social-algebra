@@ -229,3 +229,21 @@ Method: grepped every other file in this directory for Roos, De/Nau/Gelfand, Pan
 
 - 073's own results R1-R5 and the Blume, Bergin-Lipman, Ellison and Foster-Young statements appear in no other file, so there is nothing to compare them with.
 - 25 C1's "weighted-copying" prestige form is labelled there as a stylisation; 073 does not use it.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+Licence audit result: no passage needed removal, shortening or attribution. Short quoted phrases are attributed in the text; equations are restated in this note's notation. Three items were flagged "check" and are recorded here without changing the text.
+
+| Source | Licence | How used |
+|---|---|---|
+| Roos, Gelfand, Nau & Lun 2015, OBHDP 129:14-23 (author-hosted PDF at cs.umd.edu) | not determined; publisher (Elsevier) copyright presumed. The author-hosted copy's re-hosting terms are not stated; nothing from it is re-hosted here. | restated equations and parameter values (fitness function, payoff form, game parameters); a few quoted phrases of under ten words each; description of the model |
+| De, Nau & Gelfand 2017, AAMAS (arXiv 1704.04720) | not determined; arXiv version, licence not recorded; publisher/author copyright presumed | restated equations (payoff matrix, replicator, eq. 2, 4, 5), simulation parameters; description |
+| De, Nau, Pan & Gelfand 2018, SBP-BRiMS (arXiv 1804.07406) | not determined; arXiv version, licence not recorded; Springer copyright presumed for the published version | restated equations (1)-(8); description |
+| Pan, Gelfand & Nau 2021, American Psychologist | not determined; publisher copyright presumed | citation only (Crossref metadata); content not read |
+| Young 1993; Kandori, Mailath & Rob 1993 (Econometrica) | publisher copyright (paywalled) | citation and standard account in the note's own words only. No paywalled text was obtained or reproduced. The method note's remark about free-PDF guesses records that such guesses returned HTML stubs; they are not to be repeated, and these two sources stay standard-account only until a legitimate copy is read. |
+| Blume 1993; Bergin & Lipman 1996; Ellison 1993; Foster & Young 1990 | not determined; publisher copyright presumed | citation and one-sentence description of the standard result, in the note's own words; not read |
+| Henrich & Boyd 1998 and 2001 | not determined; publisher copyright presumed | citation only |
+| Boyd & Richerson 1985 (book) | publisher copyright | the conformist-transmission equation restated, carried from file 25 |
+| "Standard content" paragraph and the Blume, Bergin-Lipman, Ellison, Foster-Young bullets (section 3) | Flagged as possibly derived from an encyclopaedic account such as Wikipedia. Not determined; no Wikipedia page is cited and none is known to have been used. | generic description of stochastic stability, logit revision and Freidlin-Wentzell; if any sentence is later traced to Wikipedia, mark it CC BY-SA 4.0 or rewrite it |
+
+No tables, figures or datasets from any source are transcribed; the payoff matrix and parameter lists are restated mathematical content.

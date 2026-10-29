@@ -313,3 +313,17 @@ Checked against Crossref metadata, arXiv records, abstracts and search summaries
 - arXiv 1608.03656: ✓ (authors Fan, Xu and Zhao and the Weibo source added).
 
 **Verdict.** The survey's skeleton is sound and none of its citations was fabricated: every named work that could be looked up exists, and most bibliographic details were right. Its errors are of the "could not find it, so it does not exist" kind, and two of them were load-bearing: it said Girard's mechanism had no formal model (three exist, one with theorems) and that Páez et al. 2015 could not be found (it is a *JPSP* paper central to the effervescence claims); it also misattributed Turchin's equation to an arXiv paper by other authors and mixed two of Reicher's models. Treat its negative claims ("none found", "exactly one") as weak until a second search confirms them.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+Audit result: no passage needed removal, shortening or attribution. Three items were marked "check"; the text is unchanged and each is recorded here. No text in this file is derived from Wikipedia.
+
+- **Kramer, Guillory and Hancock (2014), PNAS 111(24)**: not determined; publisher copyright presumed. Used as one 8-word quotation ("as small as d = 0.001", via secondary coverage) plus a citation.
+- **Hoogendoorn et al. (2010), ICONIP, LNCS (Springer)**: not determined; publisher copyright presumed. Used as a 9-word acronym expansion (ASCRIBE) marked "standard account for the expansion"; its exact wording is unverified against the paper and should be checked, or the quotation marks dropped, before open-sourcing. Citation otherwise.
+- **Bosse et al. (2009, 2013, 2015), Tsai et al. (2011, 2013), Ntika et al., Bertozzi et al. (2015)**: not determined; publisher copyright presumed. Used as restated equations (ASCRIBE contagion update, written in our own notation) and as citations.
+- **Turchin, *Historical Dynamics* (2003)**: not determined; publisher copyright presumed. Used as two restated equations taken from a secondary excerpt whose source and licence are not identified (to be recorded before open-sourcing), plus citation.
+- **Smaldino et al. (2012), JASSS 15(4):7**: not determined (JASSS is open access, licence not checked). Used as a description of a model, with citation.
+- **Haidt, hive switch ("90% chimp, 10% bee")**: not determined; publisher copyright presumed. Used as two short quoted phrases with attribution.
+- **Paes (2025), CoMSES Computational Model Library v1.0.1**: not determined. Used as a dataset/model citation only; no code or data copied.
+- **Hatfield et al., Festinger, Hogg, Brewer, Mackie et al., Goldenberg et al., Páez et al., Sack, Antunes, Glaeser, McClelland, Schweitzer and Garcia, and the remaining listed works**: not determined; publisher copyright presumed. Used as citations and our own paraphrase of abstracts; no quotation beyond titles.
+- **Per-quotation licence gap**: the file gave no licence record per quotation; this section is that record.

@@ -101,3 +101,14 @@ Decisions only he can make; the survey does not settle them.
 8. **Observability.** Hidden roles and private state [12 §C7; 13 §14]: does the algebra model what an observer can see, or the full state?
 9. **Fit first or write first.** Derive operators from data as the network-statistics and KAES lines do [10 §23; 02 §9], or write the algebra and test it by reachability claims [07 "working implication"]?
 10. **Whether to choose a home now.** `CLAUDE.md` says to decide the form of the first model from the notes, not up front; the six homes above are not mutually exclusive at the operator-table stage. Which requirements in (c) are load-bearing enough to rule homes out already?
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+Audit result: no passage needed removal, shortening or attribution. Three items were marked "check" and the text is unchanged.
+
+| Source | Licence | How used |
+|---|---|---|
+| Phrases "friend of a boss of", "not a friend", "thank after give" (lines 63 and 67) | n/a: the author's own illustrative phrases, not taken from a source | short illustrative phrases, not quotations |
+| nLab's restatement of the kinship alliance algebra (row 15; MBD admissibility, ωμ = μω) | not determined; publisher copyright presumed (nLab is a community wiki; check its licence, and if CC BY-SA mark any derived prose accordingly) | one restated equation, with citation; no nLab prose reproduced |
+| Seshat Global History Databank (row 23) | not determined; publisher copyright presumed | dataset citation only: named as the source of one retracted paper; no Seshat data reproduced |
+| All other works cited in this file (dive references such as [01 §2], Polybius, Turchin, White, Boyd, Lawvere and the rest) | n/a: cited by name and section, nothing quoted or transcribed | citation of facts and findings, in our own words |

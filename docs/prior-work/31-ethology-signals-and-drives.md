@@ -29,7 +29,7 @@ Date: 2026-10-29. Strand: social-algebra. Cluster: how one animal's signal or ac
 - Lorenz, K. & Tinbergen, N. (1939). Taxis und Instinkthandlung in der Eirollbewegung der Graugans. *Z. Tierpsychol.* 2, 1-29. DOI 10.1111/j.1439-0310.1939.tb01558.x. Crossref OK (title and Lorenz as first author confirmed; the page range is `[standard account]`).
 - Tinbergen, N. (1948). Social releasers and the experimental method required for their study. *Wilson Bulletin* 60(1), 6-51. No DOI (JSTOR 4157642). Confirmed against SORA (sora.unm.edu, full-text PDF of pp. 6-51) in validation; a review of the experimental evidence on releasers, answering Rand's criticisms of Lorenz and Tinbergen `[from catalogue description]`.
 
-**Drives.** Feeding (begging), parental care, aggression, reproduction; the receiver's drive is "ready to go" and the sign stimulus lets it go.
+**Drives.** Feeding (begging), parental care, aggression, reproduction; the receiver's drive is primed (in the classical account) and the sign stimulus releases the action.
 
 **Act/signal.** A sender-side structure or act (red spot on the gull's bill; zig-zag dance of the stickleback male; a model with the key features of a rival's red belly) that is a small subset of the full stimulus situation.
 
@@ -404,3 +404,13 @@ Method: every DOI resolved at api.crossref.org/works/<doi>; abstracts read via E
 - No fabrications found; nothing removed.
 
 **Verdict.** Bibliographically sound: every DOI given resolves to the stated work, and the one hard error was a half-wrong author list (Barrett et al. 1999). The content is a reliable standard account, but it overstated two things: a market "price" result attributed to Barrett et al., and the absence of any formal state-transition law, which is true only of classical ethology and false of state-dependent behavioural ecology next door. Treat effect-on-receiver claims as textbook-level until primaries are read.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+No passage is quoted at length, no table or figure is transcribed, and no dataset is used. The one unattributed quoted phrase flagged in the audit ("ready to go", section 1) was replaced with the file's own wording. The audit's "check" item (whether any "standard account" sentence derives from Wikipedia) is recorded, not changed: the file cites no Wikipedia page and the prose is the file's own paraphrase, but the passages are unsourced, so the four-questions wording in section 0 and the human-analogue paragraphs should be compared with Wikipedia before publication.
+
+- Tinbergen (1963), *Z. Tierpsychol.* 20; Tinbergen & Perdeck (1951), *Behaviour* 3; Lorenz & Tinbergen (1939); Tinbergen (1952), *Q. Rev. Biol.* 27; Hinde (1953); Huxley (1966), *Phil. Trans.*; de Waal (1986); de Waal & van Roosmalen (1979); Bekoff (1995); Dunbar (1991); Noe & Hammerstein (1994, 1995); Zahavi (1975); Grafen (1990); Maynard Smith (1974); Parker (1974); Enquist & Leimar (1983); Bishop & Cannings (1978); Payne & Pagel (1996); Szamado (2011); Seyfarth, Cheney & Marler (1980, two papers); Marler et al. (1986); Barrett et al. (1999); Fruteau et al. (2009); Aureli et al. (2002); Fraser et al. (2008); Preston & de Waal (2002); Hsu et al. (2006); Fawcett & Johnstone (2010); Oyegbile & Marler (2005); McNamara & Houston (1986); Mangel & Clark (1986); Bradbury & Vehrencamp (2000); Mendl et al. (2010); Nettle & Bateson (2012); Palagi et al. (2015): not determined; publisher copyright presumed. Used as citations with DOI, plus the file's own paraphrase of their findings; no text reproduced. The one exact formula (the war-of-attrition persistence density, Maynard Smith 1974) is a restated equation.
+- Tinbergen (1948), *Wilson Bulletin* 60: not determined; publisher copyright presumed (the full text was consulted at SORA, sora.unm.edu). Used as a citation and a description only.
+- Penn & Szamado (2020), *Biol. Rev.* 95 (PMC7004190); Trimmer et al. (2013), *Behav. Sci.* 3 (MDPI): possibly open-access licences (the latter likely CC BY), not determined here. Used as citations and paraphrase of the abstract only.
+- Crossref metadata (DOIs, titles, years): bibliographic facts, no licence restriction on the facts used.
+- Wikipedia: no text taken from it, as far as established (see the check item above).

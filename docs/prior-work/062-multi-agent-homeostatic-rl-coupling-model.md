@@ -288,3 +288,11 @@ Method: grepped the other files in this directory for Yoshida/Man, Keramati/Gutk
 ### Not covered elsewhere
 
 Rosen 1965, Bergstrom-Blume-Varian 1986 and Becker 1974 appear in no other file; the 062 claims about them (and the "does not exist" list in section 8) have no cross-check here and remain as in section 9.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+No passages were removed or shortened in this file; every quotation is under 60 words and attributed. Licences are recorded below as the audit required.
+
+- Yoshida & Man 2024, arXiv 2412.12103 (Section 1 bullet, repeated at sections 6 and the cross-checks): licence not determined; publisher copyright presumed (arXiv licence not stated in the file). Use: short quotations (3 to 18 words each) and one restated equation (`D = D_possessor + w D_partner`), plus numeric values from the experiments.
+- Bergstrom, Blume & Varian 1986, J. Public Economics 29:25-49: not determined; publisher copyright presumed. Use: citation only. The 8-word phrase in quotation marks in sections 8 and 9 ("altruism narrows but does not close the gap") is this file's own wording, not a verified quotation from the paper, which was never opened; read it as a paraphrase and do not cite it as a quotation.
+- Yoshida & Man 2025 (arXiv 2506.12894), Keramati & Gutkin 2014 (eLife 3, doi:10.7554/eLife.04811), Rosen 1965, Monderer & Shapley 1996, Becker 1974, Fehr & Schmidt 1999, Hughes et al.: not determined; publisher copyright presumed (the eLife paper is likely open access, licence not checked). Use: citations and restated equations or results only; no quotation or table transcription.

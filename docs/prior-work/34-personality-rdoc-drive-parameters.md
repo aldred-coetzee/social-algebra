@@ -54,7 +54,7 @@ The central definition `[read]`: the Big Five are the major dimensions of covari
 
 | Trait | Cybernetic function | Notes (author's) |
 |---|---|---|
-| Extraversion | Behavioural exploration and engagement with specific rewards (goals to approach) | Most obviously stage 1 (goal activation) and also stage 5; incentive reward, BAS. Aspects (Table 1): Assertiveness = "incentive reward sensitivity: drive toward goals" (wanting, dopamine); Enthusiasm = "consummatory reward sensitivity" (mostly liking, opioids), but the author says Enthusiasm "encompasses individual differences in desire as well as enjoyment" |
+| Extraversion | Behavioural exploration and engagement with specific rewards (goals to approach) | Most obviously stage 1 (goal activation) and also stage 5; incentive reward, BAS. Aspects (Table 1): Assertiveness is sensitivity to incentive reward, the drive toward goals (wanting, dopamine); Enthusiasm is sensitivity to consummatory reward (mostly liking, opioids), though the author notes it covers individual differences in desire as well as enjoyment (DeYoung 2015, Table 1) |
 | Neuroticism | Defensive responses to uncertainty, threat and punishment | Most obviously stage 5 (goal comparison); mismatch triggers defensive systems; sensitivity of those systems. Aspects (Table 1): Volatility = active defence (mapped to RST's FFFS), Withdrawal = passive avoidance, inhibition in response to uncertainty or error (mapped to RST's BIS) |
 | Openness/Intellect | Cognitive exploration and engagement with information | Reward value of information; "at the core of Openness/Intellect are curiosity, imagination, creativity" (text) |
 | Conscientiousness | Protection of non-immediate or abstract goals and strategies from disruption | Most obviously the first three stages; chimpanzees are the only other species in which a Conscientiousness-like factor has been found, suggesting the mechanisms evolved relatively recently |
@@ -337,3 +337,10 @@ Every DOI was resolved via Crossref; key content was checked against the RDoC co
 - Still missing (not added): Ligneul et al. 2016 on dominance learning; computational work on social reward in depression and autism; Read & Miller's connectionist personality models; DeYoung & Krueger's cybernetic psychopathology extension.
 
 **Verdict.** Reliable at the level of existence: every cited work is real and every DOI resolves to the stated item. The `[read]` tags held up where checked, with small numeric misattributions (Fleeson & Law's stability and agreement figures) and one consequential error in the unread material, where a Finnish letter was presented as Cloninger's group replying to Herbst et al. The survey's own judgement that social-drive models are thin was overstated; it had not looked, and a modest literature of fitted social-learning parameters exists (section 9b).
+
+## Licences of quoted and transcribed material (2026-10-29)
+
+- DeYoung 2015, Cybernetic Big Five Theory (Elsevier, J. Res. Personality; read as the 2014 author preprint): not determined; publisher copyright presumed. Used as short attributed quotations (a few words to one sentence) and a restated mapping of traits to functions in prose and a table of our own wording; no table transcribed verbatim.
+- NIMH RDoC Constructs page: US federal government work, likely public domain (17 U.S.C. 105); not confirmed against a stated site licence. Used as a description of the six domains and their constructs and subconstructs (a list of names, reorganised).
+- Cuthbert 2014 (World Psychiatry), Cuthbert & Insel 2013 (BMC Medicine), Morris et al. 2022 (BMC Medicine): cited only; open-access licences not checked here. No text quoted.
+- Other works cited in this file (Gray/McNaughton/Corr, Cloninger, Eysenck, Zuckerman, Fleeson, Mischel & Shoda, computational-psychiatry papers and so on): citations, facts and numbers only; any short quotations are attributed; licences not determined; publisher copyright presumed.

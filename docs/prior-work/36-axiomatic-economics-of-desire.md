@@ -355,3 +355,11 @@ Method: every DOI resolved against the Crossref API; Gul-Pesendorfer 2001 re-rea
 - Fabrications found: none (✗ 0).
 
 **Verdict.** Bibliographically sound: every cited paper exists with the stated authors, and all three "unverified" DOIs resolve to the right papers. The weak points were attribution and theorem numbering — Gul-Pesendorfer's Theorems 8/9 were misdescribed despite the [read] tag, Kreps's axiom was misstated, the lexicographic impossibility was left uncredited (Debreu), and partial naivete and the Allais result were credited to the wrong papers. The closing "no multi-person theorems" claim contradicted the file's own section 9 and should not be relied on.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+No passage in this file is a long quotation, a transcribed table or a dataset extract. The table in the cross-cutting section is the author's own synthesis. Audit verdicts were "check" only; no text was changed.
+
+- **Gul & Pesendorfer (2001), Econometrica 69(6), 1403-1435.** Licence: not determined; publisher copyright (Econometric Society) presumed. Use: restated equations (Theorem 1 representation, Theorem 2 equivalences, axioms) and paraphrase of the theorems. Check before open-sourcing: the lead-in to Theorem 1 ("satisfies Axioms 1-4 iff there exist continuous linear U, u, v such that") tracks the standard wording closely; confirm it is our own phrasing. The surrounding explanation is paraphrase.
+- **Gul & Pesendorfer full-text link (pages.nyu.edu course-page PDF).** Licence: not determined; publisher copyright presumed, and the authorisation of the hosted copy is unknown. Use: a link only; nothing reproduced. The Econometrica DOI (10.1111/1468-0262.00252) is the primary reference; the hosted copy should not be relied on as a licensed source.
+- **All other works cited (Kreps 1979, Fudenberg & Levine 2006, Becker & Murphy 1988, Bernheim & Rangel 2004, Laibson, Scitovsky, Loewenstein, etc.).** Licence: not determined; publisher copyright presumed. Use: citations, facts and restated or described results only; no quotation or transcription.

@@ -48,7 +48,7 @@ Direction: D028 (deep-read, batch 2). Date: 2026-10-29. Survey for the social-al
 
 **Their vocabulary.** Digraph D = (V, E); incidence matrix E = Bₒ + Bᵢ (out- and in-incidence); out-Laplacian Lₒ = Bₒ Eᵀ; balanced = in-degree equals out-degree at every node; globally reachable node; agreement submanifold S = span(1); S-constrained passivity; compensation theorem.
 
-**What they say about the classic framework [read].** The balanced-digraph paper: passivity "relies heavily on the symmetric feedback interconnection of the incidence matrix in diffusively coupled networks. This symmetry requirement confines the framework to systems with undirected interconnections. Replacing one of the incidence matrices … enables the representation of directed graph topologies but sacrifices the diffusive coupling property due to the loss of symmetry. Moreover, given passive edge controllers, the feedback path in the loop may not preserve passivity for the entire interconnection." Its abstract: passivity-based approaches "are generally not applicable to the directed linear consensus protocol". The second paper: "the research mentioned shares a common implicit assumption: that the underlying graphs of MANs are undirected."
+**What they say about the classic framework [read].** The balanced-digraph paper: passivity-based analysis "relies heavily on the symmetric feedback interconnection of the incidence matrix in diffusively coupled networks"; the paper goes on to say that this confines the framework to undirected interconnections, that replacing one incidence matrix gives directed topologies but loses the diffusive coupling property, and that the feedback path may then fail to preserve passivity (paraphrase). Its abstract: passivity-based approaches "are generally not applicable to the directed linear consensus protocol". The second paper: "the research mentioned shares a common implicit assumption: that the underlying graphs of MANs are undirected."
 
 **Equations [read].**
 - Definition (digraph paper, Definition 1, eq. (4); the same inequality is Definition 2, eq. (3) in the balanced paper): V̇_i ≤ u_i y_i − ε_i y_i² − δ_i u_i² for a positive semidefinite storage V_i.
@@ -264,3 +264,16 @@ Scope: this file checked against the other prior-work files for the same works, 
 **Terminology, not a contradiction.** 063 §3.1 uses "contraction property" for the convex-hull monotonicity of P&T 2017 (min non-decreasing, max non-increasing). That is not contraction theory in the sense of §4 here. Use "convex-hull monotonicity" in 063 if that file is next edited.
 
 **Cross-file gap.** Yue & Zelazo, Dashkovskiy's Corollary 7 linear form, and Wankhede et al.'s μ∞ and A4 conditions appear only in this file. 040 cites Wankhede in a reference line without stating its result, so no duplicate exists.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+No tables, figures or datasets are transcribed; equations are restated, not copied with surrounding text.
+
+- Yue & Zelazo, arXiv:2411.05933v3 and arXiv:2508.21428v1: arXiv preprints; licence not determined (arXiv permits distribution under author-chosen licences, not recorded here); publisher/author copyright presumed. Use: short quotations (each under 60 words; the first shortened in the 2026-10-30 audit, the rest paraphrased) and restated definitions and theorems.
+- Bai, Arcak & Wen, ACC 2008 (restating Arcak 2007): not determined; publisher copyright presumed. Use: short quotations and restated theorem. Arcak 2007 itself was not read or quoted.
+- Dashkovskiy, Rüffer & Wirth, arXiv:math/0506434v1: licence not determined; copyright presumed. Use: restated condition and theorem, one short quotation.
+- Wankhede, Mandal, Martínez & Tallapragada, arXiv:2404.04912v2: licence not determined; copyright presumed. Use: short quotation, restated theorems.
+- Song, Slotine & Pham, arXiv:2311.03669: licence not determined; copyright presumed. Use: restated combination rules.
+- Proskurnikov & Tempo, arXiv:1701.06307 and arXiv:1801.06719: licence not determined; copyright presumed. Use: short quotations and restated theorems.
+- Russo, di Bernardo & Sontag 2013 (abstract via Semantic Scholar record): publisher copyright presumed. Use: short abstract quotation.
+- Lohmiller & Slotine 1998; Slotine 2003; Arcak 2007: paywalled, not read; citation only.

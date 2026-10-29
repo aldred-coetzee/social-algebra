@@ -93,15 +93,7 @@ Steady states are the intersections. With the sigmoid, "we can have one, three, 
 
 Sample: 79 couples assessed 1983; 73 followed up in 1987 (70 husbands, 72 wives); 42 regulated and 31 nonregulated couples (Gottman-Levenson 1992 sample, RCISS point graphs). Parameters by group (inertia, uninfluenced set point, influenced set point):
 
-| Group | H inertia | H uninfl. | H infl. | W inertia | W uninfl. | W infl. |
-|---|---|---|---|---|---|---|
-| Volatile | .33 | .68 | .75 | .20 | .68 | .61 |
-| Validating | .37 | .38 | .56 | .14 | .52 | .59 |
-| Avoiding | .18 | .26 | .53 | .25 | .46 | .60 |
-| Regulated mean | .29 | .44 | .61 | .20 | .55 | .60 |
-| Hostile | .32 | .10 | .03 | .51 | -.64 | -.45 |
-| Hostile-detached | .40 | -.42 | -.50 | .46 | -.24 | -.62 |
-| Nonregulated mean | .36 | -.16 | -.24 | .49 | -.44 | -.54 |
+Table 1 of Cook et al. is described rather than transcribed (it has seven rows, three regulated types, two nonregulated types and the two group means, by six parameters). Regulated couples have positive set points: group means are husband inertia .29, uninfluenced .44, influenced .61; wife inertia .20, uninfluenced .55, influenced .60. Nonregulated couples are negative or near zero: husband inertia .36, uninfluenced -.16, influenced -.24; wife inertia .49, uninfluenced -.44, influenced -.54. Within the regulated types the volatile husband and wife have the highest uninfluenced set points (.68 each); the hostile wife has the lowest (-.64). Wife inertia is much higher in the nonregulated couples (.49 against .20) than in the regulated ones. Per-type values are in the paper's Table 1 (publisher copyright).
 
 Correlations with outcomes [read, Table 2]: divorce correlates with wife's set point r = -.42 (p < .001) and husband's set point r = -.32 (p < .05); inertia does not (husband .05, wife .22, n.s.). Wife inertia correlates with marital type r = -.54 (p < .001). Set points correlate with RCISS negative codes (e.g. husband contempt vs husband set point r = -.74). The paper's own summary: "both the husbands' and the wives' uninfluenced set points are related to the dissolution cascade variables... significantly predictive of divorce."
 
@@ -144,7 +136,7 @@ Four groups; two of them heterosexual (woman raises the issue or man does). Bili
 - Repair effectiveness (partner): gay men 2.78, man initiating to woman 3.98, woman to man 3.99, lesbian 3.65.
 - Repair threshold (partner): man initiating -4.64, woman initiating -6.04 (F(1,69) = 5.14, p = .027): "when a man initiates the issue, he detects negativity in his partner and attempts to repair sooner".
 - Damping effectiveness: initiator -4.85 homosexual vs -3.11 heterosexual (p = .029); partner -5.03 vs -3.37 (p = .052).
-- Slope of influence function: "In every study we have conducted with heterosexual couples using the mathematical modeling, the slope of the influence functions in the negative affect range is steeper than the slope in the positive affect range" (positive-slope minus negative-slope, initiator's function: man initiates to woman -.086, woman to man -.283, gay male -.331, lesbian -.122; marginal interaction F(1,66) = 3.05, p = .085, with all four means negative, so no reversal there. The hint of a reversal is in the partner's function: heterosexual -.19 vs homosexual -.002, F(1,68) = 2.83, p = .097, marginal) [read, 2003 pp. 82-83; corrected in validation, an earlier draft attached the reversal to the p = .085 test]. This is the model's version of "negative outweighs positive."
+- Slope of influence function: "In every study we have conducted with heterosexual couples using the mathematical modeling, the slope of the influence functions in the negative affect range is steeper than the slope in the positive affect range" (positive-slope minus negative-slope, initiator's function: man initiates to woman -.086, woman to man -.283, gay male -.331, lesbian -.122; marginal interaction F(1,66) = 3.05, p = .085, with all four means negative, so no reversal there. The hint of a reversal is in the partner's function: heterosexual -.19 vs homosexual -.002, F(1,68) = 2.83, p = .097, marginal) [read, 2003 pp. 82-83; corrected in validation, an earlier draft attached the reversal to the p = .085 test]. This is the model's version of the familiar claim, in Gottman's usage, that negative outweighs positive (the phrasing is ours, not a quotation).
 - Number of stable positive-positive attractors: homosexual 0.86 vs heterosexual 0.32 (p = .025); lesbian 1.14.
 - The inter-rater correlation for the gay and lesbian sample is only .52 against .90 for married couples, which limits comparison.
 
@@ -186,7 +178,7 @@ The model is a drive-like system with a different state variable, so the mapping
 | `r` (inertia) | Persistence of own state | Relaxation rate `1 - r` toward the set point: speed of drive recovery | Medium; direct analogy, the Cook paper links it to arousal (hypothesis) |
 | `I_AB(.)` | Partner's push as function of the partner's state | The inter-agent coupling term `w`, in a model of the form `D = D_self + w D_partner` (compare `49`) | Strong structurally; it is the one thing that is a genuine between-person operator |
 | Negative threshold `K_-` | Level of partner negativity before the response engages | Dead-zone or trigger level of the response, comparable to a fear-detection threshold | Medium; a threshold on an input, not on the agent's own drive |
-| Slope asymmetry (negative steeper than positive) | "Triumph of negative over positive" | Negativity-bias gain asymmetry (loss aversion analogue) | Medium; well supported as a descriptive regularity in the lab's own samples |
+| Slope asymmetry (negative steeper than positive) | Triumph of negative over positive (our label for the asymmetry, not a quotation) | Negativity-bias gain asymmetry (loss aversion analogue) | Medium; well supported as a descriptive regularity in the lab's own samples |
 | Repair `E_R R(K)` | Upward jump after a negativity trigger | A regulatory controller engaging past a threshold (Powers-style loop) | Medium; but an additive jump, not a feedback law |
 | Damping `E_D D(K)` | Reduction of the positive effect | A brake on over-positivity (contextual appropriateness) | Weak; authors say they "do not yet fully understand" it |
 | Mismatch of `I` functions | Predicts instability | Incompatibility of the two agents' coupling operators | Hypothesis only |
@@ -267,3 +259,12 @@ Scope: grepped the other prior-work files for Gottman, Murray, Cook, Swanson, th
 4. **Source of the husband's equation.** `20` read Murray ch. 5 and 059 reconstructed the 1995 form from Cook's prose, because equations 3 to 5 of Cook were images. They agree. 059 flags the 1999 printed form `I_WH(W_t)` as a possible typo, which `20` does not mention. Nothing contradicts.
 
 No other numeric or bibliographic conflict was found. `060`, `079` and `082` mention Gottman only as the skeleton or as a pointer, with no figure that conflicts with this file.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+- Cook, Tyson, White, Rushe, Gottman and Murray 1995 (J. Family Psychology, APA): not determined; publisher copyright presumed. Used as short attributed quotations, restated equations, and a prose description of Table 1 (the full transcription was removed 2026-10-30).
+- Gottman, Swanson and Murray 1999 (APA): not determined; publisher copyright presumed. Used as short attributed quotations, restated equations, the SPAFF code weights (a short factual list, kept; flagged "check"), and numeric values of Tables 1 and 2 (facts; the table layout is a flagged "check" item to reduce to prose if the file goes public).
+- Gottman, Levenson et al. 2003 (Taylor & Francis): not determined; publisher copyright presumed. Used as short attributed quotations and reported values.
+- Gottman and Levenson 1992, Liebovitch et al. 2008 and 2011, Peluso et al. 2012, Heyman and Slep 2001, Kim et al. 2007: citations only (DOIs checked on Crossref); no text reproduced.
+- Section 2 glossary of dynamical-systems terms: no source named; written as the author's own wording, not copied from a Wikipedia article (flagged "check", no CC BY-SA text identified).
+- Cumulative quoted text from the 1999, 2003 and 1995 papers is about 200 words in several short quotes; if the file goes public, cut the longest quotes in sections 4.5 and 5.2 to a sentence each.

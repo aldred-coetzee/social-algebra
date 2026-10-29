@@ -63,6 +63,8 @@ read for any entry. Items I could not confirm are in "Unconfirmed" at the end.
   statement, page numbers); https://en.wikipedia.org/wiki/An_Introduction_to_Cybernetics .
   The book's own wording is "only variety can destroy variety" (p. 207); the
   survey originally dropped "only". (Validator, from knowledge of the text.)
+  The Operators wording below follows the Wikipedia article "Variety
+  (cybernetics)", CC BY-SA 4.0.
 - **Their vocabulary.** Variety (log of number of distinguishable states),
   disturbance, regulator, outcome.
 - **Operands.** Sets of distinguishable states of a disturbance source, of a
@@ -72,8 +74,8 @@ read for any entry. Items I could not confirm are in "Unconfirmed" at the end.
   Entropy form: H(E) >= H(D) - H(R). Derived for a two-player game in which
   the regulator sees the disturbance and plays a deterministic strategy. [from abstract/standard account]
 - **Predictive/control claim.** A necessary condition: a controller cannot
-  reduce outcome variety below disturbance variety minus its own. "Necessary,
-  not sufficient." It is a theorem about a model, not an empirical claim
+  reduce outcome variety below disturbance variety minus its own. Necessary,
+  not sufficient (standard gloss on Ashby 1956, ch. 11, pp. 206-208). It is a theorem about a model, not an empirical claim
   about societies.
 - **Limits.** Variety depends on the observer's powers of discrimination.
   Applications to organisations and nations are later interpretation (Beer
@@ -91,7 +93,9 @@ read for any entry. Items I could not confirm are in "Unconfirmed" at the end.
 - **Verified at.** https://en.wikipedia.org/wiki/Viable_system_model (works,
   structure); https://en.wikipedia.org/wiki/Project_Cybersyn (components,
   dates, use); review of Medina at https://muse.jhu.edu/article/522475/pdf
-  (seen in search results, not opened).
+  (seen in search results, not opened). Facts and wording in this section
+  follow the Wikipedia articles "Viable system model" and "Project
+  Cybersyn", CC BY-SA 4.0.
 - **Their vocabulary.** Viable system, System 1 to 5, recursion, variety,
   algedonic signal (pain/pleasure alert), homeostat, operations room.
 - **Operands (translated).** Organisational units (System 1: operational
@@ -193,7 +197,7 @@ read for any entry. Items I could not confirm are in "Unconfirmed" at the end.
 - **Predictive/control claim.** Policies that look sensible can worsen
   outcomes (Urban Dynamics: low-income housing programmes and lower property
   taxes would worsen the shortage of jobs relative to population, per
-  Wikipedia's summary). Limits to Growth: business-as-usual leads to overshoot
+  Wikipedia's summary; wording follows the Wikipedia article "Urban Dynamics", CC BY-SA 4.0). Limits to Growth: business-as-usual leads to overshoot
   and collapse in the 21st century.
 - **How it held up.** Limits to Growth: Turner (CSIRO 2008) found 1970-2000
   data across the model's main variables (population, birth and death
@@ -208,8 +212,8 @@ read for any entry. Items I could not confirm are in "Unconfirmed" at the end.
   update, all comparing trajectories, not out-of-sample tests of turning
   points (no turning point had yet occurred). Against: resource-price predictions did not materialise; critics
   (Passell, Sussex SPRU, J. Simon) called it sensitive to a few assumptions.
-  A defender notes the authors meant "predictions" only in the most limited
-  sense. Urban Dynamics: controversial; I did not obtain a track-record
+  A defender (source not recorded) notes the authors meant predictions only in
+  the most limited sense. Urban Dynamics: controversial; I did not obtain a track-record
   assessment beyond that.
 - **Limits.** Parameters are partly judgemental; results sensitive to
   structure; aggregation removes the group-level mechanics entirely.
@@ -258,7 +262,8 @@ read for any entry. Items I could not confirm are in "Unconfirmed" at the end.
 - **Verified at.** https://www.nobelprize.org/prizes/economic-sciences/2007/press-release/ ;
   https://www.kva.se/en/news/ekonomipriset-2007-2/ ; formal structure from
   https://en.wikipedia.org/wiki/Mechanism_design (the Nobel advanced
-  information PDF returned 403).
+  information PDF returned 403); wording of the formal structure follows the
+  Wikipedia article "Mechanism design", CC BY-SA 4.0.
 - **Their vocabulary.** Type, social choice function, mechanism,
   implementation, incentive compatibility, revelation principle.
 - **Operands.** Agents with private types; outcomes (allocation plus
@@ -306,8 +311,8 @@ read for any entry. Items I could not confirm are in "Unconfirmed" at the end.
   Science and Technology Committee's *Behaviour Change* report (2011) found
   that non-regulatory measures including nudges, used in isolation, are
   less likely to be effective, and that evidence on population-level
-  application was thin (the quoted phrase "precious little" was not found
-  in the report summaries; dropped). Meta-analysis: Mertens et al., *PNAS*
+  application was thin (a phrase once attributed to the report was not found in the
+  report summaries and has been removed). Meta-analysis: Mertens et al., *PNAS*
   119(1) e2107346118 (2022) reported a mean effect of d ≈ 0.43 across 200+
   studies; Maier et al., *PNAS* 119(31) e2200300119 (2022) argued that after
   correcting for publication bias there is no evidence of an overall effect.
@@ -336,8 +341,8 @@ read for any entry. Items I could not confirm are in "Unconfirmed" at the end.
   explanation. Group formation, cultural transmission, combat and trade
   emerge.
 - **How it held up.** Replication is a known problem: implementations often
-  cannot reproduce the book's results exactly (Wikipedia, citing Leicester
-  replication notes).
+  cannot reproduce the book's results exactly (wording follows the Wikipedia article "Sugarscape", CC BY-SA 4.0,
+  which cites Leicester replication notes).
 - **Limits.** The rule set is chosen by the modeller; many rule sets can give
   the same macro pattern.
 - **Relevance.** Evidence that rule sets over simple agents can generate group
@@ -415,7 +420,8 @@ read for any entry. Items I could not confirm are in "Unconfirmed" at the end.
 - **Verified at.** https://en.wikipedia.org/wiki/Cliodynamics ;
   https://peterturchin.com/the-science-behind-my-forecast-for-2020/ ;
   https://today.uconn.edu/2016/12/using-social-science-to-predict-the-future
-  (all via search results or summaries; none read in full).
+  (all via search results or summaries; none read in full). Wording in this
+  section follows the Wikipedia article "Cliodynamics", CC BY-SA 4.0.
 - **Vocabulary, operands, operators.** See 08 §3 (Turchin's coupled aggregate
   equations); this entry covers the psychohistory framing and the 2010 forecast only.
 - **Predictive claim.** In 2010, a ~50-year instability cycle (peaks around
@@ -439,6 +445,8 @@ read for any entry. Items I could not confirm are in "Unconfirmed" at the end.
 - **Verified at.** https://en.wikipedia.org/wiki/Lanchester%27s_laws ;
   https://math.fsu.edu/~mesterto/NewCourses/MAP5932/2016/PDF/PDF02/Osipov1995aEngagedForces.pdf ;
   https://dupuyinstitute.org/2017/07/03/osipov/
+  (priority-dispute and historical wording follows the Wikipedia article
+  "Lanchester's laws", CC BY-SA 4.0)
 - **Operands.** Sizes of two opposing forces A, B. **Operators.** Coupled
   differential equations. Aimed fire: dA/dt = -βB, dB/dt = -αA, which
   conserves αA² - βB² (the square law: strength goes as effectiveness times
@@ -650,3 +658,36 @@ independent one picked different scenarios. The Lefebvre section is now
 grounded in a full collaborator paper rather than search snippets, and
 the original's core claim (alliance = product, conflict = sum) turned out
 to be right.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+- Wiener, *The Human Use of Human Beings* (1950), 18-word quotation in §1:
+  publisher copyright (book); wording actually taken from the Wikipedia
+  article (CC BY-SA 4.0). Short quotation, kept; to be confirmed against the book.
+- Ashby, *An Introduction to Cybernetics* (1956) and 1958 *Cybernetica* paper:
+  publisher copyright, not determined; one 4-word quotation ("only variety
+  can destroy variety") and a restated equation. Equations restated, not copied.
+- Wikipedia articles (Variety (cybernetics), Viable system model, Project
+  Cybersyn, Urban Dynamics, Mechanism design, Nudge (book), Sugarscape,
+  Cliodynamics, Lanchester's laws): CC BY-SA 4.0. Used as paraphrased
+  facts and short wording, attributed in the "Verified at" lines; the
+  Nudge definition (§8) and Lanchester prose (§13a) are marked for a check
+  of retained wording.
+- Thomas (2004), Taylor & Francis: publisher copyright presumed. The list of
+  eleven reflexive-control elements in §4 was recalled from memory and is
+  retained pending a check against the paper (or reduction to a description).
+- Thaler & Sunstein, *Nudge* (Yale UP, 2008): publisher copyright; definition
+  restated in our words, no quotation.
+- House of Lords Science and Technology Committee, *Behaviour Change* (2011):
+  parliamentary publication, licence not checked; finding paraphrased, the
+  unverified quotation removed.
+- ANZIAM Journal paper on Lanchester models: not determined; publisher
+  copyright presumed; one short quotation (under 20 words).
+- Salganik et al. (2020, PNAS), Fragile Families abstract: PNAS articles are
+  open access under CC BY-NC-ND/CC BY; not determined for this article; one
+  short quotation (under 30 words).
+- All other works (Forrester, Meadows et al., Simon, Hurwicz/Maskin/Myerson,
+  Epstein & Axtell, Axelrod, Rapoport et al., Salganik et al. 2006, Turchin,
+  Lanchester, Osipov, von Neumann-Morgenstern, Shapley, Gillies, Aumann &
+  Drèze, Conant & Ashby, Batchelder & Lefebvre): not determined; publisher
+  copyright presumed; cited only, with facts and numbers restated.

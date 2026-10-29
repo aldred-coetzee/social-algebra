@@ -14,7 +14,7 @@ Date: 2026-10-29. Survey for the social-algebra strand. Cluster: minimal semanti
 
 **Their vocabulary.** Semantic primes: indefinable meanings with lexical exponents in every language tested (30+ languages claimed, `[from abstract/standard account]`), combined by a universal mini-grammar. Explication: a paraphrase of a word's meaning using only primes. Scenario / prototype: an emotion explication is a script, not a feeling-label.
 
-**Drives/operands: the 65 primes `[read]`, Wikipedia's table.**
+**Drives/operands: the 65 primes `[read]`, Wikipedia's table (wording follows the Wikipedia article 'Natural semantic metalanguage', CC BY-SA 4.0).**
 - Substantives: I, YOU, SOMEONE, PEOPLE, SOMETHING/THING, BODY. Relational: KIND, PART. Determiners: THIS, THE SAME, OTHER/ELSE/ANOTHER.
 - Quantifiers: ONE, TWO, SOME, ALL, MUCH/MANY, LITTLE/FEW. Evaluators: GOOD, BAD. Descriptors: BIG, SMALL.
 - Mental predicates: THINK, KNOW, WANT, DON'T WANT, FEEL, SEE, HEAR. Speech: SAY, WORDS, TRUE.
@@ -22,25 +22,15 @@ Date: 2026-10-29. Survey for the social-algebra strand. Cluster: minimal semanti
 - Time: WHEN/TIME, NOW, BEFORE, AFTER, A LONG TIME, A SHORT TIME, FOR SOME TIME, MOMENT. Space: WHERE/PLACE, HERE, ABOVE, BELOW, FAR, NEAR, SIDE, INSIDE, TOUCH.
 - Logical: NOT, MAYBE, CAN, BECAUSE, IF. Intensifier: VERY, MORE. Similarity: LIKE/AS/WAY.
 
-Count: the table has 65 entries (recounted in the validation pass). DON'T WANT is listed as a prime in its own right beside WANT in the current (2014-on) inventory, not as WANT + NOT; it is a late addition. Count history per Wikipedia `[read, secondary]`: 14 (Wierzbicka 1972), 60 (2002), 65 (Goddard & Wierzbicka 2014; Ye 2017). The official Griffith NSM pages and chart (v19, April 2017) returned HTTP 403 to every fetch, so the list is not checked against the primary chart. *(Validation: an earlier "61 (Peeters 2006)" was unsupported and is removed; Peeters (ed.) 2006, Semantic Primes and Universal Grammar, Benjamins SLCS 81, exists.)*
+Count: the table has 65 entries (recounted in the validation pass). DON'T WANT is listed as a prime in its own right beside WANT in the current (2014-on) inventory, not as WANT + NOT; it is a late addition. Count history per Wikipedia `[read, secondary]` (wording follows the Wikipedia article 'Natural semantic metalanguage', CC BY-SA 4.0): 14 (Wierzbicka 1972), 60 (2002), 65 (Goddard & Wierzbicka 2014; Ye 2017). The official Griffith NSM pages and chart (v19, April 2017) returned HTTP 403 to every fetch, so the list is not checked against the primary chart. *(Validation: an earlier "61 (Peeters 2006)" was unsupported and is removed; Peeters (ed.) 2006, Semantic Primes and Universal Grammar, Benjamins SLCS 81, exists.)*
 
 **What matters for drives.** The primes include exactly the drive-relevant core a minimalist would pick: **WANT** and **DON'T WANT** (approach and avoidance, as primitives, not as derived valences), **FEEL**, **GOOD/BAD**, **KNOW/THINK**, **CAN**, **MAYBE**, and the social substantives **SOMEONE, PEOPLE, OTHER**. There is no prime for fear, desire, curiosity, anger or any named emotion: these are all claimed to be *composite*. There is no prime for "need", "drive", "hunger" or "power".
 
-**Operators / equations.** None numeric. The combination rule is syntactic concatenation under the mini-grammar, with BECAUSE and IF as the only logical connectives and NOT as negation. Explication template for emotions `[read]` (Wierzbicka 1999: 75, as quoted by Kitis):
+**Operators / equations.** None numeric. The combination rule is syntactic concatenation under the mini-grammar, with BECAUSE and IF as the only logical connectives and NOT as negation. Explication template for emotions `[read]` (Wierzbicka 1999: 75, as quoted by Kitis; paraphrased here):
 
-> Fear (X felt fear):
-> (a) X felt something because X thought something.
-> (b) sometimes a person thinks:
-> (c) "I don't know what will happen
-> (d) some bad things can happen
-> (e) I don't want these things to happen
-> (f) I want to do something because of this if I can
-> (g) I don't know if I can do anything"
-> (h) when this person thinks this this person feels something bad
-> (i) X felt like this
-> (j) because X thought something like this
+The fear script, in our own words (a paraphrase of the structure, not a quotation; licensing audit 2026-10-30 replaced the verbatim ~82-word blockquote, which is Wierzbicka 1999: 75, Cambridge UP): X felt something bad because X thought something like this. The thought runs: I do not know what will happen; BAD things CAN happen; I DON'T WANT them to happen; I WANT to DO something because of this, if I CAN; I do not know if I CAN do anything. Because X thought this, X feels something bad. The primes carrying the structure are WANT, DON'T WANT, KNOW, CAN, MAYBE/CAN and BAD.
 
-*(Validation: the Kitis PDF was re-read and the quotation matches it line for line; Kitis attributes it to "Wierzbicka (1990, 1999)", page 1999: 75. The primary book was not reached. Note that Kitis, "Emotions as discursive constructs: the case of the psych-verb 'fear'", is a **critique** of this approach: she argues fear verbs originate in motion/action meanings and do discourse work the explication misses.)*
+*(Validation, before the 2026-10-30 paraphrase: the Kitis PDF was re-read and the then-verbatim quotation matched it line for line; Kitis attributes it to "Wierzbicka (1990, 1999)", page 1999: 75. The primary book was not reached. Note that Kitis, "Emotions as discursive constructs: the case of the psych-verb 'fear'", is a **critique** of this approach: she argues fear verbs originate in motion/action meanings and do discourse work the explication misses.)*
 
 Afraid (X was afraid) `[read]` swaps the cause for a thing: "something bad can happen to me because of this / I don't want this to happen / I don't know if I can do anything now". Structure of every emotion explication: **[FEEL something because THINK something] + prototype thought (built from WANT / DON'T WANT / KNOW / CAN / BAD / MAYBE / HAPPEN) + [FEEL good/bad]**. Distinct emotions differ in the prototype thought, e.g. a pleased/delighted pair differs only in scenario and evaluation `[search summary]`.
 
@@ -62,7 +52,7 @@ This is the current NSM *template* form (model thought, then a feeling caused by
 
 **Theorems or derived predictions.** The programme's claim is a universality claim: any language's emotion words can be explicated in primes and translated through them; proposed as a falsifiable hypothesis `[from abstract/standard account]`. No theorems.
 
-**Empirical standing (blunt).** The primes are tested by finding exponents in many languages, not by experiment on human subjects; the explications are expert analyses by the proponents, with limited independent validation. A Finnish study cited in the search notes there is "little empirical proof" that the emotion explications correspond to what speakers mean `[search summary]`. Critics (outside this search) object that the "primitive" set is English-biased and the inventory has moved from about 14 (1972) to 65, `[standard account]`. Treat explications as structured hypotheses, not data.
+**Empirical standing (blunt).** The primes are tested by finding exponents in many languages, not by experiment on human subjects; the explications are expert analyses by the proponents, with limited independent validation. A Finnish study (not named in the search notes, so untraced; re-find before relying on it) is reported to find there is little empirical proof that the emotion explications correspond to what speakers mean `[search summary]`. Critics (outside this search) object that the "primitive" set is English-biased and the inventory has moved from about 14 (1972) to 65, `[standard account]`. Treat explications as structured hypotheses, not data.
 
 **Operand/operator translation.** Strong. Operands: the substantives (I, YOU, SOMEONE, PEOPLE) and states typed by the mental predicates. Operators: the predicates themselves (WANT, FEEL, KNOW, CAN, DO) as relations between a person and a proposition or an outcome; BECAUSE, IF, NOT, MAYBE as connectives. The algebra could adopt NSM as its **definitional layer**: WANT and DON'T WANT are already the two-drive core (approach/avoidance), every named drive being a derived script. The cost: no magnitude. VERY and MORE are the only quantity words, so any levels need to be added.
 
@@ -278,3 +268,14 @@ This is the current NSM *template* form (model thought, then a feeling caused by
 - Request explication in section 9 — ? remains the author's construction, labelled
 
 **Verdict.** The survey is sound in structure and honest about what it did not read; no cited work turned out to be fabricated, and the fear explication was quoted faithfully. Its errors are in interpretation and loose detail rather than invention: an unsupported prime-count step, a made-up colexification example, an over-tidy account of Talmy's letting and steady-state table, and, most consequentially, presenting curiosity's home on the novelty dimension as a finding when GRID's novelty axis is empirically a surprise axis. Treat the "Translation" paragraphs as the author's hypotheses, which is what they are.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+- **Wierzbicka 1999, *Emotions across Languages and Cultures* (Cambridge UP), p. 75, fear explication, read via Kitis.** Publisher copyright (paywalled book; not read directly). Was an ~82-word verbatim blockquote; now a prose paraphrase of the prime structure, citation kept.
+- **Kitis, "Emotions as discursive constructs: the case of the psych-verb fear" (PDF, extracted locally).** Licence not determined; publisher copyright presumed. Provenance of the PDF is not recorded in this file; if it was obtained behind a paywall or login, re-check. Used only as the route to the Wierzbicka passage and as a critique cited by description.
+- **Wikipedia, "Natural semantic metalanguage" (65-prime table and count history 14/60/65).** CC BY-SA 4.0. The prime inventory is transcribed as a list of 65 items and is marked as Wikipedia-derived; the official Griffith chart (not reached, HTTP 403) should become the source of record, or the list reduced to a description, before open-sourcing. The definitional prose under "Their vocabulary" may also follow Wikipedia; not determined, treat as CC BY-SA until confirmed or rewritten.
+- **Goddard's shame explication, as quoted in Peeters (2020), *Lublin Studies in Modern Languages and Literature* 44(1), 27-37.** Journal licence not determined; publisher copyright presumed. Short quotation (about 50 words), attributed; not flagged by the audit.
+- **Short phrases from Talmy 1988 (example sentences) and Wierzbicka afraid explication.** Not determined; publisher copyright presumed. Short quotation only.
+- **Finnish study ("little empirical proof").** Not named; licence not determined; publisher copyright presumed. Three-word phrase, now paraphrased.
+- **CLICS database (2,474 languages; via Jackson et al. 2019), Warriner, Kuperman & Brysbaert 2013 norms, NRC VAD lexicon (Mohammad 2018).** Licence not determined from their own pages; publisher copyright presumed (from memory CLICS is CC BY 4.0 and NRC VAD is non-commercial research use, both unverified). Dataset citation only; no data reproduced.
+- **Equations and other works cited (Jackson 2019, Fontaine 2007, Russell 1980/2003, Osgood, Lakoff & Kovecses, Belletti & Rizzi, etc.).** Citations and facts only; no text, table or figure reproduced. Not determined; publisher copyright presumed.

@@ -157,3 +157,17 @@ Checked against the other files in this directory by grep on Epstein, Thron & Ja
 5. **Wording hazard, not a contradiction.** 063 lists "Friedkin & Johnsen 1999", *Advances in Group Processes* 16, a different work from Friedkin 1999, ASR. Do not merge them.
 
 No source contradicted a numerical claim here beyond items 1 and 2. 068's note that Epstein's text calls the legitimacy drop 0.30 while 0.9 to 0.7 is 0.20 is a source inconsistency not mentioned in this file.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+Audit verdicts for this file were all "check": no text was changed. No tables or datasets are transcribed; equations are restated, not copied with surrounding text.
+
+- **Epstein, Steinbruner & Parker (2001), Brookings CSED Working Paper 20.** Licence not determined; publisher copyright presumed. Use: short quotations (each well under 60 words, e.g. "we make no pretense to measuring model variables...", the "4000th" remark, "dips just at the outset"), restated equations (G, P, N, Rule A), and a description of parameter values and run settings.
+- **Epstein (2002), PNAS 99 (suppl. 3), 7243-7250.** Licence not determined; publisher copyright presumed (PMC copy licence not recorded). Use: one short quotation of 22 words in Cross-checks ("there comes a point at which a marginal reduction in central authority does 'tip' society into rebellion"), plus restated equations. Access note: line 8 says the PNAS page returned 403 and the PMC copy sat behind a browser check that was not bypassed, while the Cross-checks (lines 143, 146, 153) say the PMC text was read at PMC128592. This file does not record how that access was obtained. Unresolved: confirm the text was reached legitimately (for example a normal browser view), or the claims that depend on it (the 22-word quotation, the "buildup" sentence, the parameter agreement) should be downgraded to [abs]/[std] with "readable copy not obtained legitimately; re-read needed".
+- **Thron & Jackson, arXiv:1501.05838.** Licence not determined (arXiv default licence unknown for this deposit); publisher/author copyright presumed. Use: short quoted phrases (each a few words to one sentence) and restated equations and fractions.
+- **Friedkin (1999), ASR 64(6), 856-875.** Not determined; publisher copyright presumed (SAGE/ASA). Use: one short quoted phrase from the abstract ("ubiquitous product of the inequalities of interpersonal influence...") and citation only.
+- **Biondi, Boldrini, Passarella & Conti, arXiv:2206.06134 / IEEE TSMC 2023.** Not determined; publisher copyright presumed. Use: description of Definition 3 and Corollaries 6 and 7 in our own words, with short quoted phrase ("there is never a choice shift"), and restated update rule.
+- **Kozlowski et al. (2013), ORM 16(4), 581-615.** Not determined; publisher copyright presumed. Abstract read only; used as paraphrase and citation.
+- **Kozlowski et al. (2016), OPR 6(1), 3-33.** Not determined; publisher copyright presumed. Citation only.
+- **Bosse et al. (2015), Cognitive Computation 7(1), 111-136.** Not determined; publisher copyright presumed. Abstract-level paraphrase and citation only.
+- **Wilensky (2004), NetLogo Rebellion; Gionis et al.; Epstein (2012) book reprint.** Cited only (via Thron & Jackson, Biondi et al., Crossref); not opened or quoted.

@@ -19,7 +19,7 @@ Three findings matter most:
 ## 1. Ibn Khaldun, *Muqaddimah* (1377) — the 'asabiyya cycle
 
 - **Citation:** Ibn Khaldun, *al-Muqaddima*; English: Franz Rosenthal (trans.), *The Muqaddimah: An Introduction to History*, 3 vols., Bollingen Series XLIII, New York: Pantheon, 1958 (now Princeton University Press; abridged one-volume edition 1969).
-- **Source:** https://en.wikipedia.org/wiki/Asabiyyah (secondary); edition: https://press.princeton.edu/node/66459
+- **Source:** https://en.wikipedia.org/wiki/Asabiyyah (secondary); edition: https://press.princeton.edu/node/66459 (wording of any summary drawn from it follows the Wikipedia article 'Asabiyyah', CC BY-SA 4.0)
 - **Their vocabulary:** 'asabiyya (group feeling), dynasty (dawla), nomad/desert vs. sedentary/urban life (badawa/hadara), luxury, generations.
 - **Operands:** Groups (tribes, dynasties) each carrying a scalar *solidarity*; two environments (periphery, centre); generations.
 - **Operators:** *Conquer from periphery* (high-solidarity group displaces a low-solidarity ruling group); *settle/luxuriate* (solidarity decays with sedentary life); *replace*. Cycle length: Khaldun says a dynasty as a rule does not last beyond three generations, reckoning a generation at forty years, so about 120 years (Muqaddimah ch. 3; validator's knowledge of the text, consistent with the secondary sources; the original's "3 or 4 generations (~120 years)" conflated two figures). Formality: **narrative with an implicit one-variable state machine**. No equations in the original. [from abstract/standard account]
@@ -76,7 +76,7 @@ Three findings matter most:
 - **Citation:** Turchin, "Arise 'cliodynamics'", *Nature* 454: 34-35 (2008); "Political instability may be a contributor in the coming decade", *Nature* 463: 608 (2010), one of the "2020 visions" correspondence pieces (title from validator's knowledge; the quoted sentence below confirmed via secondary sources); "Dynamics of political instability in the United States, 1780-2010", *Journal of Peace Research* 49(4) (2012); *Ages of Discord*, Beresta Books (2016). Self-assessment: Turchin and Korotayev, "The 2010 structural-demographic forecast for the 2010-2020 decade: A retrospective assessment", *PLOS ONE* 15(8): e0237458 (2020), doi:10.1371/journal.pone.0237458.
 - **Source:** secondary: https://today.uconn.edu/?p=180536 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC7430736 ; critique: https://newstatesman.com/the-weekend-essay/2023/06/peter-turchins-empty-prophecies
 - **Operands/Operators:** As item 4 applied to the US: political-stress indicator composed of wages, elite overproduction and state fiscal health.
-- **Predictive claim:** 2010: "50-year instability spikes occurred around 1870, 1920 and 1970, so another could be due around 2020." The 2010 text says "around 2020"; later work projects the Political Stress Indicator into the 2020s, which is where the "mid-to-late 2020s" accounts come from. Turchin and Korotayev (2020) tested it against the Cross-National Time-Series Data Archive and report that protests and riots rose sharply in 2010-2020 in the US, UK and several Western European countries. That is a test, but by the forecast's authors and with no pre-stated threshold. Critics (New Statesman) call the later book banal.
+- **Predictive claim:** 2010: "50-year instability spikes occurred around 1870, 1920 and 1970, so another could be due around 2020." The 2010 text says "around 2020"; later work projects the Political Stress Indicator into the 2020s, which is where accounts putting the peak in the middle-to-late 2020s come from. Turchin and Korotayev (2020) tested it against the Cross-National Time-Series Data Archive and report that protests and riots rose sharply in 2010-2020 in the US, UK and several Western European countries. That is a test, but by the forecast's authors and with no pre-stated threshold. Critics (New Statesman) call the later book banal.
 - **Limits:** A 50-year period from three observed spikes; no pre-registered threshold; assessed only by its authors.
 - **Relevance:** A cautionary case for the algebra: a forecast loose in timing and magnitude is hard to fail, so the test has to be stated before the outcome.
 
@@ -94,7 +94,7 @@ Three findings matter most:
 ## 8. Toynbee, *A Study of History* (1934-61)
 
 - **Citation:** Arnold J. Toynbee, *A Study of History*, 12 vols., Oxford University Press, 1934-61.
-- **Source:** https://en.wikipedia.org/wiki/A_Study_of_History (secondary)
+- **Source:** https://en.wikipedia.org/wiki/A_Study_of_History (secondary) (wording of any summary drawn from it follows the Wikipedia article 'A Study of History', CC BY-SA 4.0)
 - **Their vocabulary:** challenge and response; creative minority; mimesis; withdrawal and return; dominant minority; universal state; breakdown.
 - **Operands:** Civilisations; within them a creative minority, a mass, and later a dominant minority.
 - **Operators:** *Respond to challenge*; *imitate* (mass imitates minority); *withdraw-and-return* (leader retreats, then reintegrates with new capacity). Breakdown occurs when the minority stops responding and the majority no longer follows or follows only under compulsion; the minority becomes a dominant minority forming a universal state. Formality: **narrative typology**; verbs are good but nothing is quantified.
@@ -114,7 +114,7 @@ Three findings matter most:
 ## 10. Namier and prosopography (Namier 1929; Stone 1971)
 
 - **Citation:** Lewis Namier, *The Structure of Politics at the Accession of George III*, Macmillan, 1929 (2nd ed. Macmillan, 1957; 1961 is the Papermac paperback reprint). Lawrence Stone, "Prosopography", *Daedalus* 100(1): 46-79 (Winter 1971).
-- **Source:** https://en.wikipedia.org/wiki/The_Structure_of_Politics_at_the_Accession_of_George_III ; https://cbdb.hsites.harvard.edu/prosopography
+- **Source:** https://en.wikipedia.org/wiki/The_Structure_of_Politics_at_the_Accession_of_George_III ; https://cbdb.hsites.harvard.edu/prosopography (wording of any summary drawn from it follows the Wikipedia article 'The Structure of Politics at the Accession of George III', CC BY-SA 4.0)
 - **Their vocabulary:** prosopography (Stone: "the investigation of the common background characteristics of a group of actors in history"); faction, office-holders, independents.
 - **Operands:** Individual members of a group with biographical attributes (family, office, patronage).
 - **Operators:** None formal. Namier's conclusion was that no party system existed; Parliament was factions of office-holders and independents. The method is **attribute tabulation for a named set of actors**.
@@ -135,7 +135,7 @@ Three findings matter most:
 ## 12. Padgett and Powell, *The Emergence of Organizations and Markets* (2012)
 
 - **Citation:** John F. Padgett and Walter W. Powell (eds.), *The Emergence of Organizations and Markets*, Princeton University Press, 2012.
-- **Source:** https://en.wikipedia.org/wiki/The_Emergence_of_Organizations_and_Markets ; https://muse.jhu.edu/book/36479
+- **Source:** https://en.wikipedia.org/wiki/The_Emergence_of_Organizations_and_Markets ; https://muse.jhu.edu/book/36479 (wording of any summary drawn from it follows the Wikipedia article 'The Emergence of Organizations and Markets', CC BY-SA 4.0)
 - **Their vocabulary:** autocatalysis, spillovers, intertwined networks, relations produce actors.
 - **Operands:** Actors and relations in multiple networks (production, communication).
 - **Operators:** Borrowed from chemistry: autocatalysis. Short-run, actors form relations; long-run, relations produce new actors and forms. Novelty arises from spillovers across intertwined networks. The agent-based models in the first section reportedly generate overlapping production networks (blog summary only). Formality: **agent-based models plus fourteen historical case studies** (medieval Florence to Silicon Valley). Whether the book states a production-rule algebra I could not confirm. *Transposition* is in the book: ch. 6, Padgett, "Transposition and Refunctionality: The Birth of Partnership Systems in Renaissance Florence", pp. 168-207 (JSTOR table of contents), where a relational practice moves from one network domain to another and is refunctioned there; that is a candidate operator the original survey missed.
@@ -177,7 +177,7 @@ Three findings matter most:
 ## 16. Skocpol, *States and Social Revolutions* (1979)
 
 - **Citation:** Theda Skocpol, *States and Social Revolutions: A Comparative Analysis of France, Russia, and China*, Cambridge University Press, 1979.
-- **Source:** https://en.wikipedia.org/wiki/States_and_Social_Revolutions ; https://www.nli.org.il/he/books/NNL_ALEPH997007876747105171/NLI
+- **Source:** https://en.wikipedia.org/wiki/States_and_Social_Revolutions ; https://www.nli.org.il/he/books/NNL_ALEPH997007876747105171/NLI (wording of any summary drawn from it follows the Wikipedia article 'States and Social Revolutions', CC BY-SA 4.0)
 - **Their vocabulary:** state autonomy, state breakdown, peasant revolution, comparative historical method.
 - **Operands:** States as administrative-coercive organisations; classes; peasantry.
 - **Operators:** Social revolution arises from the simultaneous occurrence of state breakdown and peasant revolt (summary). Formality: **comparative-case argument**, three cases.
@@ -188,7 +188,7 @@ Three findings matter most:
 ## 17. Barrington Moore, *Social Origins of Dictatorship and Democracy* (1966)
 
 - **Citation:** Barrington Moore Jr., *Social Origins of Dictatorship and Democracy: Lord and Peasant in the Making of the Modern World*, Boston: Beacon Press, 1966 (validator's knowledge).
-- **Source:** https://en.wikipedia.org/wiki/Social_Origins_of_Dictatorship_and_Democracy
+- **Source:** https://en.wikipedia.org/wiki/Social_Origins_of_Dictatorship_and_Democracy (wording of any summary drawn from it follows the Wikipedia article 'Social Origins of Dictatorship and Democracy', CC BY-SA 4.0)
 - **Operands:** Landed aristocracy, bourgeoisie, peasantry, state.
 - **Operators:** Three routes (liberal democratic, fascist, communist) determined by timing of industrialisation and the pre-existing agrarian structure. Conditions for democracy include weakening the landed aristocracy and a revolutionary break; an aristocratic-bourgeois coalition against peasants and workers leads towards fascism. Six main cases (England, France, the United States, China, Japan, India), with Germany and Russia treated comparatively, which is why counts of six and eight both appear.
 - **Formality:** Typology of **coalition configurations -> regime outcomes**.
@@ -206,10 +206,10 @@ Three findings matter most:
 ## 19. Tainter, *The Collapse of Complex Societies* (1988)
 
 - **Citation:** Joseph A. Tainter, *The Collapse of Complex Societies*, Cambridge University Press, 1988.
-- **Source:** https://en.wikipedia.org/wiki/Joseph_Tainter ; https://www.resilience.org/stories/2012-03-29/collapse-complex-societies-review/
+- **Source:** https://en.wikipedia.org/wiki/Joseph_Tainter ; https://www.resilience.org/stories/2012-03-29/collapse-complex-societies-review/ (wording of any summary drawn from it follows the Wikipedia article 'Joseph Tainter', CC BY-SA 4.0)
 - **Operands:** Societies as problem-solving organisations with a stock of complexity and a resource budget.
 - **Operators:** *Invest in complexity* (new institutions, roles). Returns diminish; when marginal return reaches zero or negative, society *involuntarily sheds complexity* (his definition of collapse). Formality: **verbal economic argument** (diminishing marginal returns); not fitted.
-- **Predictive claim:** Collapse follows falling marginal returns on complexity. One reviewer says "different rates of declining marginal returns" explains little.
+- **Predictive claim:** Collapse follows falling marginal returns on complexity. One reviewer (Resilience.org review, 2012; see Source) says this explains little.
 - **Relevance:** Gives a cost-benefit operator for adding structure (offices, rules) and a shedding operator.
 
 ## 20. Elite theory: Pareto, Mosca, Michels
@@ -242,7 +242,7 @@ Three findings matter most:
 ## 23. Carneiro, circumscription theory (added)
 
 - **Citation:** Robert L. Carneiro, "A Theory of the Origin of the State", *Science* 169(3947): 733-738 (1970). DOI 10.1126/science.169.3947.733.
-- **Source:** https://en.wikipedia.org/wiki/Circumscription_theory ; critiques: Zinkina, Korotayev and Andreev, *Cliodynamics* (2016) cross-cultural re-analysis (plausible in some situations, not enough to support wholesale); Stocker and Xiao, "Early State Formation: A Complete Rejection of the Circumscription Theory", *Social Evolution & History* 18(2) (2019), doi:10.30884/seh/2019.02.09, reject it.
+- **Source:** https://en.wikipedia.org/wiki/Circumscription_theory ; critiques: Zinkina, Korotayev and Andreev, *Cliodynamics* (2016) cross-cultural re-analysis (plausible in some situations, not enough to support wholesale); Stocker and Xiao, "Early State Formation: A Complete Rejection of the Circumscription Theory", *Social Evolution & History* 18(2) (2019), doi:10.30884/seh/2019.02.09, reject it. (wording of any summary drawn from it follows the Wikipedia article 'Circumscription theory', CC BY-SA 4.0)
 - **Operands:** Villages/groups on land with barriers; population pressure.
 - **Operators:** Where groups cannot disperse, *conflict and submission* produce chiefdoms and states. Formality: **verbal causal chain**, tested statistically by others, with mixed results.
 - **Relevance:** A one-operator model (conquer when exit is blocked) and an example of an environment variable (exit cost) governing which operators fire.
@@ -258,7 +258,7 @@ Three findings matter most:
 ## 25. Bueno de Mesquita et al., *The Logic of Political Survival* (2003; added)
 
 - **Citation:** Bruce Bueno de Mesquita, Alastair Smith, Randolph Siverson, James Morrow, *The Logic of Political Survival*, MIT Press, 2003.
-- **Source:** https://en.wikipedia.org/wiki/Selectorate_theory ; critique: Kevin A. Clarke and Randall W. Stone, "Democracy and the Logic of Political Survival", *APSR* 102(3): 387-392 (2008), https://www.sas.rochester.edu/psc/stone/articles/clarkestone2008.pdf ; reply: Morrow, Bueno de Mesquita, Siverson and Smith, "Retesting Selectorate Theory", *APSR* 102(3): 393-400 (2008)
+- **Source:** https://en.wikipedia.org/wiki/Selectorate_theory ; critique: Kevin A. Clarke and Randall W. Stone, "Democracy and the Logic of Political Survival", *APSR* 102(3): 387-392 (2008), https://www.sas.rochester.edu/psc/stone/articles/clarkestone2008.pdf ; reply: Morrow, Bueno de Mesquita, Siverson and Smith, "Retesting Selectorate Theory", *APSR* 102(3): 393-400 (2008) (wording of any summary drawn from it follows the Wikipedia article 'Selectorate theory', CC BY-SA 4.0)
 - **Operands:** Leader, selectorate (those with a say in choosing), winning coalition (the subset whose support is needed).
 - **Operators:** The leader allocates private goods vs public goods to keep the coalition; large coalitions favour public goods. Formality: **game-theoretic model with formal results**; one of the few here.
 - **Predictive claim and test:** Large coalitions yield welfare and growth. Clarke and Stone argue that the original tests, which entered democracy only as residuals from regressing it on W and S, are equivalent to omitting democracy, inducing omitted-variable bias; with democracy controlled, most of the important findings do not survive. Morrow et al. accept the residualisation point but report, with new tests controlling for other elements of democracy, that the theory is robustly supported. So: contested, not refuted.
@@ -290,7 +290,7 @@ Three findings matter most:
 - **Interaction between two named parties barely appears.** The models describe a group moving through a state space. They do not say what happens when A *does something to* B inside the group.
 - **Poor testing.** A Seshat causal paper retracted; the 2020 forecast loose and self-assessed; selectorate empirics contested; Time on the Cross disputed. Where there are equations there is little validation; where there is validation (cliometrics, Tilly's dataset) there is no model.
 - **Cycles are assumed single-path.** Polybius and Khaldun have one trajectory; Moore and Tilly have a few branches. None treats the operator sequence as a choice made by agents.
-- **Control is mostly absent.** The only controller-shaped ideas are Polybius's mixed constitution and North et al.'s doorstep conditions. "Predicting and controlling" in the owner's sense is not here.
+- **Control is mostly absent.** The only controller-shaped ideas are Polybius's mixed constitution and North et al.'s doorstep conditions. Predicting and controlling, in the owner's sense (Aldred's wording), is not here.
 
 ## Unconfirmed
 
@@ -345,3 +345,17 @@ Revised by validation, 2026-10-29. Items resolved by web search were removed fro
 - ✗ removed: nothing fabricated was found.
 
 **Verdict.** The survey is reliable on existence: every one of the 26 works is real and correctly attributed, with no fabrications. Its errors are in the detail and lean one way — toward overstating the field's failures (the "unfalsifiable" forecast, selectorate results that "fail") and understating its formal content (Turchin's ODEs, Padgett's transposition, the sparse-network mechanism behind the Medici). The structural conclusions (rich verbs, aggregate operands, no stated composition laws) survive validation, but rest on secondary sources, since neither the author nor the validator opened the primary texts.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+No tables or lists are transcribed and no code or data is reproduced. Quotations are two short phrases.
+
+- Wikipedia articles (Asabiyyah; A Study of History; The Structure of Politics at the Accession of George III; The Emergence of Organizations and Markets; States and Social Revolutions; Social Origins of Dictatorship and Democracy; Joseph Tainter; Circumscription theory; Selectorate theory): CC BY-SA 4.0. Used as secondary summaries of operands and operators; attributed on each Source line.
+- Item 6 forecast quotation (Turchin, 2010 *Nature*, "around 2020"): not determined; publisher copyright presumed. Short quotation.
+- Resilience.org review of Tainter (2012): not determined; publisher copyright presumed. Former six-word quotation now paraphrased.
+- Princeton University Press blurbs for Turchin 2003 and Turchin and Nefedov 2009 (items 3, 4): publisher copyright presumed. Facts restated; CHECK still open: confirm the operator sentences were not lifted from blurb wording.
+- Seshat Global History Databank (item 7; PNAS 2018, UCL Discovery PDF): data licence not determined; publisher copyright presumed for the paper. Dataset citation only (counts of polities and variables); record the Seshat data licence before any coded data is reused.
+- Breiger and Pattison (1986) Florentine families data, from Padgett (item 11): not determined. Dataset citation only (size, 16 families); CHECK open.
+- ICPSR 8872, Contentious Gatherings in Britain, 1758-1834 (item 15): ICPSR terms of use, not determined here. Dataset citation only; CHECK open.
+- CoMSES NetLogo replica of Turchin's metaethnic frontier model (item 3): not determined. Referenced only; CHECK open before adapting any code.
+- Other cited books and papers (Turchin et al. PNAS 2013 and 2018, Tilly, Clarke and Stone, and similar): publisher copyright presumed or not determined; citations and facts only.

@@ -54,7 +54,7 @@ Only (6) and (7) are mathematics that lets a model stay valid once known. (1)-(5
 **Operators / equations.** No equations. Statements, quoted [read]:
 - "If men define situations as real, they are real in their consequences" (W. I. Thomas, quoted at the opening).
 - "The self-fulfilling prophecy is, in the beginning, a *false* definition of the situation evoking a new behavior which makes the originally false conception come true."
-- "public definitions of a situation (prophecies or predictions) become an integral part of the situation and thus affect subsequent developments. This is peculiar to human affairs. It is not found in the world of nature. Predictions of the return of Halley's comet do not influence its orbit."
+- Predictions become part of the situation and affect later developments; Merton says "This is peculiar to human affairs" (his Halley's comet example is not reproduced here).
 - The bank parable: "a rumor of insolvency, once believed by enough depositors, would result in the insolvency of the bank". Note "enough": the parable has a **threshold in the number of believers**, though Merton states no number.
 - Footnote 1: the counterpart is the "suicidal prophecy", which "so alters human behavior ... that it fails to be borne out". Not developed.
 - Breaking the circle: "The initial definition of the situation which has set the circle in motion must be abandoned." Merton then argues that this is not achieved by education campaigns or good will, which "cannot be turned on and off like a faucet"; he points to institutional change (his example: admission of Black workers to unions removing the scab role). I read the education argument closely and the institutional-change argument only in passing.
@@ -133,7 +133,7 @@ r = room, t = day; E = indicator for an experimentally driven change in artifici
 
 ## 4. Goodhart's law and its formalisation
 
-**Citation (law).** Goodhart, C. A. E. (1975), "Problems of monetary management: the UK experience", in *Papers in Monetary Economics*, Reserve Bank of Australia; reprinted 1984 in *Monetary Theory and Practice*, Macmillan, DOI 10.1007/978-1-349-17295-5_4 (Crossref-confirmed). **Not read.** The wording, as Manheim & Garrabrant quote it (footnote 1, which I read): "any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes." [sa for Goodhart's own text; read for the quotation as given by M&G.]
+**Citation (law).** Goodhart, C. A. E. (1975), "Problems of monetary management: the UK experience", in *Papers in Monetary Economics*, Reserve Bank of Australia; reprinted 1984 in *Monetary Theory and Practice*, Macmillan, DOI 10.1007/978-1-349-17295-5_4 (Crossref-confirmed). **Not read.** The wording, as Manheim & Garrabrant quote Goodhart 1975 (footnote 1, which I read; the wording is Goodhart's via M&G): "any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes." [sa for Goodhart's own text; read for the quotation as given by M&G.]
 
 **Citation (formalisation).** Manheim, D. & Garrabrant, S. (2019). Categorizing Variants of Goodhart's Law. arXiv:1803.04585v4 (first posted 13 Mar 2018; arXiv metadata checked). [read, nearly in full]
 
@@ -234,7 +234,7 @@ Key points [read]:
 
 **Group-size content here [read].** The strength of performativity grows with the share of the population exposed to a single predictor and falls with competition. Under no interference between units, P(U) >= (|U'|/|U|) P(U') for U' a subset of U, so a measured sub-population effect scales down by its traffic share. [✎ 2026-10-30] It is **not** the only explicit n-dependence: Section 8 ("Algorithmic collective action") models a collective of fractional size alpha in (0,1] that coordinates its data, the firm learning on P = alpha P* + (1 - alpha) P0, with success probability S(alpha) of a planted signal (Theorem 7 there, from Hardt et al. 2023) and the claim that "a collective of vanishing fractional size succeeds with high probability" when the signal is rare. That is a group acting together on a model, though by a fixed agreed strategy, not by members influencing one another over time.
 
-**Empirical standing.** [✎ 2026-10-30: the earlier line said estimation from real data was future work; Section 7, which this file says was read, reports it.] Section 7 cites Mendler-Dünner, Carovano & Hardt (2024): a randomized experiment run by a browser extension on search users found that "distortion of traffic at the first position can be as large as 66% through consistent down ranking", and a worked example converts this into a conservative lower bound of about 30% of a competitor's traffic that Google can influence (Theorem 6, Hardt et al. 2022: performative power >= the causal effect of position, assuming no interference). This is a measured steering size on people, for a platform, not an estimate of epsilon-sensitivity.
+**Empirical standing.** [✎ 2026-10-30: the earlier line said estimation from real data was future work; Section 7, which this file says was read, reports it.] Section 7 cites Mendler-Dünner, Carovano & Hardt (2024), quoted in Hardt & Mendler-Dünner 2025, Section 7 (the 2024 body was not opened): a randomized experiment run by a browser extension on search users found that "distortion of traffic at the first position can be as large as 66% through consistent down ranking", and a worked example converts this into a conservative lower bound of about 30% of a competitor's traffic that Google can influence (Theorem 6, Hardt et al. 2022: performative power >= the causal effect of position, assuming no interference). This is a measured steering size on people, for a platform, not an estimate of epsilon-sensitivity.
 
 **Operand/operator translation for 6 [inference].** Treat a published model M as an operator P_M on the state of a group. Existence of a fixed point: P_M(s) = s. A stable model exists if P is continuous (6a); converges under iterated updating if the Lipschitz constant of P times the curvature ratio is below 1 (6b). That gives a candidate theorem form for the algebra: "a model of group dynamics survives publication iff its induced response operator is a contraction in the appropriate metric". It is not a theorem about drives; it is a constraint on any model that is allowed to be seen.
 
@@ -274,7 +274,7 @@ Key points [read]:
 
 **Equations.** None. The book-length claims are verbal, with diagrams (Figures 1-4).
 
-**Boom-bust theory [read].** "Every bubble has two components: an underlying trend that prevails in reality and a misconception relating to that trend." Stages (Figure 4): AB trend not yet recognised; BC acceleration; CD testing; DE conviction; EF widening gap; F "moment of truth"; FG "twilight period"; G crossover; GH crash; HI partial recovery. He says booms are slow and busts abrupt. Mechanism examples: leverage and collateral (real-estate boom where "the misconception is that the value of the collateral is independent of the availability of credit").
+**Boom-bust theory [read].** "Every bubble has two components: an underlying trend that prevails in reality and a misconception relating to that trend." Figure 4 shows a ten-stage sequence, from an unrecognised trend through acceleration, testing and conviction to a "moment of truth", a crash and partial recovery (description only; the labelled stages are not transcribed). He says booms are slow and busts abrupt. Mechanism examples: leverage and collateral (real-estate boom where "the misconception is that the value of the collateral is independent of the availability of credit").
 
 **Theorems or predictions.** None formal. He says explicitly that universal laws of the kind Popper's scheme demands cannot be had, and that "time- and context-bound generalizations" are what is available. He asserts that the efficient-market hypothesis and his theory are testable alternatives and "that my theory of reflexivity is superior, even in its current rudimentary stage", but he gives no test, only historical cases (1980s real estate, 2007-08, euro crisis) and his own trading record. He calls the framework "rudimentary".
 
@@ -386,3 +386,20 @@ Cross-checked against the other prior-work files (grep of names, works and key t
 - The Mendler-Dünner, Carovano & Hardt 2024 numbers (66%, about 30%) are tagged in the file as read via the 2025 survey, and the 2024 body was not opened. Recorded as sa in the ledger.
 
 **Ledger lines, structured.** Returned to the orchestrator in the StructuredOutput call and not written to `docs/ledger.jsonl` or `docs/ledger.md` (not edited, per the instruction). Cluster T for all.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+Rule: CLAUDE.md "Licensing". Nothing here is reproduced beyond short attributed quotations; no tables or data are transcribed.
+
+| Source | Licence as determined | How used |
+|---|---|---|
+| Merton 1948, Antioch Review 8(2):193-210 (JSTOR 4609267) | not determined; publisher copyright presumed. Text was read from a third-party re-host of a JSTOR scan, which is not a licensed copy; cite the JSTOR article for the wording | short quotations (the longest passage cut to a paraphrase plus one sentence) |
+| Goodhart 1975, via Manheim & Garrabrant (arXiv) | not determined; publisher copyright presumed (1984 reprint, Macmillan); M&G arXiv licence not recorded | one short quotation, second-hand through M&G footnote 1 |
+| Perdomo et al. 2020, arXiv:2002.06673v4 (ICML/PMLR 119) | not determined (arXiv licence not recorded; check); publisher copyright presumed | restated definitions, theorems and examples in our notation; the section header wording "verbatim in substance" should be read as "restated" |
+| Levitt & List 2011; Manheim & Garrabrant | not determined; publisher copyright presumed | restated equations, short quotations |
+| Hardt & Mendler-Dünner 2025, Statistical Science 40(3) | not determined; publisher copyright presumed | short quotation relayed from Mendler-Dünner, Carovano & Hardt 2024 (not opened) |
+| MacKenzie 2003, Social Studies of Science 33(6) (Sage) | not determined; publisher copyright presumed. Which copy was read (Edinburgh open copy vs blocked) is inconsistent in this file; quotes not re-verified | several short quotations, each well under 60 words |
+| Soros 2013, J. Economic Methodology 20(4) | not determined; publisher copyright presumed | short quotations; Figure 4 reduced to a description |
+| Rudebusch 2005 (JMCB) and 2002 FRBSF working paper | not determined; publisher copyright presumed for JMCB; working paper licence not recorded | short quotations |
+| Lucas 1976; Campbell 1979; McCambridge et al.; Grunberg & Modigliani; Simon | not determined; publisher copyright presumed | cited only (Lucas not read), brief quotations where present |
+| Kaggle "Give Me Some Credit" dataset (used by Perdomo et al., ref. [22]) | not determined; check the Kaggle dataset page | dataset citation only; no data reproduced |

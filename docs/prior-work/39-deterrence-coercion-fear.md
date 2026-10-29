@@ -38,7 +38,7 @@ Date: 2026-10-29. Survey for the social-algebra strand. Cluster: the strategic u
 
 **Citation.** Kahn, H. (1965). *On Escalation: Metaphors and Scenarios*. Praeger. No DOI checked. `[standard account]`
 
-**Vocabulary.** 44 rungs in seven groups separated by thresholds, from "subcrisis manoeuvring" (rung 1, "Ostensible Crisis") through traditional, intense and bizarre crises to exemplary, military and civilian central wars (the count and grouping is the common textbook description). Thresholds ("firebreaks") between groups.
+**Vocabulary.** 44 rungs in seven groups separated by thresholds, from "subcrisis manoeuvring" (rung 1, "Ostensible Crisis") through traditional, intense and bizarre crises to exemplary, military and civilian central wars (the count and grouping is the common textbook description; wording may follow Wikipedia's article on the escalation ladder, CC BY-SA 4.0, source not confirmed, re-derive from Kahn 1965 directly). Thresholds ("firebreaks") between groups.
 
 **Structure.** An ordered set of states with transitions that raise the cost and the risk; the claim is that both sides move along a *shared* ladder and that credible control means the ability to stop at a rung. No equations. It is an ordinal scale of coercive intensity, a total (partial-order-free) ordering that gives a ready sort for an "intensity" attribute on acts.
 
@@ -58,7 +58,7 @@ Date: 2026-10-29. Survey for the social-algebra strand. Cluster: the strategic u
 
 **Operators / equations.** The model is a sequential game (a war of attrition in risk): each period each side chooses to back down or hold; holding raises the shared risk of catastrophe. Equilibrium: each player has a resolve threshold; the one whose cost of conflict is lower holds out longer. The exact payoffs and equilibrium strategies are **not stated here** because they were not read. `[from abstract]`
 
-**Theorems or derived predictions.** Powell (2015) `[from abstract]`: the more likely the balance of resolve is to favour the defender, the less military power the challenger brings to bear; and a formal stability-instability paradox, in which a less stable balance makes high-intensity conflict less likely but lower-level conflict more likely. The draft's further claim that "a player may be less likely to prevail the more resolve it has" was not found in any abstract checked and is moved to Unconfirmed.
+**Theorems or derived predictions.** Powell (2015) `[from abstract]`: the more likely the balance of resolve is to favour the defender, the less military power the challenger brings to bear; and a formal stability-instability paradox, in which a less stable balance makes high-intensity conflict less likely but lower-level conflict more likely. The draft's further claim that a player may be less likely to prevail the more resolve it has was not found in any abstract checked and is moved to Unconfirmed.
 
 **Empirical standing.** The brinkmanship models are theory, tested only by case study. Related formal work: Kenkel & Schram (2024), "Uncertainty in crisis bargaining with multiple policy options," *AJPS* 69: 194-209, doi:10.1111/ajps.12849 (confirmed via Crossref), find `[from abstract]` that when actors can also use low-level costly options (sanctions, strikes), *greater* private willingness to fight can go with a *lower* probability of war or a worse settlement. (Validation correction: the draft had this paper saying the reverse, that more resolved actors take more risk and do better.)
 
@@ -207,12 +207,7 @@ The conditions for each are given qualitatively in the paper: attrition is cheap
 
 **Vocabulary `[read]` (RR-2341 PDF via the Internet Archive, read in validation).** Will to fight is "the disposition and decision to fight, to act, or to persevere when needed" (the draft's "to keep fighting, and to win" wording is not the report's definition). Five levels (individual, unit, organization, state, society); three categories (motivations, capabilities, culture); 29 factors and 61 subfactors, each rated for *durability* (low/mid/high). The companion national model (RR-2477) has 15 variables `[from search]`.
 
-**The 29 factors `[read]`, Table S.1.**
-- *Individual (7):* motivations — desperation, revenge, ideology, economics, individual identity; capabilities — quality, individual competence.
-- *Unit (7):* culture — unit cohesion (social vertical, social horizontal, task), expectation, unit control (coercion, persuasion, discipline), unit esprit de corps; capabilities — unit competence, unit support, unit leadership.
-- *Organization (7):* culture — organizational control, organizational esprit de corps, organizational integrity (corruption and trust); capabilities — organizational training, organizational support, doctrine, organizational leadership.
-- *State (5):* culture — civil-military relations, state integrity; capabilities — state support, state strategy, state leadership.
-- *Society (3):* culture — societal identity (ideology, ethnicity, history), societal integrity; capabilities — societal support.
+**The 29 factors `[read]`, Table S.1 (described, not transcribed).** The table in the report's summary lists the 29 factors by level and category; see RR-2341 Table S.1 for the full list. The counts are individual 7, unit 7, organization 7, state 5, society 3, split between motivations, capabilities and culture. The factors the algebra needs here are unit cohesion (social vertical, social horizontal, task), unit control, desperation, and leadership at each level.
 
 **Drives/operands.** A *factor model*, not an equation. The central finding `[read]`: "unitary theories of will to fight [are] unreliable"; cohesion and morale "are no more or less important than any other factor in the general model". (The draft's quoted sentence was a paraphrase from a summary, not the report's words.)
 
@@ -237,7 +232,7 @@ The conditions for each are given qualitatively in the paper: attrition is cheap
 - On Marshall's own method (two to three days per company's one day of combat), the most generous calculation would have finished about 400 interviews around October-November 1946, about when he was writing the book.
 - John Westover, who attended the interviews, does not recall Marshall ever asking who had fired; nor ever talking about weapon-use ratios. Marshall's surviving field notebooks show no statistical compilations. Spiller's conclusion: the "systematic collection of data" that made the ratio authoritative "appears to have been an invention".
 - Spiller adds a caution: absence of evidence is "only negative proof"; he then tests the claim against the character of infantry combat itself (asymmetry: not all of a company is engaged at once; terrain; roles).
-- A commentary found by search notes that the "never did the research" wording is sometimes overstated and that Spiller allows that interviews did take place; this is consistent with the PDF's own caution.
+- An unnamed commentary found by search (source not recorded) notes that the claim that Marshall did no research at all is sometimes overstated and that Spiller allows that interviews did take place; this is consistent with the PDF's own caution.
 
 **Grossman `[from search/standard account]`.** *On Killing* builds on Marshall (and on historical reports of unfired muskets) to argue that most people have a strong innate resistance to killing and that training overcomes it. Because the book relies on Marshall's figure, the Spiller critique weakens the empirical base; whether the broader thesis stands on other evidence was not checked here. A search for a "Williams critique" returned nothing and is **not** claimed here.
 
@@ -273,7 +268,7 @@ The conditions for each are given qualitatively in the paper: attrition is cheap
 
 **Vocabulary `[from search]`.** Feud, blood revenge, moral sanction, tribunal of elders, settlement; honour.
 
-**Drives/operands.** Lineages/kin groups as the operand; honour as a group-held stake that obliges retaliation. Boehm argues that in the absence of central authority, feuding functions as a moral sanction (a deterrence mechanism with no state). `[from search]` (The draft's further claim that it "reduces population pressure on land" could not be confirmed and is moved to Unconfirmed.)
+**Drives/operands.** Lineages/kin groups as the operand; honour as a group-held stake that obliges retaliation. Boehm argues that in the absence of central authority, feuding functions as a moral sanction (a deterrence mechanism with no state). `[from search]` (The draft's further claim that it reduces population pressure on land could not be confirmed and is moved to Unconfirmed.)
 
 **Operators / equations.** None found. Boehm traces the trajectory of feuds, the decisions at each point, and where they end or escalate, and describes a settlement mechanism by elders, with a general theory in the later chapters. `[from search]` Not read.
 
@@ -304,13 +299,13 @@ The conditions for each are given qualitatively in the paper: attrition is cheap
 ## Unconfirmed
 
 - Exact payoffs, equilibrium conditions and propositions of Powell (1990), Zagare & Kilgour (2000), Fearon (1994) and Fearon (1995): not read; textbook forms only for the war lottery. Fearon 1995's three mechanisms and the bargaining range (p - c_A, p + c_B) match the standard account and are internally consistent, but were not read at source.
-- Powell: "a player may be less likely to prevail the more resolve it has" — not found in any abstract checked (Powell 1988, 2015); possibly a garbled version of Kenkel & Schram's result.
+- Powell: the claim that a player may be less likely to prevail the more resolve it has (paraphrase of an unsourced draft claim) — not found in any abstract checked (Powell 1988, 2015); possibly a garbled version of Kenkel & Schram's result.
 - The RAND national (RR-2477) 15-variable list: count confirmed by search, list not retrieved.
 - Kahn's count of 44 rungs and seven groups: textbook account, not rechecked.
 - Jervis 1976: no DOI checked (book).
 - Pape 1996 and Byman & Waxman 2002: existence confirmed, content from search summaries and standard account only.
 - Kalyvas's five-zone model and selective-violence predictions: standard account, book not opened.
-- Boehm: the claim that feuding "reduces population pressure on land" (from the draft, source not found).
+- Boehm: the claim that feuding reduces population pressure on land (from the draft, source not found).
 - Black-Michaud and Gould theses: standard account, books not opened.
 - The lab experiment on commitment versus information problems in section 6: study not identified.
 - Grossman critiques (a "Williams critique" returned nothing).
@@ -370,3 +365,17 @@ Method: every DOI re-resolved at api.crossref.org; Kydd & Walter (PDF, Figure 1 
 - Fabrications removed: none of the citations; one invented result (Fearon 1994 "fewer disputes ending in war") and one inverted finding (Kenkel & Schram) were removed or corrected.
 
 **Verdict.** The bibliography is sound: every DOI the draft gave resolved to the right work, and nothing cited was fabricated. The content is less reliable than the tags suggest: the one table marked [read] (Kydd & Walter) had two of five rows mis-mapped and a wrong "empty cell" inference, two summarised results were wrong (Kenkel & Schram reversed; a Fearon 1994 result invented), and the headline "resolve is never dynamic" overstated a gap that war-of-attrition and learning-in-war models partly fill. Treat everything tagged [from abstract/search/standard account] as a lead to check, not a fact to build on.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+Rule: citations, facts and numbers are free; quotations short and attributed; tables and lists described rather than transcribed. Nothing below is reproduced beyond short quotation.
+
+- Pape 1996, *Bombing to Win* (Cornell UP; the 2019 re-issue is open access, licence not checked): one 14-word quotation taken from a search summary, not the book. Not determined; publisher copyright presumed. Verify wording and add a page number.
+- Kydd & Walter 2006, *International Security* 31(1), Figure 1 (MIT Press): the five-strategy table is a restatement of the figure's content (strategy, audience, uncertainty) in the file's own words, not a copy of the figure. Not determined; publisher copyright presumed. Shorten to prose if the licence is not confirmed.
+- RAND RR-2341 (2018) and RR-2477: short quotations (the definition and two findings) and a described factor count. RAND research reports are generally released for free download under a permissive-use notice; exact terms not recorded here. Not determined; publisher copyright presumed. The full Table S.1 listing was removed in this audit.
+- Spiller 1988, *RUSI Journal* 133(4) (Taylor & Francis): short quotations and a detailed paraphrase, read from an unofficial web copy. Not determined; publisher copyright presumed. Cite the DOI only; do not link to or redistribute the copy; confirm the copy is a legitimate upload.
+- Marshall 1947 (via Spiller): two short quotations. Not determined; publisher copyright presumed.
+- Powell 2015, Fearon 1994, Levy 1992, Zagare & Kilgour (Cambridge UP summary): paraphrases of paywalled abstracts, tagged [from abstract]. Not determined; publisher copyright presumed. Facts only; restate in own words when next revised.
+- Kahn 1965 escalation ladder, "audience cost" and "security dilemma" definitions: standard-account wording that may track Wikipedia (CC BY-SA 4.0). Source not confirmed; rewrite from Kahn 1965, Fearon 1994 and Jervis 1978.
+- Access route: RAND RR-2341 was read through an Internet Archive copy after a 403 on the RAND page. Not confirmed to be a public copy rather than a workaround for an access control; confirm.
+- Unsourced quoted phrases (Powell resolve, Boehm population pressure, "never did the research") were unquoted in this audit and kept as unconfirmed paraphrases.

@@ -205,3 +205,26 @@ Checked against the other validated prior-work files by grep on works, authors, 
 3. **Atari, Graham & Dehghani 2020 "scalar non-invariance".** Section 2.6 already flags this as unverified, and file 15 does not mention it. No conflict, but the claim has one flagged source only.
 4. **Reiss factor count.** File 15 section 6 says "16 basic desires" (correct for Reiss 2004). Section 2.2 notes the 1998 factor study reports 15. File 19 mentions "Reiss categories (up to 23 needs)" in an NPC table; that is a different count again and is not sourced in either file. Verdict: **no contradiction between the two papers' own figures**, since 2004 added a desire. The 23 in file 19 is **unresolved** and should not be used.
 5. **Count of Panksepp systems in the self-report measure.** Section 1 says 7 systems and 6 in the ANPS (LUST omitted). File 15 says seven systems with no ANPS count. Consistent, but file 15 does not support the "6 in ANPS" detail.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+Audit result: four items flagged, all verdict "check"; no text was changed. Licences below are the ones this file can rely on; where a licence was not verified at the source page it says so. Only facts, numbers and citations are reused, plus a few short attributed quotations.
+
+| Source | Licence as determined | How used here |
+|---|---|---|
+| Pedersen et al. 2014, PLoS ONE 9(10) e109394 | Likely CC BY 4.0 (PLoS ONE default); not verified at the article page, so not determined; publisher copyright presumed until checked | Transcribed numbers from Table 3 (15 inter-scale correlations) and Table 8 (fit statistics): facts and numbers, with one short quotation ("poor to mediocre fit", "too highly correlated"). If CC BY is not confirmed, reduce the correlation list to the pairs actually used (PLAY-SEEK .50, FEAR-SADNESS .59) |
+| Pick et al. 2022, Scientific Data 9, 499 (FSMI dataset, 42 countries, N = 15,915) | Not determined; Scientific Data descriptors are usually CC BY, dataset record licence unchecked; publisher copyright presumed | Dataset citation and summary counts only (countries, N, waves); no data redistributed |
+| Neel et al. 2016, JPSP 110(6) | Not determined; publisher copyright presumed | Citation and metadata only |
+| Billet, McCall & Schaller 2023, PSPB 49(4) | Not determined; publisher copyright presumed (read via PMC) | Restated numbers (alphas, correlations) from Table 5; no quotation |
+| Reiss 2004; Reiss & Havercamp 1998; Havercamp & Reiss 2003 | Not determined; publisher copyright presumed | Citations; one restated abstract figure (7 studies, N = 2,548, 15 factors) |
+| Chen et al. 2015, Motivation and Emotion 39(2) | Not determined; publisher copyright presumed (abstract read in author-posted PDF) | Restated abstract results in our own words |
+| Marengo et al. 2021, Scientific Reports 11, 7453 | Likely CC BY 4.0 (Scientific Reports default); not verified, so not determined | Restated pooled correlations (description of results table values used); no quotation |
+| Davis & Montag 2019; Panksepp 1998 | Not determined; publisher copyright presumed | Citations only, via files 15/22 |
+| Schwartz 1992; Schwartz et al. 2012 | Not determined; publisher copyright presumed | Citations only |
+| Schwartz & Cieciuch 2022, Assessment 29(5) | Not determined; publisher copyright presumed (read via Europe PMC PMC9131418) | Restated results (N, groups, invariance level) and one short quotation ("did not expect to establish scalar invariance") |
+| Iurino & Saucier 2020, Assessment 27(2) | Not determined; publisher copyright presumed (abstract only) | One short quotation from the abstract, attributed |
+| Doğruyol, Alper & Yilmaz 2019; Atari, Graham & Dehghani 2020; Atari et al. 2023 (MFQ-2) | Not determined; publisher copyright presumed | Citations and restated abstract-level facts |
+| De Buck & Pauwels 2023, Psychologica Belgica 63(1) | Not determined; publisher copyright presumed (read via PMC10376904) | Restated fit statistics; no quotation |
+| Tay & Diener 2011; Ryan & Deci 2000; Maslow 1943; Kenrick et al. 2010; Neuberg et al. 2011 | Not determined; publisher copyright presumed | Citations only |
+
+**Access note.** The "PMC browser check" that blocked the Marengo fetch was not solved or worked around, and the Nature paywall redirect and empty OSF preprint were not bypassed. Full texts were read only through public open-access routes (Europe PMC, PMC, author-posted PDF). Nothing in this file depends on a circumvented access control.

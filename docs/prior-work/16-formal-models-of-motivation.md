@@ -14,10 +14,10 @@ Date: 2026-10-29. Survey for the social-algebra strand. Cluster: mathematical mo
 
 **Citation.** Hull, C. L. (1943). *Principles of Behavior*. Appleton-Century. Revised in Hull (1952), *A Behavior System*. Spence variants: Spence (1956), *Behavior Theory and Conditioning*.
 
-**Equations `[standard account]`, form confirmed `[search/secondary]`.** (Validation 2026-10-29: primaries still not read; the layering below is the standard textbook account, and the multiplier set is confirmed by Wikipedia's Hull article.)
+**Equations `[standard account]`, form confirmed `[search/secondary]`.** (Validation 2026-10-29: primaries still not read; the layering below is the standard textbook account, and the multiplier set is confirmed by Wikipedia's Hull article; wording follows the Wikipedia article 'Clark L. Hull', CC BY-SA 4.0.)
 - 1943: sEr = sHr × D (reaction potential = habit strength × drive). Inhibition (Ir reactive, sIr conditioned) is subtracted to give effective reaction potential.
 - 1952: sEr = sHr × D × V × K (V stimulus-intensity dynamism, K incentive; some accounts add J, delay of reinforcement, as a further multiplier). Effective potential subtracts total inhibition İr = Ir + sIr; momentary potential further subtracts sOr, the **behavioural oscillation** (a random, trial-to-trial noise term, not a constant). A response is evoked only when momentary potential exceeds the **reaction threshold sLr**. So the full chain is: respond iff sHr·D·V·K − (Ir + sIr) − sOr > sLr. The different orderings in secondary sources are the same product; multiplication commutes, so the "disagreement" noted earlier was not one.
-- Hull-Spence variant: Spence made drive and incentive **additive**, E = H × (D + K) (Spence 1956). The additivity is confirmed `[search/secondary]` (Wikipedia, Kenneth Spence, citing Hilgard 1967); the H multiplier is the standard account. The point of the change: incentive moves behaviour even at zero drive, which Hull's product cannot.
+- Hull-Spence variant: Spence made drive and incentive **additive**, E = H × (D + K) (Spence 1956). The additivity is confirmed `[search/secondary]` (Wikipedia, Kenneth Spence, citing Hilgard 1967; wording follows the Wikipedia article 'Kenneth Spence', CC BY-SA 4.0); the H multiplier is the standard account. The point of the change: incentive moves behaviour even at zero drive, which Hull's product cannot.
 
 **Variables and combination.** D is a general, non-directional energiser, tied to deprivation (hours without food). sHr is learned and directional. They multiply, so a strong habit does nothing at zero drive, and a strong drive does nothing without a habit. This is the first clean multiplicative drive law.
 
@@ -143,7 +143,7 @@ Revelle's CTA reparameterisation (Revelle 1986; Eqs. 10-13), with vectors C (cue
 
 **Citations.** Vroom, V. (1964). *Work and Motivation*. Eccles, J. S., Wigfield, A. et al. (1983 onward), expectancy-value model of achievement choice.
 
-**Equations.** Force = Σ (Valence × Expectancy × Instrumentality) `[search/secondary]` in the multiplicative product form; the search reports "if any factor is zero, motivation is zero". The sum over outcomes is from the standard account. Eccles: choice and performance depend on expectancy of success and subjective task value (attainment, intrinsic, utility, minus cost); the 1983 form is a product, later work treats it as additive or interactive `[standard account]`.
+**Equations.** Force = Σ (Valence × Expectancy × Instrumentality) `[search/secondary]` in the multiplicative product form; a secondary web summary (primary not identified; Vroom 1964 is the original) reports "if any factor is zero, motivation is zero". The sum over outcomes is from the standard account. Eccles: choice and performance depend on expectancy of success and subjective task value (attainment, intrinsic, utility, minus cost); the 1983 form is a product, later work treats it as additive or interactive `[standard account]`.
 
 **Combination.** Multiplicative within an outcome, additive across outcomes.
 
@@ -217,7 +217,7 @@ The algebra behind that is short enough to state (derived here, checkable): with
 
 **Model.** Promotion focus (ideals, advancement, gains and non-gains, eagerness strategies) versus prevention focus (oughts, security, losses and non-losses, vigilance strategies). Regulatory fit: a strategy matching focus strengthens engagement and persuasion.
 
-**Equations.** None. Value from fit is described as "feeling right", with no formula; fit is a binary matching `[standard account]`.
+**Equations.** None. Value from fit is described by Higgins (1997) as "feeling right", with no formula; fit is a binary matching `[standard account]`.
 
 **Combination.** Two orthogonal chronic or situational dispositions that select strategy.
 
@@ -258,7 +258,7 @@ The algebra behind that is short enough to state (derived here, checkable): with
 
 **Combination.** Distance to a setpoint across several physiological dimensions, scalar drive; the policy maximises reduction of drive over time.
 
-**Theorems.** This is the only theorem actually read in the cluster: for discounted return over setpoint-reaching trajectories, reward-seeking is equivalent to minimising discounted deviation from the setpoint. Further claims `[read]`: discounting "motivates animals to follow the shortest path in the space of physiological variables toward the desired setpoint" (a rationale for temporal discounting); anticipatory responding (ethanol-hypothermia tolerance); the rise-fall of responding in oral vs intragastric water delivery; overeating of hyperpalatable food.
+**Theorems.** This is the only theorem actually read in the cluster: for discounted return over setpoint-reaching trajectories, reward-seeking is equivalent to minimising discounted deviation from the setpoint. Further claims `[read]`: Keramati & Gutkin (2014) state that discounting "motivates animals to follow the shortest path in the space of physiological variables toward the desired setpoint" (a rationale for temporal discounting); anticipatory responding (ethanol-hypothermia tolerance); the rise-fall of responding in oral vs intragastric water delivery; overeating of hyperpalatable food.
 
 **Empirical standing `[read]`.** The paper **reproduces qualitative patterns by simulation**; it does not fit parameters to data. A reviewer in the published decision letter asked that parameters fitted to one dataset be shown to reproduce another and questioned falsifiability. **Scope limit stated by the authors, important for this strand:** the theory "only applies to rewards that have a corresponding regulatory system"; extending it to "social rewards, novelty-induced reward, etc." is left as "a key challenge for the future". So curiosity and social drives are explicitly outside it. Precursor: Keramati & Gutkin (2011), NeurIPS 24, pp. 82-90 (confirmed). It is a formal rehabilitation of Hull: reward as drive reduction, now with a defined drive function and optimal control.
 
@@ -410,3 +410,18 @@ Key: ✓ confirmed / ✎ corrected / ? unconfirmed / ✗ removed.
 - Fabrications found — none. ✗ nothing removed.
 
 **Verdict.** The survey is honest about its sourcing, and none of its citations was invented; every DOI checked resolved to the work named. Its equations were right in shape but wrong in two places that matter for building on them (the Keramati drive exponent and a false Miller corollary), and its central finding overstated the multi-agent gap, which was the claim most likely to steer the strand. Treat the equations now tagged [read] as usable; treat everything tagged [standard account] as a pointer to a primary, not a foundation.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+No tables, lists or datasets are transcribed in this file. Equations are restated in our own notation.
+
+| Source | Licence as determined | How used |
+|---|---|---|
+| Wikipedia, 'Clark L. Hull' | CC BY-SA 4.0 | Multiplier set confirmed against it; attribution added in section 1. |
+| Wikipedia, 'Kenneth Spence' (citing Hilgard 1967) | CC BY-SA 4.0 | Additivity claim; attribution added in section 1. |
+| Wikipedia, 'Approach-avoidance conflict' | CC BY-SA 4.0 | Checked: the four conflict-type descriptions are generic prose in our own words (Lewin/Miller taxonomy, cited to primaries); no derivation identified, no change. |
+| Wikipedia, 'Lewin's equation' | CC BY-SA 4.0 | Checked: B = f(P, E) and f proportional to V/d are restated equations, with the Lewin (1938) form given from the standard account; no wording copied, no change. |
+| Vroom (1964) via unnamed search summary | not determined; publisher copyright presumed | One 8-word phrase quoted ("if any factor is zero, motivation is zero"), now marked as a secondary summary. |
+| Higgins (1997) | not determined; publisher copyright presumed | Two-word term "feeling right". |
+| Keramati & Gutkin (2014), eLife | CC BY 4.0 (eLife standard licence; confirm on article page) | One 17-word quotation, now attributed in the sentence; restated drive equation. |
+| Hull, Spence, Lewin, Miller, Brown, Atkinson & Birch, Revelle, Carver & Scheier, and others | publisher copyright / not determined | Citations and restated equations only; no quotation beyond a few words. |

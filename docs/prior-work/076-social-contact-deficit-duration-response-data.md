@@ -129,3 +129,19 @@ Compared against the validated files by grepping for Tomova, Stijovic, Hall & Da
 4. **Hall & Davis year.** 22 gives 2016, 076 gives 2017 (online 28 Oct 2016, print 27(1) February 2017). Verdict: **no real conflict**; same work, 076's dating is the more exact (Crossref).
 
 No conflict was found on any equation, effect size, or sample size between 076 and the other files.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+No text was changed by the licensing audit of this file: all five flagged items had verdict "check", and none is a reproduction. Statistics, effect sizes, sample sizes and citations are facts and are free to reuse; the entries below record what is quoted or referenced and under what licence.
+
+| Source | Licence as determined | How used |
+|---|---|---|
+| Tomova et al. 2020, *Nature Neuroscience* 23(12) (article and PMC8580014 author manuscript) | Not determined; publisher copyright (Springer Nature) presumed | Restated numbers (t values, N, schedule); one short quoted phrase ("every 2 h during the social isolation period"); description of Fig. 2b, no figure content copied |
+| OpenNeuro ds003242 (Tomova 2020 neuroimaging) | Not determined; check the OpenNeuro licence field before any reuse | Dataset citation only (DOI); no data copied |
+| OSF F9CRU and OSF CF2RT (Tomova 2020 summary data, code, task code) | Not determined; check each deposit's licence field | Dataset citation only; contents not opened |
+| OSF registrations osf.io/cwg9e and osf.io/6ynt3 | Not determined | Cited by identifier only; no text reproduced |
+| Stijovic et al. 2023, *Psychological Science* 34(5) (PMC13029414) | CC BY (per Europe PMC record) | Restated numbers (betas, SEs, dfs, sample sizes); one short quotation of the data statement; description of Fig. 2, no figure content copied |
+| OSF s8xk9 (Stijovic 2023 lab and field data and code) | Not determined for the deposit (the article's CC BY does not automatically cover it); publisher copyright not applicable, check the OSF licence field | Dataset citation only; no data copied |
+| Hall & Davis 2017, *Communication Theory* 27(1) (abstract only) | Not determined; publisher copyright (Oxford University Press) presumed | Paraphrase of the abstract; no quotation |
+| Lee, Chen & Tye 2021, *Cell* 184(6) (abstract only) | Not determined; publisher copyright (Elsevier) presumed | One-line paraphrase of the abstract in section 4, not in quotation marks; flagged for a near-verbatim check against the abstract, to be rephrased if it is too close |
+| Crossref and Europe PMC records | Bibliographic metadata (facts); not reproduced beyond citation fields | DOIs, titles, authors, pages, erratum relation |

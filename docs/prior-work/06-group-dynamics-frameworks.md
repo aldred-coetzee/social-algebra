@@ -197,10 +197,9 @@ stage-like behaviour, not assume it.
   *Journal of Management Studies*, 44(1), 96-118. DOI
   10.1111/j.1467-6486.2007.00666.x.
 
-**Their vocabulary.** The 1981 book had **eight** roles: Chairman, Shaper,
-Plant, Monitor-Evaluator, Company Worker, Resource Investigator, Team
-Worker, Completer-Finisher. Later versions renamed Chairman to
-Co-ordinator and Company Worker to Implementer, and added a ninth,
+**Their vocabulary.** The 1981 book had **eight** roles (list in Belbin 1981),
+two of which were later renamed (Chairman to Co-ordinator, Company Worker
+to Implementer), and a ninth was added later,
 Specialist (date of addition not confirmed). The nine-role list is the
 current commercial form, not the 1981 model.
 
@@ -246,8 +245,8 @@ psychotherapy to a typed operator: a directed move from one (person, ego
 state) to another's. Classification rules: complementary (reply from the
 addressed state back to the sender's addressing state) continues the
 exchange; crossed breaks it; ulterior carries a hidden second message.
-This is a *composition grammar* with a well-formedness rule ("lines of
-transaction must be parallel to continue"), which is more than most of the
+This is a *composition grammar* with a well-formedness rule (in secondary TA
+teaching material, not Berne's own words: transaction lines must be parallel for the exchange to continue), which is more than most of the
 cluster. Berne states it as three rules of communication: (1) complementary
 transactions can continue indefinitely; (2) a crossed transaction breaks
 communication off, and one or both parties must shift ego state to restore
@@ -794,8 +793,10 @@ changes salience of the category used. Needed for any model where
   277-293. DOI 10.1037/h0046049.
 
 Vocabulary: signed relations (like/dislike) among persons and objects; a
-triad is balanced when the product of the signs is positive ("the friend
-of my friend is my friend; the enemy of my enemy is my friend").
+triad is balanced when the product of the signs is positive (popularly
+summarised as "the friend of my friend is my friend; the enemy of my enemy
+is my friend", a folk formula from the later balance literature, not a
+quotation from Heider 1946 or Cartwright & Harary 1956).
 Cartwright & Harary generalised it to signed graphs. **Operands:** nodes
 and signed edges. **Operators:** none as moves; it is an equilibrium
 constraint, with the implied dynamic "change a sign to restore balance."
@@ -817,16 +818,14 @@ should say how it relates.
 - Bales, R. F. (1950). A set of categories for the analysis of small group
   interaction. *American Sociological Review*, 15(2), 257-263.
 
-Vocabulary (validated): twelve categories of act in four blocks. Positive
-socio-emotional: (1) shows solidarity, (2) shows tension release, (3)
-agrees. Task, attempted answers: (4) gives suggestion, (5) gives opinion,
-(6) gives orientation. Task, questions: (7) asks for orientation, (8) asks
-for opinion, (9) asks for suggestion. Negative socio-emotional: (10)
-disagrees, (11) shows tension, (12) shows antagonism. The scheme is
-symmetric (1 opposes 12, 2 opposes 11, and so on), with pairs mapped to
-six functional problems (communication, evaluation, control, decision,
-tension reduction, reintegration). Exact label wording varies between
-editions; later superseded by Bales's SYMLOG. **Operands:** members and their acts. **Operators:**
+Vocabulary (validated): twelve categories of act in four blocks (positive
+socio-emotional, task attempted answers, task questions, negative
+socio-emotional; labels in Bales 1950). The scheme is symmetric, with
+categories in opposition pairs (the first opposes the twelfth, the second
+the eleventh, and so on), the pairs mapped to six functional problems
+(communication, evaluation, control, decision, tension reduction,
+reintegration). Exact label wording varies between editions; later
+superseded by Bales's SYMLOG. **Operands:** members and their acts. **Operators:**
 the coding categories are literally a fixed set of moves one person makes
 in a group. Standing: a very influential observation instrument. This is
 the nearest direct hit to "a fixed set of moves people make on one another"
@@ -977,13 +976,13 @@ review of about 50 articles.
 - Merton, R. K. (1957). "The Role-Set: Problems in Sociological Theory." *British Journal of Sociology* 8(2): 106–120. DOI 10.2307/587363 [Crossref-checked]. Full text: https://home.uevora.pt/~eje/ROLESET.HTM
 - Biddle, B. J. (1986). "Recent developments in role theory." *Annual Review of Sociology* 12: 67-92. DOI 10.1146/annurev.so.12.080186.000435 (confirmed by search).
 
-**Their vocabulary**: status (position in a social system, with designated rights and obligations); role (behaviour oriented to the patterned expectations attached to a status); role-set; status-set; role conflict; consensus; conformity; role taking.
+**Their vocabulary** (definitions after Linton 1936, Merton 1957 and Biddle 1986; wording follows the Wikipedia article 'Role theory', CC BY-SA 4.0): status (position in a social system, with designated rights and obligations); role (behaviour oriented to the patterned expectations attached to a status); role-set; status-set; role conflict; consensus; conformity; role taking.
 
 **Operands**: positions (statuses) and the persons who occupy them. A person holds several statuses (status-set); each status carries several roles toward different counter-positions (role-set).
 
 **Operators** and structure:
 - Occupancy: person -> status, one person to many statuses [from standard account].
-- Status -> role-set: the complement of role relationships a person has because they occupy one status (Merton) [read, via Wikipedia and the Évora text]. A status is thus a bundle of relations to counter-positions (teacher to pupil, to parent, to colleague).
+- Status -> role-set: the complement of role relationships a person has because they occupy one status (Merton 1957; wording follows the Wikipedia article 'Role theory', CC BY-SA 4.0) [read, via Wikipedia and the Évora text]. A status is thus a bundle of relations to counter-positions (teacher to pupil, to parent, to colleague).
 - Role conflict: incompatible expectations within a role-set or across a status-set [from standard account].
 - Biddle sorts the field into five perspectives: functional, symbolic interactionist, structural, organizational, cognitive; and four derived concepts: consensus, conformity, role conflict, role taking [from abstract/search summary].
 
@@ -1045,3 +1044,34 @@ unsupported (Moreno's anecdote and the French & Raven scale correlation).
 The biggest weakness was the omission of affect control theory and
 relational models theory, which come closer to an operator algebra than
 anything the survey did include.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+Not determined means publisher copyright is presumed; nothing was reproduced
+beyond short phrases, restated facts and descriptions.
+
+- Heider (1946), *Journal of Psychology*; Cartwright & Harary (1956),
+  *Psychological Review*: not determined; publisher copyright presumed. Used
+  as a folk formula now attributed as such, plus a restated theorem
+  (Harary's structure theorem, restated in our words).
+- Berne (1964), Grove Press: not determined; publisher copyright presumed.
+  Used as a short paraphrase of the compatibility rule and a restated
+  three-rule summary; wording comes from secondary TA teaching material, so
+  the restatement should be checked against the primary text once read.
+- Belbin (1981), Heinemann: not determined; publisher copyright presumed.
+  The eight-role list is reduced to a description (count and two renames).
+- Bales (1950), *American Sociological Review* and Addison-Wesley: not
+  determined; publisher copyright presumed. The twelve-category list is
+  reduced to a description of structure; labels cited, not transcribed.
+- Rusbult & Van Lange (2003), *Annual Review of Psychology*: not determined;
+  publisher copyright presumed. Six situation dimensions listed as restated
+  facts; the names are from the verifier's knowledge, not the retrieved
+  text, so check against the primary text before reuse.
+- Collins (2004), Princeton UP: not determined; publisher copyright
+  presumed. The four ingredients and four outcomes are a restated list from
+  secondary accounts of the p. 48 figure; the figure is not reproduced.
+- Linton (1936), Merton (1957, *British Journal of Sociology*; Évora web
+  copy unlicensed), Biddle (1986, *Annual Review of Sociology*): not
+  determined; publisher copyright presumed. Status/role definitions and the
+  role-set sentence follow the Wikipedia article 'Role theory', CC BY-SA
+  4.0, attributed in the text; used as description.

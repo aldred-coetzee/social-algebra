@@ -154,7 +154,7 @@ Let x = (x_s, x_p) be the joint state, and D_c(x) = D_s(x_s) + w·D_p(x_p) with 
 - Eq. 3: **R_{t+1} = δ_t − δ_{t+1}**, which is K&G's drive reduction exactly. With A_θ = 0 and k = 1, R = X × U.
 - Role of k: k < 1 favours single-asset bundles, k = 1 is indifferent between bundles, k > 1 favours mixed bundles. This is the same m-controls-interaction result as section 1.
 
-**Theorems.** None, and the K&G SDR/SDD equivalence is not invoked. ✎ Validation: an earlier draft read the sentence "this loss term is now mathematically identical to what one would construe as 'reward' in the RL framework" as a nod to the theorem. In context it says something narrower: for a thirsty animal with one relevant dimension, the drop in distance Δ(‖θ* − θ‖_k) equals the volume of liquid given (citing K&G 2014 as ref 18), and the authors add that this "will break down as θ tends towards θ*".
+**Theorems.** None, and the K&G SDR/SDD equivalence is not invoked. ✎ Validation: an earlier draft read the sentence "this loss term is now mathematically identical to what one would construe as 'reward' in the RL framework" (Juechems & Summerfield 2019, TICS 23(10):836-850, main text) as a nod to the theorem. In context it says something narrower: for a thirsty animal with one relevant dimension, the drop in distance Δ(‖θ* − θ‖_k) equals the volume of liquid given (citing K&G 2014 as ref 18), and the authors add that this "will break down as θ tends towards θ*".
 
 **Claim relevant to the strand.** The setpoint dimensions are extended from physiology to cognitive goals "such as financial stability, moral worth, physical health", "social status", "social capital". This is asserted, not derived. The social dimensions are one-sentence examples, and they come with no coupling between agents. A small inconsistency: the text says agents "minimise the maximum distance to setpoints" (an L∞ norm), while Eq. 2 is a Minkowski k-norm. Those coincide only as k → ∞.
 
@@ -310,3 +310,16 @@ Method: grepped every other file in this directory for Keramati, Gutkin, Yoshida
 5. **Cross-reference slip in file 062.** File 062 section on operators cites "section 5 of 047's Neumann-series suggestion"; the Neumann-series remark is in section 4, item 5 here (section 5 is Juechems & Summerfield). Verdict: **047 is right**; 062's pointer is off by a section.
 
 6. **Scope of K&G (social rewards).** File 16 section 13 records the authors' own statement that social and novelty rewards are outside the theory; section 5 here reports J&S extending setpoints to social variables as assertion. Not a contradiction; flagged because section 1 here does not itself mention the authors' scope limit.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+No tables or datasets are transcribed. Equations are restated from the sources, not copied with surrounding text. Licences below are as far as determined; none was re-checked at source in this pass.
+
+- Keramati & Gutkin 2014, eLife 3:e04811. The eLife article is open access, believed CC BY (not re-checked here). Use: restated equations and a few short phrases ("Euclidian distance", "experimentally testable", "principle of least action applied to the surprise function"); the JATS XML was read from the public eLife repository.
+- Keramati & Gutkin 2011, NeurIPS 24. Not determined; publisher copyright presumed. Use: restated equations and a cited page range only.
+- Yoshida & Man 2024, arXiv 2412.12103. arXiv licence for this paper not determined; copyright presumed. Use: description of the setup and parameters, restated coupling equation.
+- Yoshida & Man (arXiv 2506.12894) and Yoshida, Sprekeler & Gutkin (arXiv 2507.04998). Not determined; copyright presumed. Use: citation only, abstracts only.
+- Juechems & Summerfield 2019, TICS 23(10):836-850 (read from the Oxford ORA author manuscript). Publisher copyright (Cell Press/Elsevier); ORA deposit terms not recorded. Use: one 18-word quotation (section 5, attributed), a few short phrases, restated equations.
+- Pezzulo, Rigoli & Friston 2015, Prog Neurobiol 134:17-35 (PMC text). Publisher copyright (Elsevier); licence of the PMC copy not determined. Use: three short quotations (9, 13 and 10 words), attributed.
+- Smith, Friston & Whyte 2022, J Math Psychol 107:102632 (PMC). Publisher copyright (Elsevier); licence of the PMC copy not determined. Use: one restated equation (Eq. 13) and one 11-word quotation, attributed.
+- Friston 2010, Nat Rev Neurosci 11:127-138; Friston & Frith 2015, Conscious Cogn 36:390-405; Keramati, Dezfouli & Piray 2011, PLoS Comput Biol 7:e1002055. Not determined; publisher copyright presumed. Use: citation only (content not quoted).

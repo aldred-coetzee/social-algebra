@@ -166,3 +166,19 @@ Method: grepped the other prior-work files for the works, authors, numbers and e
 3. **Sadler 2009 "no public data found" versus 20's "estimation method ?"**: not a contradiction; both are unread on data. Marked unresolved.
 
 No file contradicts a dataset size, citation or equation in this file beyond item 1.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+All flagged items had verdict "check"; no text was changed.
+
+| Source | Licence as determined | How it is used |
+|---|---|---|
+| Dejonckheere et al. 2019, *Nature Human Behaviour* 3(5), data availability statement (section 2.1) | Not determined; publisher copyright presumed. The Nature page was paywall-redirected, so the 21-word quoted wording was not re-read from an accessible copy: confirm from an open copy (OSF zm6uw, Europe PMC) or replace with a paraphrase | Short quotation (21 words, attributed) |
+| OSF project zm6uw (Dejonckheere et al. datasets) | None declared (OSF licence field null; null is not a grant of reuse). 13 of 15 studies restricted; which 2 are open is not stated | Dataset citation; no data reproduced |
+| EMOTE Database preprint abstract (PsyArXiv, DOI 10.31234/osf.io/h7kxd_v1), read via api.osf.io | Not determined; preprint licence not recorded, publisher copyright presumed | Short quotation (12 words, attributed) and summary figures (Ns, survey counts) |
+| EMOTE Database data (OSF node eb7rt, emotedatabase.com) | None declared (OSF licence null); access by request, terms not read | Dataset citation; abstract figures only, no data reproduced |
+| Zenodo preregistration using FEEL Study 1 data (DOI 10.5281/zenodo.23238611) | CC BY 4.0 (covers the preregistration text, not necessarily the data) | Short quotation and a restated figure (N = 179) |
+| Kossakowski et al. 2017, *Journal of Open Psychology Data* 5, DOI 10.5334/jopd.29 | CC BY 4.0 | Description of the data paper and dataset citation (OSF j4fg8) |
+| Wichers et al. 2016, *Psychotherapy and Psychosomatics* 85(2) | CC BY-NC-ND 4.0 (paper); data licence is the separate CC BY above | Citation only |
+| Kuppens, Allen & Sheeber 2010, *Psychological Science* 21(7) | Not determined; publisher copyright presumed | Citation only |
+| OSF node records in the section 2.4 table (wcfvt, z2u43, paxut, 5b798, djufr, yh395, 7rbxj, hf7uj/rxun6/82m5u, x8zpq, 2nj3x, qpn5e, 29svx) | Not determined; OSF licence fields null or opaque IDs, so publisher/author copyright presumed for the descriptions | Description of table: titles and short factual metadata, with two short quoted phrases ("will investigate"; "Hosts the pre-registration, data, and code"); no data reproduced |

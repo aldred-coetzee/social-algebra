@@ -298,3 +298,21 @@ None that bear on a claim made in this file. Four near-misses, each checked and 
 ### Not overlapping
 
 No other file contains Parsegov et al. 2017 Theorems 2-3, the rho(Lambda W) rho(C) < 1 condition, the P&T 2018 bounded-confidence theorems (13, 17, 18, 19), Chazelle and Wang, or the Hegselmann and Krause 2006/2015 truth-seeker results. Those claims therefore have no independent cross-check inside this directory.
+
+---
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+Audit result for this file: nine items flagged, all verdict "check", none needing removal, shortening or attribution. The text above is unchanged; the licence of each source is recorded here. No source licence was recorded when the dives were written and none has been looked up since, so each is "not determined; publisher copyright presumed". Nothing quoted exceeds a short sentence. Equations, theorem statements and numbers are restated facts.
+
+| Source | Licence | How used here |
+|---|---|---|
+| Hegselmann & Krause 2002, JASSS 5(3), 2 | not determined; publisher copyright presumed | One short quotation (the Friedkin-Johnsen adherence sentence, about 24 words, section 2) plus a few phrases (Result 3 gloss, "rigorous analytical results are difficult to obtain", "A consensus will be reached in finite time..."). The four "Specialisations" bullets are restated equations with paraphrased prose, not verbatim text, despite the "verbatim" label in the file; theorem and property statements (Theorems 1-6, Properties I-IV) are restated. |
+| Proskurnikov & Tempo 2017, Part I (arXiv:1701.06307) and 2018, Part II (arXiv:1801.06719) | not determined; publisher copyright presumed (arXiv licence for each version not recorded) | Restated theorems and equations, short attributed phrases (a few words to one sentence), citations. |
+| Parsegov, Proskurnikov, Tempo & Friedkin 2017 (arXiv:1505.04920, v5) | not determined; publisher copyright presumed (arXiv licence not recorded) | Restated equations (17), (22), (23); short phrases; two 2x2 coupling matrices C_1 and C_2 (Examples 4 and 5, 8 numbers) transcribed as small factual numerical values. |
+| Friedkin & Johnsen 1999, Adv. Group Processes 16, 1-29 (not read) | not determined; publisher copyright presumed | Dataset citation only, taken second-hand: the four-agent example (25, 25, 75, 85) to (60, 60, 75, 75) from H&K 2002, and one row of the Example 2 W matrix (0.090, 0.178, 0.446, 0.286) in the Validation log, via Parsegov et al. The full W matrix is described, not transcribed, in the body. |
+| Bosse et al. 2015, Cognitive Computation 7(1), 111-136 (Springer; not read) | not determined; publisher copyright presumed | Two-sentence abstract paraphrased with the short phrases "mathematical analysis" and "ambient agent". Where the abstract text came from is not recorded; re-check that it came from a free route. |
+| Coenen & Broekens, as quoted in a web search summary (primary PDF not retrieved) | not determined; publisher copyright presumed | Two short phrases ("thermodynamics based", "relatively abstract"), second-hand. |
+| French 1956, DeGroot 1974, Friedkin & Johnsen 1990, Festinger 1950, Lewin 1936/1951, Harary 1959, McClelland 2004, Lorenz 2007, Chazelle & Wang 2017, Hegselmann & Krause 2006 and 2015 | not determined; publisher copyright presumed | Citation only (and theorems as restated by the sources above); no text quoted. |
+
+No Wikipedia-derived text, no dataset downloaded, no table or figure reproduced from a source.

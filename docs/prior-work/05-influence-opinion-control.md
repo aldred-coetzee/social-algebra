@@ -150,9 +150,9 @@ citing sources; **[secondary]** = only seen in citations by other papers.
 
 **Operands.** Discrete spins `s_i in {0,1}` on the vertices of a graph or lattice Z^d.
 
-**Operators.** Continuous-time Markov process: each site, at rate 1, copies the state of a uniformly chosen neighbour. Generator `L f(s) = sum_i (fraction of neighbours disagreeing with s_i) [f(s^i) - f(s)]` where `s^i` flips site i. [from abstract/standard account]
+**Operators.** Continuous-time Markov process: each site, at rate 1, copies the state of a uniformly chosen neighbour. Generator `L f(s) = sum_i (fraction of neighbours disagreeing with s_i) [f(s^i) - f(s)]` where `s^i` flips site i. (wording follows the Wikipedia article 'Voter model', CC BY-SA 4.0) [from abstract/standard account]
 
-**Predictive/control claim.** Dimension-dependent: in d <= 2 the system coarsens to consensus (probability of seeing two opinions in a finite box tends to 0); in d > 2 there is a one-parameter family of stationary measures indexed by the density of 1s (Holley-Liggett, as quoted in the search result). On finite graphs fixation is certain and the probability of ending at 1 equals the degree-weighted initial fraction of 1s, so *whom you convert first* matters in proportion to degree.
+**Predictive/control claim.** Dimension-dependent: in d <= 2 the system coarsens to consensus (probability of seeing two opinions in a finite box tends to 0); in d > 2 there is a one-parameter family of stationary measures indexed by the density of 1s (Holley-Liggett, as quoted in the search result). (wording follows the Wikipedia article 'Voter model', CC BY-SA 4.0) On finite graphs fixation is certain and the probability of ending at 1 equals the degree-weighted initial fraction of 1s, so *whom you convert first* matters in proportion to degree.
 
 **Limits.** No confidence, no memory, no heterogeneity; purely imitative; the authors framed it as spatial conflict between species (Clifford-Sudbury), not as a social theory. Empirical: Fernandez-Gracia et al. (2014), "Is the voter model a model for voters?", *PRL* 112, 158701, DOI 10.1103/PhysRevLett.112.158701 [Crossref, validation], fit a noisy voter model with recurrent mobility to US county vote-share statistics with some success.
 
@@ -449,3 +449,13 @@ Bibliographic details were re-checked against Crossref where a DOI exists; forma
 - No fabrications found; nothing removed.
 
 **Verdict.** Bibliographically the survey is reliable: every DOI checked resolves to the stated work, and the errors were small (one page range, one title word, one misdated election inherited from the source). The mathematics of the core linear and stochastic models was sound; the errors were in the from-memory items (Coleman's equations were garbled, Simon's structure was misdescribed) and in two details (Deffuant's uncertainty, Granovetter's example). The most consequential problem was the empirical framing: the claim that Friedkin-Johnsen alone has real experimental support was overstated and is now corrected, and the Liu et al. control result is far weaker for social systems than the survey implied once the self-loop critique is taken into account.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+- Wikipedia, 'Voter model' (section 8): CC BY-SA 4.0. Generator and dimension-dependence description; now marked as following the article's wording.
+- Dover publisher's book description of Weidlich, *Sociodynamics* (section 9): not determined; publisher copyright presumed. Used as a short description of the book's three-part structure, no wording copied. Flagged "check".
+- Castellano, Fortunato and Loreto 2009, *Rev. Mod. Phys.* 81 (section 11): not determined; publisher copyright presumed (arXiv:0710.3256 may carry its own licence). Used as a list of ten subject terms, flagged "check" in case they mirror the review's index, plus a short abstract phrase quoted (under 60 words).
+- Galam 2008, *Int. J. Mod. Phys. C* 19 (section 10): not determined; publisher copyright presumed. Used as short abstract quotations of a few words.
+- Fernandez-Gracia et al. 2014, *PRL* 112, 158701 (section 8): not determined; publisher copyright presumed. Used as a dataset citation (US county vote-share statistics); no data reproduced, dataset licence not stated.
+- Restated equations (French, DeGroot, Friedkin-Johnsen, Weidlich master equation, Galam map, and others): restated equations from the cited papers and standard accounts; no surrounding text copied.
+- All other sources in this file: citations and facts only; not determined; publisher copyright presumed.

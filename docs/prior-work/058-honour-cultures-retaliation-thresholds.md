@@ -232,3 +232,18 @@ Checked against the other prior-work files by grep on authors, works, numbers an
 - 39 (section 13) uses Gould's Corsican records to support "conflict is most likely where rank is ambiguous". 058 section 3 reads Gould (2000) as showing that revenge was rare and conditional on the group character of the original act, so "honour as an automatic low-threshold reflex" is contradicted. These are different Gould works (2003 book vs ASR 2000 paper) on the same data, and the claims are compatible. 39 does not mention the conditionality, so cite both together. No file is wrong.
 
 No file contradicts 058 on any DOI, author list, page range or number. Files 43-57, 59-67, 69-82 contain no overlapping works.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+Audit verdicts for this file were all "check"; no text was changed. Checks: the Gould (2000) paragraph, the Gould (2003) and Cooney (1998) scope sentences are paraphrases in this file's own wording with the source labelled `[abstract/summary]`; the cited figures (30 societies, several dozen prisoners) are facts. The `-k` curl attempt described in the method note was blocked by the sandbox and not retried; no access control was bypassed and no paywalled text was obtained.
+
+- **Crossref metadata** (DOIs, authors, volumes, pages, titles): facts; Crossref metadata is released as CC0. Used as citations only.
+- **Cohen, Nisbett, Bowdle & Schwarz (1996), JPSP 70(5), abstract**: not determined; publisher copyright presumed (APA). Used as description of the procedure plus one single-word quotation (the insult word).
+- **Schimmack (2019), Replication Index blog, "Social Psychology Textbook audiT: Culture of Honor"**: not determined; copyright presumed to the author. Used as dataset citation of test statistics (t, p, percentage changes), stated as numbers, no passages copied.
+- **Nisbett & Cohen (1996), Nisbett (1993), Cohen & Nisbett (1994, 1997)**: not determined; publisher copyright presumed. Used as description of claims from summaries; nothing quoted.
+- **Gould (2000), ASR 65(5), abstract**: not determined; publisher copyright presumed (SAGE). Used as description in this file's own words, with one three-word quotation ("highly strategic yet altruistic").
+- **Gould (2003), *Collision of Wills*, publisher description**: not determined; publisher copyright presumed (University of Chicago Press). Used as description.
+- **Cooney (1998), *Warriors and Peacemakers*; Phillips & Cooney (2005); Cooney (1997)**: not determined; publisher copyright presumed (NYU Press, ASA/SAGE, ASC/Wiley). Used as description of scope and claims; book-contents term "Black's Theoretical Paradigm" cited as a title.
+- **Baller, Zevenbergen & Messner (2009), JRCD 46(3), abstract**: not determined; publisher copyright presumed (SAGE). Used as description with one short quotation ("highly consistent with the herding thesis").
+- **Chu, Rivera & Loftin (2000); Rivera, Chu & Loftin (2002)**: citation only.
+- **Leung & Cohen (2011), JPSP, abstract**: not determined; publisher copyright presumed (APA). Used as description of the result in the file's own words.

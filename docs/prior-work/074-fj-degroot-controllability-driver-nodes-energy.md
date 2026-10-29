@@ -229,3 +229,21 @@ Direction D402. Checked against the validated files in this directory by grep fo
 3. **File 05 section 4, susceptibility tied to self-weight (`a_ii = 1 - w_ii`).** This file section 4.1 treats Lambda and the self-weight w_ii as independent and notes the prejudice term is not a Cowan self-loop. This is not a contradiction (file 05 itself says "the general form above treats them as independent") but it matters: under Friedkin's own specification, distinct lambda_i imply distinct w_ii, so the "zero diagonal with distinct lambda" case in 4.1 is outside Friedkin's specification and the "distinct self-weights" case is the realistic one. Verdict: consistent; 074 section 4.1 should be read with that caveat.
 
 No numerical results in 074 (section 4) overlap with any other file. Unresolved: none.
+
+## Licences of quoted and transcribed material (2026-10-30)
+
+Audit verdict for this file: "check" on sections 3.1 (Kalman and PBH) and 3.4 (control energy). The text was not changed. Those passages state the textbook Kalman rank test, the PBH test and the Gramian in the file's own terse wording, with no Wikipedia source cited or relied on; no CC BY-SA attribution is therefore added. If the wording is later found to follow a Wikipedia article, add "(wording follows the Wikipedia article '<title>', CC BY-SA 4.0)" or reword.
+
+No tables or datasets are transcribed. The tables in sections 3.5 and 4 are the author's own derived results and numerical runs. Equations are restated, not copied with surrounding text.
+
+- Liu, Slotine, Barabasi (2011), Nature 473, 167-173: not determined; publisher copyright presumed. Used as a citation and a restated equation (N_D from maximum matching); no quotation.
+- Lin (1974), IEEE TAC 19(3): not determined; publisher copyright presumed. Citation and restated theorem only.
+- Posfai et al. (2013), Sci. Rep. 3, 1067 (arXiv 1203.5161 abstract): not determined; publisher copyright presumed. Two short phrases quoted ("no discernible impact", "help narrow"), under 60 words.
+- Liu, Slotine, Barabasi (2012), PLoS ONE 7(9), e44459: PLoS ONE is published under CC BY; not checked per article. Described in one sentence.
+- Cowan et al. (2012), PLoS ONE 7(6), e38398: PLoS ONE is published under CC BY; not checked per article. Short quotations (each well under 60 words) with citation, plus description of Propositions 1 and 2.
+- Muller & Schuppert (2011), Nature 478, E4: not determined; publisher copyright presumed. Citation only; text not read.
+- Yan et al. (2012), PRL 108, 218703: not determined; publisher copyright presumed. Citation and description only.
+- Yuan et al. (2013), Nat. Commun. 4, 2447 (Europe PMC PMC3945876): open-access journal, specific article licence not determined; publisher copyright presumed. Short quotations from the abstract, restated equations (3), (5), (6), and a prose description of Table 1 (star N - 2, complete graph N - 1).
+- Rahmani et al. (2009), SIAM J. Control Optim. 48(1), 162-186: not determined; publisher copyright presumed. One abstract sentence quoted (under 60 words), with citation.
+- Kempe-Kleinberg-Tardos (2003), Olfati-Saber & Murray (2004), Hegselmann et al. (2015): not determined; publisher copyright presumed (JASSS is open access, licence not checked). Citations and one-line descriptions only.
+- Sundaram & Hadjicostis: cited only through Cowan et al.; not opened.
