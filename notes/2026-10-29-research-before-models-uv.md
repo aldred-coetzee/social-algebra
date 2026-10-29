@@ -12,7 +12,9 @@ different projects can use what they need."*
   in the survey: a reproduction that fails can expose a misread equation.
   That stands as an option for the validation step, but modelling proper
   waits until the research iterations are done. Partial, uncommitted files
-  under `sim/` were left untracked.
+  under `sim/` were left untracked, and `/sim/` is in this clone's
+  `.git/info/exclude` so the session-close check does not keep flagging
+  them. Remove that line when modelling resumes.
 - **Per-project environments with uv.** No project relies on system Python
   packages. `uv` is installed for user `aldred` via Debian's `pipx`
   (`~/.local/bin/uv`, 0.13.6). When `sim/` resumes it gets its own
