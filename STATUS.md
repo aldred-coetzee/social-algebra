@@ -104,7 +104,12 @@ drive. The drive synthesis must end in a candidate equation set with every
 term traced to a validated source or marked as ours.
 
 **Standing instruction (Aldred, 2026-10-29): "go deeper, don't wait for me
-between batches."** Research iterations run back to back as workflow
+between batches"** — **suspended by next-pattern's quota guard the same
+day** (one batch per day, batch report instead of auto-start) until Aldred
+sets a cap; see `notes/2026-10-29-next-pattern-review-quota-ledger-depth.md`.
+**Iteration 1** (40 directions → files 043–082) is running as of 2026-10-29
+evening; when it lands: commit, extract ledger lines, report yield per
+cluster. **Iteration 2 = deep-reads first.** Research iterations run back to back as workflow
 batches from `docs/research-map.md`: dive → separate validation pass →
 cross-check against existing files → commit → next batch. No synthesis and
 no modelling until Aldred says the research is deep enough
