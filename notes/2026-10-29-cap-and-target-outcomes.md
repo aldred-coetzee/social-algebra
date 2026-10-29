@@ -83,3 +83,14 @@ than composes."* The named works are covered (05, 066, 07, 09, 11, 22);
 reflexivity in his sense (Merton, Hawthorne, Goodhart, Lucas, performativity)
 was NOT covered and is now cluster T with the composition-versus-simulation
 cross-check, which also becomes a standing question for the synthesis.
+
+**Evening, after iteration 1 landed (120 agents, 12.5M tokens):** Aldred:
+*"I agree, this token spend is wasteful, let's go targeted and let's test
+across at least three group sizes."* Broad batches stop. Research is now
+pulled by a first draft equation set (v0) and tested at three sizes that
+straddle the known thresholds — n = 3 (triad), n ≈ 8–12 (team), n ≈ 100+
+(crowd) — against one outcome common to all three: **does the group hold
+together or split, and who leaves**, so equations fitted at one size are
+tested at the others (the composition test). Composition at fixed size is
+varied only after the size test. Batch 2 is twelve targeted directions;
+the proposal is `docs/batches/2026-10-29-iteration-1-report-and-batch-2-proposal.md`.

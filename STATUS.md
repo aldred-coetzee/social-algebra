@@ -106,9 +106,12 @@ term traced to a validated source or marked as ours.
 **Standing instruction (Aldred, 2026-10-29): "go deeper, don't wait for me
 between batches"** — **replaced the same day by Aldred's rule: "Pause after
 each batch and ask me if we should do the next"** (`notes/2026-10-29-cap-and-target-outcomes.md`, which also records his target outcomes: three scales, applied practice, group size and composition, positive steering); see `notes/2026-10-29-next-pattern-review-quota-ledger-depth.md`.
-**Iteration 1** (40 directions → files 043–082) is running as of 2026-10-29
-evening; when it lands: commit, extract ledger lines, report yield per
-cluster. **Iteration 2 = deep-reads first.** Research iterations run back to back as workflow
+**Iteration 1 landed 2026-10-29 evening** (files 043–082, 120 agents,
+12.5M tokens; report in `docs/batches/`). **Then Aldred: targeted, not
+broad** — v0 equation set tested at three group sizes (3, 8–12, 100+) on one
+common outcome (holds together or splits, who leaves). **Batch 2 = twelve
+targeted directions, proposed, awaiting his yes.** Ledger seeding from
+files 043–082 and the equation-set surveys was in progress (Haiku). Research iterations run back to back as workflow
 batches from `docs/research-map.md`: dive → separate validation pass →
 cross-check against existing files → commit → next batch. No synthesis and
 no modelling until Aldred says the research is deep enough
