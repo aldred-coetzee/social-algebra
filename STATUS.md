@@ -27,7 +27,7 @@ in place and appends a `## Validation log`.
 | 08 | history | done |
 | 09 | biology and ecology | done |
 | 10 | economics, politics, anthropology, linguistics | done |
-| 11 | classical theory and statecraft | running (interrupted by usage limit, resumed 04:05) |
+| 11 | classical theory and statecraft | done |
 | 12 | narrative, games, AI agents | running (interrupted by usage limit, resumed 04:05) |
 | 13 | family systems, persuasion, coercion | done |
 | 14 | maths and CS structures | done |
