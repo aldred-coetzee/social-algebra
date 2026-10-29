@@ -109,9 +109,13 @@ each batch and ask me if we should do the next"** (`notes/2026-10-29-cap-and-tar
 **Iteration 1 landed 2026-10-29 evening** (files 043–082, 120 agents,
 12.5M tokens; report in `docs/batches/`). **Then Aldred: targeted, not
 broad** — v0 equation set tested at three group sizes (3, 8–12, 100+) on one
-common outcome (holds together or splits, who leaves). **Batch 2 = twelve
-targeted directions, proposed, awaiting his yes.** Ledger seeding from
-files 043–082 and the equation-set surveys was in progress (Haiku). Research iterations run back to back as workflow
+common outcome (holds together or splits, who leaves). **Batch 2 landed 2026-10-30** (files 083–094; 36 agents, 5.2M tokens;
+report and v0 proposal in `docs/batches/2026-10-30-…`). Ledger: 4,299 lines
+(seeded from 043–082 and the equation-set surveys, hygiene pass applied,
+batch 2 added; rules in `docs/ledger.md`). **Awaiting Aldred's decision:
+write `models/00-v0.md` now (three drives the evidence forces: set point,
+gated affiliation, goal; one outcome; three sizes; sa-backed terms marked
+inadmissible), or run the nine-source deep-read batch first.** Research iterations run back to back as workflow
 batches from `docs/research-map.md`: dive → separate validation pass →
 cross-check against existing files → commit → next batch. No synthesis and
 no modelling until Aldred says the research is deep enough
