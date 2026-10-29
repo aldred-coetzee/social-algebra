@@ -1,6 +1,6 @@
 # Status
 
-_Updated 2026-10-29 04:10._
+_Updated 2026-10-29._
 
 Scaffolded 2026-10-29: brief, `notes/`, `models/`, `docs/`. On GitHub
 (private) at `aldred-coetzee/social-algebra`. Model pinned to Fable 5.1 for
@@ -38,9 +38,25 @@ All fourteen have had the second pass (completed 2026-10-29). Residual doubts ar
 new tradition files unless the synthesis exposes a hole that matters for
 operators and operands specifically.
 
-**Next:** `docs/synthesis.md` — one comparison table across the fourteen, the
-three or four closest traditions and what each lacks, the recurring gaps as
-requirements, and candidate formal homes with fit and cost. No
-recommendation; Aldred chooses.
+**Also 2026-10-29, after next-pattern's independent check** (all 292 DOIs
+resolved; no invented reference): fixes applied; every structural claim
+tagged `[read]` or `[from abstract/standard account]` (almost all the
+latter, so formal descriptions are textbook forms, not read at source);
+duplicated works reduced to one primary entry with cross-references; three
+short entries added and **not** second-passed: role theory (06), White's
+*Identity and Control* (01), relation algebra and Allen (14).
+
+## Synthesis (done 2026-10-29)
+
+`docs/synthesis.md`: comparison table across the traditions, the four
+closest precedents and what each lacks, requirements R1-R11, six candidate
+formal homes with fit and cost, and ten open questions. No recommendation.
+
+**Next: Aldred's decisions** on the open questions at the end of the
+synthesis (scope of operands, what a role is, dyad or triad as atom,
+quantities and affect, dynamics, which acts, fit-first or write-first,
+whether to pick a home now). Nothing goes into `models/` until those are
+answered. Then, if a home is chosen, the primary texts it leans on get read
+in full, since the survey mostly did not.
 
 No algebra of our own yet, deliberately.
