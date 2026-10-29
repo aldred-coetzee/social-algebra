@@ -473,8 +473,8 @@ read for any entry. Items I could not confirm are in "Unconfirmed" at the end.
   four variables), and within each outcome error was strongly associated
   with the family being predicted and weakly with the technique. Best
   holdout R² was about 0.2 for the continuous outcomes (GPA, material
-  hardship) and near zero or below for the others (validator, from the
-  paper's abstract and Fig. 3 as remembered). The MusicLab paper is
+  hardship) and much lower for the other four (validator, from memory of
+  the paper's Fig. 3; treat the numbers as approximate). The MusicLab paper is
   *Science* 311(5762).
 - **Vocabulary and structure.** Empirical experiments, not formal models. No
   operators proposed.
@@ -609,10 +609,13 @@ read for any entry. Items I could not confirm are in "Unconfirmed" at the end.
    Fragile Families: 160 teams, best models only modestly better than a
    simple benchmark; error driven more by the case than by the method.
 3. **Aggregate trend forecasts have fared better, with caveats.** Limits to
-   Growth's standard run tracked several indicators for 30-plus years
-   (per CSIRO, Melbourne and Herrington assessments), and Turchin's 2010
-   forecast of instability by 2020 is read as a hit, but the latter is
-   self-assessed and low-resolution. Neither predicts specific events.
+   Growth's standard run tracked several indicators for 30-plus years per
+   Turner (2008, 2014 — the same author both times); Herrington (2021)
+   found the closest fits in two other runs (BAU2, CT), not the original
+   standard run. Turchin's 2010 forecast of instability by 2020 is read as
+   a hit, but the assessment is by the authors and the call is
+   low-resolution. Neither predicts specific events, and none of these is
+   a test of the predicted turning points, which lie in the future.
 4. **A formal bound exists on control.** Ashby: a regulator needs variety at
    least matching the disturbances; mechanism design adds impossibility
    results (Gibbard-Satterthwaite, Myerson-Satterthwaite).
@@ -627,21 +630,109 @@ unreachable"), not point prediction.
 
 ## Unconfirmed
 
-- The exact wording and page of Ashby's "variety can destroy variety": seen
-  quoted in secondary sources only, citing p. 207.
-- Medina, *Cybernetic Revolutionaries*, MIT Press 2011: author and title
-  confirmed by the Project MUSE review in search results; publisher and
-  year are from memory.
-- Meadows, *Thinking in Systems*: searched, nothing found; not listed.
-- Lefebvre's own formulas for the reflexive function and decision equation;
-  the structure above is from collaborators' abstracts as relayed by search.
-  Also the publisher of the first *Algebra of Conscience* (1982).
-- Peter Turchin, "Arise 'Cliodynamics'", *Nature* 2008: search did not
-  confirm it; not used.
-- Cyert & March 1963 first-edition publisher; and Simon and March's
-  "performance programs" and Cyert and March's "quasi-resolution of
-  conflict", "problemistic search": not confirmed in the pages read.
-- Meta-analytic evidence on nudge effect sizes and publication bias: not
-  checked.
-- Aumann-Dreze coalition structures; Lanchester-type models applied to
-  non-military groups; Nobel 2007 advanced-information PDF (403).
+Resolved by the validation pass (now in the body): Ashby's wording ("only
+variety can destroy variety", p. 207); Medina 2011 MIT Press; Lefebvre's
+decision equation and alliance/conflict mapping (from Tarasenko's full
+text, not Lefebvre's); *Algebra of Conscience* publisher (D. Reidel 1982);
+Turchin's 2008 *Nature* essay (exists); Cyert & March publisher
+(Prentice-Hall) and their concepts; nudge meta-analyses; Aumann-Drèze.
+Donella Meadows, *Thinking in Systems: A Primer* (White River Junction, VT:
+Chelsea Green, 2008) does exist; the original search failure was wrong.
+It is a popular primer and adds nothing formal beyond Forrester.
+
+Still open:
+
+- Lefebvre's primary text (*Lectures*, 2010) was not read by anyone in this
+  pass; the formalism is as relayed by Tarasenko, a direct collaborator.
+- Which operation (sum or product) Lefebvre ties to which ethical system:
+  Umpleby says the choice of combination rule generates the two systems but
+  the mapping was not read in the primary source.
+- Whether Lefebvre's non-decomposable graph is exactly the induced P4 (so
+  decomposable = cograph): validator's inference, not from a source.
+- Urban Dynamics' specific policy findings (low-income housing, property
+  taxes): from Wikipedia's summary only.
+- The Cybersyn figure of "about twenty factories" is Wikipedia's; Medina
+  not read.
+- Lanchester-type models applied to non-military groups; Nobel 2007
+  advanced-information PDF (403).
+- Several volume/page/DOI details added by the validator from memory are
+  flagged inline as such.
+
+## Clearly missing from this cluster
+
+Checked against the sibling surveys (01-10, 14): Schelling, Granovetter
+and structural balance (Heider; Cartwright and Harary) are covered
+elsewhere. Not covered anywhere in `docs/prior-work/`:
+
+- R. C. Conant and W. R. Ashby, "Every good regulator of a system must be a
+  model of that system", *International Journal of Systems Science* 1(2):
+  89-97 (1970). The good regulator theorem is the companion to requisite
+  variety and bears directly on Lefebvre's point that operands must include
+  a subject's model of others.
+- Signed-graph balance as the obvious comparison for Lefebvre's
+  alliance/conflict graph (covered in 01/05/06, but this file should cross-
+  reference it: RGT's graph is a complete signed graph, read as a Boolean
+  polynomial rather than tested for balance).
+- Batchelder and Lefebvre, "A mathematical analysis of a natural class of
+  partitions of a graph", *Journal of Mathematical Psychology* 26: 124-148
+  (1982): the graph theory under RGT's decomposability.
+
+## Validation log (2026-10-29)
+
+- Wiener 1950/1954 — ✓
+- Ashby 1956 — ✎ quote is "only variety can destroy variety"; pages 206-208; Cybernetica pages added
+- Ashby 1958 — ✓
+- Beer 1972/1979/1985 — ✓
+- Project Cybersyn facts — ✓ (Wikipedia re-checked: ~20 factories, only Cybernet used regularly, Oct 1972 strike)
+- Medina 2011 — ✎ moved out of Unconfirmed; MIT Press 2011 confirmed
+- Lefebvre, *Algebra of Conscience* — ✎ publisher (Reidel 1982, Kluwer 2001) and subtitle added
+- Lefebvre, *Lectures on the Reflexive Games Theory* — ✎ added (Leaf & Oaks 2010); not read
+- Lefebvre 1998 "Sketch" — ✓ (existence; text not read)
+- Lefebvre RGT formalism — ✎ replaced abstract-level gloss with the actual formalism from Tarasenko arXiv:1011.3397 (alliance = conjunction, conflict = disjunction confirmed; canonical decision equation x = Ax + Bx̄, solvable iff A ⊇ B, solutions A ⊇ x ⊇ B; decomposability; folding via P^W = P + W̄)
+- Lefebvre's two ethical systems — ✎ added (previously missing), from Umpleby 2016; operation-to-system mapping ?
+- Thomas 2004 — ✓ citation; ✎ Komov list was truncated to four of eleven elements
+- Tarasenko arXiv papers — ✓ (1011.3397 read; 1101.0820 title confirmed)
+- Forrester, *Industrial Dynamics* — ✓ (publisher added)
+- Forrester, *Urban Dynamics* — ✎ publisher was MIT Press, not Pegasus
+- Forrester 1971 "Counterintuitive Behavior" — ✓
+- Forrester, *World Dynamics* — ✎ 1971 Wright-Allen; "1968" is a confusion with *Principles of Systems*
+- Meadows et al. 1972 — ✓
+- Turner 2008 — ✎ variables broadened; full citation added
+- "2014 Melbourne study" — ✎ is Turner himself, not independent; working paper
+- Herrington "2020" — ✎ 2021 (online 2020); best fits were BAU2 and CT, not the standard run
+- Cole et al. *Models of Doom* — ✎ added as the SPRU critique's citation
+- March & Simon 1958 — ✓
+- Cyert & March 1963 — ✎ publisher Prentice-Hall; book does contain simulation models; concepts confirmed
+- Slack "conserved quantity" — ✎ overclaim corrected
+- Nobel 2007 mechanism design — ✓
+- Gibbard-Satterthwaite — ✎ stated precisely (onto ≥3 outcomes, strategy-proof ⇒ dictatorial); citations added
+- Myerson-Satterthwaite — ✎ stated precisely (BIC + IR + budget balance + efficiency impossible); citation added
+- Thaler & Sunstein 2008 — ✓
+- House of Lords "precious little" — ✗ quote removed (not found); finding restated from report summaries
+- Nudge meta-analyses — ✎ added Mertens 2022 and Maier 2022
+- Epstein & Axtell 1996 — ✓
+- Axelrod 1980, 1984, 1997 — ✓
+- Rapoport, Seale & Colman 2015 — ✓ (11.0% vs 30.0% confirmed in the paper)
+- Salganik, Dodds & Watts 2006 — ✓
+- Salganik et al. 2020 (Fragile Families) — ✓; ✎ quoted abstract wording and benchmark added
+- Turchin 2003, 2009, 2012 — ✓ (details added)
+- Turchin 2010 *Nature* forecast — ✎ added
+- Turchin 2008 "Arise 'cliodynamics'" — ✎ moved out of Unconfirmed; exists, *Nature* 454: 34-35
+- Turchin & Korotayev 2020 — ✎ published in *PLoS ONE*, not only a preprint
+- Lanchester 1916 / Osipov 1915 — ✓; ✎ equations stated; the survey described only the aimed-fire (square) case
+- ANZIAM "never validated" — ✓ (quote confirmed; URL added)
+- von Neumann-Morgenstern 1944, Shapley 1953 — ✓
+- Gillies core — ✎ 1953 thesis / 1959 publication, not 1954
+- Aumann & Drèze 1974 — ✎ moved out of Unconfirmed; exists
+- Meadows, *Thinking in Systems* — ✎ exists (Chelsea Green 2008); survey's "nothing found" was wrong
+
+**Verdict.** No fabricated works: every citation exists, and the
+summaries are mostly faithful at the level of abstracts. The errors are
+the kind that come from never opening a primary text: wrong dates and
+publishers, truncated lists, loose theorem statements, and — the most
+consequential — the Limits to Growth record presented as three
+corroborating assessments when two are by the same author and the
+independent one picked different scenarios. The Lefebvre section is now
+grounded in a full collaborator paper rather than search snippets, and
+the original's core claim (alliance = product, conflict = sum) turned out
+to be right.
