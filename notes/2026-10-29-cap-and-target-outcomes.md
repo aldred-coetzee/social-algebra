@@ -68,3 +68,18 @@ working models (cross-cultural data and universals; groups that perform
 better and why; natural experiments and divergences), whose first job is a
 table of the outcome measures used, so Aldred can choose what "behave
 better" means rather than have it chosen for him.
+
+**Aldred's checklist, later the same day**, naming prior work he expects
+mapped (sociophysics and opinion dynamics as the closest existing algebra
+of group behaviour; Granovetter thresholds; Schelling and Axelrod; Simmel
+and Dunbar on size; Pentland), and two hard parts: *"data and
+reflexivity. Group behaviour is difficult to measure cleanly, and people
+change their behaviour once they know they're being modelled, so
+relationships that held in the data stop holding."* And the question to
+answer early: *"what would an algebra give you that simulation doesn't? If
+the answer is composition, meaning rules for what happens when two groups
+merge or one splits, that's a real gap. Most existing work simulates rather
+than composes."* The named works are covered (05, 066, 07, 09, 11, 22);
+reflexivity in his sense (Merton, Hawthorne, Goodhart, Lucas, performativity)
+was NOT covered and is now cluster T with the composition-versus-simulation
+cross-check, which also becomes a standing question for the synthesis.
