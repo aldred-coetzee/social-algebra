@@ -57,10 +57,15 @@ formal homes with fit and cost, and ten open questions. No recommendation.
 discrete relational state first; discrete nondeterministic turns with
 reachability claims.
 
-**Next:** `models/00-sorts-and-state.md` — sorts, the state each carries,
-membership as (person, group, role, time), every choice traced to an
-R-number or to Aldred's answer; operators after that. The other seven open
-questions are asked as each becomes load-bearing. Whatever home is chosen,
-its primary texts get read in full, since the survey mostly did not.
+**Redirected 2026-10-29** (`notes/2026-10-29-drives-as-the-core.md`): the
+algebra is to express basic human and group **drives** (curiosity, fear,
+desire, …) that compose into equations, for theorems and prediction or
+control. This reopens Q4 (drives are graded internal state). The
+`models/00` draft was stopped.
+
+**In progress:** drive survey, `docs/prior-work/15`–`19` (taxonomies, formal
+models of motivation, curiosity/fear/desire, group drives and collective
+emotion, computational drive agents), each to get the same second pass,
+then a drive synthesis.
 
 No algebra of our own yet, deliberately.
