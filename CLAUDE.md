@@ -6,7 +6,10 @@ working-style rules are in `~/.claude/CLAUDE.md` and are not repeated here.
 
 **Started 2026-10-29. A thinking strand, not an app.** No code, no server. Its own
 Remote Control session, `claude-rc-social-algebra`, since 2026-10-29 (Aldred:
-"we need a session for it"); unit file in `deploy/systemd/`. `STATUS.md` is the honest state.
+"we need a session for it"); unit file in `deploy/systemd/`. **Model pinned to Fable 5.1** in
+`.claude/settings.json` (2026-10-29, Aldred: Opus is "not good enough to
+define research parameters"); the apps stay on Opus, which is the global
+default. A session already running when this landed needs `/model fable` once. `STATUS.md` is the honest state.
 
 ## What it is
 
