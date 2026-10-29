@@ -12,9 +12,17 @@ report gives the yield per cluster.
 {"id":"L0001","kind":"equation","statement":"one line","source":"16 §4","work":"Keramati & Gutkin 2014, doi 10.7554/eLife.04811","provenance":"read","status":"open","cluster":"C","added":"2026-10-29","batch":1,"dup_of":null,"scale":"group","ethics":"n/a","note":""}
 ```
 
-- `kind`: `drive` | `equation` | `empirical-result` | `contradiction` | `definition`
-- `provenance`: `read` (the agent fetched and read the primary text) or
-  `sa` (abstract or standard account). A validator may upgrade `sa` to
+- `kind`: `drive` | `equation` | `empirical-result` | `contradiction` | `definition`.
+  `equation` only when the line states a formula; a prose result is an
+  `empirical-result` or a `definition`. A `contradiction` is a conflict
+  between two SOURCES, with both named; a file's caveat about its own
+  reading is a `note`, not a contradiction. Each line pins ONE claim to ONE
+  work; a sentence that groups two sources becomes two lines.
+- `provenance`: `read` (the agent fetched and read the primary text **in
+  full**; a preprint standing in for a chapter must say so in `note`),
+  `sa` (abstract or standard account), or `derived` (our own derivation,
+  with the derivation's file§ in `source`; may feed v0 only with the
+  derivation shown and checked). A validator may upgrade `sa` to
   `read` only by opening the source itself. **Nothing `sa` feeds an
   equation.** If a text is paywalled the line says so and stays `sa`.
 - `status`: `open` | `adopted` | `rejected` | `duplicate`
@@ -74,3 +82,11 @@ from exhausted — and also that the rule, as a stopping criterion, will not
 bite while extraction is this fine-grained. A coarser unit (claims the
 equation set would rest on, not every definition) is needed before the rule
 means "deep enough".
+
+## Audit, 2026-10-29 (next-pattern, twenty lines, seed 20261029)
+
+Extraction faithful: 19/20 supported by their file, 17/17 works exist,
+6/7 `read` tags honest, every checkable number and equation matched the
+paper. Four habits fixed by a Haiku pass and the rules above: prose
+results tagged `equation`; own derivations tagged `sa`; caveats recorded
+as contradictions; two sources pinned to one line.
