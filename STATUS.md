@@ -28,12 +28,11 @@ in place and appends a `## Validation log`.
 | 09 | biology and ecology | done |
 | 10 | economics, politics, anthropology, linguistics | done |
 | 11 | classical theory and statecraft | done |
-| 12 | narrative, games, AI agents | running (interrupted by usage limit, resumed 04:05) |
+| 12 | narrative, games, AI agents | done |
 | 13 | family systems, persuasion, coercion | done |
 | 14 | maths and CS structures | done |
 
-Files without a validation log are first-pass only: treat their formal
-claims as unchecked.
+All fourteen have had the second pass (completed 2026-10-29). Residual doubts are in each file's Unconfirmed section; treat anything there as unchecked.
 
 **Survey is closed at fourteen** (next-pattern's direction, 2026-10-29): no
 new tradition files unless the synthesis exposes a hole that matters for
