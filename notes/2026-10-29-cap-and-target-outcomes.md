@@ -52,3 +52,19 @@ Two clusters added to the research map: **Q, social control** as a
 tradition in its own right across the whole span, and **R, sociology of
 knowledge and social epistemology** (how a group fixes what counts as true,
 and which drives and operators that works through).
+
+**Also the same day, via next-pattern:** *"we need to also keep it clear on
+what we're trying to achieve and recognize that we have working models of
+societies, of different societies all over the world. It may be worth
+looking at commonalities and seeing what we can abstract from that, and
+also perhaps identify groups that behave better than others and look at
+the differences. And that may help us to identify the factors that
+influence things in both a positive and a negative way."* Two
+consequences: a dated **"What we are trying to achieve"** paragraph at the
+top of `CLAUDE.md`, mirrored at the top of `docs/research-map.md`, restated
+in one line at the start of every batch report so drift is visible; and a
+high-priority **comparative cluster S**: existing societies and groups as
+working models (cross-cultural data and universals; groups that perform
+better and why; natural experiments and divergences), whose first job is a
+table of the outcome measures used, so Aldred can choose what "behave
+better" means rather than have it chosen for him.

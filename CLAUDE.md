@@ -1,5 +1,21 @@
 # social-algebra
 
+## What we are trying to achieve
+
+_Assembled from Aldred's words on 2026-10-29; update whenever he refines it, and date the change. Every batch report opens by restating it in one line._
+
+An **algebra of drives**, of persons and of groups, composed into an
+**equation set** with theorems, usable to **predict or steer outcomes** at
+three scales — membership (who joins, stays, leaves, conforms), group
+(cohesion, decision, split, efficiency) and crowd or society (adoption,
+mobilisation, opinion) — **including positively** (better-functioning
+groups), and **sensitive to group size, composition and definition**.
+Existing societies and groups are working models: commonalities to abstract
+from, and better-behaving groups to learn the factors from. Tested first on
+a modelled population built independently of the equations, then on data.
+"Drives as primitives" is the working hypothesis, tested by every dive, not
+assumed.
+
 This file is the standing brief. Keep it current — each session starts with
 no memory of the last, and the repo is the only continuity. Environment and
 working-style rules are in `~/.claude/CLAUDE.md` and are not repeated here.

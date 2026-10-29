@@ -1,5 +1,21 @@
 # Research map
 
+## What we are trying to achieve
+
+_Assembled from Aldred's words on 2026-10-29; update whenever he refines it, and date the change. Every batch report opens by restating it in one line._
+
+An **algebra of drives**, of persons and of groups, composed into an
+**equation set** with theorems, usable to **predict or steer outcomes** at
+three scales — membership (who joins, stays, leaves, conforms), group
+(cohesion, decision, split, efficiency) and crowd or society (adoption,
+mobilisation, opinion) — **including positively** (better-functioning
+groups), and **sensitive to group size, composition and definition**.
+Existing societies and groups are working models: commonalities to abstract
+from, and better-behaving groups to learn the factors from. Tested first on
+a modelled population built independently of the equations, then on data.
+"Drives as primitives" is the working hypothesis, tested by every dive, not
+assumed.
+
 Date: 2026-10-29
 
 Purpose: the queue of research directions to run before any synthesis of the drive equation set.
@@ -10,7 +26,7 @@ Status legend: **queued** (not started) / **surveying** (an agent is on it) / **
 
 Kinds: survey, deep-read, cross-check, data, model.
 
-Source: 651 raw directions generated from `docs/prior-work/01`–`42` (41 was still in validation when the map was built) plus new lenses. Near-duplicates were merged into **546 directions** (551 after D547–D551 for the modelled-population testbed; 560 after clusters O and P were added the same day from Aldred's target outcomes; 573 after Q social control and R sociology of knowledge, also his). Every merged entry keeps the seeds and the `From` sources of all its parts and says what it absorbed. No distinct direction was dropped. IDs are stable: a new direction gets the next free number and is never renumbered into a cluster.
+Source: 651 raw directions generated from `docs/prior-work/01`–`42` (41 was still in validation when the map was built) plus new lenses. Near-duplicates were merged into **546 directions** (551 after D547–D551 for the modelled-population testbed; 560 after clusters O and P were added the same day from Aldred's target outcomes; 573 after Q social control and R sociology of knowledge; 582 after S comparative, all his). Every merged entry keeps the seeds and the `From` sources of all its parts and says what it absorbed. No distinct direction was dropped. IDs are stable: a new direction gets the next free number and is never renumbered into a cluster.
 
 ---
 
@@ -651,6 +667,20 @@ _Added 2026-10-29 from Aldred. The question: how a group fixes what counts as tr
 - **D571** · deep-read · queued — Formal network epistemology: Zollman 2007/2010 (connectivity can hurt consensus accuracy), Bala & Goyal 1998 learning from neighbours, O'Connor & Weatherall *The Misinformation Age*; transcribe the models and results exactly. *Seeds:* Zollman 2007 Phil Sci, 2010 Erkenntnis; Bala & Goyal 1998 RES; O'Connor & Weatherall 2019. *From:* Aldred.
 - **D572** · survey · queued — Misinformation and belief-spread dynamics with evidence: Vosoughi, Roy & Aral 2018; Pennycook & Rand accuracy nudges and their replication; link to opinion-dynamics models in 05. *Seeds:* Vosoughi et al. 2018 Science; Pennycook et al. 2021 Nature; see 05. *From:* Aldred.
 - **D573** · cross-check · queued — Which drives and operators do the knowledge-fixing mechanisms in R work through (belonging, status, fear, certainty-seeking — see 18 uncertainty–identity, 42 need for closure), and at which scale? *From:* Aldred; next-pattern.
+
+## S. Comparative: existing societies and groups as working models
+
+_Added 2026-10-29 from Aldred, high priority. For (b) and (c) the FIRST job is a table of the outcome measures each line of evidence uses (trust, violence, wellbeing, output, decision quality, survival of the group), so Aldred can choose what "behave better" means; do not pick one. Then the factors each says differ, with effect sizes, tagged positive/negative and by scale. Much of this is formal already: prime ledger material._
+
+- **D574** · data · queued — Cross-cultural databases as working models: eHRAF, Ethnographic Atlas and D-PLACE, Standard Cross-Cultural Sample, Seshat, World Values Survey — access, licence, variables, sample, and which drive-level or group-level claims each could test. *Seeds:* Kirby et al. 2016 D-PLACE (verify); Murdock 1967; Turchin et al. 2015 Seshat (verify); WVS. *From:* Aldred.
+- **D575** · survey · queued — Universals and their critics: Brown's *Human Universals*, Henrich, Heine & Norenzayan 2010 WEIRD, cross-cultural replication of drive findings (which drives and operators hold everywhere, which are local). *Seeds:* Brown 1991; Henrich et al. 2010 BBS; Apicella, Norenzayan & Henrich 2020 (verify). *From:* Aldred.
+- **D576** · cross-check · queued — Cross-national value and norm dimensions as abstractions of societies: Gelfand tightness (25), Schwartz values (15), Hofstede and GLOBE with their known weaknesses (25); which of these dimensions predict any of the three-scale outcomes out of sample, with what effect sizes. *Seeds:* see 15, 25; McSweeney 2002 critique of Hofstede (verify); House et al. 2004 GLOBE. *From:* Aldred.
+- **D577** · survey · queued — Outcome measures of "behaving better": build the table across traditions — trust, violence, wellbeing, output, decision quality, survival of the group, efficiency as each defines it — with the instrument and the scale for each. *Seeds:* Hackman 2002 (24/38); Woolley et al. 2010; Edmondson (38); Ostrom 1990; Sosis (37); Pinker 2011 on violence (verify); OECD wellbeing. *From:* Aldred.
+- **D578** · survey · queued — Groups that perform better and why, organisational: high-reliability organisations (Weick & Sutcliffe; Roberts), Hackman's conditions, Project Aristotle and psychological safety, Woolley's collective-intelligence factor c and its replications (Credé & Howardson 2017, verify), cooperatives vs firms. *Seeds:* Weick, Sutcliffe & Obstfeld 1999 (verify); Hackman 2002; Woolley et al. 2010; Credé & Howardson 2017; Pencavel on cooperatives (verify). *From:* Aldred.
+- **D579** · deep-read · queued — Ostrom's design principles for enduring commons groups and the cross-case tests (Cox, Arnold & Villamayor Tomás 2010): transcribe the principles and the evidence exactly; which drives and operators each principle works through. *Seeds:* Ostrom 1990; Cox et al. 2010 Ecology and Society (verify). *From:* Aldred.
+- **D580** · survey · queued — Groups that last: military unit cohesion (24, 39), monastic and religious orders' longevity, commune survival (Sosis & Bressler 2003, 37), Dunbar layers as size constraints; what differs between groups that survive and those that dissolve. *Seeds:* see 24, 37, 39; Dunbar (09/22); Kanter 1972 Commitment and Community (verify). *From:* Aldred.
+- **D581** · survey · queued — Natural experiments and divergences: split populations and border regions, institutional transplants (Acemoglu, Johnson & Robinson 2001 and critics, e.g. Albouy 2012), Putnam's north/south Italy (and Tarrow's critique), twin-city comparisons; what factor each identifies and how strong the identification is. *Seeds:* AJR 2001 AER; Albouy 2012 AER; Putnam 1993; Tarrow 1996 APSR (verify DOIs). *From:* Aldred.
+- **D582** · cross-check · queued — Commonalities to abstract: across S, which factors recur as positive and which as negative at each scale, with effect sizes; which are already in the drive inventory and operator catalogues, and which are new. *From:* Aldred; next-pattern.
 
 ## Recommended for iteration 1
 
