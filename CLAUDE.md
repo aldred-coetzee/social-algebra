@@ -80,6 +80,18 @@ where they did, and every DOI must resolve to that work. In practice:
 - Before anything leaves the repo, a whole-corpus DOI audit resolves every
   DOI against Crossref and compares title and authors with the citing line.
 
+## Licensing (Aldred, 2026-10-30)
+
+Nothing goes into the repo that could not be reused when it is open-sourced.
+Citations, facts and numbers are free. Equations are restated, not copied
+with their surrounding text. Quotations are short and attributed. Tables,
+figure contents and lists are transcribed only when the source licence
+allows (say which licence) or are reduced to a description. Text derived
+from Wikipedia is marked as CC BY-SA. Paywalled text is read, never
+reproduced; access controls are never circumvented. Every dive records the
+licence of anything quoted or transcribed. The audit and per-file table
+live in `docs/licensing.md`; `notes/2026-10-30-licensing-check.md` has the why.
+
 ## How it connects to the rest
 
 - Separate from the writing pipeline. Nothing here is drafted or published
