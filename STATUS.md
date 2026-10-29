@@ -63,9 +63,19 @@ desire, …) that compose into equations, for theorems and prediction or
 control. This reopens Q4 (drives are graded internal state). The
 `models/00` draft was stopped.
 
-**In progress:** drive survey, `docs/prior-work/15`–`19` (taxonomies, formal
+**In progress:** drive survey. `docs/prior-work/15`–`19` (taxonomies, formal
 models of motivation, curiosity/fear/desire, group drives and collective
-emotion, computational drive agents), each to get the same second pass,
-then a drive synthesis.
+emotion, computational drive agents) are written and being second-passed.
+Aldred, same day: *"Dig deeper on drives between people and groups and go
+wider too… I expect this research phase to be very deep."* So `20`–`27`
+were started: dyadic coupling dynamics (Gottman, Strogatz, coregulation),
+social preferences and psychological games, neuroscience of social drives,
+collective dynamics of driven agents (mean-field games, panic, fear–epidemic
+coupling), collective action and team motivation, culture-scale drives and
+norm evolution, philosophy of the passions (Spinoza's geometric derivation
+of the affects, Hobbes, Hume, rasa, Abhidharma), and measuring drive
+dynamics. Each gets the same second pass, then one drive synthesis. The
+first survey's finding that frames this: drive dynamics exist for single
+agents, act algebras exist for groups, nobody has joined them.
 
 No algebra of our own yet, deliberately.
