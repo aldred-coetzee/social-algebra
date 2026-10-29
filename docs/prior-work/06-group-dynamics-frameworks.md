@@ -18,10 +18,13 @@ structure:
 3. **Structural balance** (Heider; Cartwright & Harary). Signed graphs with
    a theorem, but it is a state constraint, not a set of moves.
 
-Everything else is a typology (Belbin, French & Raven, Berne, Karpman,
-Bion, Tuckman), a descriptive grammar (Sacks et al., Goffman,
-Harre/positioning), or a verbal process theory (Lewin, Girard, Collins,
-Tajfel/Turner). Those are useful as a *catalogue of candidate operators*,
+Everything else is a typology (Belbin, French & Raven, Karpman's roles,
+Berne's ego states, Bion, Tuckman), a descriptive grammar (Berne's
+transactions, Sacks et al., Goffman, Harre/positioning), or a verbal
+process theory (Lewin, Girard, Collins, Tajfel/Turner). (Validation note:
+Berne is split because his *transactions* come with explicit continuation
+rules, which is a grammar, not just a list; Karpman's triangle has
+transitions but no rules for when they fire, so "typology" is fair there.) Those are useful as a *catalogue of candidate operators*,
 and as evidence about which moves matter.
 
 **Provenance note.** Citations and DOIs below were checked against the
@@ -100,9 +103,12 @@ and representation* scheme: it fixes what a state looks like (a directed
 signed graph), not what changes it. The sociogram is among the earliest
 network drawings. Formality: a data model, no dynamics.
 
-**Predictive/control claim.** Moreno predicted from a sociogram that two
-isolated girls would run away, and they did (anecdote reported in a
-history-of-information source; single case). Used for regrouping
+**Predictive/control claim.** The sociometric work was done at the New York
+Training School for Girls, Hudson (with Helen Jennings; presented publicly
+1933). The runaway story is told in several forms (the survey's source said
+two isolated girls; the version usually retold is a wave of runaways
+explained by their network position); neither was confirmed against *Who
+Shall Survive?*, so it is under Unconfirmed. Used for regrouping
 (classrooms, therapy). Standing: the foundation of social network
 analysis; predictive claims were never rigorously tested in his own work.
 
@@ -191,9 +197,12 @@ stage-like behaviour, not assume it.
   *Journal of Management Studies*, 44(1), 96-118. DOI
   10.1111/j.1467-6486.2007.00666.x.
 
-**Their vocabulary.** Nine team roles (Plant, Resource Investigator,
-Co-ordinator, Shaper, Monitor Evaluator, Teamworker, Implementer,
-Completer Finisher, Specialist; list from a commercial summary only).
+**Their vocabulary.** The 1981 book had **eight** roles: Chairman, Shaper,
+Plant, Monitor-Evaluator, Company Worker, Resource Investigator, Team
+Worker, Completer-Finisher. Later versions renamed Chairman to
+Co-ordinator and Company Worker to Implementer, and added a ninth,
+Specialist (date of addition not confirmed). The nine-role list is the
+current commercial form, not the 1981 model.
 
 **Operands.** Persons typed by preferred role profile.
 
@@ -239,7 +248,12 @@ addressed state back to the sender's addressing state) continues the
 exchange; crossed breaks it; ulterior carries a hidden second message.
 This is a *composition grammar* with a well-formedness rule ("lines of
 transaction must be parallel to continue"), which is more than most of the
-cluster. Games are named sequences of such moves (e.g. a stated number of
+cluster. Berne states it as three rules of communication: (1) complementary
+transactions can continue indefinitely; (2) a crossed transaction breaks
+communication off, and one or both parties must shift ego state to restore
+it; (3) the behavioural outcome of an ulterior transaction is decided at
+the psychological, not the social, level. (Rule wording via secondary TA
+teaching material; consistent with Berne 1964.) Games are named sequences of such moves (e.g. a stated number of
 published named games). Formality: a diagrammatic notation (arrows between
 three circles), not mathematics; no quantities.
 
@@ -340,9 +354,12 @@ collapses a many-to-many conflict into many-to-one. Worth a sketch.
   10.1093/sw/25.3.245.)
 - Kelley, H. H., Holmes, J. G., Kerr, N. L., Reis, H. T., Rusbult, C. E.,
   & Van Lange, P. A. M. (2003). *An Atlas of Interpersonal Situations*.
-  Cambridge UP. DOI 10.1017/CBO9780511499845 (Crossref dates the online
-  record 2001-01-01; the print year 2003 is from the brief and not
-  independently verified).
+  Cambridge UP. DOI 10.1017/CBO9780511499845 (print 2003, confirmed by the
+  publisher's synopsis; Crossref's 2001 date is a placeholder for the
+  online record). Catalogues 21 common situations.
+- Van Lange, P. A. M. (1999). The pursuit of joint outcomes and equality in
+  outcomes: an integrative model of social value orientation. *JPSP*,
+  77(2), 337-349. DOI 10.1037/0022-3514.77.2.337. (Source for MinDiff.)
 - Rusbult, C. E., & Van Lange, P. A. M. (2003). Interdependence,
   interaction, and relationships. *Annual Review of Psychology*, 54,
   351-375. DOI 10.1146/annurev.psych.54.101601.145059.
@@ -350,9 +367,27 @@ collapses a many-to-many conflict into many-to-one. Worth a sketch.
 **Their vocabulary.** Outcome matrix (each person's payoff for each
 combination of the two actors' behaviour options); given matrix vs
 effective matrix; transformation of motivation (a motivated shift away from
-immediate self-interested impulse); dependence, mutuality, correspondence
-of outcomes (the Atlas classifies situations along dimensions of this
-kind; the dimension list was not retrieved).
+immediate self-interested impulse).
+
+**Matrix decomposition (validated).** Each person's outcomes in a 2x2
+matrix decompose into three additive components: **actor control** (AC,
+what my own choice does to my outcome), **partner control** (PC, what your
+choice does to my outcome) and **joint control** (JC, the interaction term:
+what our combination does to my outcome). These are the Atlas's names; in
+Thibaut & Kelley (1959) and Kelley & Thibaut (1978) they were **reflexive
+control**, **fate control** and **behaviour control** respectively. The
+Atlas builds every 2x2 pattern from three base patterns: bilateral actor
+control, mutual partner control, and corresponding or conflicting mutual
+joint control. This is, in effect, a two-way ANOVA decomposition of the
+payoff matrix (row effect, column effect, interaction), the same shape as
+Kenny's SRM below.
+
+**Six situation dimensions** (Rusbult & Van Lange 2003; the count is
+confirmed by the abstract, the names from the verifier's knowledge of that
+paper): level of dependence, mutuality of dependence, basis of dependence
+(actor/partner/joint control), covariation of interests (correspondence,
+from fully corresponding to fully conflicting), temporal structure, and
+availability of information.
 
 **Operands (translated).** Persons with behaviour options, and a *situation*
 as a matrix of outcomes over joint behaviour.
@@ -364,11 +399,19 @@ welfare, long-term goals). This *is* a genuine operator structure: a
 function from payoff matrices to payoff matrices parameterised by
 disposition. It is a close cousin of game theory (a Van Lange/VU entry is
 titled "bridging psychology and game theory yields interdependence
-theory"), so formal machinery exists. What I did not verify: Kelley and
-Thibaut's exact transformation list or algebraic rules (joint-outcome
-maximisation, equality, own-outcome focus are named in the wider
-literature, but my search did not retrieve a source for them, so they stay
-under Unconfirmed).
+theory"), so formal machinery exists. **Named transformations
+(validated):** MaxOwn (maximise own outcome; the given-matrix default),
+MaxOther (maximise the partner's outcome; altruism), MaxJoint (maximise
+the sum; cooperation), MinDiff (minimise the absolute difference;
+equality) and MaxRel (maximise own minus partner's; competition). MaxOwn,
+MaxOther, MaxJoint and MaxRel are used in Wieselquist et al. (1999, JPSP)
+citing Kelley & Thibaut (1978); MinDiff is from the social-value-orientation
+line (Van Lange 1999). The shorthand labels are the later literature's,
+not necessarily Kelley & Thibaut's own. All but MinDiff are weighted linear
+combinations of own and other outcomes (w_own, w_other), so they form a
+one-parameter family (an angle in outcome space); MinDiff is not linear.
+Kelley & Thibaut also describe *sequential* (temporal) transformations,
+which act on sequences of choices rather than single cells.
 
 **Predictive/control claim.** Behaviour in a situation is predicted from the
 structure of the situation plus transformation dispositions; relationship
@@ -389,8 +432,8 @@ state exactly what it adds (group size, roles, positions, time).
 ## 10. Kenny: the Social Relations Model
 
 - Kenny, D. A., & La Voie, L. (1984). The social relations model. In L.
-  Berkowitz (Ed.), *Advances in Experimental Social Psychology*, vol. 18.
-  DOI 10.1016/S0065-2601(08)60144-6.
+  Berkowitz (Ed.), *Advances in Experimental Social Psychology*, vol. 18,
+  pp. 141-182. DOI 10.1016/S0065-2601(08)60144-6.
 - Kenny, D. A., & La Voie, L. (1985). Separating individual and group
   effects. *J. Personality and Social Psychology*, 48(2), 339-348. DOI
   10.1037/0022-3514.48.2.339.
@@ -404,8 +447,13 @@ state exactly what it adds (group size, roles, positions, time).
 **Operands.** Dyadic measurements between all pairs in a group.
 
 **Operators.** None; a variance decomposition of an observed dyadic
-variable into additive components. Statistical model (ANOVA-family), fully
-formal, but a *measurement* model.
+variable into additive components: X_ij = m + a_i + b_j + g_ij (+ error),
+with a_i the actor effect of i, b_j the partner effect of j, g_ij the
+relationship effect unique to i toward j, and m the group mean (which
+becomes a group effect when several groups are studied). Reciprocity is
+read off two covariances: generalised (a_i with b_i) and dyadic (g_ij with
+g_ji). Statistical model (ANOVA-family), fully formal, but a *measurement*
+model.
 
 **Predictive/control claim.** Tells you how much of A's behaviour toward B
 is A's trait, B's evoking power, or the pair's unique fit, and how much is
@@ -424,7 +472,8 @@ data later, not for defining them.
 - French, J. R. P., Jr., & Raven, B. (1959). The bases of social power. In
   D. Cartwright (Ed.), *Studies in Social Power* (pp. 150-167). Institute
   for Social Research, University of Michigan. (Chapter reprint record:
-  10.2307/jj.12381759.38; the 1959 volume has no DOI found.)
+  10.2307/jj.12381759.38, a 1986 reprint in *Political Leadership*,
+  pp. 300-318; the 1959 volume has no DOI found.)
 - Measurement critique: Hinkin & Schriesheim (1989). 10.1037/0021-9010.74.4.561.
 
 **Their vocabulary.** Five bases: reward, coercive, legitimate, referent,
@@ -440,8 +489,12 @@ Typology of *sources of leverage*, not a formal system.
 
 **Predictive/control claim.** Different bases produce different
 durability/internalisation of compliance (referent and expert more
-lasting). Standing: widely used; measurement problems (a 5-factor scale and
-an 11-factor revision correlate weakly).
+lasting). Standing: widely used; measurement has been a persistent
+problem. Hinkin & Schriesheim (1989) built new scales because earlier
+single-item measures were psychometrically weak; Raven and colleagues
+later expanded the scheme to eleven bases (the Interpersonal Power
+Inventory, 1998). (The original survey's claim that the 5-base and 11-base
+scales "correlate weakly" had no source and has been removed.)
 
 **Limits.** Categories overlap; says nothing on how power accumulates or is
 lost.
@@ -465,9 +518,13 @@ alter another's matrix).
 processes (1955). Primary frameworks, **keyings** (transformations that
 re-pattern an already meaningful activity so participants see it as
 something else, e.g. play-fighting), **fabrications** (deliberately
-inducing a false belief about what is going on), laminations of frames.
-(Definitions of keying and fabrication are quoted by Davis & Gamson 1975,
-via search summary.)
+inducing a false belief about what is going on; benign or exploitative),
+laminations of frames. Goffman names five basic keys: make-believe,
+contests, ceremonials, technical redoings, regroundings. (The keying and
+fabrication definitions match Goffman's own wording; the survey attributed
+them to "Davis & Gamson 1975", which is two separate reviews of *Frame
+Analysis* in *Contemporary Sociology* 4(6): Davis, pp. 599-603, DOI
+10.2307/2064021; Gamson, pp. 603-607, DOI 10.2307/2064022.)
 
 **Operands.** Activities / strips of interaction with a frame (a
 meaning-assignment), and participants' face.
@@ -511,7 +568,9 @@ greeting-greeting).
 **Operators (translated).** Genuinely rule-based, and the most formal
 interaction grammar in this cluster. At each TRP, an ordered rule set
 applies: (a) current speaker selects next, otherwise (b) another party may
-self-select, otherwise (c) the current speaker may continue. First pair
+self-select (first starter gets the turn), otherwise (c) the current
+speaker may, but need not, continue; and (rule 2) if (c) applies, the set
+re-applies at the next TRP, recursively. First pair
 parts create a conditional relevance for a matching second pair part.
 This reads as a small production system, though stated in prose.
 
@@ -574,9 +633,11 @@ operator application.
 
 **Their vocabulary.** Interaction ritual, emotional energy, group
 solidarity, symbols of membership, chains of encounters, market for
-emotional energy. (His specific "ingredient list" for a successful ritual,
-e.g. bodily co-presence and mutual focus, could not be confirmed from
-sources I found; it is under Unconfirmed.)
+emotional energy. Ingredients (validated against several secondary
+accounts; the model figure is Collins 2004, p. 48): group assembly (bodily
+co-presence), barriers to outsiders, mutual focus of attention, shared
+mood; the last two feed each other. Outcomes: group solidarity, emotional
+energy in individuals, symbols of the relationship, standards of morality.
 
 **Operands.** Situations (encounters) and the individuals' stock of
 emotional energy and symbols.
@@ -603,12 +664,22 @@ a state variable; also links micro encounters to macro structure.
 
 - Landau, H. G. (1951). On dominance relations and the structure of animal
   societies: I. Effect of inherent characteristics. *Bulletin of
-  Mathematical Biophysics*, 13, 1-19. (Citation confirmed by a secondary
-  source; Part II: 13(4), 245-262, DOI 10.1007/BF02477920 is the Crossref
-  record.) Landau (1968) Models of social structure, DOI
-  10.1007/BF02476691.
-- de Vries, H. (1995), improved linearity index h' (secondary summary;
-  record not retrieved here).
+  Mathematical Biophysics*, 13, 1-19. DOI 10.1007/BF02478336 (Crossref,
+  pp. 1-19). Part II: 13(4), 245-262, DOI 10.1007/BF02477920. Landau
+  (1968) Models of social structure, 30, 215-224, DOI 10.1007/BF02476691.
+- de Vries, H. (1995). An improved test of linearity in dominance
+  hierarchies containing unknown or tied relationships. *Animal
+  Behaviour*, 50(5), 1375-1389. DOI 10.1016/0003-3472(95)80053-0.
+  (Introduces h', which handles unknown and tied dyads.)
+- Chase, I. D. (1982). Dynamics of hierarchy formation: the sequential
+  development of dominance relationships. *Behaviour*, 80, 218-239. DOI
+  10.1163/156853982X00364. (The original jigsaw-puzzle model.)
+- Chase, I. D. (1985). The sequential analysis of aggressive acts during
+  hierarchy formation: an application of the 'jigsaw puzzle' approach.
+  *Animal Behaviour*, 33, 86-100. DOI 10.1016/S0003-3472(85)80122-6.
+- Chase, I. D., Bartolomeo, C., & Dugatkin, L. A. (1994). Aggressive
+  interactions and inter-contest interval: how long do winners keep
+  winning? *Animal Behaviour*, 48, 393-400. DOI 10.1006/anbe.1994.1253.
 - Chase, I. D. (1974). Models of hierarchy formation in animal societies.
   *Behavioral Science*, 19(6), 374-382. DOI 10.1002/bs.3830190604.
 - Chase, I. D. (1980). Social process and hierarchy formation in small
@@ -627,8 +698,10 @@ a state variable; also links micro encounters to macro structure.
 
 **Their vocabulary.** Dyadic dominance relation, tournament, transitive
 (linear) hierarchy, Landau's h (linearity index; formula h = 12/(n^3 - n) *
-sum (v_a - (n-1)/2)^2, v_a = number of animals a dominates, from an R
-package manual), winner and loser effects (a win raises, a loss lowers,
+sum (v_a - (n-1)/2)^2, v_a = number of animals a dominates; validated:
+h ranges from 0 (every animal dominates equally many) to 1 (perfectly
+linear), and h >= 0.9 is the conventional threshold for "strongly
+linear"), winner and loser effects (a win raises, a loss lowers,
 the chance of winning the next contest), triad dominance patterns.
 
 **Operands.** Animals; ordered pairs with a dominance relation; the
@@ -638,17 +711,31 @@ tournament as a whole.
 sets the pair's relation (and, with winner/loser effects, updates each
 animal's state). Chase's work classifies the *sequence of dyadic
 interactions in triads* by whether they produce transitive or intransitive
-outcomes (cichlid study summary), and asks which dynamics make linear
-hierarchies, a "jigsaw puzzle" in which pairs fit together efficiently
-(the metaphor is from secondary summaries; I did not confirm the term in
-his own text). Genuinely formal: tournament graph theory plus stochastic
-processes. Landau's mathematical biology work includes models of how
-inherent characteristics versus social effects produce structure.
+outcomes. **Jigsaw-puzzle model (resolved).** Chase (1982, *Behaviour*;
+the term is in the title of Chase 1985) treats a hierarchy as assembled
+from triad pieces. Given a first contest A over B, the next contest
+involving bystander C takes one of four forms: **double dominance** (A
+attacks C), **double subordinance** (C attacks B), **pass-along** (B
+attacks C) or **bystander attacks initiator** (C attacks A). The first two
+guarantee a transitive triad; the last two can end either way. In 14
+groups of four hens the two transitivity-guaranteeing sequences made up
+77% of sequences (Chase 1985), and high proportions were later reported in
+rhesus and Japanese macaques, cichlids and crayfish (per Chase et al.
+2002). So linearity comes from the *order* in which contests happen, not
+only from who would win. Genuinely formal: tournament graph theory plus
+stochastic processes. Landau (1951, I) showed that inherent
+characteristics alone produce linear hierarchies only when ability
+differences are implausibly large, which is what opened the door to
+social-dynamics explanations.
 
 **Predictive/control claim.** Linear hierarchies form much faster than
-random contests would allow, and the Chase 2002 PNAS finding (per its
-abstract summary): attribute differences matter, but social interaction
-was necessary for high proportions of groups to form linear hierarchies.
+random contests would allow, and the Chase 2002 PNAS finding (abstract
+read via PMC122842): "although differences in attributes play a
+significant part, we find that social interaction is necessary for high
+proportions of groups with linear hierarchies." In its reassembly
+experiment, only 27.3% of 22 cichlid groups reformed the identical
+hierarchy after separation (above chance, far below what attributes alone
+would predict).
 Standing: strong empirically in fish, chickens, wasps; the winner-loser
 literature is active (Lindquist & Chase 2009 data analysis; Kura, Broom,
 Kandler 2016 game-theoretic model). Note Chase's own later position that
@@ -722,10 +809,11 @@ of my friend is my friend; the enemy of my enemy is my friend").
 Cartwright & Harary generalised it to signed graphs. **Operands:** nodes
 and signed edges. **Operators:** none as moves; it is an equilibrium
 constraint, with the implied dynamic "change a sign to restore balance."
-**Formality:** genuine graph theory with a theorem (a balanced signed graph
-splits into two mutually hostile cliques). That detail is general
-knowledge of the result and was not confirmed in my searches; the
-bibliographic records were. **Standing:** classic, but real networks are
+**Formality:** genuine graph theory with a theorem (a complete signed graph
+is balanced if and only if its nodes split into two sets, all positive
+edges inside a set and all negative edges between them, one set possibly
+empty: Harary's structure theorem, stated in Cartwright & Harary 1956;
+equivalently, every cycle has an even number of negative edges). **Standing:** classic, but real networks are
 only partially balanced. **Relevance:** the best-known formal constraint on
 a signed relation structure; any social algebra with like/dislike edges
 should say how it relates.
@@ -736,10 +824,19 @@ should say how it relates.
   Study of Small Groups*. Addison-Wesley. (Reviews confirmed:
   10.2307/2086941, 10.2307/3707344; the book has no DOI found.)
 
-Vocabulary: a fixed coding scheme of categories of act (my recollection is
-twelve, grouped as positive reactions, attempted answers, questions,
-negative reactions; **not confirmed by any source I retrieved**, so do not
-rely on the number). **Operands:** members and their acts. **Operators:**
+- Bales, R. F. (1950). A set of categories for the analysis of small group
+  interaction. *American Sociological Review*, 15(2), 257-263.
+
+Vocabulary (validated): twelve categories of act in four blocks. Positive
+socio-emotional: (1) shows solidarity, (2) shows tension release, (3)
+agrees. Task, attempted answers: (4) gives suggestion, (5) gives opinion,
+(6) gives orientation. Task, questions: (7) asks for orientation, (8) asks
+for opinion, (9) asks for suggestion. Negative socio-emotional: (10)
+disagrees, (11) shows tension, (12) shows antagonism. The scheme is
+symmetric (1 opposes 12, 2 opposes 11, and so on), with pairs mapped to
+six functional problems (communication, evaluation, control, decision,
+tension reduction, reintegration). Exact label wording varies between
+editions; later superseded by Bales's SYMLOG. **Operands:** members and their acts. **Operators:**
 the coding categories are literally a fixed set of moves one person makes
 in a group. Standing: a very influential observation instrument. This is
 the nearest direct hit to "a fixed set of moves people make on one another"
@@ -801,6 +898,8 @@ belongs in the sociology/economics cluster.
   Berne's ego states and Karpman's roles are labelled lists whose
   boundaries were set by clinicians or consultants, not derived, and whose
   empirical standing ranges from mixed (Belbin) to untested (Karpman).
+  French & Raven is a typology of *sources* of leverage, which is fair;
+  it is still the most usable of these as a list of influence-move types.
 - **Few frameworks say what changes the state.** Moreno, Kenny, and Heider
   describe a state; Lewin, Collins and Girard describe change only in prose.
 - **Composition is mostly absent.** Only Goffman's stacked keyings and
@@ -815,27 +914,123 @@ Start from the catalogue, borrow the matrix-transformation structure and the
 tournament dynamics for the formal core, and treat the typologies as hypotheses
 about which moves to include.
 
+## Clearly missing important work (added in validation)
+
+These are closer to "typed operators with rules" than most of the above
+and should be read before the move catalogue is drafted. DOIs checked
+against Crossref unless noted.
+
+- **Heise, D. R. (1979). *Understanding Events: Affect and the
+  Construction of Social Action*. Cambridge UP** (no DOI checked).
+  Affect control theory: Actor-Behaviour-Object events, each element an
+  Evaluation-Potency-Activity vector, with empirically estimated
+  impression-change equations. Literally operators with equations; the
+  single most relevant omission.
+- **Fiske, A. P. (1992). The four elementary forms of sociality.
+  *Psychological Review*, 99(4), 689-723. DOI
+  10.1037/0033-295X.99.4.689.** Relational models theory: communal
+  sharing, authority ranking, equality matching, market pricing, explicitly
+  mapped to nominal, ordinal, interval and ratio scale structures. An
+  algebraic typing of relationships.
+- **Benjamin, L. S. (1974). Structural analysis of social behavior.
+  *Psychological Review*, 81(5), 392-425. DOI 10.1037/h0037024.** SASB:
+  interpersonal acts on three surfaces (focus on other, on self,
+  introjected) with complementarity and antithesis rules.
+- **Kiesler, D. J. (1983). The 1982 interpersonal circle: a taxonomy for
+  complementarity in human transactions. *Psychological Review*, 90(3),
+  185-214. DOI 10.1037/0033-295X.90.3.185.** (Leary 1957 lineage.)
+  Complementarity: an act on the circumplex invites a predictable reply
+  (similar on warmth, reciprocal on dominance). An operator with an
+  expected response, like an adjacency pair but on content.
+- **Emerson, R. M. (1962). Power-dependence relations. *American
+  Sociological Review*, 27(1), 31-41. DOI 10.2307/2089716.** Power of A
+  over B equals B's dependence on A, with named balancing operations. The
+  exchange-theory neighbour of interdependence theory.
+- **French, J. R. P., Jr. (1956). A formal theory of social power.
+  *Psychological Review*, 63(3), 181-194. DOI 10.1037/h0046123.** Opinion
+  averaging over an influence digraph; precursor of DeGroot. Likely
+  covered in cluster 05, but it is the formal companion to French & Raven.
+- **Berger, J., Fisek, M. H., Norman, R. Z., & Zelditch, M. (1977).
+  *Status Characteristics and Social Interaction*. Elsevier** (no DOI
+  checked). Expectation states theory, with a graph-theoretic model of how
+  status characteristics combine into performance expectations and
+  interaction hierarchies in task groups; the human counterpart to Chase.
+
 ## Unconfirmed (not verified from a source I could retrieve; do not cite)
 
-- Lewin's behaviour formula and the details of topological notation (B =
-  f(P,E), hodological space); only quasi-stationary equilibria and
-  driving/restraining forces were confirmed, via secondary sources.
-- Moreno's concepts of tele and the social atom.
-- Collins's specific ingredients of an interaction ritual.
-- Interdependence theory's exact list of transformations (joint
-  maximisation, equality, own-outcome focus), the dimensions of the Atlas
-  of Interpersonal Situations, and the print year 2003 for the Atlas (a
-  Crossref online date reads 2001).
-- Meta-contrast principle wording in self-categorisation theory.
-- Bion 1961 book details, Berne 1964 publication details and his "game
-  formula" wording, Goffman 1974 beyond a secondary citation.
-- Chase's "jigsaw puzzle model": the term appeared only in secondary
-  context; the 2002 PNAS abstract was seen only in summary, and I could not
-  open the paper (HTTP 403). The model's specific mechanics were not read.
-- Landau's 1951 Part I page range (a secondary source gives 1-19 in one
-  place and 1-18 in another), de Vries 1995 record, Appleby's findings on
-  non-linearity.
-- Bales's twelve categories.
-- Heider balance theorem statement (the "two cliques" result).
-- Tuckman 1965 review of "about 50 studies": secondary count only; 1977
-  review count disputed (20 vs 22).
+Revised in validation: items resolved have been folded into the text above
+and removed from this list.
+
+- Moreno's runaway anecdote at the Hudson school, in any of its versions
+  (two isolated girls, or a networked wave of runaways). Read *Who Shall
+  Survive?* before using it.
+- The date Belbin added the Specialist role.
+- Berne's "game formula" wording (Con + Gimmick = Response, Switch,
+  Cross-up, Payoff), which is from his 1972 *What Do You Say After You Say
+  Hello?*, not 1964; not checked.
+- The names of the six interdependence dimensions are from the verifier's
+  knowledge of Rusbult & Van Lange (2003); only the count was confirmed
+  from the abstract.
+- Lewin's "refreezing" attributed to Festinger by a commercial source.
+- Tuckman & Jensen 1977 study count (20 vs 22).
+- Fisher et al. (2001) mapping Belbin onto the Big Five: cited via
+  Aritzeta et al. 2007 only.
+
+Resolved by the verifier from standard knowledge rather than retrieval
+(reliable, but cite the primary text if it matters): Lewin's B = f(P, E)
+(1936) and hodological space (1938); Moreno's tele and social atom; the
+meta-contrast ratio (mean inter-category difference over mean
+intra-category difference, Turner et al. 1987); Bion 1961 Tavistock,
+Berne 1964 and 1961 Grove Press, Goffman 1974 Harper & Row; Tuckman's
+review of about 50 articles.
+
+## Validation log (2026-10-29)
+
+Every DOI in the file was re-resolved against Crossref; all matched
+authors, year, title and venue.
+
+- Lewin 1936, 1947, 1951: ✓
+- Moreno 1934: ✎ runaway anecdote demoted to Unconfirmed (version given was unsupported and differs from the usual telling)
+- Bion 1948-49, 1961: ✓
+- Tuckman 1965; Tuckman & Jensen 1977: ✓
+- Belbin 1981: ✎ 1981 model had eight roles under older names; nine-role list is the later form
+- Aritzeta et al. 2007: ✓
+- Berne 1964, 1961: ✎ added his three rules of communication; summary no longer files transactions as a mere typology
+- Karpman 1968, 2019: ✓ (typology label fair)
+- Girard 1965/76, 1977; Livingston 1992: ✓
+- Thibaut & Kelley 1959; Kelley & Thibaut 1978: ✎ added reflexive/fate/behaviour control as the original names
+- Kelley et al. 2003 Atlas: ✎ print year 2003 confirmed; added AC/PC/JC decomposition, three base patterns, 21 situations
+- Rusbult & Van Lange 2003: ✎ six dimensions added (names partly from knowledge, see Unconfirmed)
+- Transformations: ✎ resolved: MaxOwn, MaxOther, MaxJoint, MinDiff, MaxRel, stated with sources (Wieselquist et al. 1999; Van Lange 1999 added)
+- Kenny & La Voie 1984, 1985; Warner et al. 1979: ✎ added pages and the SRM equation with both reciprocity terms
+- French & Raven 1959: ✎ reprint record identified (1986); unsourced "5- and 11-factor scales correlate weakly" claim removed
+- Hinkin & Schriesheim 1989: ✓
+- Goffman 1955, 1974: ✎ "Davis & Gamson 1975" was two separate reviews; both cited with DOIs; five basic keys added
+- Sacks, Schegloff & Jefferson 1974: ✎ added rule 2 (recursion) and the may-but-need-not of 1(c)
+- Schegloff & Sacks 1973: ✓
+- Davies & Harré 1990; Harré & van Langenhove 1999; Harré & Moghaddam 2003: ✓
+- Collins 2004: ✎ ingredients and outcomes resolved and added
+- Landau 1951 I and II, 1968: ✎ Part I DOI found, pages 1-19 settled; h range 0-1 stated
+- de Vries 1995: ✎ full record added
+- Chase 1974, 1980: ✓
+- Chase 1982, 1985: ✎ added; jigsaw-puzzle model resolved (four triad sequences, 77% transitive in hens)
+- Chase et al. 2002 PNAS: ✎ abstract quoted; reassembly result (27.3% of 22 groups) added
+- Chase & Seitz 2011; Dugatkin 1997: ✓
+- Chase, Bartolomeo & Dugatkin 1994: ✎ added as the winner-effect source
+- Lindquist & Chase 2009; Kura et al. 2016; Chase & Lindquist 2016: ? named only, no records checked
+- Tajfel & Turner 1979; Turner et al. 1987: ✓
+- Heider 1946; Cartwright & Harary 1956: ✎ structure theorem stated correctly
+- Bales 1950: ✎ twelve categories confirmed and listed; ASR 1950 article added
+- Hollander 1958: ✓
+- Blau 1964; Homans 1961: ✓
+- Missing work added: Heise 1979, Fiske 1992, Benjamin 1974, Kiesler 1983, Emerson 1962, French 1956, Berger et al. 1977
+
+**Verdict.** The bibliography is sound: every DOI resolves to the claimed
+work, and nothing was fabricated. The content was thinner than the
+citations. Its sources were search summaries, so it left the most formal
+material unresolved: the interdependence decomposition and
+transformations, the jigsaw model and Bales's categories. Two claims were
+unsupported (Moreno's anecdote and the French & Raven scale correlation).
+The biggest weakness was the omission of affect control theory and
+relational models theory, which come closer to an operator algebra than
+anything the survey did include.

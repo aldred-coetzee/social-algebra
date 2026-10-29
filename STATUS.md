@@ -22,14 +22,14 @@ in place and appends a `## Validation log`.
 | 03 | acts as operators (Fiske, ACT, Lefebvre, balance, exchange) | done |
 | 04 | logics, institutions, calculi | done |
 | 05 | influence, opinion, control | done |
-| 06 | group-dynamics frameworks | running (interrupted by usage limit, resumed 04:05) |
+| 06 | group-dynamics frameworks | done |
 | 07 | applied control (cybernetics, reflexive control, prediction limits) | done |
 | 08 | history | done |
 | 09 | biology and ecology | done |
-| 10 | economics, politics, anthropology, linguistics | running (as 06) |
-| 11 | classical theory and statecraft | running (as 06) |
-| 12 | narrative, games, AI agents | running (as 06) |
-| 13 | family systems, persuasion, coercion | running (as 06) |
+| 10 | economics, politics, anthropology, linguistics | running (interrupted by usage limit, resumed 04:05) |
+| 11 | classical theory and statecraft | running (interrupted by usage limit, resumed 04:05) |
+| 12 | narrative, games, AI agents | running (interrupted by usage limit, resumed 04:05) |
+| 13 | family systems, persuasion, coercion | running (interrupted by usage limit, resumed 04:05) |
 | 14 | maths and CS structures | done |
 
 Files without a validation log are first-pass only: treat their formal
