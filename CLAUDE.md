@@ -4,7 +4,7 @@ This file is the standing brief. Keep it current — each session starts with
 no memory of the last, and the repo is the only continuity. Environment and
 working-style rules are in `~/.claude/CLAUDE.md` and are not repeated here.
 
-**Started 2026-10-29. A thinking strand, not an app.** No server. Code only under `sim/` (Python; approved by Aldred 2026-10-29, to test the equations by reproducing published results and fitting open data). Its own
+**Started 2026-10-29. A thinking strand, not an app.** No server. Code only under `sim/` (Python; approved by Aldred 2026-10-29, to test the equations by reproducing published results and fitting open data), **after** the research iterations, and in its own `uv`-managed environment, never system packages. Its own
 Remote Control session, `claude-rc-social-algebra`, since 2026-10-29 (Aldred:
 "we need a session for it"); unit file in `deploy/systemd/`. **Model pinned to Fable 5.1** in
 `.claude/settings.json` (2026-10-29, Aldred: Opus is "not good enough to
