@@ -23,7 +23,7 @@ The name was chosen over `group-grammar` and `group-mechanics` because
 operators and operands make it an algebra, and "social" keeps a mathematical
 reader from expecting group theory.
 
-**Sharpened the same day**: the primitives are **drives**. Aldred: *"an
+**Sharpened the same day**: the primitives are **drives** (all of them, for persons and groups; curiosity, fear and desire were examples) and the deliverable is a new or updated **equation set**. Aldred: *"an
 algebra which expresses basic human drives and group drives, which we can
 compose into equations, which we can then use to start making theorems and
 use to control or predict behavior… curiosity, fear, desire, etc."* See

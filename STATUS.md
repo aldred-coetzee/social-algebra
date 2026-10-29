@@ -96,6 +96,13 @@ dynamical systems maths (categorical systems theory, open games,
 port-Hamiltonian interconnection, passivity and small-gain theorems,
 max-plus selection) — the maths that would make drive equations compose.
 
+Aldred, later the same day: curiosity, fear and desire were examples only;
+*"the idea is we formulate a new or updated equation set"*
+(`notes/2026-10-29-equation-set-not-three-drives.md`). Added `41`
+self-conscious, moral and relational drives and `42` dynamics drive by
+drive. The drive synthesis must end in a candidate equation set with every
+term traced to a validated source or marked as ours.
+
 **Depth, not only breadth:** almost every survey so far read abstracts, not
 papers. After the drive synthesis names the keystone works (about twenty),
 the plan is a deep-read round: one agent per keystone, primary text in full,
