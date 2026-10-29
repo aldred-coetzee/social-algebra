@@ -30,7 +30,7 @@ in place and appends a `## Validation log`.
 | 11 | classical theory and statecraft | running (as 06) |
 | 12 | narrative, games, AI agents | running (as 06) |
 | 13 | family systems, persuasion, coercion | running (as 06) |
-| 14 | maths and CS structures | running (as 06) |
+| 14 | maths and CS structures | done |
 
 Files without a validation log are first-pass only: treat their formal
 claims as unchecked.

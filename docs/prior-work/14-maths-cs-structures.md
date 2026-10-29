@@ -8,8 +8,8 @@ Date: 2026-10-29. Cluster: maths and CS formalisations, outside the cases other 
 
 Nobody has built a single "algebra of people, roles and groups", but every ingredient exists as a mature, separately developed structure, mostly outside social science:
 
-- **Carrier structures for operands** that are genuinely usable: the AGR/Aalaadin triple (agent, group, role) from multi-agent systems; the RBAC96/ANSI relational model (users, roles, permissions, with a role partial order); Wille's concept lattices (formal contexts of persons x attributes or persons x events); hypergraphs/simplicial complexes (a group is a hyperedge/simplex). Of these, AGR and RBAC are the only ones that already *name* people, roles and groups as three distinct sorts.
-- **Composition operators** that are genuinely algebraic: operads/wiring diagrams and decorated cospans (Spivak; Fong; Baez-Fong). These give a rigorous "put groups together into a bigger group, with interfaces" operation. No one has applied them to human groups; the applications are circuits, databases, dynamical systems and engineered systems of systems.
+- **Carrier structures for operands** that are genuinely usable: the AGR/Aalaadin triple (agent, group, role) from multi-agent systems; the RBAC96/ANSI relational model (users, roles, permissions, with a role partial order); Wille's concept lattices (formal contexts of persons x attributes or persons x events; *validation note: no section below covers this; the social-network use is Freeman and White 1993, see "Missing work"*); hypergraphs/simplicial complexes (a group is a hyperedge/simplex). Of these, AGR is the only one that names agents, roles and groups as three distinct sorts (*validation correction: RBAC96 has users, roles, permissions and sessions; it has no group sort*).
+- **Composition operators** that are genuinely algebraic: operads/wiring diagrams and decorated cospans (Spivak; Fong; Baez-Fong). These give a rigorous "put groups together into a bigger group, with interfaces" operation. Not applied to human *organisations as social structures*; the applications are circuits, databases, dynamical systems and engineered systems of systems. *Validation note:* the nearest are Baez, Foley, Moeller, Pollard's network-model operads (teams of heterogeneous agents, from a search-and-rescue case study) and compositional game theory (open games compose strategic interactions between players); see "Missing work".
 - **Ontological accounts** of what a role and a group *are* (DOLCE roles; Ritchie's structuralism; W3C ORG) are good at deciding what the sorts should be, and give no operators.
 - **Quantum-like social science** is not a literal algebra of persons; it is a probability/decision model for one agent's judgments. Do not adopt it as a carrier.
 
@@ -74,11 +74,14 @@ Nobody has built a single "algebra of people, roles and groups", but every ingre
 - **Operands:** finite sets of terminals (interface) as objects; morphisms are open systems.
 - **Operators and structure:** given a category C with finite colimits and a lax monoidal functor F : (C, +) -> (Set, x), objects of the new category are those of C and morphisms X -> Y are isomorphism classes of cospans X -> N <- Y with an element of F(N). Composition by pushout of cospans, decorations combined via F. Result: a symmetric monoidal category (hypergraph category) with the Frobenius structure (copy/merge/discard/create) on each object. A black-box functor forgets internals and keeps behaviour.
 - **Captures:** gluing open systems at shared terminals; the "interconnection" operator is the pushout; behavioural semantics by functor.
-- **Limits:** systems are physical/formal (circuits, Petri nets, reaction networks); the composition is "identify terminals", not "A does something to B". Fong notes Petri nets as an instance, which links to section 8.
+- **Limits:** systems are physical/formal (circuits, Markov processes, reaction networks); the composition is "identify terminals", not "A does something to B". *Validation:* "Fong notes Petri nets as an instance" was not checked against the thesis; open Petri nets are treated in later work (Baez, Courser, Vasilakopoulou, "Structured versus decorated cospans", *Compositionality* 4 (2022), arXiv:2101.09363, which also generalises decorations to a pseudofunctor into Cat and gives a symmetric monoidal double category).
 - **Relevance:** the hypergraph-category structure (*merge, copy, discard* on each object) is a very close match to what "people joining, splitting, leaving a group" do. Treat as the **ambient category**, not the carrier.
 
 ### 3c. Operads for design (context)
-- Foley, Breiner, Subrahmanian, Dusel, "Operads for complex system design specification, analysis and synthesis", *Proc. R. Soc. A* (2021), DOI 10.1098/rspa.2021.0099 ; https://arxiv.org/abs/2101.11115. Baez, Foley, "Operads for designing systems of systems", https://arxiv.org/abs/2009.12647. Both engineering; my search found **no operadic treatment of social organisations**. That gap is itself a finding.
+- Foley, Breiner, Subrahmanian, Dusel, "Operads for complex system design specification, analysis and synthesis", *Proc. R. Soc. A* 477 (2021), DOI 10.1098/rspa.2021.0099 ; https://arxiv.org/abs/2101.11115. Baez, Foley, "Operads for designing systems of systems", *Notices of the AMS* 68(6), 1005-1007 (2021), https://arxiv.org/abs/2009.12647. Both engineering.
+- *Added in validation:* J. C. Baez, J. Foley, J. Moeller, B. Pollard, "Network models", *Theory and Applications of Categories* 35(20), 700-744 (2020), arXiv:1711.00037. A network model is a lax symmetric monoidal functor from a free symmetric monoidal category to Cat; each yields an operad whose operations build networks of typed agents (vertices = agents, edges = communication channels), from a search-and-rescue case study (boats, planes, drones). This is the nearest operadic treatment of *teams of agents*, still engineered, not social.
+- Spivak 2013 itself motivates wiring diagrams with Minsky's *Society of Mind* and suggests extending to interactions among humans and machines, without developing it.
+- Validation search (2026-10-29) also found **no operadic treatment of social organisations as such**. The gap stands, but narrowed: see compositional game theory under "Missing work".
 
 ---
 
@@ -91,12 +94,13 @@ Nobody has built a single "algebra of people, roles and groups", but every ingre
 - **Operands:** the *mental state of one decision-maker or one market*, as a vector in a complex Hilbert space (or probability amplitudes).
 - **Operators:** self-adjoint operators as questions/observables; projections; unitary evolution; measurement with state collapse (Luders rule). Algebra: the (non-commutative) operator algebra B(H); the non-commutativity of two projections models order effects in survey answers.
 - **How literal is it?** Not literal about people. The books are explicit that "quantum-like" means the *mathematics* of quantum probability is used, with no claim that brains are quantum physical systems. The state is one agent's belief/judgment state, not a society. Applications covered: decision paradoxes, finance, economics, brain science.
-- **Limits:** one agent at a time; a population is modelled by a *product* or *mixture*, with no native roles or groups. The claim of unique explanatory power has been contested in open peer commentary (see 4b).
+- **Limits:** mostly one agent at a time; a population is modelled by a *product* or *mixture*, with no native roles or groups. The claim of unique explanatory power has been contested in open peer commentary (see 4b). *Validation correction:* not exclusively one-agent. Khrennikov's "social laser" programme (arXiv:1512.05386, 2015; Khrennikov, Alodjants, Trofimova, Tsarev, *Entropy* 20(12), 921, 2018) models a population of "social atoms" exchanging quanta of a social-information field, with creation and annihilation operators and Bose-Einstein statistics for bandwagon effects. Still no roles or groups as sorts, and heavily metaphorical, but it is a population-level operator formalism.
 - **Relevance:** only one transferable idea: **order-dependence as non-commutativity** (answering a then b differs from b then a). That is a genuine algebraic fact a social algebra of "acts" may want (e.g. who is told first). The Hilbert-space carrier is not recommended for operands.
 
 ### 4b. Busemeyer and Bruza 2012; Pothos and Busemeyer 2013
 - J. R. Busemeyer, P. D. Bruza, *Quantum Models of Cognition and Decision*, Cambridge University Press, 2012, DOI 10.1017/CBO9780511997716 (catalogue: https://resolve.cambridge.org/core/books/quantum-models-of-cognition-and-decision/75909428F710F7C6AF7D580CB83443AC). Uses entanglement for non-reductionist cognition models; again one-agent.
 - E. M. Pothos, J. R. Busemeyer, "Can quantum probability provide a new direction for cognitive modeling?", *Behavioral and Brain Sciences* 36(3), 255-274 (2013), DOI 10.1017/s0140525x12001525. With open commentaries that dispute the stronger claims (e.g. Gelman and Betancourt).
+- *Added in validation (from knowledge, not fetched):* Z. Wang, T. Solloway, R. M. Shiffrin, J. R. Busemeyer, "Context effects produced by question orders reveal quantum nature of human judgments", *PNAS* 111(26), 9431-9436 (2014). The "QQ equality", a parameter-free prediction of the non-commuting-projector model of question order effects, tested on 70 national surveys. This is the strongest empirical support for the one idea section 4a says is transferable, so cite it rather than the books for that point.
 
 ---
 
@@ -104,25 +108,31 @@ Nobody has built a single "algebra of people, roles and groups", but every ingre
 
 ### 5a. Sandhu et al. 1996 (RBAC96 family)
 - **Citation:** R. S. Sandhu, E. J. Coyne, H. L. Feinstein, C. E. Youman, "Role-Based Access Control Models", *IEEE Computer* 29(2), 38-47, Feb 1996.
-- **Verified:** volume/pages confirmed across several sources (search result; no DOI confirmed; see Unconfirmed). Full text mirror found: https://wiki.orbit-lab.org/raw-attachment/wiki/Internal/Rbac/RbacResources/00503698.pdf (not read in this session).
+- **Verified:** volume/pages confirmed across several sources (DOI 10.1109/2.485845 is the usual citation but was not confirmed by search; see Unconfirmed). Full text read in validation from NIST: https://csrc.nist.gov/csrc/media/projects/role-based-access-control/documents/sandhu96.pdf.
 - **Vocabulary:** user, role, permission, session, role hierarchy, constraints (separation of duty), cardinality.
 - **Operands (sorts):** U (users), R (roles), P (permissions), S (sessions).
 - **Operators and structure (standard definition):**
   - UA subset of U x R (user assignment), PA subset of P x R (permission assignment), many-to-many.
   - RH subset of R x R, a **partial order** (reflexive, antisymmetric, transitive) with r1 >= r2 meaning r1 inherits all permissions of r2; RBAC1.
-  - session map user(s) in U, roles(s) subset of {r : exists r' <= r with (user(s), r') in UA}.
-  - constraints (RBAC2): static/dynamic separation of duty as predicates over UA and sessions; RBAC3 = 1+2.
-  - Authorisation: user u may do p in session s iff exists r in roles(s) with (p, r) in PA after closure under the order.
+  - session map user(s) in U, roles(s) subset of {r : exists r' >= r with (user(s), r') in UA}: a session may activate any role **junior** to (or equal to) a role the user is assigned. *Validation correction:* the survey had `r' <= r`, which would let a user activate roles *senior* to their own; checked against the paper's RBAC1 definition and its gloss "any combination of roles junior to those the user is a member of".
+  - constraints (RBAC2): static/dynamic separation of duty (mutually exclusive roles), cardinality, prerequisite roles, as predicates over UA, PA and sessions; RBAC3 = RBAC1 + RBAC2 (the "consolidated model"). RBAC0 is the base (U, R, P, S, UA, PA, user, roles).
+  - Authorisation: session s has the permissions of its roles and of every role junior to them: union over r in roles(s) of {p : exists r'' <= r with (p, r'') in PA}.
+  - The paper also introduces **administrative roles and permissions** (who may change UA, PA, RH), developed as ARBAC97 (see 5d).
 - **Captures:** the cleanest *existing* formal separation of person vs role vs capability, with an order on roles and constraints (mutual exclusion, cardinality).
 - **Limits:** static assignment relations (no verbs between people); roles are *permission bundles*, not social positions; no group sort in the base model (groups appear in later extensions); no notion of one person acting on another.
 
 ### 5b. NIST proposal and ANSI/INCITS 359-2004
-- **Citations:** D. F. Ferraiolo, R. Sandhu, S. Gavrila, D. R. Kuhn, R. Chandramouli, "Proposed NIST standard for role-based access control", DOI 10.1145/501978.501980 (DOI confirmed in search; venue given as *ACM TISSEC* 2001 from my memory, not confirmed). ANSI/INCITS 359-2004 *Information Technology - Role Based Access Control*, effective 3 Feb 2004 (confirmed via https://xml.coverpages.org/ni2004-04-05-a.html and NIST page https://csrc.nist.gov/projects/role-based-access-control).
-- **Structure:** Core RBAC, Hierarchical RBAC (general = partial order; limited = tree), Static Separation of Duty, Dynamic Separation of Duty. Standard defines **functional specification**: administrative commands (AddUser, DeleteUser, AssignUser, DeassignUser, GrantPermission, RevokePermission, AddInheritance, DeleteInheritance, CreateSsd/Dsd set, ...), review functions (AssignedUsers, AssignedRoles, AuthorizedUsers, ...), and system functions (CreateSession, AddActiveRole, CheckAccess). Each given as pre/post-conditions over the relation sets.
+- **Citations:** D. F. Ferraiolo, R. Sandhu, S. Gavrila, D. R. Kuhn, R. Chandramouli, "Proposed NIST standard for role-based access control", *ACM Transactions on Information and System Security* 4(3), 224-274 (Aug 2001), DOI 10.1145/501978.501980 (venue confirmed in validation). ANSI/INCITS 359-2004 *Information Technology - Role Based Access Control*, effective 3 Feb 2004 (confirmed via https://xml.coverpages.org/ni2004-04-05-a.html and NIST page https://csrc.nist.gov/projects/role-based-access-control).
+- **Structure:** Core RBAC, Hierarchical RBAC (general = arbitrary partial order; limited = each role has at most one immediate descendant, i.e. an inverted tree), Static Separation of Duty, Dynamic Separation of Duty. Standard defines **functional specification**: administrative commands (AddUser, DeleteUser, AssignUser, DeassignUser, GrantPermission, RevokePermission, AddInheritance, DeleteInheritance, CreateSsd/Dsd set, ...), review functions (AssignedUsers, AssignedRoles, AuthorizedUsers, ...), and system functions (CreateSession, AddActiveRole, CheckAccess). Each given as pre/post-conditions over the relation sets.
 - **Relevance to an algebra:** the administrative commands are literally an **operator signature over a state of (U, R, P, UA, PA, RH)**: a small state-transition algebra. This is the closest existing thing to "operators that act on the structure of a group of people". It is about *managing* access, not social behaviour, but the pattern (state = sorted relational structure; operators = guarded updates; invariants = constraints) is directly reusable.
 
 ### 5c. Aside: lattice view
-- Role hierarchy as a partial order, and dominance/lattice models of information flow (Denning 1976) underlie much RBAC theory; I did not fetch a source for Denning and list it as unconfirmed.
+- Role hierarchy as a partial order, and dominance/lattice models of information flow underlie much RBAC theory: D. E. Denning, "A lattice model of secure information flow", *Communications of the ACM* 19(5), 236-243 (1976), DOI 10.1145/360051.360056 (confirmed in validation).
+
+### 5d. ARBAC97 (added in validation, from knowledge; citation not fetched)
+- R. Sandhu, V. Bhamidipati, Q. Munawer, "The ARBAC97 model for role-based administration of roles", *ACM TISSEC* 2(1), 105-135 (1999).
+- Three sub-models: URA97 (user-role assignment), PRA97 (permission-role assignment), RRA97 (role-role, i.e. hierarchy, administration). Administrative roles are separate from regular roles; relations `can_assign(admin_role, prereq_condition, role_range)` and `can_revoke(admin_role, role_range)`, where the prerequisite condition is a Boolean expression over role membership and the range is an interval in the role hierarchy.
+- **Relevance:** this is the clearest existing case of **operators whose application is itself governed by roles**: who may put whom into which role, conditional on what roles the target already holds. Directly the shape of "A appoints B to role r in group G", and a better template for guarded social operators than the ANSI command list alone.
 
 ---
 
@@ -142,14 +152,15 @@ Nobody has built a single "algebra of people, roles and groups", but every ingre
 - **Citation:** D. Reynolds (ed.), "The Organization Ontology", W3C Recommendation, 16 January 2014 (Government Linked Data WG).
 - **Verified:** search summary of the Recommendation and errata (https://www.w3.org/2011/gld/org-errata). Primary spec page not fetched.
 - **Classes:** Organization, FormalOrganization, OrganizationalUnit, Membership, Role, Post, Site, ChangeEvent, OrganizationalCollaboration. **Key modelling move:** Membership is a reified n-ary relation (member, organization, role, period).
-- **Limits:** a vocabulary (OWL/RDF), no operators. Errata note a modelling mistake: org:holds/org:heldBy were wrongly made sub-properties of memberOf/hasMember, i.e. confusing holding a post with being a member.
+- **Limits:** a vocabulary (OWL/RDF), no operators. Errata note a modelling mistake: org:holds/org:heldBy were wrongly made sub-properties of memberOf/hasMember, i.e. confusing holding a post with being a member (confirmed in validation at https://www.w3.org/2001/sw/wiki/Org_Errata, erratum 1; fix: the sub-property axioms were removed).
 - **Relevance:** a useful sanity check: reify membership as a ternary or quaternary relation (who, which group, in which role, when).
 
 ### 6c. Boella and van der Torre (roles in normative MAS)
-- Search found the tutorial "Roles from Different Angles" (Boella, Hulstijn, van der Torre) and papers on counts-as and delegation of power (DEON 2006, LNCS 4048; PRIMA 2008). Their position, per snippets: roles carry powers and norms, several agents may enact one role, one agent several roles. I could not confirm exact titles for the role-as-institutional-power papers, so I list them under Unconfirmed. Normative/deontic logic is covered by another agent.
+- Search found the tutorial "Roles from Different Angles" (Boella, Hulstijn, van der Torre) and papers on counts-as and delegation of power (DEON 2006, LNCS 4048; PRIMA 2008). Their position, per snippets: roles carry powers and norms, several agents may enact one role, one agent several roles. Normative/deontic logic is covered by another agent.
+- *Resolved in validation:* G. Boella, L. van der Torre, "The ontological properties of social roles in multi-agent systems: definitional dependence, powers and roles playing roles", *Artificial Intelligence and Law* 15(3), 201-221 (2007), DOI 10.1007/s10506-007-9030-8. Three properties: a role is defined inside the institution that defines it; it gives the agent playing it powers (e.g. to create commitments for the institution and other roles); roles can play roles. Formalised in input/output logic. Relevant: "roles play roles" is a recursion the AGR carrier does not allow.
 
 ### 6d. Ritchie, Uzquiano: what a group is
-- **Ritchie:** K. Ritchie, "What are groups?", *Philosophical Studies* 166(2), 257-272 (2013). Argues four views (non-singular pluralities, fusions, aggregates, sets) each fail at least one of six adequacy criteria; proposes **groups as realisations of structures**: a structure's functionally defined nodes/places are occupied. (Confirmed via search summaries; https://diversityreadinglist.org/?p=3735.)
+- **Ritchie:** K. Ritchie, "What are groups?", *Philosophical Studies* 166(2), 257-272 (2013). Argues four views (non-singular pluralities, fusions, aggregates, sets) each fail at least one of six adequacy criteria; proposes **groups as realisations of structures**: a structure's functionally defined nodes/places are occupied. (Confirmed via search summaries; https://diversityreadinglist.org/?p=3735.) *Validation addition:* Ritchie's later "Social structures and the ontology of social groups", *Philosophy and Phenomenological Research* 100(2) (2020), confirmed as existing, narrows this: only *organised* groups (her "Type 1", e.g. committees, teams) are realisations of structures; *feature* groups (her "Type 2", e.g. a race or gender group) are not. So the structure-plus-occupants carrier covers organised groups only (Type 1/Type 2 labels from knowledge, not fetched).
 - **Uzquiano:** G. Uzquiano, "Groups: toward a theory of plural embodiment", *Journal of Philosophy* 115(8), 423-452 (2018), DOI 10.5840/jphil2018115825; https://research-repository.st-andrews.ac.uk/handle/10023/18222. A group at a time is just its members arranged in a complex condition.
 - **Why it matters:** the *set* carrier fails: the same members can be two different groups; a group persists through changing membership; membership has no structure. Ritchie's structure-plus-occupants is precisely **(a graph/relational structure with typed slots) + (an assignment of persons to slots)**, i.e. the same shape as AGR and RBAC. Convergence of three independent traditions on one carrier shape.
 - **Limits:** no operators; the philosophy defines identity conditions only.
@@ -160,20 +171,20 @@ Nobody has built a single "algebra of people, roles and groups", but every ingre
 
 ### 7a. AGR / Aalaadin (Ferber and Gutknecht) *highly relevant*
 - **Citations:** J. Ferber, O. Gutknecht, "A meta-model for the analysis and design of organizations in multi-agent systems", *Proc. 3rd Int. Conf. on Multi-Agent Systems (ICMAS-98)*, Paris, 1998, pp. 128-135, IEEE Computer Society. J. Ferber, O. Gutknecht, F. Michel, "From agents to organizations: an organizational view of multi-agent systems", in *Agent-Oriented Software Engineering IV (AOSE 2003)*, LNCS 2935, Springer, pp. 214-230, DOI of volume 10.1007/b95187.
-- **Verified:** venue, pages and the AALAADIN/AGR relationship confirmed via bibliographic records and the 2015 overview https://arxiv.org/pdf/1506.09032 ; DBLP https://dblp.org/pid/86/1212. I could not fetch the paper text (the HAL copy returned 403); definitions below are from my knowledge of the model and flagged accordingly.
+- **Verified:** AOSE 2003 pages 214-230 confirmed via DBLP https://dblp.org/pid/86/1212 and citing papers. *Validation correction:* the survey cited arXiv:1506.09032 (Abbas, Shaheen, Amin, "Organization of multi-agent systems: an overview", 2015) as confirming the AALAADIN/AGR relationship; its abstract does not mention AGR, so that citation is removed as evidence. The AGR = AALAADIN identity and "group as the basic unit of agent aggregation, each agent in one or more groups" are confirmed by later citing texts; the communication rule ("two agents can communicate only if they belong to the same group") is confirmed only by a truncated French thesis summary. The full text was not obtained in either pass (HAL returns 403); everything else below is from knowledge.
 - **Vocabulary:** agent, group, role, group structure, organisational structure, "organisational reflection", OCMAS.
 - **Operands (three sorts):** Agent (an active communicating entity, no constraint on internals), Group (an atomic set of agents, a context for interaction; an agent may belong to several groups; groups may overlap), Role (an abstract representation of a function/service/identity of an agent *within a group*).
 - **Structure (standard):** roles are **local to a group** (a role "buyer" in group G1 is different from "buyer" in G2); an agent can hold several roles, in several groups; communication is only possible between agents sharing a group; group structure = set of roles + role cardinalities + a graph of allowed interactions between roles. Entering a group = requesting a role (group-manager role mediates). In the 2003 version, an organisation structure is the abstract description (roles, interaction graph), and an organisation is a structure plus its concrete agents, like Ritchie's realisation.
-- **Operators:** the *primitives* are: create a group, join a group (acquire a role), leave a group, request/leave a role. These are stateful, guarded operations on the triple (A, G, R) and its membership relation.
+- **Operators:** the *primitives* are: create a group, join a group (acquire a role), leave a group, request/leave a role. These are stateful, guarded operations on the triple (A, G, R) and its membership relation. *Validation note:* the papers state these as a model, not as an operator algebra. The concrete operator names come from the MadKit platform API (createGroup, requestRole, leaveRole, leaveGroup, sendMessage), from knowledge and not checked. No composition laws or equations between them are defined.
 - **Captures:** a precise, minimal sort system for exactly the problem set (people, roles, groups) with scoping rules (role-in-group), overlap, and a closure principle: communication through shared groups.
 - **Limits:** no semantics for what agents *do to* one another beyond message passing; no dynamics of influence; no operator composition laws; groups are flat (the model is "atomic groups"; hierarchy only by agents belonging to groups at several levels); no norms (add MOISE/OperA).
 - **Relevance:** **the best single candidate for the carrier structure.** Take (Agent, Group, Role) with role-local-to-group scoping and the join/leave/create operators; treat the interaction graph of a group structure as the place where social operators (relations on roles) live.
 
 ### 7b. OperA (Dignum)
 - **Citation:** V. Dignum, "A model for organizational interaction: based on agents, founded in logic", PhD thesis, Utrecht University, awarded 12 January 2004 (SIKS; ISBN 90-393-3568-0).
-- **Verified:** https://dspace.library.uu.nl/handle/1874/890. The thesis page confirms the title and thesis; my search did not confirm OperA detail from the thesis page, but the thesis is the standard OperA reference.
-- **Vocabulary (from OperA literature, unverified here):** organisational model (roles, interaction scripts, norms), social model (agent contracts), interaction model.
-- **Relevance:** adds a social contract layer (an agent *commits* to a role) on top of AGR-like structure. Detail not verified in this session; low confidence.
+- **Verified:** https://dspace.library.uu.nl/handle/1874/890; SIKS Dissertation Series 2004-1; supervisors J.-J. Meyer, F. Dignum, H. Weigand. (ISBN not re-checked.)
+- **Structure (confirmed in validation from OperA papers, not the thesis text):** three models. The *organisational model* defines the society's roles, interaction structure (scenes/scripts), norms and communication. The *social model* populates it with agents through **social contracts** (commitments between an agent and the society about enacting a role). The *interaction model* records **interaction contracts** (commitments between role-enacting agents about how they will interact). Contracts are expressed in a deontic-temporal logic (LCR, from knowledge).
+- **Relevance:** adds a contract layer (an agent *commits* to a role, and role-enactors commit to each other) on top of AGR-like structure. That makes commitments, not messages, the unit of social action, which links to Singh (see "Missing work").
 
 ---
 
@@ -193,7 +204,7 @@ Nobody has built a single "algebra of people, roles and groups", but every ingre
 - **Operands:** persons/originators and activities in an event log.
 - **Operators:** relation-defining metrics: handover of work (a -> b when a's completion is followed by b's task in the same case), subcontracting, joint cases, similar activity profiles. Each yields a weighted directed graph over originators.
 - **Captures:** a catalogue of **empirical relation types** between people derived from behaviour traces, i.e. candidate primitive "operators" (hand over to, work with, delegate to).
-- **Limits:** relations are *descriptive statistics*, not operators; no composition. Petri-net/workflow background not covered; a Petri net as a model of process is available through Fong's thesis (3b).
+- **Limits:** relations are *descriptive statistics*, not operators; no composition. Petri-net/workflow background not covered; open Petri nets as compositional processes are in the structured/decorated cospan literature (3b).
 - **Relevance:** gives a measured list of what relations between people in organisations are actually observed.
 
 ---
@@ -211,25 +222,76 @@ Nobody has built a single "algebra of people, roles and groups", but every ingre
 
 ## What it does not cover
 
-- **Operators that act on people as social acts.** Every structure above either manages membership/permissions (RBAC, AGR), or sends messages (Actors), or computes statistics (process mining), or evolves a state vector of one agent (quantum). Nothing defines "A advises B", "A defers to B", "A introduces B to C" as an operation with an algebraic signature, identity element, inverse or composition law. This is the gap, and it is wide.
+- **Operators that act on people as social acts.** Every structure *in this cluster* either manages membership/permissions (RBAC, AGR), or sends messages (Actors), or computes statistics (process mining), or evolves a state vector (quantum). *Validation correction:* the original claim that "nothing defines social acts as operators with composition laws" does not survive outside this cluster. Singh's commitments define create, discharge, cancel, release, delegate (change debtor) and assign (change creditor) as operations on C(debtor, creditor, antecedent, consequent): social acts as typed operators on a social state, though without an equational theory. Pörn's influence operators and the Kanger-Lindahl theory of normative positions give modal operators for "a sees to it that b ...". Dynamic epistemic logic's action models (Baltag, Moss, Solecki 1998) are operators on group epistemic states that *do* compose: the sequential composition of two action models is an action model, so "tell a privately, then announce publicly" has a computed product. Compositional game theory composes strategic interactions sequentially and in parallel. What remains missing is narrower: a single algebra that combines these act-operators with the agent/group/role sort structure and gives equations (identity, inverse where it exists, commutation laws) for interpersonal acts such as "A advises B" or "A introduces B to C".
 - **Composition laws for social relations**: no one has the table "friend-of-colleague = ?" outside the role-semigroup/kinship work covered by other agents.
-- **Operads or hypergraph categories applied to human organisations**: none found. The nearest are engineering systems-of-systems papers.
+- **Operads or hypergraph categories applied to human organisations**: none found, confirmed by a second search in validation. The nearest are engineering systems-of-systems papers, network-model operads for teams of agents (Baez, Foley, Moeller, Pollard 2020), and open games for strategic interaction.
 - **Groups as operands that can be acted on and that act** while keeping their member structure: AGR groups are contexts, not actors; hypergraph groups are unlabelled sets; operad boxes could do it but nobody has done so for people.
 - **Time and identity change** (a group persisting through membership change, a person's role changing): named by Ritchie, partly handled by temporal multilayer networks, but no algebra.
-- **Quantum social science is not what it sounds like.** It is not a population-level algebra; it is single-agent probability with a Hilbert-space dress. Do not build on it beyond the non-commutativity idea.
-- I did not find any work that unifies sorts and operators; that is where a social algebra would sit.
+- **Quantum social science is not what it sounds like.** In its mainstream (Busemeyer, Pothos) it is single-agent probability with a Hilbert-space dress; Khrennikov's social laser is population-level but metaphorical. Do not build on it beyond the non-commutativity idea (Wang et al. 2014).
+- I did not find any work that unifies sorts and operators; that is where a social algebra would sit. (Holds after validation, with the act-operator work above as the main input it would draw on.)
 
 **Recommended carrier shape** (my judgement, to be tested against the notes): the AGR triple (Agent, Group, Role with role-local-to-group scoping), reified membership as a quaternary relation (agent, group, role, time) per W3C ORG, a role partial order per RBAC, and group-as-composite with interface per the operad route. Relations between people live as a family of matrices or operators on the agent space (multilayer tensor).
 
-## Unconfirmed (not verified this session; do not cite without checking)
+## Missing work (added in validation)
 
-- DOI for Sandhu et al. 1996, *IEEE Computer* 29(2). Bibliographic details were confirmed, a DOI was not (the search returned a misleading ACM DOI for a different item).
-- Venue and year (ACM TISSEC 2001) for the Ferraiolo et al. proposed NIST standard; the DOI 10.1145/501978.501980 was returned by search but the journal name was not confirmed.
-- ICMAS-98 paper: pages and venue are confirmed from bibliographic lists; I did not obtain the full text, a DOI, or a stable PDF (the HAL copy returned 403).
-- Boella and van der Torre: exact titles of the role/institutional-power papers; snippets only.
-- Ritchie, "Social structures and the ontology of social groups" (a later Ritchie paper cited by others as 2018 or 2020): title and venue not confirmed.
-- Dignum OperA content: thesis existence confirmed, OperA details not.
+Citations from knowledge unless marked; check before quoting.
+
+- **Commitments.** M. P. Singh, "An ontology for commitments in multiagent systems: toward a unification of normative concepts", *Artificial Intelligence and Law* 7, 97-113 (1999) (confirmed by search). Operations on commitments C(debtor, creditor, ...): create, discharge, cancel, release, delegate, assign; the six-operation list is confirmed from Singh's own later slides, not the 1999 text. **The most direct counterexample to "no social acts as operators".**
+- **Influence and normative positions.** I. Pörn, *Action Theory and Social Science: Some Formal Models*, Synthese Library 120, Reidel, 1977. Operators for "a brings it about that" and "a influences b to ...".
+- **Institutional power / counts-as.** A. J. I. Jones, M. Sergot, "A formal characterisation of institutionalised power", *Logic Journal of the IGPL* 4(3), 427-443 (1996).
+- **Action models.** A. Baltag, L. S. Moss, S. Solecki, "The logic of public announcements, common knowledge, and private suspicions", *TARK 1998*. Group-level epistemic acts as operators with product update and closure under sequential composition.
+- **Compositional game theory.** N. Ghani, J. Hedges, V. Winschel, P. Zahn, "Compositional game theory", *LICS 2018*, arXiv:1603.04641. Open games composed sequentially and in parallel in a symmetric monoidal category; the nearest categorical treatment of interactions *between people*.
+- **Network-model operads.** Baez, Foley, Moeller, Pollard 2020 (confirmed; see 3c).
+- **ARBAC97** (see 5d).
+- **Galois lattices for social networks.** L. C. Freeman, D. R. White, "Using Galois lattices to represent network data", *Sociological Methodology* 23, 127-145 (1993). The social use of the Wille concept lattices named in the summary but never given a section.
+- **Roles in conceptual modelling.** F. Steimann, "On the representation of roles in object-oriented and conceptual modelling", *Data & Knowledge Engineering* 35(1), 83-106 (2000). The standard CS account of role vs type.
+
+## Unconfirmed (do not cite without checking)
+
+- DOI 10.1109/2.485845 for Sandhu et al. 1996: the usual citation, not returned by any search in either pass. Bibliographic details and the definitions themselves are confirmed.
+- ICMAS-98 paper: pages and venue confirmed from bibliographic lists; no full text, DOI or stable PDF (HAL returns 403).
+- AGR primitive operation names (MadKit API) and the exact wording of the AGR axioms: full text not obtained.
+- Ritchie 2020, PPR 100(2): existence and venue confirmed; issue number and the Type 1/Type 2 terminology are from knowledge.
+- OperA as defined in the thesis itself (structure confirmed from 2002-era OperA papers only).
 - Agha, *Actors* (MIT Press 1986): catalogue handle only.
-- Denning 1976 lattice model of secure information flow: not searched.
-- Vagner, Spivak, Lerman (2014) "Algebras of open dynamical systems on the operad of wiring diagrams": surfaced in a search snippet, not fetched.
-- All axioms and signatures in sections 2, 3, 5, 7 were written from standard knowledge and not re-read against the full texts.
+- Vagner, Spivak, Lerman: confirmed in validation as *Theory and Applications of Categories* 30(51), 2015 (TAC PDF at emis.univie.ac.at); contents not read.
+- Fong's thesis treatment of Petri nets: not checked.
+- All axioms and signatures in sections 2, 3, 7 were written from standard knowledge. Section 5a was checked against the full text in validation.
+
+## Validation log (2026-10-29)
+
+- Battiston et al. 2020, *Phys. Rep.*: ✓
+- Iacopini et al. 2019, *Nat. Commun.*: ✓
+- Lambiotte, Rosvall, Scholtes 2019, *Nat. Phys.*: ✓
+- Bick et al. 2023, *SIAM Review*: ✓
+- De Domenico et al. 2013, *PRX*: ✓ (tensor description is standard and right)
+- Kivelä et al. 2014, *J. Complex Netw.*: ✓
+- Spivak 2013, arXiv:1305.0297: ✓; ✎ noted its own Society-of-Mind and human/machine remark
+- Vagner, Spivak, Lerman: ✎ resolved to TAC 30(51), 2015
+- Fong 2015, *TAC*: ✓; ✎ Petri-net remark softened, structured-vs-decorated cospans (2022) added
+- Fong 2016 thesis: ✓
+- Baez and Fong 2018, *TAC*: ✓
+- Foley et al. 2021, *Proc. R. Soc. A*: ✓
+- Baez and Foley: ✎ venue added (*Notices AMS* 68(6), 2021)
+- Haven and Khrennikov 2013: ✓; ✎ the "one agent only" claim corrected (social laser)
+- Busemeyer and Bruza 2012: ✓
+- Pothos and Busemeyer 2013, *BBS*: ✓
+- Sandhu et al. 1996 (RBAC96): ✎ session-activation inequality reversed (wrong direction), RBAC0–3 and administrative roles made precise; DOI ? unconfirmed
+- Ferraiolo et al. 2001: ✎ venue confirmed (*ACM TISSEC* 4(3), 224-274)
+- ANSI/INCITS 359-2004: ✓; ✎ "limited hierarchy" made precise
+- Denning 1976: ✎ moved from Unconfirmed to confirmed
+- Masolo et al. 2004: ✓ (abstract-level)
+- W3C ORG 2014: ✓; ✓ errata claim confirmed
+- Boella and van der Torre: ✎ resolved to *AI & Law* 15(3), 2007
+- Ritchie 2013: ✓; ✎ later 2020 paper confirmed and its Type 1/Type 2 restriction added
+- Uzquiano 2018: ✓
+- Ferber and Gutknecht 1998 (ICMAS): ✓ bibliographic; ? full text
+- Ferber, Gutknecht, Michel 2003: ✓; ✗ removed arXiv:1506.09032 as supporting evidence (it does not mention AGR); ? operator names
+- Dignum 2004: ✓; ✎ OperA structure (three models, social and interaction contracts) corrected and confirmed from OperA papers
+- Hewitt, Bishop, Steiger 1973: ✓
+- Agha 1986: ? catalogue only
+- van der Aalst, Reijers, Song 2005, and BPM 2004: ✓
+- Closing verdict: ✎ "nothing defines social acts as operators with composition laws" corrected; the operads gap stands, narrowed
+- Added: ARBAC97, Wang et al. 2014, network-model operads, Singh, Pörn, Jones-Sergot, Baltag-Moss-Solecki, compositional game theory, Freeman-White, Steimann
+
+**Verdict.** No fabricated works were found. Every citation exists, and bibliographic details were right apart from one evidential URL that did not support what it was cited for. The algebra was mostly sound but had one real error: the reversed RBAC1 session inequality, which is the kind of error that would propagate into a carrier definition. The weakest part was the closing gap claim, which held only within this cluster and was overstated against work in logic and multi-agent systems.
