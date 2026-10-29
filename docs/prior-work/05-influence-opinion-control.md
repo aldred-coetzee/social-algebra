@@ -40,7 +40,7 @@ citing sources; **[secondary]** = only seen in citations by other papers.
 
 **Operands.** Each of n people holds a scalar opinion `x_i` on one issue (French works with a bounded continuous scale). Group state = vector `x in R^n`.
 
-**Operators.** Pairwise "power" weights: person j's influence over i. In the matrix form later standardised, a nonnegative matrix `C` with unit row sums; the opinion update is `x(t+1) = C x(t)` (French's original equations were written in terms of resultant social forces on i; the iterated-averaging form is the standard reading used by Harary and later by DeGroot). Structure: an iterated linear map on R^n; the group's social structure is the graph of nonzero `c_ij`.
+**Operators.** Pairwise "power" weights: person j's influence over i. In the matrix form later standardised, a nonnegative matrix `C` with unit row sums; the opinion update is `x(t+1) = C x(t)` (French's original equations were written in terms of resultant social forces on i; the iterated-averaging form is the standard reading used by Harary and later by DeGroot). Structure: an iterated linear map on R^n; the group's social structure is the graph of nonzero `c_ij`. [from abstract/standard account]
 
 **Predictive/control claim.** Predicts when a group reaches unanimity from the structure of the power graph alone, independent of initial opinions. Empirical record: French's own theory was a theoretical sketch; later work (Friedkin-Johnsen) is the empirically tested descendant.
 
@@ -51,13 +51,13 @@ citing sources; **[secondary]** = only seen in citations by other papers.
 ## 2. Harary (1959), criterion for unanimity in French's theory
 
 - Harary, F. (1959). A criterion for unanimity in French's theory of social power. In D. Cartwright (ed.), *Studies in Social Power*, pp. 168-182, Ann Arbor: Institute for Social Research, University of Michigan.
-- Source: cited in Wagner's lecture notes (https://web.math.utk.edu/~cwagner/papers/class1.pdf) and in SIAM (https://epubs.siam.org/doi/10.1137/0121023) [secondary]; the volume exists in the ISR historic publications archive (https://cdn.isr.umich.edu/pubFiles/historicPublications/studiesinsocialpower_1413_.pdf). I did not read the chapter. No DOI.
+- Source: cited in Wagner's lecture notes (https://web.math.utk.edu/~cwagner/papers/class1.pdf) and in Proskurnikov & Tempo 2017 [secondary]. (The SIAM DOI 10.1137/0121023 previously cited here is Dachs 1971, "A Convergence Problem on Finite Directed Graphs", a different paper; removed.); the volume exists in the ISR historic publications archive (https://cdn.isr.umich.edu/pubFiles/historicPublications/studiesinsocialpower_1413_.pdf). I did not read the chapter. No DOI.
 
 **Their vocabulary.** Digraph, strongly connected, unanimity, matrix of influence.
 
 **Operands.** Same as French: opinion vector.
 
-**Operators.** Powers of the influence matrix `C^k`; Harary's criterion is a graph-theoretic condition on `C` (in modern terms: convergence of `C^k x` to a common value for all `x` iff the digraph has one closed strongly connected class that is aperiodic). Wagner's notes (search result summary) argue Harary misapplied a classical Markov chain result, whereas Proskurnikov and Tempo (2017, Part I, sec. 3) say French stated his consensus conditions without proof and that they were "later corrected and rigorously proved by Harary". The two secondary accounts disagree; the exact statement is unread here. [validation 2026-10-29]
+**Operators.** Powers of the influence matrix `C^k`; Harary's criterion is a graph-theoretic condition on `C` (in modern terms: convergence of `C^k x` to a common value for all `x` iff the digraph has one closed strongly connected class that is aperiodic). Wagner's notes (search result summary) argue Harary misapplied a classical Markov chain result, whereas Proskurnikov and Tempo (2017, Part I, sec. 3) say French stated his consensus conditions without proof and that they were "later corrected and rigorously proved by Harary". The two secondary accounts disagree; the exact statement is unread here. [validation 2026-10-29] [from abstract/standard account]
 
 **Predictive/control claim.** Gives a necessary and sufficient-style structural test for consensus. Mathematical; no empirical claim.
 
@@ -74,7 +74,7 @@ citing sources; **[secondary]** = only seen in citations by other papers.
 
 **Operands.** Each of n individuals holds a probability distribution `F_i` (or, in the standard reduction, a scalar belief `p_i`). State = `p(t) in R^n`.
 
-**Operators.** A row-stochastic matrix `W` (`w_ij >= 0`, `sum_j w_ij = 1`), `w_ij` = weight i gives j; update `p(t+1) = W p(t)`, hence `p(t) = W^t p(0)`. Consensus for every initial vector iff `W^t` converges to a rank-one matrix `1 pi^T`; equivalently, the influence digraph has exactly one closed (sink) strongly connected class and that class is aperiodic. For a strongly connected (irreducible) `W` this reduces to aperiodicity, which a single positive self-weight `w_ii > 0` already guarantees. Limit: `p(inf) = 1 pi^T p(0)` where `pi` is the stationary left eigenvector of W, so `pi_j` is j's final "social influence" (a power index).
+**Operators.** A row-stochastic matrix `W` (`w_ij >= 0`, `sum_j w_ij = 1`), `w_ij` = weight i gives j; update `p(t+1) = W p(t)`, hence `p(t) = W^t p(0)`. Consensus for every initial vector iff `W^t` converges to a rank-one matrix `1 pi^T`; equivalently, the influence digraph has exactly one closed (sink) strongly connected class and that class is aperiodic. For a strongly connected (irreducible) `W` this reduces to aperiodicity, which a single positive self-weight `w_ii > 0` already guarantees. Limit: `p(inf) = 1 pi^T p(0)` where `pi` is the stationary left eigenvector of W, so `pi_j` is j's final "social influence" (a power index). [from abstract/standard account]
 
 **Predictive/control claim.** Predicts whether consensus occurs and exactly where it lands; `pi` quantifies each member's leverage. Golub and Jackson (2010), "Naive learning in social networks and the wisdom of crowds", *AEJ: Microeconomics* 2(1), 112-149, DOI 10.1257/mic.2.1.112 [Crossref, validation], is theory: when DeGroot updating aggregates information correctly in large networks. Experimental evidence for DeGroot-*type* updating does exist and should not be understated: Chandrasekhar, Larreguy and Xandri (2020), "Testing models of social learning on networks", *Econometrica* 88(1), 1-32, DOI 10.3982/ECTA14407, find DeGroot-style averaging fits lab-in-field network experiments better than Bayesian learning; Becker, Brackbill and Centola (2017), *PNAS* 114(26), DOI 10.1073/pnas.1615978114, run estimation tasks in which revisions are well described by weighted averaging [both Crossref, validation]. What experiments do not support is DeGroot's *consensus* prediction for real opinion disputes, which is why Friedkin-Johnsen adds stubbornness.
 
@@ -93,7 +93,7 @@ citing sources; **[secondary]** = only seen in citations by other papers.
 
 **Operands.** Scalar (or vector for multiple issues) opinions `y_i(t)`, initial opinions `y(1)`, and per-person susceptibility `a_ii`.
 
-**Operators.** `y(t+1) = A W y(t) + (I - A) y(1)`, with `W` row-stochastic (interpersonal influence) and `A = diag(a_1..a_n)` in [0,1] (susceptibility). If `rho(AW) < 1` the iteration converges to the unique fixed point `y* = (I - AW)^{-1}(I - A) y(1)`. In Friedkin's own specification susceptibility is tied to the self-weight, `a_ii = 1 - w_ii`; the general form above treats them as independent. A continuous-time precursor with stubborn/external influence is Taylor (1968), "Towards a mathematical theory of influence and attitude change", *Human Relations* 21(2), 121-139, DOI 10.1177/001872676802100202 [Crossref, validation]. Structure: affine iterated map; the residual attachment to the initial opinion is what permits disagreement at equilibrium. Extension to multiple issues with logical constraints: Friedkin, Proskurnikov, Tempo and Parsegov, "Network science on belief system dynamics under logic constraints", *Science* 354(6310), 321-326 (2016), DOI https://doi.org/10.1126/science.aag2624 [Crossref, validation], which in Kronecker form reads `x(t+1) = ((Lambda W) (x) C) x(t) + ((I - Lambda) (x) I_m) x(0)`, with an m x m matrix C coupling the m issues (the earlier text here had a garbled second term).
+**Operators.** `y(t+1) = A W y(t) + (I - A) y(1)`, with `W` row-stochastic (interpersonal influence) and `A = diag(a_1..a_n)` in [0,1] (susceptibility). If `rho(AW) < 1` the iteration converges to the unique fixed point `y* = (I - AW)^{-1}(I - A) y(1)`. In Friedkin's own specification susceptibility is tied to the self-weight, `a_ii = 1 - w_ii`; the general form above treats them as independent. A continuous-time precursor with stubborn/external influence is Taylor (1968), "Towards a mathematical theory of influence and attitude change", *Human Relations* 21(2), 121-139, DOI 10.1177/001872676802100202 [Crossref, validation]. Structure: affine iterated map; the residual attachment to the initial opinion is what permits disagreement at equilibrium. Extension to multiple issues with logical constraints: Friedkin, Proskurnikov, Tempo and Parsegov, "Network science on belief system dynamics under logic constraints", *Science* 354(6310), 321-326 (2016), DOI https://doi.org/10.1126/science.aag2624 [Crossref, validation], which in Kronecker form reads `x(t+1) = ((Lambda W) (x) C) x(t) + ((I - Lambda) (x) I_m) x(0)`, with an m x m matrix C coupling the m issues (the earlier text here had a garbled second term). [from abstract/standard account]
 
 **Predictive/control claim.** Predicts the final opinion profile and, in the book, group-decision outcomes, from `W`, `A`, and `y(1)`. Empirical record: the most directly tested model *of opinion change under disagreement* in the cluster, though not the only model with experimental support (see DeGroot, Centola, Bass). Proskurnikov-Tempo (2017, Part I, sec. 6) say, verbatim, that "this model has been experimentally validated for small and medium-size groups", citing Friedkin and collaborators' own work; essentially all of that validation is by Friedkin's group. Not independently checked. The weights `W` are estimated from observed communication/ attention data in those experiments, which weakens "prediction" to "fit with fitted structure".
 
@@ -108,7 +108,7 @@ citing sources; **[secondary]** = only seen in citations by other papers.
 
 **Their vocabulary.** Attitude distribution, controversy, influence, polarisation.
 
-**Operands / operators.** Confirmed from Proskurnikov-Tempo (2017, Part I, sec. 4), not from the chapter itself: the linear Abelson model is `dx_i/dt = sum_j a_ij (x_j - x_i)`, i.e. `dx/dt = -L[A] x` with `L` the weighted Laplacian, the continuous-time counterpart of French-DeGroot; Abelson also proposed nonlinear extensions (coupling that weakens with opinion distance). Abelson proved that the kernel of `L` is spanned by `1` iff the graph is "compact" (in modern terms *quasi-strongly connected*, i.e. has a directed spanning tree), and concluded that this is necessary and sufficient for consensus; his proof covered only diagonalisable Laplacians. Note the condition is quasi-strong connectivity, not mere connectivity. Unlike discrete DeGroot, the continuous model always converges (no periodicity issue).
+**Operands / operators.** Confirmed from Proskurnikov-Tempo (2017, Part I, sec. 4), not from the chapter itself: the linear Abelson model is `dx_i/dt = sum_j a_ij (x_j - x_i)`, i.e. `dx/dt = -L[A] x` with `L` the weighted Laplacian, the continuous-time counterpart of French-DeGroot; Abelson also proposed nonlinear extensions (coupling that weakens with opinion distance). Abelson proved that the kernel of `L` is spanned by `1` iff the graph is "compact" (in modern terms *quasi-strongly connected*, i.e. has a directed spanning tree), and concluded that this is necessary and sufficient for consensus; his proof covered only diagonalisable Laplacians. Note the condition is quasi-strong connectivity, not mere connectivity. Unlike discrete DeGroot, the continuous model always converges (no periodicity issue). [from abstract/standard account]
 
 **Relevance.** Abelson posed the problem; the names are later: "community cleavage problem" (Friedkin 2015, *IEEE Control Systems Magazine* 35(3), 40-51) and "Abelson's diversity puzzle" (Kurahashi-Nakamura, Mas and Lorenz 2016, *JASSS* 19(4), 7), both per Proskurnikov-Tempo. Why do linear influence models predict consensus when real groups do not? That puzzle motivates stubbornness (Friedkin-Johnsen) and bounded confidence.
 
@@ -120,7 +120,7 @@ citing sources; **[secondary]** = only seen in citations by other papers.
 
 **Operands.** Scalar opinions `x_i in [0,1]`.
 
-**Operators.** Synchronous: `x_i(t+1) = (1/|I(i,x(t))|) sum_{j in I(i,x(t))} x_j(t)`, `I(i,x) = { j : |x_i - x_j| <= eps }`. Equivalent to `x(t+1) = A(x(t)) x(t)`: a DeGroot update whose matrix depends on the state (a state-dependent graph). The paper also treats the classical (DeGroot) model, a Friedkin-Johnsen-type variant, and a time-dependent variant (abstract).
+**Operators.** Synchronous: `x_i(t+1) = (1/|I(i,x(t))|) sum_{j in I(i,x(t))} x_j(t)`, `I(i,x) = { j : |x_i - x_j| <= eps }`. Equivalent to `x(t+1) = A(x(t)) x(t)`: a DeGroot update whose matrix depends on the state (a state-dependent graph). The paper also treats the classical (DeGroot) model, a Friedkin-Johnsen-type variant, and a time-dependent variant (abstract). [from abstract/standard account]
 
 **Predictive/control claim.** Predicts, as a function of eps, whether the group ends in consensus, polarisation (two clusters) or fragmentation (many). Pure simulation/analysis; no empirical test in the paper. Later experiments find mixed support: Moussaid, Kammer, Analytis and Neth (2013), "Social influence and the collective dynamics of opinion formation", *PLoS ONE* 8(11), e78433, DOI 10.1371/journal.pone.0078433 [Crossref, validation], observe that people mostly keep their opinion or compromise and that confidence, not just distance, governs the shift.
 
@@ -137,7 +137,7 @@ citing sources; **[secondary]** = only seen in citations by other papers.
 
 **Operands.** Scalar opinion `x_i`. (Per-agent uncertainty `u_i` belongs to the later "relative agreement" model, Deffuant, Amblard, Weisbuch and Faure 2002, *JASSS* 5(4), not to the 2000 paper; the 2000 paper also has a binary-vector-opinion variant.)
 
-**Operators.** Random pair (i, j) chosen; if `|x_i - x_j| < d` then `x_i <- x_i + mu (x_j - x_i)`, `x_j <- x_j + mu (x_i - x_j)`, `0 < mu <= 1/2`; otherwise nothing. A stochastic pairwise operator, asynchronous, state-guarded.
+**Operators.** Random pair (i, j) chosen; if `|x_i - x_j| < d` then `x_i <- x_i + mu (x_j - x_i)`, `x_j <- x_j + mu (x_i - x_j)`, `0 < mu <= 1/2`; otherwise nothing. A stochastic pairwise operator, asynchronous, state-guarded. [from abstract/standard account]
 
 **Predictive/control claim.** Large threshold d gives convergence to a single average opinion; small d gives several clusters (abstract), roughly `1/(2d)` of them on [0,1]. The 2000 paper is simulation-based; the rate/master-equation analysis is later (Ben-Naim, Krapivsky and Redner 2003, *Physica D*). Not empirically tested in the source.
 
@@ -150,7 +150,7 @@ citing sources; **[secondary]** = only seen in citations by other papers.
 
 **Operands.** Discrete spins `s_i in {0,1}` on the vertices of a graph or lattice Z^d.
 
-**Operators.** Continuous-time Markov process: each site, at rate 1, copies the state of a uniformly chosen neighbour. Generator `L f(s) = sum_i (fraction of neighbours disagreeing with s_i) [f(s^i) - f(s)]` where `s^i` flips site i.
+**Operators.** Continuous-time Markov process: each site, at rate 1, copies the state of a uniformly chosen neighbour. Generator `L f(s) = sum_i (fraction of neighbours disagreeing with s_i) [f(s^i) - f(s)]` where `s^i` flips site i. [from abstract/standard account]
 
 **Predictive/control claim.** Dimension-dependent: in d <= 2 the system coarsens to consensus (probability of seeing two opinions in a finite box tends to 0); in d > 2 there is a one-parameter family of stationary measures indexed by the density of 1s (Holley-Liggett, as quoted in the search result). On finite graphs fixation is certain and the probability of ending at 1 equals the degree-weighted initial fraction of 1s, so *whom you convert first* matters in proportion to degree.
 
@@ -166,7 +166,7 @@ citing sources; **[secondary]** = only seen in citations by other papers.
 
 **Operands.** A *configuration* `n = (n_1..n_K)` of numbers of individuals in K attitudes or states; a probability distribution `P(n,t)` over configurations.
 
-**Operators.** Master equation `dP(n,t)/dt = sum_{n'} [ p(n,n';t) P(n',t) - p(n',n;t) P(n,t) ]` with transition rates `p` typically of the form `nu exp(theta-dependent utility)`, e.g. `p_{ij}(n) = n_i nu_{ij} exp(...)`. Mean-field limit gives nonlinear ODEs for expectation values. Dover's description (search): three parts: modelling concepts, applications (population dynamics, urbanisation, etc.), mathematical methods.
+**Operators.** Master equation `dP(n,t)/dt = sum_{n'} [ p(n,n';t) P(n',t) - p(n',n;t) P(n,t) ]` with transition rates `p` typically of the form `nu exp(theta-dependent utility)`, e.g. `p_{ij}(n) = n_i nu_{ij} exp(...)`. Mean-field limit gives nonlinear ODEs for expectation values. Dover's description (search): three parts: modelling concepts, applications (population dynamics, urbanisation, etc.), mathematical methods. [from abstract/standard account]
 
 **Predictive/control claim.** Predicts macro-trends, bifurcations and phase transitions in collective attitudes from micro-level transition rates, and has been applied to migration, urban agglomeration, opinion formation. I found no source that assesses empirical fit; fits were largely to aggregate time series (unverified).
 
@@ -183,7 +183,7 @@ citing sources; **[secondary]** = only seen in citations by other papers.
 
 **Operands.** Binary opinions `+/-` in a population; fraction `p_t` holding `+`.
 
-**Operators.** Repeated random grouping into groups of size r, then the whole group adopts the local majority (or a tie-breaking bias). Mean-field map: `p_{t+1} = sum_{k > r/2} C(r,k) p_t^k (1-p_t)^{r-k}` (+ tie term). A one-dimensional iterated map with unstable fixed point at the threshold; adding a fraction of inflexible or contrarian agents shifts the threshold.
+**Operators.** Repeated random grouping into groups of size r, then the whole group adopts the local majority (or a tie-breaking bias). Mean-field map: `p_{t+1} = sum_{k > r/2} C(r,k) p_t^k (1-p_t)^{r-k}` (+ tie term). A one-dimensional iterated map with unstable fixed point at the threshold; adding a fraction of inflexible or contrarian agents shifts the threshold. [from abstract/standard account]
 
 **Predictive/control claim.** The abstract claims models "successfully predicted" the far right's first-round success in the French presidential election (the abstract says "2000"; the election was in **2002**, an error in the source), fifty-fifty votes in Germany, Italy and Mexico, and the 2005 French "no" to the European constitution. A 2016 Improbable Research post records that the review cites 71 papers, all written or co-written by Galam (https://improbable.com/2016/11/26/galams-work-on-galam-models-reviewed-by-galam/ [fetched, validation]). No independent assessment of the predictions was found. Treat as self-reported.
 
@@ -197,7 +197,7 @@ citing sources; **[secondary]** = only seen in citations by other papers.
 
 **Their vocabulary.** Social dynamics, order-disorder transition, universality, opinion dynamics, cultural dynamics, language dynamics, crowd behaviour, hierarchy formation, human dynamics, social spreading.
 
-**Operands / operators.** A taxonomy rather than a model: voter, majority-rule, Sznajd, Ising-type spin models for discrete opinions; bounded confidence (Deffuant, HK) for continuous opinions; Axelrod's model for vector-valued culture; naming game for language. Each is an update rule on a state vector or spin field; analysed with Fokker-Planck and master equations, mean field, and finite-size scaling.
+**Operands / operators.** A taxonomy rather than a model: voter, majority-rule, Sznajd, Ising-type spin models for discrete opinions; bounded confidence (Deffuant, HK) for continuous opinions; Axelrod's model for vector-valued culture; naming game for language. Each is an update rule on a state vector or spin field; analysed with Fokker-Planck and master equations, mean field, and finite-size scaling. [from abstract/standard account]
 
 **Predictive/control claim.** The paper's stated aim is to identify universality classes (which microscopic rules give the same macroscopic behaviour). It explicitly calls for comparison with data and notes that this is largely missing (abstract: "comparisons between model results and empirical social data"). The review itself is a valuable index to the 2009 literature.
 
@@ -213,7 +213,7 @@ citing sources; **[secondary]** = only seen in citations by other papers.
 
 **Operands.** Each actor i has a threshold `theta_i`: the fraction (or number) of others who must already act for i to act. Group state = the cumulative distribution `F(x)` of thresholds.
 
-**Operators.** Iterated map on the fraction `r` active: `r_{t+1} = F(r_t)`. Equilibria are fixed points `r = F(r)`; for the monotone map, a fixed point is stable if `F'(r) < 1` (F crosses the diagonal from above), and from `r_0 = 0` the process stops at the first fixed point.
+**Operators.** Iterated map on the fraction `r` active: `r_{t+1} = F(r_t)`. Equilibria are fixed points `r = F(r)`; for the monotone map, a fixed point is stable if `F'(r) < 1` (F crosses the diagonal from above), and from `r_0 = 0` the process stops at the first fixed point. [from abstract/standard account]
 
 **Predictive/control claim.** Two groups with almost identical average thresholds can end in completely different outcomes (Granovetter's example: 100 people with thresholds 0,1,2,...,99 all riot; replace the person with threshold 1 by one with threshold 2 and only the instigator riots); hence aggregate outcomes do not reveal individual dispositions (abstract). Macy and Evtushenko (2020), *Sociological Science* 7, 628-648 ("Threshold Models of Collective Behavior II: The Predictability Paradox and Spontaneous Instigation") revisit and argue outcomes can be fragile and hard to predict [search]. Watts (below) gives the network generalisation.
 
@@ -230,7 +230,7 @@ citing sources; **[secondary]** = only seen in citations by other papers.
 
 **Operands.** Agents of two types on a grid or line, plus empty sites.
 
-**Operators.** An agent with fraction of same-type neighbours below tolerance `tau` moves to a vacant site satisfying its preference. Deterministic or random scheduling; a relocation operator guarded by a local-composition predicate.
+**Operators.** An agent with fraction of same-type neighbours below tolerance `tau` moves to a vacant site satisfying its preference. Deterministic or random scheduling; a relocation operator guarded by a local-composition predicate. [from abstract/standard account]
 
 **Predictive/control claim.** Strong segregation emerges even when no agent wants it (a mild preference for a modest same-type fraction suffices); described in a JASSS history by Hegselmann (via search) as a family of different models of which one became canonical. Empirical record: the *mechanism* is widely accepted as a demonstration of how micro to macro can mislead; direct empirical calibration to real cities is contested (not investigated here).
 
@@ -246,7 +246,7 @@ citing sources; **[secondary]** = only seen in citations by other papers.
 
 **Operands.** Node states `x in R^N`.
 
-**Operators.** Linear time-invariant system on a directed graph, `dx/dt = A x + B u`; input matrix `B` connects M external signals to "driver" nodes. Structural controllability (Lin 1974): the system is controllable for generic weights iff every node is reached by an input-rooted path and there are no dilations; the minimum number of driver nodes is `N_D = max(N - |M*|, 1)` where `M*` is a maximum matching of the directed graph (one driver when the matching is perfect); drivers are the unmatched nodes.
+**Operators.** Linear time-invariant system on a directed graph, `dx/dt = A x + B u`; input matrix `B` connects M external signals to "driver" nodes. Structural controllability (Lin 1974): the system is controllable for generic weights iff every node is reached by an input-rooted path and there are no dilations; the minimum number of driver nodes is `N_D = max(N - |M*|, 1)` where `M*` is a maximum matching of the directed graph (one driver when the matching is perfect); drivers are the unmatched nodes. [from abstract/standard account]
 
 **Predictive/control claim.** Number of driver nodes depends mainly on degree distribution; sparse heterogeneous networks need many; drivers tend to avoid the hubs (abstract/press release). Applies to **linear** dynamics; the paper's own examples are not social opinion data. Critiques (retrieved in validation, Crossref-confirmed): Cowan, Chastain, Vilhena, Freudenberg and Bergstrom (2012), "Nodal dynamics, not degree distributions, determine the structural controllability of complex networks", *PLoS ONE* 7(6), e38398, DOI 10.1371/journal.pone.0038398, show the result rests on nodes having no self-dynamics; once each node has its own time constant (a self-loop), the self-loops form a perfect matching and **one** driver node suffices, so the degree-distribution conclusion largely dissolves. Muller and Schuppert (2011), "Few inputs can reprogram biological networks", *Nature* 478, E4, DOI 10.1038/nature10543, make a related objection. Yan et al. (2012), "Controlling complex networks: how much energy is needed?", *PRL* 108, 218703, DOI 10.1103/PhysRevLett.108.218703, show structural controllability says nothing about the (often prohibitive) control energy. Social opinion models (DeGroot, FJ) have self-weights, so the Cowan point applies directly to them.
 
@@ -264,7 +264,7 @@ citing sources; **[secondary]** = only seen in citations by other papers.
 
 **Operands.** Opinion vector under bounded confidence (campaign problem); active/inactive node set (influence maximisation).
 
-**Operators.** Campaign: HK dynamics plus one strategic agent whose broadcast opinion `u(t)` is a control input chosen to maximise the number of agents in a target interval at horizon T. Influence maximisation: choose seed set S, |S| = k, to maximise expected spread `sigma(S)` under independent cascade (each edge fires once with probability `p_uv`) or linear threshold (node u activates when sum of in-weights from active neighbours >= a random threshold `theta_u`). `sigma` is monotone and submodular in both models, so greedy gives a `(1 - 1/e)` (about 63%) approximation by the Nemhauser-Wolsey-Fisher theorem (Kempe et al.); in practice `sigma` must itself be estimated by simulation, giving `(1 - 1/e - eps)`, and exact computation of `sigma` was later shown #P-hard (Chen, Wang and Wang 2010, not checked here).
+**Operators.** Campaign: HK dynamics plus one strategic agent whose broadcast opinion `u(t)` is a control input chosen to maximise the number of agents in a target interval at horizon T. Influence maximisation: choose seed set S, |S| = k, to maximise expected spread `sigma(S)` under independent cascade (each edge fires once with probability `p_uv`) or linear threshold (node u activates when sum of in-weights from active neighbours >= a random threshold `theta_u`). `sigma` is monotone and submodular in both models, so greedy gives a `(1 - 1/e)` (about 63%) approximation by the Nemhauser-Wolsey-Fisher theorem (Kempe et al.); in practice `sigma` must itself be estimated by simulation, giving `(1 - 1/e - eps)`, and exact computation of `sigma` was later shown #P-hard (Chen, Wang and Wang 2010, not checked here). [from abstract/standard account]
 
 **Predictive/control claim.** Campaign problem: even a ten-period problem with eleven agents is very hard; mixed-integer linear programming finds global optima and model predictive control can be well away from the optimum (search summary of the Bayreuth working paper). Influence maximisation: provable approximation guarantees; selecting the best seeds is NP-hard. Empirical: influence maximisation works algorithmically on recorded cascades; claims of real-world persuasion effect sizes are a separate, weaker literature (not checked).
 
@@ -281,7 +281,7 @@ citing sources; **[secondary]** = only seen in citations by other papers.
 
 **Operands.** Position and velocity of each pedestrian, `(r_i, v_i) in R^4`.
 
-**Operators.** Newtonian: `m_i dv_i/dt = m_i (v_i^0 e_i - v_i)/tau_i + sum_j f_ij + sum_W f_iW`, where `f_ij` is a (partly psychological) repulsion with exponential decay in distance plus contact forces. Coupled ODEs; no graph but a metric.
+**Operators.** Newtonian: `m_i dv_i/dt = m_i (v_i^0 e_i - v_i)/tau_i + sum_j f_ij + sum_W f_iW`, where `f_ij` is a (partly psychological) repulsion with exponential decay in distance plus contact forces. Coupled ODEs; no graph but a metric. [from abstract/standard account]
 
 **Predictive/control claim.** Reproduces lane formation, bottleneck oscillations, and clogging under panic; design implications for exits (e.g. a column before an exit). Empirical record: qualitative phenomena are reproduced; quantitative calibration to field data is variable, and the model was revisited by Helbing himself (collective-dynamics.eu A168, "What have we learnt since then?") [search]. Not a model of social relations.
 
@@ -297,7 +297,7 @@ citing sources; **[secondary]** = only seen in citations by other papers.
 
 **Operands.** People as nodes in an interaction network reconstructed from sensor, phone and transaction logs; ideas as flows.
 
-**Operators.** Mostly statistical: measured *exploration* (contact with new sources) and *engagement* (density of contact within a group) are used as predictors of group performance and idea spread. Not a closed set of dynamical equations in the book.
+**Operators.** Mostly statistical: measured *exploration* (contact with new sources) and *engagement* (density of contact within a group) are used as predictors of group performance and idea spread. Not a closed set of dynamical equations in the book. [from abstract/standard account]
 
 **Predictive/control claim.** Claims that patterns of communication (e.g. turn-taking, energy) predict team performance independently of content, and that incentives to peers (social network incentives) change behaviour more than individual incentives; supporting studies are authored by Pentland's group. I did not check the underlying papers; treat the strength of claims as unassessed.
 
@@ -307,21 +307,9 @@ citing sources; **[secondary]** = only seen in citations by other papers.
 
 ## 18. Turchin, cliodynamics
 
-- Turchin, P. (2003). *Historical Dynamics: Why States Rise and Fall*. Princeton University Press. https://press.princeton.edu/books/hardcover/9780691116693/historical-dynamics [search]
-- Turchin, P. and Nefedov, S. A. (2009). *Secular Cycles*. Princeton University Press, ISBN 978-0-691-13696-7. https://press.princeton.edu/node/52401 [search]
-- Turchin, P. (2008). Arise "cliodynamics". *Nature* 454(7200), 34-35. DOI: https://doi.org/10.1038/454034a [Crossref; confirmed year is 2008, not 2010 as the brief assumed; the 2010 *Nature* item is the separate prediction letter below]
+See 08 §3 for Turchin's model (aggregate coupled equations, asabiya) and the 2003 book.
 
-**Their vocabulary.** Cliodynamics, asabiya, demographic-structural theory, elite overproduction, secular cycles, sociopolitical instability.
-
-**Operands.** Aggregate variables: population, per-capita resources, elite number, state strength, instability index.
-
-**Operators.** Coupled ODEs / difference equations (population-resource dynamics, predator-prey style; the "metaethnic frontier" asabiya model of collective solidarity with diffusion and a threshold). Aggregate mechanisms, not individuals.
-
-**Predictive/control claim.** Predicts the timing of recurring waves of breakdown in agrarian states and tests with historical series (England, France, Russia, Rome); the publisher descriptions say so. Turchin also made a public prediction of rising US instability around 2020: Turchin (2010), "Political instability may be a contributor in the coming decade", *Nature* 463, 608, DOI 10.1038/463608a [Crossref, validation]; whether events vindicated it is contested and not assessed here. Independent assessments of the quantitative record were not retrieved.
-
-**Limits.** Few cycles per case, many parameters, retrospective fit; aggregate level only.
-
-**Relevance.** Shows what the "group" level looks like when the operands are classes (elite, commoner, state) rather than people. A candidate scale for typed operands.
+- Turchin, P. (2008). Arise "cliodynamics". *Nature* 454(7200), 34-35. DOI: https://doi.org/10.1038/454034a [Crossref; confirmed year is 2008, not 2010 as the brief assumed]. Turchin, P. (2010), "Political instability may be a contributor in the coming decade", *Nature* 463, 608, DOI 10.1038/463608a [Crossref, validation]: a public forecast of rising US instability around 2020; whether events vindicated it is contested and not assessed here. Turchin and Nefedov (2009), *Secular Cycles*, Princeton, ISBN 978-0-691-13696-7.
 
 ## 19. Rashevsky, mathematical biology of social behaviour
 
@@ -330,7 +318,7 @@ citing sources; **[secondary]** = only seen in citations by other papers.
 
 **Their vocabulary.** Mathematical biology, human relations, social behaviour, "neural" threshold units, cooperation/competition.
 
-**Operands / operators.** Existence of the research programme confirmed (validation): a *Psychometrika* series from 1939 onward, "Studies in the mathematical theory of human relations" and "Further studies on the mathematical theory of interaction of individuals in a social group", which includes models of one group controlling another. The specific characterisation (excitation/inhibition variables of neural type driving imitative choice between two behaviours, aggregated to population equations) is from background knowledge and remains **unconfirmed**. Neither book was read.
+**Operands / operators.** Existence of the research programme confirmed (validation): a *Psychometrika* series from 1939 onward, "Studies in the mathematical theory of human relations" and "Further studies on the mathematical theory of interaction of individuals in a social group", which includes models of one group controlling another. The specific characterisation (excitation/inhibition variables of neural type driving imitative choice between two behaviours, aggregated to population equations) is from background knowledge and remains **unconfirmed**. Neither book was read. [from abstract/standard account]
 
 **Predictive/control claim.** None retrieved. The programme is generally regarded as influential in kind (mathematical sociology, mathematical biophysics) but not for specific predictive success.
 
@@ -343,7 +331,7 @@ citing sources; **[secondary]** = only seen in citations by other papers.
 
 **Their vocabulary.** Interaction, activity, friendliness, sentiment, external system, internal system (Homans's terms), equilibrium.
 
-**Operands / operators.** Four group-level variables: interaction I, friendliness F, activity A, and externally imposed activity E (Homans, *The Human Group*, 1950). Corrected in validation: not every variable has its own rate equation. In the linear model, as usually reproduced (e.g. Simon's *Models of Man*, 1957), interaction adjusts instantaneously, `I = a1 F + a2 A`, while `dF/dt = b (I - beta F)` and `dA/dt = c1 (F - gamma A) + c2 (E - A)`; the analysis is about equilibrium, stability and comparative statics. That exact form is from background knowledge (**unconfirmed**). Confirmed from a secondary source (Montgomery's lecture notes, users.ssc.wisc.edu/~jmontgom/twodimmodels.pdf): Simon focused mostly on a linear model **but also discussed a nonlinear version**, which the notes write as `dF/dt = A - beta F^2`, `dA/dt = F + xi - gamma A^2` with `xi` the external activity.
+**Operands / operators.** Four group-level variables: interaction I, friendliness F, activity A, and externally imposed activity E (Homans, *The Human Group*, 1950). Corrected in validation: not every variable has its own rate equation. In the linear model, as usually reproduced (e.g. Simon's *Models of Man*, 1957), interaction adjusts instantaneously, `I = a1 F + a2 A`, while `dF/dt = b (I - beta F)` and `dA/dt = c1 (F - gamma A) + c2 (E - A)`; the analysis is about equilibrium, stability and comparative statics. That exact form is from background knowledge (**unconfirmed**). Confirmed from a secondary source (Montgomery's lecture notes, users.ssc.wisc.edu/~jmontgom/twodimmodels.pdf): Simon focused mostly on a linear model **but also discussed a nonlinear version**, which the notes write as `dF/dt = A - beta F^2`, `dA/dt = F + xi - gamma A^2` with `xi` the external activity. [from abstract/standard account]
 
 **Predictive/control claim.** Deduces which qualitative changes follow from perturbing one variable (e.g. increasing external demands). No empirical test in Simon's paper.
 
@@ -360,7 +348,7 @@ citing sources; **[secondary]** = only seen in citations by other papers.
 
 **Operands.** Actors `i` and events or resources `j`, with a matrix of *control* `c_ij` (share of control of j held by i) and *interest* `x_ij`.
 
-**Operators.** The equations previously given here were garbled and have been replaced (validation). The standard form, from background knowledge and **unconfirmed** against the book: with `C` the actors-by-events control matrix (columns sum to 1) and `X` the events-by-actors interest matrix (each actor's interests sum to 1), the value of event j is `v_j = sum_i x_ji r_i` and the power (resources) of actor i is `r_i = sum_j c_ij v_j`; hence `r = C X r`, so power is the stationary eigenvector of the stochastic matrix `CX`, structurally the same object as DeGroot's `pi`. The model predates 1990 (Coleman's 1966 *AJS* paper on collective decisions and *The Mathematical Study of Collective Action*, 1973; not checked).
+**Operators.** The equations previously given here were garbled and have been replaced (validation). The standard form, from background knowledge and **unconfirmed** against the book: with `C` the actors-by-events control matrix (columns sum to 1) and `X` the events-by-actors interest matrix (each actor's interests sum to 1), the value of event j is `v_j = sum_i x_ji r_i` and the power (resources) of actor i is `r_i = sum_j c_ij v_j`; hence `r = C X r`, so power is the stationary eigenvector of the stochastic matrix `CX`, structurally the same object as DeGroot's `pi`. The model predates 1990 (Coleman's 1966 *AJS* paper on collective decisions and *The Mathematical Study of Collective Action*, 1973; not checked). [from abstract/standard account]
 
 **Predictive/control claim.** Equilibrium prices and actor power from `C` and `X`. Not widely used for empirical prediction; its influence is as the foundation of rational-choice sociology.
 
@@ -376,7 +364,7 @@ citing sources; **[secondary]** = only seen in citations by other papers.
 
 **Operands.** Cumulative fraction of adopters `F(t)` in a population with market potential m.
 
-**Operators.** `dF/dt = (p + q F)(1 - F)`; closed form (with `F(0) = 0`) `F(t) = (1 - e^{-(p+q)t}) / (1 + (q/p) e^{-(p+q)t})`. One ODE, two parameters (three with m). [Equation and closed form checked in validation.]
+**Operators.** `dF/dt = (p + q F)(1 - F)`; closed form (with `F(0) = 0`) `F(t) = (1 - e^{-(p+q)t}) / (1 + (q/p) e^{-(p+q)t})`. One ODE, two parameters (three with m). [Equation and closed form checked in validation.] [from abstract/standard account]
 
 **Predictive/control claim.** Fitted to eleven consumer durables, and used for forecasting colour-TV sales (abstract). It fits adoption curves well retrospectively and has one of the largest empirical records of any model in this cluster (decades of marketing applications); early-data forecasting is unstable in p, q (well known; not sourced here).
 

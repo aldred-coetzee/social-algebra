@@ -43,7 +43,7 @@ read for any entry. Items I could not confirm are in "Unconfirmed" at the end.
   message-sending and receiving nodes; messages themselves.
 - **Operators (translated).** Send, receive, feed back, adjust. Formal
   structure: none in this book. It is a popular, informal exposition; the
-  mathematics lives in his other work (not examined here).
+  mathematics lives in his other work (not examined here). [from abstract/standard account]
 - **Predictive/control claim.** Not a predictive claim. A framing claim:
   social order is maintained by communication loops, and breakdown of
   communication is breakdown of order. He warns about automation and about
@@ -70,7 +70,7 @@ read for any entry. Items I could not confirm are in "Unconfirmed" at the end.
 - **Operators.** A regulator's response is a function of the disturbance.
   Formal and exact: with variety V = log2(number of states), V_O >= V_D - V_R.
   Entropy form: H(E) >= H(D) - H(R). Derived for a two-player game in which
-  the regulator sees the disturbance and plays a deterministic strategy.
+  the regulator sees the disturbance and plays a deterministic strategy. [from abstract/standard account]
 - **Predictive/control claim.** A necessary condition: a controller cannot
   reduce outcome variety below disturbance variety minus its own. "Necessary,
   not sufficient." It is a theorem about a model, not an empirical claim
@@ -104,7 +104,7 @@ read for any entry. Items I could not confirm are in "Unconfirmed" at the end.
   VSM is presented with principles, axioms, a recursive system theorem and a
   law of cohesion, and a triple measure (actuality, capability, potentiality)
   with derived ratios. It is a rule-based design framework, not a calculus
-  with defined composition.
+  with defined composition. [from abstract/standard account]
 - **Predictive/control claim.** Any viable organisation must contain these
   five functions (claimed). Cybersyn: CHECO (economic simulator), Cyberstride
   (factory monitoring), Cybernet (telex), Opsroom, built 1971-73. In use,
@@ -122,85 +122,20 @@ read for any entry. Items I could not confirm are in "Unconfirmed" at the end.
   recursion. Recursion (a group member is itself a group) is something the
   algebra must decide on early.
 
-## 4. Lefebvre: reflexive game theory and reflexive control
+## 4. Lefebvre: reflexive control (doctrine)
 
+- **See 03 §3** for Lefebvre's algebra (reflexive game theory, the Boolean
+  alliance/conflict polynomial, decision equation, the two ethical systems).
+  Unique to this file's angle: the military doctrine below.
 - **Citations.**
-  - V. A. Lefebvre, *Algebra of Conscience: A Comparative Analysis of Western
-    and Soviet Ethical Systems*. Dordrecht: D. Reidel, 1982; 2nd expanded
-    edition Kluwer, 2001. Springer record: https://link.springer.com/978-90-481-5751-8
-    and https://link.springer.com/978-0-7923-7121-2
-  - V. A. Lefebvre, *Lectures on the Reflexive Games Theory*. Los Angeles:
-    Leaf & Oaks, 2010 (Russian edition Moscow: Cogito-Centre, 2009). Not read;
-    cited as the primary source by Tarasenko.
-  - V. A. Lefebvre, "Reflexive analysis of groups", in S. Argamon and N. Howard
-    (eds.), *Computational Methods for Counterterrorism*, Springer, 2009,
-    pp. 173-210.
-  - V. A. Lefebvre, "Sketch of Reflexive Game Theory" (1998), US Army Research
-    Laboratory conference paper. https://web-archive.southampton.ac.uk/cogprints.org/741/index.html
-    (listing seen in search; the page itself returned 403 to the fetcher).
   - Timothy L. Thomas, "Russia's Reflexive Control Theory and the Military",
     *Journal of Slavic Military Studies* 17(2): 237-256 (2004).
     DOI 10.1080/13518040490450529 (DOI as given on the Wikipedia reflexive
     control page; the procon.bg listing gives volume and pages with no DOI,
     and links the PDF at www.rit.edu/~cmmc/conferences/2007/literature/Thomas_2004.pdf).
-  - Follow-on formal work by Sergey Tarasenko, e.g. "The Inverse Task of the
-    Reflexive Game Theory: Theoretical Matters, Practical Applications and
-    Relationship with Other Issues", arXiv:1011.3397 (2010) (full text read by
-    the validator; the formalism below is from its section 2);
-    "Emotionally Colorful Reflexive Games", arXiv:1101.0820 (2010);
-    also arXiv:1203.2315, 1504.04811 (abstracts only).
-  - Stuart A. Umpleby, "Vladimir Lefebvre's Theory of Two Systems of Ethical
-    Cognition", *Journal of Systemics, Cybernetics and Informatics* 14(5),
-    2016. https://www.iiisci.org/Journal/PDV/sci/pdfs/IP020LL16.pdf (read).
-- **Their vocabulary.** Reflexion, reflexive control, influence, alliance,
-  conflict, frustration, decision equation, conscience, ethical systems.
-- **Operands (translated).** Subjects (agents) in a group; each subject's
-  possible choices, modelled as elements of a Boolean algebra built on a set
-  of universal actions (3 actions give 8 elements); each subject's image of
-  the other subjects.
-- **Operators (translated).** As stated in Tarasenko (arXiv:1011.3397, §2),
-  following Lefebvre's *Lectures*:
-  - The group is a complete graph whose edges are either alliance (solid) or
-    conflict (dashed). **Alliance is conjunction (multiplication, ·);
-    conflict is disjunction (summation, +).** A graph is turned into a
-    polynomial only if it is *decomposable*; a graph containing a subgraph
-    isomorphic to the four-subject graph of Tarasenko's Fig. 1a is not, and
-    subjects are then removed one by one (by importance) until it is.
-    (Validator's note, not from the source: that forbidden graph appears to
-    be the induced four-vertex path P4, which would make decomposable graphs
-    exactly the cographs; worth checking against Batchelder & Lefebvre,
-    *J. Math. Psych.* 26: 124-148, 1982.) Every three-subject graph is
-    decomposable. Example: a allied with b and c, b and c in conflict, gives
-    a(b + c).
-  - The polynomial is stratified into a unique Polynomial Stratification
-    Tree, written as a "diagonal form", and folded using Lefebvre's
-    exponential operation P^W = P + W̄ (W̄ is negation). For a(b + c) the
-    folding gives a(b + c) + ā.
-  - Variables range over the Boolean algebra of subsets of a universal set
-    of n elementary actions (2^n alternatives; 0 = the empty set is
-    "inactivity").
-  - **Decision equation**: each subject's variable is set equal to the
-    folded form and brought to the canonical form **x = Ax + Bx̄**, where A
-    and B do not contain x (they are functions of the other subjects'
-    influences). It has a solution **iff A ⊇ B**, and then every x in the
-    interval **A ⊇ x ⊇ B** is a solution. If not, the subject is in
-    *frustration* (cannot decide).
-  - The *inverse task* (reflexive control) is to find the influences of
-    other subjects that make a target alternative the solution.
-  This is the nearest thing in this cluster to a social algebra with
-  operators and operands. Lefebvre's own text was still not read; the above
-  is from a collaborator's full paper citing it.
-- **Two ethical systems (Algebra of Conscience, 1982).** Per Umpleby 2016,
-  Lefebvre derives two systems from whether the combination rule in the
-  formal model is addition or multiplication. In the **first** (dominant in
-  the West, by his claim), a compromise between good and evil is evil: the
-  end does not justify the means, and saint and hero are the
-  compromise-seeking types. In the **second** (dominant in the USSR, by his
-  claim), a compromise between good and evil is good: the end justifies the
-  means, and saint and hero are the confronting types. Each crosses
-  compromise/confront with high/low self-esteem into four personalities
-  (saint, hero, philistine, dissembler). Which operation yields which system
-  was not confirmed from the primary text.
+  - V. A. Lefebvre, "Reflexive analysis of groups", in S. Argamon and N. Howard
+    (eds.), *Computational Methods for Counterterrorism*, Springer, 2009,
+    pp. 173-210.
 - **Doctrine side (Thomas 2004).** Reflexive control, as described: passing
   specially prepared information to an opponent so that the opponent
   voluntarily makes the decision the initiator wants. Komov's list of
@@ -209,20 +144,14 @@ read for any entry. Items I could not confirm are in "Unconfirmed" at the end.
   division, pacification, deterrence, provocation, suggestion, pressure
   (validator, from knowledge of Thomas 2004; not re-read).
   Informal, no formal model in the doctrine itself.
-- **Predictive/control claim.** Lefebvre's RGT is built to predict agents'
-  actual choices rather than to find optimal ones. The doctrine claims
-  decisions of an adversary can be steered by shaping the information that
-  feeds them. Examples cited (Operation Mincemeat, Cold War missile
-  disinformation) are anecdotes, not tests.
-- **How it held up.** I found no systematic empirical validation of RGT. One
-  critique seen in search results argues the Boolean approach ignores levels
-  of reflexion and treats agents as automata. Wikipedia notes some
-  publications call the theory pseudoscientific.
-- **Limits.** Small groups, discrete choices; no dynamics over time except
-  Tarasenko's multi-stage extension (abstract only).
-- **Relevance.** High. Shows a Boolean alliance/conflict algebra is already
-  published. Key lesson: operands include a subject's model of others, not
-  just the subject.
+- **Predictive/control claim.** The doctrine claims decisions of an
+  adversary can be steered by shaping the information that feeds them.
+  Examples cited (Operation Mincemeat, Cold War missile disinformation) are
+  anecdotes, not tests.
+- **How it held up.** No systematic empirical validation of RGT found; see 03 §3
+  for the critiques.
+- **Relevance.** High. Key lesson: operands include a subject's model of
+  others, not just the subject.
 
 ## 5. Forrester and the Meadows team: system dynamics
 
@@ -260,7 +189,7 @@ read for any entry. Items I could not confirm are in "Unconfirmed" at the end.
   stocks, composed into coupled differential or difference equations
   integrated on a computer (DYNAMO). Formal and exact as a model class.
   World3 was built on five variables: population, food production,
-  industrialisation, pollution, non-renewable resource use.
+  industrialisation, pollution, non-renewable resource use. [from abstract/standard account]
 - **Predictive/control claim.** Policies that look sensible can worsen
   outcomes (Urban Dynamics: low-income housing programmes and lower property
   taxes would worsen the shortage of jobs relative to population, per
@@ -311,7 +240,7 @@ read for any entry. Items I could not confirm are in "Unconfirmed" at the end.
   performance falls below aspiration; accept the first adequate option; use
   slack to absorb shocks. Mostly verbal, but the 1963 book does contain
   computer-simulation models (a duopoly model and a department-store
-  price-and-output model), so "informal" understates it.
+  price-and-output model), so "informal" understates it. [from abstract/standard account]
 - **Predictive/control claim.** Firms behave as satisficing coalitions, not
   profit maximisers. Mostly explanatory.
 - **Limits.** Seen by critics as unnecessarily complicated; some defend
@@ -337,7 +266,7 @@ read for any entry. Items I could not confirm are in "Unconfirmed" at the end.
 - **Operators.** A mechanism maps reported types to an outcome. Formal and
   exact. Incentive compatible if truthful reporting is optimal. Revelation
   principle: any equilibrium outcome can be reproduced by a direct truthful
-  mechanism. Implementation may be dominant-strategy or Bayesian-Nash.
+  mechanism. Implementation may be dominant-strategy or Bayesian-Nash. [from abstract/standard account]
 - **Predictive/control claim.** For a designer who can set the rules, desired
   outcomes can be made equilibria, under stated assumptions.
 - **Limits (formal).** Gibbard-Satterthwaite (Gibbard 1973, *Econometrica*
@@ -370,7 +299,7 @@ read for any entry. Items I could not confirm are in "Unconfirmed" at the end.
 - **Operators.** Set default, reorder or place options, pre-commit
   (Save More Tomorrow). Informal; defined as any aspect of choice
   architecture that alters behaviour predictably without forbidding options
-  or changing incentives much.
+  or changing incentives much. [from abstract/standard account]
 - **Predictive/control claim.** Presentation predictably shifts behaviour.
 - **How it held up.** Critics: Gigerenzer says the term has been stretched to
   cover almost anything, which makes it meaningless. The House of Lords
@@ -401,7 +330,7 @@ read for any entry. Items I could not confirm are in "Unconfirmed" at the end.
   speed) and cells holding a resource (sugar, later spice).
 - **Operators.** Local rules: move to the nearest rich cell, metabolise,
   reproduce, trade, fight, exchange cultural tags, transmit disease. Exact as
-  code; no algebra of the rules themselves.
+  code; no algebra of the rules themselves. [from abstract/standard account]
 - **Predictive/control claim.** Not prediction. The claim is generative: if a
   macro pattern can be grown from micro rules, the rules are a candidate
   explanation. Group formation, cultural transmission, combat and trade
@@ -415,41 +344,31 @@ read for any entry. Items I could not confirm are in "Unconfirmed" at the end.
   structures. A social algebra could be read as the specification language
   for such rules.
 
-## 10. Axelrod: cooperation tournaments and the culture model
+## 10. Axelrod: cooperation tournaments (culture model: see 05)
 
 - **Citations.**
   - R. Axelrod, "Effective Choice in the Prisoner's Dilemma", *Journal of
     Conflict Resolution* 24(1): 3-25 (1980).
   - R. Axelrod, *The Evolution of Cooperation*. New York: Basic Books, 1984.
-  - R. Axelrod, "The Dissemination of Culture: A Model with Local Convergence
-    and Global Polarization", *Journal of Conflict Resolution* 41(2): 203-226
-    (1997). DOI 10.1177/0022002797041002001.
   - Critique: A. Rapoport, D. A. Seale, A. M. Colman, "Is Tit-for-Tat the
     Answer? On the Conclusions Drawn from Axelrod's Tournaments", *PLoS ONE*
     10(7): e0134128 (2015). DOI 10.1371/journal.pone.0134128.
-- **Verified at.** https://journals.sagepub.com/doi/10.1177/0022002797041002001 ;
-  https://pmc.ncbi.nlm.nih.gov/articles/PMC4520619 (the critique, fetched).
+- **Verified at.** https://pmc.ncbi.nlm.nih.gov/articles/PMC4520619 (the critique, fetched).
   The 1980 and 1984 citations are as given in secondary sources in search
   results.
 - **Their vocabulary.** Strategy, iterated Prisoner's Dilemma, Tit for Tat,
-  culture as a vector of features and traits, local convergence, global
-  polarisation.
-- **Operands.** Strategies (programs); in the culture model, actors at fixed
-  sites each with a vector of cultural features.
+  tournament, payoff matrix. The culture model (Axelrod 1997) is in 05 §23.
+- **Operands.** Strategies (programs).
 - **Operators.** Tournament: pairwise iterated play with a payoff matrix.
-  Culture model: an actor interacts with a neighbour with probability
-  proportional to their cultural similarity, and on interaction adopts one
-  differing trait. Exact as an algorithm; it is a stochastic update rule.
+  Exact as an algorithm. [from abstract/standard account]
 - **Predictive/control claim.** Tit for Tat (cooperate first, then copy)
-  won both tournaments. Culture model: local convergence can produce global
-  polarisation; the number of stable regions varies with features, traits,
-  range of interaction and territory size (per abstract).
+  won both tournaments.
 - **How it held up.** Rapoport et al. report Tit for Tat won only 11.0% of
   re-run two-stage tournaments with the original 15 entries, versus 30.0% for
   another program, and that its success depends on format, success criterion
   and payoff values. So the "winning strategy" result is contingent.
-- **Relevance.** Compact examples of social operators (play, adopt a trait)
-  with agent-level similarity as the interaction kernel.
+- **Relevance.** A compact example of a social operator (iterated play). Culture-model
+  operator: see 05.
 
 ## 11. Limits of prediction: MusicLab and Fragile Families
 
@@ -477,33 +396,28 @@ read for any entry. Items I could not confirm are in "Unconfirmed" at the end.
   the paper's Fig. 3; treat the numbers as approximate). The MusicLab paper is
   *Science* 311(5762).
 - **Vocabulary and structure.** Empirical experiments, not formal models. No
-  operators proposed.
+  operators proposed. [from abstract/standard account]
 - **Relevance.** Sets the bar. These are the best-known empirical limits on
   prediction in social systems.
 
 ## 12. Cliodynamics and psychohistory
 
 - **Citations.** Isaac Asimov, *Foundation* series (fiction; cultural
-  reference only). Peter Turchin, *Historical Dynamics: Why States Rise and
-  Fall* (2003); Turchin and Nefedov, *Secular Cycles* (2009); Turchin,
-  "Dynamics of political instability in the United States, 1780-2010",
-  *Journal of Peace Research* 49(4): 577-591 (2012); Turchin, "Political
-  instability may be a contributor in the coming decade", *Nature* 463: 608
-  (2010), the forecast itself; Turchin, "Arise 'cliodynamics'", *Nature* 454:
-  34-35 (2008); Turchin and Korotayev, "The 2010 structural-demographic
-  forecast for the 2010-2020 decade: A retrospective assessment", *PLoS ONE*
-  15(8): e0237458 (2020) — published, not only a preprint. Princeton
-  University Press for both books. (Details from validator's knowledge.)
+  reference only). Turchin's books and model: **see 08 §3.** Forecast
+  papers kept here: Turchin, "Political instability may be a contributor in
+  the coming decade", *Nature* 463: 608 (2010); Turchin, "Arise
+  'cliodynamics'", *Nature* 454: 34-35 (2008); Turchin, "Dynamics of
+  political instability in the United States, 1780-2010", *Journal of Peace
+  Research* 49(4): 577-591 (2012); Turchin and Korotayev, "The 2010
+  structural-demographic forecast for the 2010-2020 decade: A retrospective
+  assessment", *PLoS ONE* 15(8): e0237458 (2020) — published, not only a
+  preprint. (Details from validator's knowledge.)
 - **Verified at.** https://en.wikipedia.org/wiki/Cliodynamics ;
   https://peterturchin.com/the-science-behind-my-forecast-for-2020/ ;
   https://today.uconn.edu/2016/12/using-social-science-to-predict-the-future
   (all via search results or summaries; none read in full).
-- **Their vocabulary.** Secular cycle, structural-demographic theory, elite
-  overproduction, instability, historical database.
-- **Operands.** Population, elites, state finances, social stress.
-- **Operators.** Coupled equations among those aggregates. The Wikipedia page
-  says theories are translated into mathematical models but shows no
-  equations, so the exact form is unconfirmed here.
+- **Vocabulary, operands, operators.** See 08 §3 (Turchin's coupled aggregate
+  equations); this entry covers the psychohistory framing and the 2010 forecast only.
 - **Predictive claim.** In 2010, a ~50-year instability cycle (peaks around
   1870, 1920, 1970) pointed to roughly 2020 as a period of rising instability
   in the US and Western Europe.
@@ -591,7 +505,7 @@ read for any entry. Items I could not confirm are in "Unconfirmed" at the end.
 - **Operators on relationships.** Mostly the relationship is a parameter
   (alliance edge, payoff), not an object that operators create, destroy or
   transform. Roles as operands, and operations that change roles, are weakly
-  represented.
+  represented. [from abstract/standard account]
 - **Group-level mechanics with individual detail.** System dynamics erases
   individuals; agent models erase group structure unless it is coded in.
 - **Validation.** I found almost no out-of-sample tests of any model. Limits

@@ -45,7 +45,7 @@ orientation, not review.
   Relations*, 1(1), 5-41. DOI 10.1177/001872674700100103.
 - Lewin, K. (1951). *Field Theory in Social Science: Selected Theoretical
   Papers* (D. Cartwright, ed.). Harper & Row. (Record confirmed via
-  reviews: 10.2307/2087618, 10.1086/638467; the book itself has no DOI
+  reviews: 10.2307/2087618, 10.1086/638467 (DOI of review/reprint, not of the book); the book itself has no DOI
   found.)
 
 **Their vocabulary.** Life space, regions, boundaries, paths/locomotion,
@@ -63,7 +63,7 @@ adding a driving force or removing a restraining force. Lewin's topology
 was borrowed from mathematical topology (regions, connectedness,
 boundaries) and he explicitly aimed at vectors; it is formal in *intent*
 and notation but was never developed into a calculus other people could
-compute with. Treat as a diagram language with a physics metaphor.
+compute with. Treat as a diagram language with a physics metaphor. [from abstract/standard account]
 
 **Predictive/control claim.** Behaviour is determined by the field at that
 moment; change a group by shifting force balance, more effectively by
@@ -101,7 +101,7 @@ edges.
 **Operators (translated).** Essentially none. Sociometry is a *measurement
 and representation* scheme: it fixes what a state looks like (a directed
 signed graph), not what changes it. The sociogram is among the earliest
-network drawings. Formality: a data model, no dynamics.
+network drawings. Formality: a data model, no dynamics. [from abstract/standard account]
 
 **Predictive/control claim.** The sociometric work was done at the New York
 Training School for Girls, Hudson (with Helen Jennings; presented publicly
@@ -140,7 +140,7 @@ collective modes; a leader figure the mode attaches to.
 **Operators (translated).** Mode switches (the group slides from one basic
 assumption to another); the "valency" of individuals to be drawn into a
 mode. Pure typology plus a clinical-theoretical narrative; no formal
-structure.
+structure. [from abstract/standard account]
 
 **Predictive/control claim.** Groups predictably take on one of the three
 emotional stances regardless of stated task, and these displace work.
@@ -171,7 +171,7 @@ and a task-activity face.
 **Operands (translated).** The group as a whole at a stage.
 
 **Operators (translated).** A fixed linear sequence. No operators on
-individuals; the only "move" is advancing a stage.
+individuals; the only "move" is advancing a stage. [from abstract/standard account]
 
 **Predictive/control claim.** Groups pass through the stages in order.
 Standing: a literature review and synthesis (reportedly of roughly 50
@@ -191,7 +191,7 @@ stage-like behaviour, not assume it.
 
 - Belbin, R. M. (1981). *Management Teams: Why They Succeed or Fail*.
   Heinemann. (Reviews: 10.1111/j.1467-9310.1982.tb00500.x,
-  10.2307/2581652.)
+  10.2307/2581652; DOI of review/reprint, not of the book.)
 - Evaluation: Aritzeta, A., Swailes, S., & Senior, B. (2007). Belbin's team
   role model: development, validity and applications for team building.
   *Journal of Management Studies*, 44(1), 96-118. DOI
@@ -207,7 +207,7 @@ current commercial form, not the 1981 model.
 **Operands.** Persons typed by preferred role profile.
 
 **Operators.** None; roles are *dispositions*, not moves. The implied
-operation is composition of a team from role types (balance rule).
+operation is composition of a team from role types (balance rule). [from abstract/standard account]
 
 **Predictive/control claim.** Balanced role mixes yield better teams.
 Standing: the 2007 review (43 studies) finds adequate convergent validity
@@ -227,11 +227,11 @@ source of operators.
 
 - Berne, E. (1964). *Games People Play: The Psychology of Human
   Relationships*. Grove Press. (Contemporary review confirmed:
-  10.1080/00207284.1965.11642867; I did not confirm publisher details
+  10.1080/00207284.1965.11642867 (DOI of review/reprint, not of the book); I did not confirm publisher details
   from a primary record.)
 - Berne, E. (1961). *Transactional Analysis in Psychotherapy*. Grove Press.
   (Not independently confirmed; ego-state theory is documented in
-  10.4324/9780203753996-10.)
+  10.4324/9780203753996-10 (DOI of review/reprint, not of the book: a later book chapter).)
 
 **Their vocabulary.** Ego states Parent/Adult/Child; transaction (stimulus
 and response between ego states); complementary, crossed and ulterior
@@ -255,7 +255,7 @@ it; (3) the behavioural outcome of an ulterior transaction is decided at
 the psychological, not the social, level. (Rule wording via secondary TA
 teaching material; consistent with Berne 1964.) Games are named sequences of such moves (e.g. a stated number of
 published named games). Formality: a diagrammatic notation (arrows between
-three circles), not mathematics; no quantities.
+three circles), not mathematics; no quantities. [from abstract/standard account]
 
 **Predictive/control claim.** Crossed transactions end communication;
 games repeat with predictable payoffs; intervene by changing the ego state
@@ -290,7 +290,7 @@ Drama Triangle, plus a Role Diagram and Location Diagram.
 **Operators.** The *switch* (a person moves to another corner, typically
 after the others do) and the pairwise stances. Formality: a labelled
 triangle with transitions; a three-state-per-person state machine in
-effect, never axiomatised.
+effect, never axiomatised. [from abstract/standard account]
 
 **Predictive/control claim.** Roles are unstable and switch predictably
 (rescuer becomes persecutor); step out by adopting a non-corner role.
@@ -315,7 +315,7 @@ a periodic orbit?
   the Sacred*. (Not independently confirmed bibliographically.)
 - Reconstruction: Livingston, P. (1992). *Models of Desire: Rene Girard
   and the Psychology of Mimesis*. Johns Hopkins UP. (Reviews confirmed:
-  10.2307/1771634, 10.1017/S0012217300011252.)
+  10.2307/1771634, 10.1017/S0012217300011252; DOI of review/reprint, not of the book.)
 
 **Their vocabulary.** Mimetic desire (desire borrowed from a model),
 triangular desire (subject, model, object), rivalry, contagion,
@@ -329,7 +329,7 @@ Entirely verbal and literary-anthropological; secondary sources note he
 never gave a systematic presentation, and that Livingston was the first
 rigorous reconstruction. The structure (positive feedback in reciprocal
 imitation, collapse into a single target) is easy to formalise as a
-dynamical system but he did not.
+dynamical system but he did not. [from abstract/standard account]
 
 **Predictive/control claim.** Mimetic rivalry spreads and resolves via
 scapegoating; societies are held together by this mechanism. Standing:
@@ -348,10 +348,10 @@ collapses a many-to-many conflict into many-to-one. Worth a sketch.
 ## 9. Thibaut & Kelley: interdependence theory
 
 - Thibaut, J. W., & Kelley, H. H. (1959). *The Social Psychology of
-  Groups*. Wiley. (Reprint DOI 10.4324/9781315135007.)
+  Groups*. Wiley. (Reprint DOI 10.4324/9781315135007; DOI of review/reprint, not of the book.)
 - Kelley, H. H., & Thibaut, J. W. (1978). *Interpersonal Relations: A
   Theory of Interdependence*. Wiley. (Review records only: 10.2307/351281,
-  10.1093/sw/25.3.245.)
+  10.1093/sw/25.3.245; DOI of review/reprint, not of the book.)
 - Kelley, H. H., Holmes, J. G., Kerr, N. L., Reis, H. T., Rusbult, C. E.,
   & Van Lange, P. A. M. (2003). *An Atlas of Interpersonal Situations*.
   Cambridge UP. DOI 10.1017/CBO9780511499845 (print 2003, confirmed by the
@@ -380,7 +380,7 @@ Atlas builds every 2x2 pattern from three base patterns: bilateral actor
 control, mutual partner control, and corresponding or conflicting mutual
 joint control. This is, in effect, a two-way ANOVA decomposition of the
 payoff matrix (row effect, column effect, interaction), the same shape as
-Kenny's SRM below.
+Kenny's SRM below. [from abstract/standard account]
 
 **Six situation dimensions** (Rusbult & Van Lange 2003; the count is
 confirmed by the abstract, the names from the verifier's knowledge of that
@@ -411,7 +411,7 @@ not necessarily Kelley & Thibaut's own. All but MinDiff are weighted linear
 combinations of own and other outcomes (w_own, w_other), so they form a
 one-parameter family (an angle in outcome space); MinDiff is not linear.
 Kelley & Thibaut also describe *sequential* (temporal) transformations,
-which act on sequences of choices rather than single cells.
+which act on sequences of choices rather than single cells. [from abstract/standard account]
 
 **Predictive/control claim.** Behaviour in a situation is predicted from the
 structure of the situation plus transformation dispositions; relationship
@@ -453,7 +453,7 @@ relationship effect unique to i toward j, and m the group mean (which
 becomes a group effect when several groups are studied). Reciprocity is
 read off two covariances: generalised (a_i with b_i) and dyadic (g_ij with
 g_ji). Statistical model (ANOVA-family), fully formal, but a *measurement*
-model.
+model. [from abstract/standard account]
 
 **Predictive/control claim.** Tells you how much of A's behaviour toward B
 is A's trait, B's evoking power, or the pair's unique fit, and how much is
@@ -472,7 +472,7 @@ data later, not for defining them.
 - French, J. R. P., Jr., & Raven, B. (1959). The bases of social power. In
   D. Cartwright (Ed.), *Studies in Social Power* (pp. 150-167). Institute
   for Social Research, University of Michigan. (Chapter reprint record:
-  10.2307/jj.12381759.38, a 1986 reprint in *Political Leadership*,
+  10.2307/jj.12381759.38 (DOI of review/reprint, not of the book), a 1986 reprint in *Political Leadership*,
   pp. 300-318; the 1959 volume has no DOI found.)
 - Measurement critique: Hinkin & Schriesheim (1989). 10.1037/0021-9010.74.4.561.
 
@@ -485,7 +485,7 @@ the agent leverage.
 
 **Operators.** Influence attempts grounded in a base (offer reward, threaten
 punishment, invoke authority, appeal to identification, cite expertise).
-Typology of *sources of leverage*, not a formal system.
+Typology of *sources of leverage*, not a formal system. [from abstract/standard account]
 
 **Predictive/control claim.** Different bases produce different
 durability/internalisation of compliance (referent and expert more
@@ -524,7 +524,7 @@ contests, ceremonials, technical redoings, regroundings. (The keying and
 fabrication definitions match Goffman's own wording; the survey attributed
 them to "Davis & Gamson 1975", which is two separate reviews of *Frame
 Analysis* in *Contemporary Sociology* 4(6): Davis, pp. 599-603, DOI
-10.2307/2064021; Gamson, pp. 603-607, DOI 10.2307/2064022.)
+10.2307/2064021; Gamson, pp. 603-607, DOI 10.2307/2064022; these are DOIs of reviews, not of the book.)
 
 **Operands.** Activities / strips of interaction with a frame (a
 meaning-assignment), and participants' face.
@@ -534,7 +534,7 @@ frames*, with stated structure (a keying can be re-keyed, so layers stack).
 Face-work moves (avoidance, correction, repair) act on the status of faces.
 Closest to Kelley & Thibaut's transformation in spirit: an operator that
 changes the interpretation of the situation. Not formalised; the layering
-looks algebraic (iterated keying) but is only described.
+looks algebraic (iterated keying) but is only described. [from abstract/standard account]
 
 **Predictive/control claim.** Little prediction; analytic and descriptive.
 Standing: a foundation for framing research in sociology and media studies.
@@ -572,7 +572,7 @@ self-select (first starter gets the turn), otherwise (c) the current
 speaker may, but need not, continue; and (rule 2) if (c) applies, the set
 re-applies at the next TRP, recursively. First pair
 parts create a conditional relevance for a matching second pair part.
-This reads as a small production system, though stated in prose.
+This reads as a small production system, though stated in prose. [from abstract/standard account]
 
 **Predictive/control claim.** Predicts the distribution of gaps/overlaps
 and where turn transitions occur; deviations are accountable. Standing:
@@ -610,7 +610,7 @@ the "positioning triangle."
 **Operators.** Positioning acts: assigning or accepting/rejecting a
 position (first-order), contesting it (second-order), and so on.
 Descriptive; the triangle (position-act-storyline) is a conceptual
-dependence structure, not a calculus.
+dependence structure, not a calculus. [from abstract/standard account]
 
 **Predictive/control claim.** Little predictive; used as an analytic lens
 (discourse analysis, public relations). Standing: qualitative and
@@ -645,7 +645,7 @@ emotional energy and symbols.
 **Operators.** An encounter is the unit operation; it produces or drains
 emotional energy and charges symbols. Verbal theory; sociologists have
 called it a "model" because outcomes are directional, but there is no
-mathematics.
+mathematics. [from abstract/standard account]
 
 **Predictive/control claim.** Successful rituals raise energy and
 solidarity; failed ones drain it; individuals gravitate to encounters that
@@ -667,10 +667,6 @@ a state variable; also links micro encounters to macro structure.
   Mathematical Biophysics*, 13, 1-19. DOI 10.1007/BF02478336 (Crossref,
   pp. 1-19). Part II: 13(4), 245-262, DOI 10.1007/BF02477920. Landau
   (1968) Models of social structure, 30, 215-224, DOI 10.1007/BF02476691.
-- de Vries, H. (1995). An improved test of linearity in dominance
-  hierarchies containing unknown or tied relationships. *Animal
-  Behaviour*, 50(5), 1375-1389. DOI 10.1016/0003-3472(95)80053-0.
-  (Introduces h', which handles unknown and tied dyads.)
 - Chase, I. D. (1982). Dynamics of hierarchy formation: the sequential
   development of dominance relationships. *Behaviour*, 80, 218-239. DOI
   10.1163/156853982X00364. (The original jigsaw-puzzle model.)
@@ -680,11 +676,6 @@ a state variable; also links micro encounters to macro structure.
 - Chase, I. D., Bartolomeo, C., & Dugatkin, L. A. (1994). Aggressive
   interactions and inter-contest interval: how long do winners keep
   winning? *Animal Behaviour*, 48, 393-400. DOI 10.1006/anbe.1994.1253.
-- Chase, I. D. (1974). Models of hierarchy formation in animal societies.
-  *Behavioral Science*, 19(6), 374-382. DOI 10.1002/bs.3830190604.
-- Chase, I. D. (1980). Social process and hierarchy formation in small
-  groups: a comparative perspective. *American Sociological Review*,
-  45(6), 905-924. DOI 10.2307/2094909.
 - Chase, I. D., Tovey, C., Spangler-Martin, D., & Manfredonia, M. (2002).
   Individual differences versus social dynamics in the formation of animal
   dominance hierarchies. *PNAS*, 99(8), 5744-5749. DOI
@@ -692,9 +683,8 @@ a state variable; also links micro encounters to macro structure.
 - Chase, I. D., & Seitz, K. (2011). Self-structuring properties of
   dominance hierarchies. *Advances in Genetics*, 75, 51-81. DOI
   10.1016/B978-0-12-380858-5.00001-0.
-- Dugatkin, L. A. (1997). Winner and loser effects and the structure of
-  dominance hierarchies. *Behavioral Ecology*, 8(6), 583-587. DOI
-  10.1093/beheco/8.6.583.
+(Entries for de Vries 1995, Chase 1974 and 1980, and Dugatkin 1997 were
+dropped as unused by this entry.)
 
 **Their vocabulary.** Dyadic dominance relation, tournament, transitive
 (linear) hierarchy, Landau's h (linearity index; formula h = 12/(n^3 - n) *
@@ -726,7 +716,7 @@ only from who would win. Genuinely formal: tournament graph theory plus
 stochastic processes. Landau (1951, I) showed that inherent
 characteristics alone produce linear hierarchies only when ability
 differences are implausibly large, which is what opened the door to
-social-dynamics explanations.
+social-dynamics explanations. [from abstract/standard account]
 
 **Predictive/control claim.** Linear hierarchies form much faster than
 random contests would allow, and the Chase 2002 PNAS finding (abstract
@@ -763,7 +753,7 @@ with state-updating (winner/loser effect) producing macro structure.
 - Turner, J. C., Hogg, M. A., Oakes, P. J., Reicher, S. D., & Wetherell,
   M. S. (1987). *Rediscovering the Social Group: A Self-Categorization
   Theory*. Blackwell. (Reviews confirmed: 10.2307/2073157,
-  10.1086/229205.)
+  10.1086/229205; DOI of review/reprint, not of the book.)
 
 **Their vocabulary.** Social categorisation, social identity, social
 comparison, positive distinctiveness; minimal group paradigm; in SCT,
@@ -777,7 +767,7 @@ out-group).
 personal and group-level identity. Verbal theory plus experiment. SCT has
 a "meta-contrast principle" that is quasi-formal (categories form to
 maximise between-group relative to within-group difference), but I did not
-confirm the exact statement.
+confirm the exact statement. [from abstract/standard account]
 
 **Predictive/control claim.** Mere categorisation produces in-group bias
 even in minimal groups (Tajfel's Bristol studies, per secondary
@@ -855,9 +845,9 @@ Verbal, but gives a conserved-quantity-style state variable for leaders.
 ### Homans, Blau: exchange theory
 
 - Blau, P. M. (1964). *Exchange and Power in Social Life*. Wiley.
-  (Reprint DOI 10.4324/9780203792643.)
+  (Reprint DOI 10.4324/9780203792643; DOI of review/reprint, not of the book.)
 - Homans, G. C. (1961). *Social Behavior: Its Elementary Forms*. (Record
-  seen only as a review: 10.2307/2576649.)
+  seen only as a review: 10.2307/2576649; DOI of review/reprint, not of the book.)
 
 Out of scope for this cluster's search depth; flagged as important
 neighbours of interdependence theory (exchange as the operator). Probably
@@ -899,7 +889,7 @@ belongs in the sociology/economics cluster.
   boundaries were set by clinicians or consultants, not derived, and whose
   empirical standing ranges from mixed (Belbin) to untested (Karpman).
   French & Raven is a typology of *sources* of leverage, which is fair;
-  it is still the most usable of these as a list of influence-move types.
+  it is still the most usable of these as a list of influence-move types. [from abstract/standard account]
 - **Few frameworks say what changes the state.** Moreno, Kenny, and Heider
   describe a state; Lewin, Collins and Girard describe change only in prose.
 - **Composition is mostly absent.** Only Goffman's stacked keyings and
@@ -943,13 +933,10 @@ against Crossref unless noted.
   (similar on warmth, reciprocal on dominance). An operator with an
   expected response, like an adjacency pair but on content.
 - **Emerson, R. M. (1962). Power-dependence relations. *American
-  Sociological Review*, 27(1), 31-41. DOI 10.2307/2089716.** Power of A
-  over B equals B's dependence on A, with named balancing operations. The
-  exchange-theory neighbour of interdependence theory.
+  Sociological Review*, 27(1), 31-41. DOI 10.2307/2089716.** See 03 §8.
 - **French, J. R. P., Jr. (1956). A formal theory of social power.
-  *Psychological Review*, 63(3), 181-194. DOI 10.1037/h0046123.** Opinion
-  averaging over an influence digraph; precursor of DeGroot. Likely
-  covered in cluster 05, but it is the formal companion to French & Raven.
+  *Psychological Review*, 63(3), 181-194. DOI 10.1037/h0046123.** See 05 §1
+  (and Harary 1959, 05 §2). Formal companion to French & Raven (§11).
 - **Berger, J., Fisek, M. H., Norman, R. Z., & Zelditch, M. (1977).
   *Status Characteristics and Social Interaction*. Elsevier** (no DOI
   checked). Expectation states theory, with a graph-theoretic model of how
@@ -983,6 +970,30 @@ meta-contrast ratio (mean inter-category difference over mean
 intra-category difference, Turner et al. 1987); Bion 1961 Tavistock,
 Berne 1964 and 1961 Grove Press, Goffman 1974 Harper & Row; Tuckman's
 review of about 50 articles.
+
+## Sociological role theory: Linton, Merton, Biddle (§role theory)
+
+- Linton, R. (1936). *The Study of Man*. New York: Appleton-Century. (Status/role definitions known only second-hand, via Merton 1957.)
+- Merton, R. K. (1957). "The Role-Set: Problems in Sociological Theory." *British Journal of Sociology* 8(2): 106–120. DOI 10.2307/587363 [Crossref-checked]. Full text: https://home.uevora.pt/~eje/ROLESET.HTM
+- Biddle, B. J. (1986). "Recent developments in role theory." *Annual Review of Sociology* 12: 67-92. DOI 10.1146/annurev.so.12.080186.000435 (confirmed by search).
+
+**Their vocabulary**: status (position in a social system, with designated rights and obligations); role (behaviour oriented to the patterned expectations attached to a status); role-set; status-set; role conflict; consensus; conformity; role taking.
+
+**Operands**: positions (statuses) and the persons who occupy them. A person holds several statuses (status-set); each status carries several roles toward different counter-positions (role-set).
+
+**Operators** and structure:
+- Occupancy: person -> status, one person to many statuses [from standard account].
+- Status -> role-set: the complement of role relationships a person has because they occupy one status (Merton) [read, via Wikipedia and the Évora text]. A status is thus a bundle of relations to counter-positions (teacher to pupil, to parent, to colleague).
+- Role conflict: incompatible expectations within a role-set or across a status-set [from standard account].
+- Biddle sorts the field into five perspectives: functional, symbolic interactionist, structural, organizational, cognitive; and four derived concepts: consensus, conformity, role conflict, role taking [from abstract/search summary].
+
+**Limits**: Descriptive and verbal. No composition of roles, no calculus of what one role-holder does to another; "expectation" is the only relation and is left informal. Linton and Merton were not read directly. Biddle's review was not read beyond its summary. Later network work (White, Lorrain, Boorman) formalises exactly what this tradition leaves informal.
+
+**Relevance to social-algebra**: This is the vocabulary check. Status/role is the operand layer (positions and role-sets are what the algebra's operands should be able to express), and Merton's role-set gives a ready account of one operand carrying a bundle of typed relations to counter-operands. The tradition supplies no operators, so the algebra has to supply them; the role-conflict notion is a candidate for a consistency condition between operators.
+
+Unconfirmed: Linton's definitions at source; the content of Biddle beyond the summary; whether Biddle discusses formal/network role models.
+
+_Added 2026-10-29 after the second pass, on next-pattern's direction; this entry has not itself been second-passed. Provenance tags as marked._
 
 ## Validation log (2026-10-29)
 

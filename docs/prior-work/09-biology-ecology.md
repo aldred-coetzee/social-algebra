@@ -26,7 +26,7 @@ Works listed: 22 main entries. After validation, six formerly unconfirmed items 
 - Longer treatment: Maynard Smith 1974, "The Theory of Games and the Evolution of Animal Conflicts", J Theor Biol 47(1), 209-221, DOI 10.1016/0022-5193(74)90110-6. Book: Maynard Smith, Evolution and the Theory of Games, Cambridge University Press, 1982. Role asymmetry and Bourgeois: Maynard Smith and Parker, "The logic of asymmetric contests", Animal Behaviour 24, 159-175 (1976).
 - **Their vocabulary**: strategy, evolutionarily stable strategy (ESS), payoff as fitness, "limited war". The 1973 paper's simulated strategies are Mouse, Hawk, Bully, Retaliator and Prober-Retaliator. The two-strategy Hawk-Dove game with V and C is the later simplification (1974 paper, 1982 book), and Bourgeois comes from the asymmetric-contest work (1976, 1982), not from this paper. (Validation correction; the earlier text attributed Dove and Bourgeois to 1973.)
 - **Operands (translated)**: behavioural types (strategies) in a population; contests are between two role-symmetric individuals.
-- **Operators (translated)**: the payoff matrix E(i,j) = expected fitness change to a type-i player meeting a type-j player. Hawk-Dove (1974/1982 form) with value V and injury cost C: HH = (V-C)/2, HD = V, DH = 0, DD = V/2. The ESS condition is a stability test on the matrix: a strategy I is an ESS if, for every mutant J, E(I,I) > E(J,I) or (E(I,I) = E(J,I) and E(I,J) > E(J,J)). Mixed ESS for C > V is Hawk with probability V/C.
+- **Operators (translated)**: the payoff matrix E(i,j) = expected fitness change to a type-i player meeting a type-j player. Hawk-Dove (1974/1982 form) with value V and injury cost C: HH = (V-C)/2, HD = V, DH = 0, DD = V/2. The ESS condition is a stability test on the matrix: a strategy I is an ESS if, for every mutant J, E(I,I) > E(J,I) or (E(I,I) = E(J,I) and E(I,J) > E(J,J)). Mixed ESS for C > V is Hawk with probability V/C. [from abstract/standard account]
 - **Predictive/control claim**: predicts that contests are usually limited (ritualised) rather than escalated, and gives equilibrium mixtures. Held up qualitatively across many species; quantitative fits are mixed, because real contests have assessment, role asymmetry and repeated play that the base matrix omits. It does not by itself give control; it says which interaction rules are stable against invasion, which is a design constraint.
 - **Limits**: well-mixed population, pairwise encounters, fixed strategy sets, fitness as the only currency.
 - **Relevance**: the cleanest existing algebra-shaped object: a finite set of types, a bilinear interaction operator, a stability criterion. For humans the matrix is not fitness but whatever the group values; the move is to treat payoffs as an editable per-group parameter. What it lacks is composition: the matrix handles one encounter type, with no way to chain or nest interactions. Note that role asymmetry (owner vs intruder in Bourgeois) is already in the 1976/1982 theory, so "operand = type in a role" has a biological precedent.
@@ -37,7 +37,7 @@ Works listed: 22 main entries. After validation, six formerly unconfirmed items 
 - Note: one library record (Vidal) gives vol 16, pp 76-83, which search showed to be wrong for this paper.
 - **Their vocabulary**: game dynamics, replicator equation, stable point vs ESS.
 - **Operands**: the frequency vector x over strategies (a point on the simplex).
-- **Operators**: ODE dx_i/dt = x_i [ (Ax)_i - x^T A x ], where A is the payoff matrix. The payoff matrix is the generator; the replicator equation is the flow it induces. (The name "replicator equation" was coined later, by Schuster and Sigmund 1983; Taylor and Jonker call it game dynamics.) Search confirmed the paper shows an ESS is stable under the continuous dynamic given a non-degeneracy condition, that the discrete version can fail by overshoot, and that dynamically stable points need not be ESS.
+- **Operators**: ODE dx_i/dt = x_i [ (Ax)_i - x^T A x ], where A is the payoff matrix. The payoff matrix is the generator; the replicator equation is the flow it induces. (The name "replicator equation" was coined later, by Schuster and Sigmund 1983; Taylor and Jonker call it game dynamics.) Search confirmed the paper shows an ESS is stable under the continuous dynamic given a non-degeneracy condition, that the discrete version can fail by overshoot, and that dynamically stable points need not be ESS. [from abstract/standard account]
 - **Predictive/control claim**: gives trajectories and fixed points of type frequencies. Strong as mathematics; as a description of real populations it assumes inheritance of strategy and random mixing.
 - **Limits**: no structure (who meets whom), no memory, no individuals.
 - **Relevance**: converts a static interaction table into dynamics. For social-algebra this is the template for "later model interactions": define operator tables first, then derive the flow.
@@ -45,12 +45,7 @@ Works listed: 22 main entries. After validation, six formerly unconfirmed items 
 ### A3. Axelrod and Hamilton 1981, "The Evolution of Cooperation"
 
 - Citation: R. Axelrod and W. D. Hamilton, Science 211(4489), 1390-1396 (27 Mar 1981). DOI 10.1126/science.7466396.
-- **Vocabulary**: iterated Prisoner's Dilemma, tit-for-tat, tournament, ESS.
-- **Operands**: strategies as finite-memory rules (functions from past history to move).
-- **Operators**: the repeated game; a strategy is itself an operator on the opponent's history. Payoffs T > R > P > S with 2R > T + S.
-- **Claim**: reciprocity-based cooperation can emerge and persist among egoists given enough future interaction (per the abstract as reproduced by search). Held up as a result about repeated games; the empirical claim that tit-for-tat is robustly best did not hold up against noise (later work found more forgiving strategies better; stated from general knowledge, not checked here).
-- **Limits**: pairwise, symmetric, discrete moves.
-- **Relevance**: strategies as operators acting on histories is the one place biology gives operators-as-first-class-objects rather than mere payoffs. Transfers readily to human dyads.
+- See 07 §10 for the tournaments (iterated PD, tit-for-tat, payoff ordering). Unique to this angle: the biological framing, with reciprocity and ESS tied to kin selection (B1), and Trivers (A4) as the mechanism.
 
 ### A4. Trivers 1971, "The Evolution of Reciprocal Altruism"
 
@@ -79,7 +74,7 @@ Works listed: 22 main entries. After validation, six formerly unconfirmed items 
 - Citation: G. R. Price, Nature 227, 520-521 (1970). DOI 10.1038/227520a0. https://www.doi.org/10.1038/227520A0. Multilevel extension: Price 1972, "Extension of covariance selection mathematics", Annals of Human Genetics 35, 485-490. Overview: S. A. Frank, "George Price's contributions to evolutionary genetics", J Theor Biol 175, 373-388 (1995), https://stevefrank.org/reprints-pdf/95JTB-Price.pdf (confirmed in validation).
 - **Vocabulary**: selection, covariance, transmission, groups and subgroups.
 - **Operands**: any population partitioned into groups, each with a trait value z and fitness w.
-- **Operators**: the identity w_bar * delta(z_bar) = Cov(w_i, z_i) + E(w_i * delta z_i), over units i (z_i the unit's trait, w_i its fitness, delta z_i the parent-offspring change). Selection (covariance) plus transmission (expectation). Applied recursively (the 1972 extension; Hamilton 1975 used it for group structure) it splits change into between-group and within-group components at each level.
+- **Operators**: the identity w_bar * delta(z_bar) = Cov(w_i, z_i) + E(w_i * delta z_i), over units i (z_i the unit's trait, w_i its fitness, delta z_i the parent-offspring change). Selection (covariance) plus transmission (expectation). Applied recursively (the 1972 extension; Hamilton 1975 used it for group structure) it splits change into between-group and within-group components at each level. [from abstract/standard account]
 - **Claim**: exact, so no predictive claim of its own; it is a bookkeeping law. Its strength is that it makes group selection and individual selection commensurable.
 - **Limits**: it is an accounting identity, so it explains nothing causally without a model of w and z; the covariance term hides the mechanism.
 - **Relevance**: the nearest thing in this cluster to an algebraic law that is true at every level. A social algebra could aim for a Price-like conservation or decomposition law as a test of correctness.
@@ -120,7 +115,7 @@ Works listed: 22 main entries. After validation, six formerly unconfirmed items 
 - Citation: Nature 359, 826-829 (1992). DOI 10.1038/359826a0. https://www.nature.com/articles/359826a0
 - **Operands**: cells on a lattice, each a cooperator or defector.
 - Title: "Evolutionary games and spatial chaos".
-- **Operators**: each cell plays its neighbours (and, in the paper, itself), then adopts the strategy of the highest scorer among its neighbourhood including itself (synchronous update). The game is a simplified PD with a single parameter b (T = b, R = 1, P = S = 0).
+- **Operators**: each cell plays its neighbours (and, in the paper, itself), then adopts the strategy of the highest scorer among its neighbourhood including itself (synchronous update). The game is a simplified PD with a single parameter b (T = b, R = 1, P = S = 0). [from abstract/standard account]
 - **Claim**: spatial structure allows cooperators to persist, with chaotic spatial patterns. Sensitive to update rule and payoff details.
 - **Relevance**: shows that where interactions happen (topology) is as much a part of the algebra as what they are.
 
@@ -205,11 +200,8 @@ Works listed: 22 main entries. After validation, six formerly unconfirmed items 
 
 ### E3. Dominance hierarchies (brief)
 
-- Citations: de Vries 1995, "An improved test of linearity in dominance hierarchies containing unknown or tied relationships", Animal Behaviour 50(5), 1375-1389 (found via https://utrecht-main-test.atmire.com/items/34c9294a-39a0-4224-8f50-3994a7bb2ae7); Landau 1951 index and Appleby 1983 test are as described there. Landau, Bull Math Biophys 13, 1-19 (1951); Appleby, Animal Behaviour 31, 600-608 (1983). Hemelrijk's DomWorld: C. K. Hemelrijk, "An individual-orientated model of the emergence of despotic and egalitarian societies", Proc R Soc B 266, 361-369 (1999) (confirmed in validation); self-reinforcing win/lose updates, and aggression intensity alone shifts the society from egalitarian to despotic. The win/lose-update idea goes back to Hogeweg and Hesper 1983 (bumblebee MIRROR model). Network view: Shizuka and McDonald, "A social network perspective on measurements of dominance hierarchies", Animal Behaviour 83, 925-934 (2012), DOI 10.1016/j.anbehav.2012.01.011 (confirmed in validation): triangle transitivity, the proportion of transitive triads.
-- **Operands**: ordered pairs of individuals with win/loss counts.
-- **Operators**: dyadic win; in DomWorld, win/lose updates on a scalar.
-- **Claim**: many, but not all, animal hierarchies are near-linear (Landau's h >= 0.9 is the conventional cut-off for "strongly linear"; many groups fall below it, which is why de Vries' test exists). DomWorld shows hierarchy can arise without prior differences in ability.
-- **Relevance**: the dominance relation is an order on operands; the winner-loser update is a minimal feedback operator. Triangle transitivity is notable for this strand because it is a statement about how dyadic relations compose into triads (A>B and B>C implies A>C, mostly), i.e. a measured composition law. Missing from this entry: Chase's work showing hierarchy formation is driven by sequences of dyadic and triadic interactions rather than individual attributes (Chase, Tovey, Spangler-Martin and Manfredonia 2002, PNAS 99, 5744-5749; not checked in validation).
+- See 06 §16 for Landau, de Vries, Appleby and Chase (linearity indices, hierarchy formation from dyadic and triadic interactions).
+- Biology-specific points kept here: Hemelrijk's DomWorld, C. K. Hemelrijk, "An individual-orientated model of the emergence of despotic and egalitarian societies", Proc R Soc B 266, 361-369 (1999), where self-reinforcing win/lose updates and aggression intensity alone shift a society from egalitarian to despotic (win/lose idea from Hogeweg and Hesper 1983, bumblebees); and Shizuka and McDonald, Animal Behaviour 83, 925-934 (2012), DOI 10.1016/j.anbehav.2012.01.011, triangle transitivity as a measured composition law on dyads.
 
 ### E4. Dunbar's social brain and group-size layers
 
@@ -235,7 +227,7 @@ Works listed: 22 main entries. After validation, six formerly unconfirmed items 
 
 - Citation: H. W. Hethcote, "The Mathematics of Infectious Diseases", SIAM Review 42(4), 599-653 (2000). DOI 10.1137/S0036144500371907. https://epubs.siam.org/doi/10.1137/S0036144500371907
 - **Operands**: compartment sizes S, I, R (susceptible, infected, recovered).
-- **Operators** (mass action): dS/dt = -beta S I / N, dI/dt = beta S I / N - gamma I, dR/dt = gamma I. Threshold quantity R0 = beta/gamma (for this closed SIR model). The review (confirmed) covers threshold theorems for basic reproduction, contact and replacement numbers in SIR/SEIR-type models. Origin: Kermack and McKendrick, Proc R Soc A 115, 700-721 (1927).
+- **Operators** (mass action): dS/dt = -beta S I / N, dI/dt = beta S I / N - gamma I, dR/dt = gamma I. Threshold quantity R0 = beta/gamma (for this closed SIR model). The review (confirmed) covers threshold theorems for basic reproduction, contact and replacement numbers in SIR/SEIR-type models. Origin: Kermack and McKendrick, Proc R Soc A 115, 700-721 (1927). [from abstract/standard account]
 - **Claim**: at the start of an outbreak, infections grow iff R0 * S(0)/N > 1 (approximately R0 > 1 in a fully susceptible population). Good record for pathogens as a qualitative and short-run tool, with known failures where mixing is heterogeneous. Transmission per contact is independent, so each contact acts additively; that independence (not literally "a single exposure") is the assumption Centola and Macy relax.
 - **Relevance**: the template for "a state spreads through contact". Treating a behaviour or opinion as an infection assumes single-contact transmission, which Centola and Macy below test.
 
@@ -244,7 +236,7 @@ Works listed: 22 main entries. After validation, six formerly unconfirmed items 
 - Citation: D. Centola and M. Macy, "Complex Contagions and the Weakness of Long Ties", American Journal of Sociology 113(3), 702-734 (Nov 2007). DOI 10.1086/521848 (validator's knowledge: this is the AJS DOI for the paper). Preprint: https://repository.upenn.edu/asc_papers/590 and https://pdodds.w3.uvm.edu/research/papers/others/2007/centola2007ua.pdf
 - **Vocabulary**: simple vs complex contagion, bridge width, adoption threshold.
 - **Operands**: nodes in a network with an adopted/not state.
-- **Operators**: adopt if at least k neighbours have adopted (or a fraction, in the paper's relative-threshold variant). Their definition: a contagion is complex if activation requires contact with two or more distinct sources; k = 1 is simple contagion. The paper runs fixed thresholds (often k = 2 or 3) on rewired lattices. Confirmed result: long ties can hinder diffusion as thresholds rise; bridge width matters, not just length.
+- **Operators**: adopt if at least k neighbours have adopted (or a fraction, in the paper's relative-threshold variant). Their definition: a contagion is complex if activation requires contact with two or more distinct sources; k = 1 is simple contagion. The paper runs fixed thresholds (often k = 2 or 3) on rewired lattices. Confirmed result: long ties can hinder diffusion as thresholds rise; bridge width matters, not just length. [from abstract/standard account]
 - **Claim**: weak ties speed simple contagion but can impede complex contagion. Later experiment: Centola, "The spread of behavior in an online social network experiment", Science 329, 1194-1197 (2010), found faster and wider adoption in clustered networks. Threshold models themselves go back to Granovetter 1978 (AJS 83, 1420-1443), covered by the sociology cluster.
 - **Relevance**: tells us the transmission operator has a threshold, which changes which network shapes matter. Applies directly to human adoption of norms and behaviours.
 
