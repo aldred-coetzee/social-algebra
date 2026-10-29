@@ -37,3 +37,24 @@ adds fewer than one new `open`-or-`adopted` claim per five directions, or
 when its directions are exhausted. The research is **deep enough** when
 every cluster is closed and every claim the equation set rests on is
 `read`.
+
+## Seeding, 2026-10-29
+
+Seeded by one Haiku agent per file from the forty iteration-1 files
+(`batch: 1`) and the eleven earlier surveys that hold the equation-set
+sources (`batch: 0`, cluster marked `*` because it is the extractor's guess;
+those surveys predate the map). 2,770 lines: 856 equations, 720 empirical
+results, 469 definitions, 401 drives, 324 contradictions; 1,268 `read`,
+1,502 `sa`; 654 marked duplicate of an earlier file. **Caveats:** lines are
+extracted, not yet audited — next-pattern audits twenty at random every
+third batch; "read" is copied from the file's own tag; duplicate marking
+depends on the file's cross-check section, so it undercounts.
+
+Per-cluster yield of iteration 1 (new, non-duplicate lines per direction)
+is in `docs/batches/2026-10-29-iteration-1-report-and-batch-2-proposal.md`.
+By the convergence rule nothing is near closing: every cluster yielded far
+more than one new claim per five directions, which says the corpus is far
+from exhausted — and also that the rule, as a stopping criterion, will not
+bite while extraction is this fine-grained. A coarser unit (claims the
+equation set would rest on, not every definition) is needed before the rule
+means "deep enough".

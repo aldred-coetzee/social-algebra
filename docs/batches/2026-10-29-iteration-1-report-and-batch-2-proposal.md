@@ -65,3 +65,22 @@ _2026-10-29. Files 043–082 (directions D025…D546), 120 agents, 12.5M tokens,
 **Left out, and why:** Keramati–Gutkin coupling is already [read] at theorem level (047, 062); the remaining [sa] is the 2011 supplement, not load-bearing for v0. Clusters O, Q, R and the rest of S and the testbed wait for a v0 to steer. D026 (Myers) is syntax, not certificates. Two sources still have no direction and should be added to the map for batch 3: Atkinson & Birch 1970 at source (046) and Bischof's Zurich model at source.
 
 Cluster split: T 2, H 2, G 1, I 1, F 1, M 1, A 1, P 1, S 1, N 1 = 12 (5 deep-reads, 1 data, 3 cross-checks, 3 surveys).
+| Cluster | Directions | New claims | of which read | Contradictions | Empirical results | Duplicates of earlier files | New claims per direction |
+|---|---|---|---|---|---|---|---|
+| A | 2 | 68 | 57 | 2 | 1 | 28 | 34 |
+| B | 1 | 40 | 34 | 12 | 10 | 8 | 40 |
+| C | 4 | 121 | 72 | 13 | 22 | 96 | 30 |
+| D | 5 | 193 | 121 | 21 | 61 | 71 | 39 |
+| E | 4 | 119 | 46 | 16 | 49 | 81 | 30 |
+| F | 4 | 147 | 91 | 14 | 38 | 52 | 37 |
+| G | 2 | 73 | 62 | 2 | 21 | 45 | 36 |
+| H | 4 | 103 | 83 | 6 | 37 | 93 | 26 |
+| I | 3 | 79 | 33 | 8 | 18 | 30 | 26 |
+| J | 2 | 86 | 54 | 12 | 15 | 9 | 43 |
+| K | 2 | 67 | 19 | 7 | 18 | 23 | 34 |
+| L | 2 | 45 | 27 | 6 | 14 | 21 | 22 |
+| M | 3 | 74 | 31 | 3 | 21 | 44 | 25 |
+
+## Ledger yield, iteration 1 (added after seeding)
+
+| N | 2 | 28 | 5 | 4 | 6 | 50 | 14 |
