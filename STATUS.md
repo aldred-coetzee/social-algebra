@@ -80,7 +80,26 @@ applicable"*: `28` predator–prey and the ecology of fear (with transfers to
 human systems), `29` animal collective behaviour in depth, `30` ecological
 stability and resilience theorems (May, keystones, regime shifts), `31`
 ethology of signals as operators on another animal's drives. Each gets the
-same second pass, then one drive synthesis. The
+same second pass, then one drive synthesis.
+
+Aldred again: *"Still not deep enough, this subject is vast."* Round three,
+started 2026-10-29: `32` the language of drives (semantic primes, emotion
+lexicons across 2,474 languages, force dynamics), `33` developmental and
+attachment control models (Bowlby, Bischof's Zurich model, still-face),
+`34` personality as drive parameters and RDoC, `35` behaviour change and
+persuasion (fear appeals, BCT taxonomy of 93 techniques), `36` axiomatic
+economics of desire (temptation theorems, addiction, lexicographic needs),
+`37` ritual, sacred values and awe, `38` organisational motivation (equity,
+crowding out, tournaments), `39` deterrence, coercion and strategic fear.
+**Queued, not yet started** (concurrency limit): `40` compositional
+dynamical systems maths (categorical systems theory, open games,
+port-Hamiltonian interconnection, passivity and small-gain theorems,
+max-plus selection) — the maths that would make drive equations compose.
+
+**Depth, not only breadth:** almost every survey so far read abstracts, not
+papers. After the drive synthesis names the keystone works (about twenty),
+the plan is a deep-read round: one agent per keystone, primary text in full,
+equations transcribed and checked. The
 first survey's finding that frames this: drive dynamics exist for single
 agents, act algebras exist for groups, nobody has joined them.
 
