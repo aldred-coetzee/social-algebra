@@ -23,6 +23,12 @@ The name was chosen over `group-grammar` and `group-mechanics` because
 operators and operands make it an algebra, and "social" keeps a mathematical
 reader from expecting group theory.
 
+**Sharpened the same day**: the primitives are **drives**. Aldred: *"an
+algebra which expresses basic human drives and group drives, which we can
+compose into equations, which we can then use to start making theorems and
+use to control or predict behavior… curiosity, fear, desire, etc."* See
+`notes/2026-10-29-drives-as-the-core.md`.
+
 **The goal is the algebra, not writing about it.** Aldred, 2026-10-29: *"It
 is not about an article; it is about developing the algebra."* Success is a
 notation that captures a group's mechanics well enough to model interactions
