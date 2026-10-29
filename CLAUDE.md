@@ -4,7 +4,7 @@ This file is the standing brief. Keep it current — each session starts with
 no memory of the last, and the repo is the only continuity. Environment and
 working-style rules are in `~/.claude/CLAUDE.md` and are not repeated here.
 
-**Started 2026-10-29. A thinking strand, not an app.** No code, no server. Its own
+**Started 2026-10-29. A thinking strand, not an app.** No server. Code only under `sim/` (Python; approved by Aldred 2026-10-29, to test the equations by reproducing published results and fitting open data). Its own
 Remote Control session, `claude-rc-social-algebra`, since 2026-10-29 (Aldred:
 "we need a session for it"); unit file in `deploy/systemd/`. **Model pinned to Fable 5.1** in
 `.claude/settings.json` (2026-10-29, Aldred: Opus is "not good enough to
@@ -39,7 +39,10 @@ in it. If articles follow, they are a by-product.
     notes/      raw thinking, dated files, one idea per file
     models/     the algebra itself as it takes shape: definitions, operators,
                 worked examples, diagrams (D2 or SVG beside the text)
-    docs/       anything written up for a reader
+    docs/       anything written up for a reader; docs/prior-work/ is the
+                validated survey, docs/research-map.md its coverage map
+    sim/        Python models that test the equations (reproduce published
+                results first, then fit open data)
 
 ## Citation and credit (Aldred, 2026-10-29)
 
