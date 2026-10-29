@@ -52,11 +52,13 @@ short entries added and **not** second-passed: role theory (06), White's
 closest precedents and what each lacks, requirements R1-R11, six candidate
 formal homes with fit and cost, and ten open questions. No recommendation.
 
-**Next: Aldred's decisions** on the open questions at the end of the
-synthesis (scope of operands, what a role is, dyad or triad as atom,
-quantities and affect, dynamics, which acts, fit-first or write-first,
-whether to pick a home now). Nothing goes into `models/` until those are
-answered. Then, if a home is chosen, the primary texts it leans on get read
-in full, since the survey mostly did not.
+**Next: Aldred's answers to the three gating questions** in
+`docs/synthesis-brief.md` (Q1 operands, Q4 quantities and affect, Q5
+dynamics; defaults offered by next-pattern). The other seven open questions
+at the end of the synthesis wait until those are answered. Then the first
+model file is `models/00-sorts-and-state.md`: sorts, the state each carries,
+membership as (person, group, role, time), every choice traced to an
+R-number or to Aldred's answer; operators after that. Whatever home is
+chosen, its primary texts get read in full, since the survey mostly did not.
 
 No algebra of our own yet, deliberately.
