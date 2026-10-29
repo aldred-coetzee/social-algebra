@@ -10,7 +10,7 @@ Status legend: **queued** (not started) / **surveying** (an agent is on it) / **
 
 Kinds: survey, deep-read, cross-check, data, model.
 
-Source: 651 raw directions generated from `docs/prior-work/01`–`42` (41 was still in validation when the map was built) plus new lenses. Near-duplicates were merged into **546 directions** (551 after D547–D551 for the modelled-population testbed; 560 after clusters O and P were added the same day from Aldred's target outcomes). Every merged entry keeps the seeds and the `From` sources of all its parts and says what it absorbed. No distinct direction was dropped. IDs are stable: a new direction gets the next free number and is never renumbered into a cluster.
+Source: 651 raw directions generated from `docs/prior-work/01`–`42` (41 was still in validation when the map was built) plus new lenses. Near-duplicates were merged into **546 directions** (551 after D547–D551 for the modelled-population testbed; 560 after clusters O and P were added the same day from Aldred's target outcomes; 573 after Q social control and R sociology of knowledge, also his). Every merged entry keeps the seeds and the `From` sources of all its parts and says what it absorbed. No distinct direction was dropped. IDs are stable: a new direction gets the next free number and is never renumbered into a cluster.
 
 ---
 
@@ -628,6 +628,29 @@ _Answered per cluster, not once; these two directions set the frame and each lat
 
 - **D559** · survey · queued — Group size: how operators and outcomes change with n — Dunbar-type layers, scaling laws in groups and cities, size thresholds in cohesion, decision quality, loafing, cooperation and contagion; which results are proven to depend on n and how. *Seeds:* Dunbar (see 09/22); Bettencourt et al. 2007 urban scaling (verify); Karau & Williams (24); Olson (10); Caplow 1957 on small-group size (verify). *From:* Aldred.
 - **D560** · survey · queued — Group composition and definition: heterogeneity and diversity effects, boundary and membership rules, entitativity, what makes a set of people a group at all, and how equations should index it. *Seeds:* Campbell 1958 entitativity (verify); Page 2007 The Difference (verify); Tajfel & Turner (06); Ritchie on groups (14); Lickel et al. 2000 (verify). *From:* Aldred.
+
+## Q. Social control as a tradition
+
+_Added 2026-10-29 from Aldred (via next-pattern): "social control is a topic that has been heavily researched ever since we had the first social group." For each: the mechanism (which variable it works through: visibility, sanction, belonging, belief, resource), the scale, the evidence, and whether it was ever formalised. Cross-reference 07, 11, 13 rather than duplicate._
+
+- **D561** · survey · queued — The term and the classical theory: Ross 1901 *Social Control*; Durkheim's conscience collective and anomie; Parsons on socialisation and sanction. What mechanisms and what, if anything, was formalised? *Seeds:* Ross 1901 (verify edition); Durkheim 1893/1897 (see 11); Parsons 1951 The Social System (verify). *From:* Aldred.
+- **D562** · survey · queued — Control theories of deviance: Hirschi 1969 social bond (attachment, commitment, involvement, belief) and Gottfredson & Hirschi 1990 self-control; the meta-analytic record (Pratt & Cullen 2000, verify) and what the bond elements are as drive variables. *Seeds:* Hirschi 1969; Gottfredson & Hirschi 1990; Pratt & Cullen 2000. *From:* Aldred.
+- **D563** · survey · queued — Consent and hegemony: Gramsci on hegemony; Elias's civilising process as internalised control (see 08); Lukes's three dimensions of power. Which drive does consent work through, and is any of it formal? *Seeds:* Gramsci Prison Notebooks (Hoare & Nowell-Smith ed., verify); Lukes 1974/2005 (verify); Elias (08). *From:* Aldred.
+- **D564** · survey · queued — Discipline, visibility and the panopticon: Bentham's Panopticon letters; Foucault's *Discipline and Punish* and governmentality; Goffman's *Asylums* (total institutions); the empirical record on surveillance and behaviour (e.g. watching-eyes effects and their replication, Northover et al. 2017, verify). *Seeds:* Bentham 1787/1791 (verify); Foucault 1975; Goffman 1961; Northover et al. 2017. *From:* Aldred.
+- **D565** · survey · queued — Platform-era behavioural control and formal state instances: Zuboff's surveillance capitalism; recommender-system influence evidence; China's social credit system as a current formalised instance (what it scores, what evidence of effect). *Seeds:* Zuboff 2019; Kostka 2019 on social credit (verify); Liang et al. 2018 (verify); see 05/27 for contagion evidence. *From:* Aldred.
+- **D566** · survey · queued — Pre-modern control systems: honour and shame systems (see 25), ostracism in Athens, religious law and excommunication, guild and caste regulation; the mechanism, scale and any quantitative evidence (e.g. Greif on the Maghribi traders as a formal reputation model). *Seeds:* Forsdyke 2005 Exile, Ostracism and Democracy (verify); Greif 1993 (verify); Ogilvie on guilds (verify); Boehm (25). *From:* Aldred.
+- **D567** · cross-check · queued — Map every social-control mechanism found in Q onto the drive inventory (15/41/42) and the operator catalogues (11/13/31): which drive each works through, at which of the three scales, and where the mapping fails. *From:* Aldred; next-pattern.
+
+## R. Sociology of knowledge and social epistemology
+
+_Added 2026-10-29 from Aldred. The question: how a group fixes what counts as true, and which drives and operators that works through._
+
+- **D568** · survey · queued — Classical sociology of knowledge: Mannheim, Berger & Luckmann's social construction, Fleck's thought collectives, Kuhn's paradigms; what each says about the mechanism by which a group fixes truth. *Seeds:* Mannheim 1936; Berger & Luckmann 1966; Fleck 1935/1979; Kuhn 1962. *From:* Aldred.
+- **D569** · survey · queued — Power/knowledge and the role of Latour only here: Foucault's power/knowledge; Latour & Woolgar *Laboratory Life*; Shapin & Schaffer *Leviathan and the Air-Pump* on how credibility is socially settled. *Seeds:* Foucault 1980 Power/Knowledge (verify); Latour & Woolgar 1979; Shapin & Schaffer 1985. *From:* Aldred.
+- **D570** · survey · queued — Analytic social epistemology: Goldman 1999 *Knowledge in a Social World*; testimony and trust (Hardwig 1985, 1991); Nguyen 2020 on epistemic bubbles vs echo chambers; what each implies for a trust operator. *Seeds:* Goldman 1999; Hardwig 1985 J Phil, 1991; Nguyen 2020 Episteme (verify DOIs). *From:* Aldred.
+- **D571** · deep-read · queued — Formal network epistemology: Zollman 2007/2010 (connectivity can hurt consensus accuracy), Bala & Goyal 1998 learning from neighbours, O'Connor & Weatherall *The Misinformation Age*; transcribe the models and results exactly. *Seeds:* Zollman 2007 Phil Sci, 2010 Erkenntnis; Bala & Goyal 1998 RES; O'Connor & Weatherall 2019. *From:* Aldred.
+- **D572** · survey · queued — Misinformation and belief-spread dynamics with evidence: Vosoughi, Roy & Aral 2018; Pennycook & Rand accuracy nudges and their replication; link to opinion-dynamics models in 05. *Seeds:* Vosoughi et al. 2018 Science; Pennycook et al. 2021 Nature; see 05. *From:* Aldred.
+- **D573** · cross-check · queued — Which drives and operators do the knowledge-fixing mechanisms in R work through (belonging, status, fear, certainty-seeking — see 18 uncertainty–identity, 42 need for closure), and at which scale? *From:* Aldred; next-pattern.
 
 ## Recommended for iteration 1
 

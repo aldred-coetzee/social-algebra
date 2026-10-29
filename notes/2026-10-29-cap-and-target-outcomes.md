@@ -42,3 +42,13 @@ definition of a group."*
   improving group outcomes (efficiency, wellbeing, decision quality), not
   only control. An `ethics` field on each claim: `consent` | `manipulation`
   | `n/a`.
+
+**Later the same day, also via next-pattern:** *"I imagine we also are
+examining texts to do with sociological texts and theories of knowledge and
+that kind of thing. And I would imagine social control is a topic that has
+been heavily researched ever since we had the first social group, really.
+So there should be a lot of information available that we can utilize."*
+Two clusters added to the research map: **Q, social control** as a
+tradition in its own right across the whole span, and **R, sociology of
+knowledge and social epistemology** (how a group fixes what counts as true,
+and which drives and operators that works through).
