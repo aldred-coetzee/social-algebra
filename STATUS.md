@@ -103,6 +103,14 @@ self-conscious, moral and relational drives and `42` dynamics drive by
 drive. The drive synthesis must end in a candidate equation set with every
 term traced to a validated source or marked as ours.
 
+**Standing instruction (Aldred, 2026-10-29): "go deeper, don't wait for me
+between batches."** Research iterations run back to back as workflow
+batches from `docs/research-map.md`: dive → separate validation pass →
+cross-check against existing files → commit → next batch. No synthesis and
+no modelling until Aldred says the research is deep enough
+(`notes/2026-10-29-research-before-models-uv.md`). The modelled-population
+testbed idea is in `notes/2026-10-29-modelled-population-testbed.md`.
+
 **Depth, not only breadth:** almost every survey so far read abstracts, not
 papers. After the drive synthesis names the keystone works (about twenty),
 the plan is a deep-read round: one agent per keystone, primary text in full,
