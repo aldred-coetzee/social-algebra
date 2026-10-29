@@ -1,0 +1,150 @@
+# Prior work 053: despair and learned helplessness as a gain collapse with a tipping point
+
+Direction: D138
+
+Date: 2026-10-29. Kind: deep-read. Question: can despair / learned helplessness be written as a collapse of drive gain with a tipping point, and can critical-slowing-down early-warning signals be read off it? Cross-references: 42 (Maier & Seligman 2016 and Williams' resignation stage, row "Autonomy / competence"), 33, 19, 16, 28, 30 (resilience / early warning in ecology), 50.
+
+**Method and honesty note.** Read at source this session: Huys, Vogelstein & Dayan (NIPS 2008 paper, full text from the PDF); Maier & Seligman 2016 (PMC full text, first ~100k characters via a summarising fetch, plus the closing section; the middle was not read); Wichers & Groot 2016 letter (PDF text; the numeric results sit in figures and were not extracted). **Not read:** van de Leemput et al. 2014 full text (PMC and PNAS both blocked; only the abstract and significance statement from Crossref / Europe PMC, tagged [abstract]); Abramson, Metalsky & Alloy 1989 (no abstract obtained; [standard account] plus one secondary search summary); Huys & Dayan 2009 Cognition (not read; the NIPS paper is its precursor). Every DOI below resolved at Crossref this session. A fetch tool that "transcribes" is a small model summarising the page, so verbatim quotes are marked only where the text was read directly from a PDF.
+
+**Summary.** There is no published model that writes learned helplessness as a single equation with a bifurcation. What exists is three separate layers that have never been joined: (1) a mechanism layer (Maier & Seligman 2016): passivity is the unlearned default, and a learned *control* signal gates it off; (2) a computational layer (Huys et al.): "control" is a prior belief with one scalar parameter, fitted to human choices with equations I read; (3) a dynamical-systems layer (Scheffer 2009 -> van de Leemput 2014 -> Wichers 2016 -> Smit 2025): mood may have tipping points, with critical slowing down as warning, whose human evidence is between-person, one single-case study, and a low-sensitivity intensive-longitudinal test. The "gain collapse with a tipping point" in the title is therefore the algebra's hypothesis to build, not a result to cite. The most useful finding for the algebra is the revision in layer 1: because passivity is the default and control is the learned thing, the natural operand is a **control belief that gates a default-on suppressor of drive**, which is a gate, not a depletion.
+
+---
+
+## 1. Maier & Seligman 2016, "Learned helplessness at fifty"
+
+**Citation.** Maier, S. F., & Seligman, M. E. P. (2016). Learned helplessness at fifty: Insights from neuroscience. *Psychological Review*, 123(4), 349-367. DOI 10.1037/rev0000033 (resolved at Crossref; authors Maier, Seligman). Full text: https://pmc.ncbi.nlm.nih.gov/articles/PMC4920136/ [read, partly].
+
+**Their vocabulary.** Triadic design (escapable, yoked-inescapable, no-shock groups); controllability; behavioural control; dorsal raphe nucleus (DRN) 5-HT; prelimbic / medial prefrontal cortex (mPFC); ventromedial PFC (vmPFC)-DRN pathway; immunisation / resistance; "hope circuit" (their label, which they call speculative).
+
+**Drives/operands.** Not drives in the algebra's sense. Operands are neural states: DRN serotonergic activity (passivity, heightened fear), and a control-detection / control-expectation signal in mPFC and the vmPFC-DRN pathway.
+
+**Original theory [read, as relayed by the fetch].** Three groups; the next day in a shuttlebox about two-thirds of inescapable-shock animals failed to escape, while about 90% of escapable and no-shock animals learned. Abstract's original claim: animals learned that outcomes were independent of their responses, "that nothing they did mattered". Original dog study used 64 shocks, each preceded by a tone.
+
+**Revised theory [read].** Quotes as relayed: passivity "is not learned"; it is "the default, unlearned response to prolonged aversive events"; "excitation of the dorsal raphe nucleus is necessary and sufficient for passivity and heightened fear"; "the detection of uncontrollability is not necessary nor is it sufficient for passivity"; end of article: "passivity and heightened anxiety are the default mammalian reaction to prolonged bad events", with the top-down vmPFC-DRN circuitry acting to inhibit it. What is learned is that bad events can be controlled.
+
+**Operators / equations.** None. This is a circuit account in words. No equation, no parameter, no threshold.
+
+**Quantities stated [read, as relayed].** DRN sensitisation "lasts for a few days"; 5-HT1A receptor desensitisation "recovers to normal within 3 days"; rodents learn shuttlebox escape "by the second or third trial"; DRN has about 25,000 5-HT cells in rats and about 150,000 in humans.
+
+**Theorems or derived predictions.** (a) Prior escapable shock "prevents or reduces" passivity and anxiety after later inescapable shock, described as "quite enduring, but perhaps not permanent", and it transferred to a different setting seven days later. (b) Inactivating the vmPFC-DRN pathway during escapable shock removed that protection (animals with control behaved as if they lacked it); activating it during inescapable shock prevented passivity. These are causal manipulations, which is the strongest evidence class in this file.
+
+**Empirical standing.** Rodent causal evidence is substantial (pathway manipulation both directions). Human evidence is thin and the authors say so: neural studies "are quite recent and few in number"; the only relevant human triadic design they know of is Kerr et al. (2012), snake-phobic subjects, where controllable trials selectively raised vmPFC activity; the article does not measure DRN or the prelimbic circuit in humans and warns that global fMRI cannot resolve the relevant neurons. Their therapy discussion is self-described as speculative. Blunt: this is a well-supported animal result and an untested human extrapolation. Whether human depression follows this circuit is open.
+
+**Operand/operator translation.** Operand: an agent with a *passivity suppressor of drive* P (default high under prolonged adversity) and a *control belief* c in [0, 1]. Operators: adversity exposure A raises P; controllable experience raises c; c gates P off; prior c gives a persistent protective offset (immunisation). Cross-ref 42: this is the "strongest dynamic with a real operator" and the immunisation update is a one-way protective update. What this file adds: since P is the default and c is learned, the drive-gain collapse is a *failure of the gate*, not a learned loss of gain, and a recovery operator is "restore c", not "unlearn".
+
+---
+
+## 2. Huys, Vogelstein & Dayan: helplessness as a prior on outcome entropy
+
+**Citation.** Huys, Q. J. M., Vogelstein, J. T., & Dayan, P. (2009; NIPS 2008 conference). Psychiatry: insights into depression through normative decision-making models. *Advances in Neural Information Processing Systems 21*, 729-736. https://papers.neurips.cc/paper_files/paper/2008/file/d04d42cdf14579cd294e5079e0745411-Paper.pdf [read in full]. (Crossref has no DOI for this proceedings entry; none is cited.) Related, not read: Huys, Q. J. M., & Dayan, P. (2009). A Bayesian formulation of behavioral control. *Cognition*, 113, 314-328, DOI 10.1016/j.cognition.2009.01.008 (resolved). The seed "Huys, Browning et al." was not matched to any paper this session: a search found no Huys-Browning paper. See Unconfirmed.
+
+**Their vocabulary.** Behavioural control; outcome entropy of actions; Dirichlet-process concentration parameter alpha; control parameter gamma; anhedonia as effective reward size beta; hopelessness (Beck Hopelessness Scale, BHS); anhedonia subscore of the BDI (BDIa).
+
+**Drives/operands.** Two parameters per agent: gamma (prior belief in control; high gamma = actions have low-entropy outcomes) and beta (reward sensitivity). The paper takes care to separate them: "Anhedonia and helplessness both provide good reasons for not taking an action: either because the reinforcements ... are insufficient (anhedonia), or because the outcome is not judged a likely result of taking some particular action."
+
+**Operators / equations, transcribed from the PDF text [read]:**
+- Predictive distribution, eq. 1: P(r | N_t, a, alpha) = [alpha / (alpha + N_t(a))] B(r) + [1 / (alpha + N_t(a))] N_t(r, a), with B the flat base distribution and N_t(r, a) the count of reward r for action a. alpha = 0: the first sample is repeated forever; alpha = infinity: draws stay from the flat distribution.
+- Control parameter: gamma = -log(alpha).
+- Value, eq. 2 (Bellman): Q_t(a | N_t, gamma) = sum_r p(r | N_t, a, gamma) [ r + argmax_a' Q_t(a' | N_{t+1}(r), gamma) ], where N_{t+1}(r) includes the anticipated reward.
+- Fit, eqs. 3-4: {gamma, beta}_ML = argmax prod_t p(a_t | N_t, gamma, beta), with p(a_t | ...) = exp(beta Q_t(a)) / sum_a' exp(beta Q_t(a')). beta is the softmax inverse temperature or, equivalently, reward size; the two are not both identifiable from actions.
+- Reward-sensitivity task, eq. 5 (Rescorla-Wagner): Q_t(a) = (1 - eps) Q_{t-1}(a) + eps r_t. Independent of gamma and model-free.
+- Questionnaire regressions: beta(BDIa, AGE) = theta_beta BDIa + c_beta AGE + zeta_beta (predicted theta_beta < 0); eps likewise (predicted theta_eps = 0). gamma_1, gamma_2, beta regressed on BHS, BDIa, AGE with cross-terms; gamma_1 and gamma_2 are the control estimates in the first and second halves of the task.
+
+**Mechanism.** Control sets the exploration bonus. Figure 2's reading: with a high-control prior, a new machine that pays well once is likely to pay well again, so exploring it is worth it when two or more pulls remain; with a low-control prior, the value of exploring collapses. So low gamma shrinks the exploration term, which is a gain on exploratory drive, and ties this to curiosity (17).
+
+**Design [read].** 100 "casino rooms", 8 choices each, outcomes 0 to 9 points; the first 50 rooms used very noisy machines (low true gamma, "just like the yoked rats"), the second 50 reliable ones (high true gamma). Reward-sensitivity task: 300 choices between two card stacks, reward probabilities drifting as a squashed Ornstein-Uhlenbeck process. Subjects: 17 healthy controls, 15 with current major depressive episode (3 with an additional diagnosis); matched on sex and education, **not on age**; healthy controls paid, MDD not paid ("for ethical reasons").
+
+**Results [read].** MDD subjects both avoid bad and exploit good machines less (repeat modulation, ANOVA group x outcome interaction p = 0.0029 after one observation, p = 7.6e-5 after two; uncorrected). Action likelihood: chance 0.37, Rescorla-Wagner 0.48, full control model 0.54 over 29,600 choices (so subjects looked ahead in a tree). The effect of BHS on prior control gamma was much stronger in the second (reliable) half than in the first, which the authors read as "an interesting parallel" to learned helplessness: hopelessness shows most when a high-control environment follows a low-control one. Linear classifier on (beta, gamma): 83% correct, 69% sensitivity, 94% specificity (figure 6 caption; no cross-validation is described in the text I read).
+
+**Theorems or derived predictions.** None proved. One derivation by simulation: the value of exploring is increasing in gamma for tree depth at least 2. The parameter-recovery caveat is stated: gamma and beta were correlated in simulation, which is why the second task was added.
+
+**Empirical standing.** One lab, 32 subjects, age confounded, MDD unpaid vs controls paid, in-sample classification, no replication found in this session. It is a proof of concept and the authors present it as "an initial attempt". Blunt: do not treat gamma as a validated trait. Its value to the algebra is the *form*: one scalar, with an operational definition and a likelihood, that scales an exploration term.
+
+**Operand/operator translation.** control(i) = gamma_i, a scalar belief in [-inf, inf] (or alpha in (0, inf)); update by counts (eq. 1 is the Bayesian update operator); gain on exploration = f(gamma, horizon). A reward-sensitivity scalar beta multiplies all rewards. These two compose as separate multiplicative gains, which is the cleanest separation of "do not want it" (beta) from "cannot get it" (gamma) in the literature read so far.
+
+---
+
+## 3. Abramson, Metalsky & Alloy 1989: hopelessness depression
+
+**Citation.** Abramson, L. Y., Metalsky, G. I., & Alloy, L. B. (1989). Hopelessness depression: A theory-based subtype of depression. *Psychological Review*, 96(2), 358-372. DOI 10.1037/0033-295X.96.2.358 (resolved; authors and title confirmed). **Not read.** Predecessor: Abramson, Seligman & Teasdale (1978), Learned helplessness in humans: critique and reformulation, *Journal of Abnormal Psychology*, 87, 49-74, DOI 10.1037/0021-843X.87.1.49 (resolved; not read). Predecessor of that: Maier & Seligman (1976), Learned helplessness: theory and evidence, *J. Exp. Psychol.: General*, 105, 3-46, DOI 10.1037/0096-3445.105.1.3 (resolved; not read).
+
+**Their vocabulary [secondary search summary only].** Vulnerability-stress model; depressogenic cognitive style; hopelessness expectancy as proximate cause; stable and global attributions for negative events; expectation of negative consequences; inferences of negative self-worth. The 1978 reformulation made vulnerability attribution to stable, global, internal causes; the 1989 theory drops internality as central and adds consequences and self-worth implications.
+
+**Operators / equations.** None found. A verbal causal chain: stressor -> (stable-global attribution OR expected negative consequences OR derogatory self-inference) -> hopelessness expectancy -> hopelessness depression symptoms. The chain is a logical "sufficient pathways" structure, which is OR-composition, not a dynamical law. [standard account / secondary]
+
+**Empirical standing [secondary, one search].** A taxometric study of depressed adolescents found hopelessness depression fits a continuum better than a distinct taxon; a college panel study found cognitive styles predicted rising symptoms mainly when an uncontrollable interpersonal stressor occurred. I did not verify either source beyond the search summary. Plausible but unconfirmed here.
+
+**Operand/operator translation.** Operand: hopelessness expectancy h(i), the belief that valued outcomes will not occur and nothing can change that. In Huys terms h is a low-gamma belief about *valued* outcomes plus a stable-global attribution, i.e. gamma and a persistence parameter. Operator: stressor event, modulated by attribution style. This is the cognitive-content counterpart of the Maier-Seligman circuit state, and nobody has mapped one onto the other with equations.
+
+---
+
+## 4. Tipping points and early warning: Scheffer 2009 to van de Leemput 2014
+
+**Citations.**
+- Scheffer, M., Bascompte, J., Brock, W. A., Brovkin, V., Carpenter, S. R., Dakos, V., Held, H., van Nes, E. H., Rietkerk, M., & Sugihara, G. (2009). Early-warning signals for critical transitions. *Nature*, 461, 53-59. DOI 10.1038/nature08227 (resolved). PDF fetch failed (a landing page returned); content below is from search-result summaries, [from abstract/standard account].
+- van de Leemput, I. A., Wichers, M., Cramer, A. O. J., Borsboom, D., Tuerlinckx, F., Kuppens, P., van Nes, E. H., Viechtbauer, W., Giltay, E. J., Aggen, S. H., Derom, C., Jacobs, N., Kendler, K. S., van der Maas, H. L. J., Neale, M. C., Peeters, F., Thiery, E., Zachar, P., & Scheffer, M. (2014). Critical slowing down as early warning for the onset and termination of depression. *PNAS*, 111(1), 87-92. DOI 10.1073/pnas.1312114110 (resolved). PMC3890822. **Full text not obtained**; abstract and significance read from Crossref / Europe PMC, [abstract].
+- Wichers, M., & Groot, P. C. (2016). Critical slowing down as a personalized early warning signal for depression. *Psychotherapy and Psychosomatics*, 85, 114-116. DOI 10.1159/000441458 (resolved). [read, text of the PDF; figure values not extracted]
+- Bos, E. H., & De Jonge, P. (2014). "Critical slowing down in depression" is a great idea that still needs empirical proof. *PNAS*, 111(10), E878. DOI 10.1073/pnas.1323672111 (resolved at Crossref; title and authors only; not read). The authors' reply, also E879, is titled "Reply to Bos and De Jonge: Between-subject data do provide first empirical support for critical slowing down in depression" (title from the PMC record).
+- Dablander, F., Pichler, A., Cika, A., & Bacilieri, A. (2023). Anticipating critical transitions in psychological systems using early warning signals: Theoretical and practical considerations. *Psychological Methods*, 28(4), 765-790. DOI 10.1037/met0000450 (resolved). Abstract via search summary.
+- Smit, A. C., Helmich, M. A., Bringmann, L. F., Oldehinkel, A. J., Wichers, M., & Snippe, E. (2025). Critical slowing down in momentary affect as early warning signal of impending transitions in depression. *Clinical Psychological Science*. DOI 10.1177/21677026241305136 (resolved). Publisher page returned 403; numbers below are from a search summary only.
+- Dakos, V., van Nes, E. H., D'Odorico, P., & Scheffer, M. (2012). Robustness of variance and autocorrelation as indicators of critical slowing down. *Ecology*, 93, 264-271 (volume and pages not confirmed; DOI 10.1890/11-0889.1 resolved).
+
+**Their vocabulary.** Alternative stable states; tipping point / critical transition; critical slowing down (CSD); early-warning signals (EWS); experience sampling method (ESM); detrending; moving window.
+
+**Drives/operands.** Mood as the state of a dynamical system whose elements are emotions (cheerful, content, sad, anxious in the 2014 study; eleven items reduced to three components in the 2016 study). Not a drive model; the operand is an affect vector and the claim is about its time-series statistics.
+
+**Operators / equations.** The generic theory [from abstract/standard account]: a state x evolves as dx/dt = f(x, p) with parameter p; near a fold bifurcation the dominant eigenvalue goes to zero, so recovery from small perturbations slows. Three observable signs, as the Scheffer paper lists them in the search summary: slower recovery from perturbations, rising autocorrelation, rising variance; skewness as a separate sign not caused by CSD itself. The usual statistic is lag-1 autocorrelation in a moving window of detrended data. I did not read the equations at source, so no formula is transcribed here as [read]. For the multivariate extension, van de Leemput use rising *between-emotion correlation* ("spatial correlation").
+
+**Claims at source [abstract].** The probability of an upcoming shift between a depressed and a normal state "is related to elevated temporal autocorrelation, variance, and correlation between emotions in fluctuations of autorecorded emotions"; "Our results support the hypothesis that mood may have alternative stable states separated by tipping points". Sample from the search record, not the abstract: 535 healthy and 93 depressed volunteers, four emotions, random-time reports over 5 or 6 days. The abstract itself says the indicators are "for a large group of healthy individuals and patients".
+
+**Wichers & Groot 2016 [read].** One participant: male, 57, multiple past episodes, 8.5 years on antidepressants, who gradually stopped venlafaxine (150 to 0 mg over 8 weeks), double-blind to the schedule. 1,474 momentary observations, up to 10 a day, over 239 days; items rated on 7-point scales; slow trends removed before analysis. A sudden shift in depressive symptoms around day 127 (change-point p = 0.005); the participant and psychiatrist resumed antidepressants 36 days after the studied period. Rising temporal autocorrelation and variance in a 30-day moving window preceded the shift, and the time-lagged network among mental states acquired more and stronger connections as the shift approached (figure 1b). The authors rule out floor effects since trends were removed and effects were present in variables far from the scale end. They state this is the first within-person demonstration; their introduction concedes that before it "no study has yet succeeded".
+
+**Theorems or derived predictions.** None proved. The prediction is a statistical pattern before a transition. Critical for the algebra: this predicts *warnings*, not the position of the tipping point or its dependence on any named drive.
+
+**Empirical standing, blunt.**
+- 2014 PNAS is between-person: higher indicators at baseline in people who later changed state. Bos & De Jonge titled their reply that the idea "still needs empirical proof", and the authors' reply says between-subject data give "first empirical support". The within-person claim is a separate question.
+- 2016 is n = 1 and a pharmacological withdrawal, not a natural onset.
+- Dablander et al. 2023 (simulation of a bistable system varying sampling frequency, noise and approach speed): whether EWS appear "depends strongly on the specifics of the system", contradicting their reputation as model-agnostic, and they are "very sensitive to noise" [secondary summary of the abstract].
+- Smit et al. 2025: 37 formerly depressed people with momentary assessments; EWS preceded recurrence in **32.9%** of participants across robustness checks; recurrence cases showed significantly more positive trends in variance but **not** in autocorrelation; the authors call the low sensitivity "a substantial challenge for clinical applications" [secondary summary; paper not read, numbers unconfirmed]. A third search summary mentions a 2024 relapse study (Tonge and colleagues) and a 2025 bipolar preprint (Ludwig et al.); neither was verified.
+- Net: CSD in depression is a live, partly supported, weakly sensitive hypothesis. It has not been replicated as a clinically usable predictor.
+
+**Operand/operator translation.** The algebra should carry a *stability* quantity, say lambda(i), the recovery rate of drive state after a perturbation, with the warning signal as an observable of lambda going to zero. This ties the algebra to ecological resilience (30) directly: Scheffer's tipping-point theory was built on lakes and the same vocabulary applies. The tipping point is a property of the *coupled* drive system with a parameter p (here plausibly control belief or accumulated adversity), not of any one drive.
+
+---
+
+## 5. How the layers could join: a specification, not a result
+
+This section is mine and is a hypothesis built from the validated parts above. None of it has been tested.
+
+**Variables per agent i.** d_i, a drive level (any drive; e.g. exploration/curiosity per 17); c_i, control belief (Huys's gamma in a bounded transform); P_i, the passivity suppressor (Maier & Seligman's DRN-mediated default); beta_i, reward sensitivity (Huys).
+
+**Candidate structure.**
+1. Effective drive gain: g_i = beta_i * (1 - P_i), so passivity multiplicatively suppresses all drive expression. [hypothesis]
+2. P_i is driven up by sustained adversity A_i and driven down by c_i: dP/dt = a*A_i*(1 - P) - k*c_i*P. [hypothesis; the rates a and k are free]
+3. c_i is updated by contingency evidence (Huys eq. 1 is the Bayesian form) and also *is protected* by past controllable episodes (immunisation), so c has a slow memory component. [from M&S immunisation; form hypothesis]
+4. **Tipping**: if, in addition, low g_i reduces action and thus reduces the contingency evidence that would raise c_i (inaction yields no information about control), there is a positive feedback loop P up -> action down -> c stuck low -> P up. Positive feedback with a gate gives two stable states (engaged / collapsed) and hysteresis in the adversity parameter. [hypothesis; this specific loop is not in M&S or Huys, though the text of Huys supports the first link: low gamma lowers the exploration bonus, so less exploration, so fewer counts that could revise gamma.]
+5. Predicted observables near the fold: lag-1 autocorrelation and variance of d_i rise, cross-drive correlations rise, consistent with the EWS literature above. Prediction to test against Dablander's warning: the signal depends on noise level and sampling rate, so the algebra should state the sampling regime with the claim.
+
+**Why this matters for the algebra.** It would be the first place in the strand where an operator (adversity) acts on a *gate* rather than on a level, and where a theorem of the right type exists to prove: existence of two equilibria for a parameter range, and that the control-belief update operator is the only recovery path (everything that lowers adversity but gives no controllable experience fails to restore c). That last is a falsifiable, interventionally testable prediction in the sense of M&S.
+
+**Counter-considerations.** (i) Humans' hopelessness is not obviously a 5-HT-DRN phenomenon (M&S say human data are scarce). (ii) The Huys paper's gamma is fitted to a slot-machine task, and the transfer from "control over lottery outcomes" to "control over one's life" is an assumption. (iii) Wichers' single case involved drug withdrawal, which may be a different transition type from adversity-driven onset.
+
+---
+
+## What exists vs what does not
+
+**Exists.** A strong rodent circuit account where passivity is the default and control detection gates it off, with causal pathway manipulations (Maier & Seligman 2016). A fully specified one-parameter computational definition of "control" with a likelihood and a human fit (Huys et al.). A general tipping-point theory with a statistical toolkit (Scheffer 2009; Dakos 2012) and a handful of human mood studies showing the predicted pattern, partly (van de Leemput 2014 between-person; Wichers 2016 n = 1; Smit 2025 at about a third sensitivity). A verbal cognitive vulnerability chain (Abramson et al.).
+
+**Does not exist.** (a) Any equation that couples a control-belief variable to a bistable mood or drive state. (b) A demonstration that the same variable (control belief) that predicts behaviour in Huys's task predicts a tipping point. (c) Any social or group version: all the work here is on one person or one rat. Williams' resignation stage (42) is the only group-facing hook and it is staged verbal, not dynamic. (d) A validated human measure of the DRN-passivity default. (e) Independent replications of Huys et al.'s classification. (f) A clinically usable early-warning signal; the best current number is about one in three.
+
+## Unconfirmed
+
+- Full text of van de Leemput et al. 2014 not read: sample sizes (535 / 93), emotion list and recording period come from a search summary of the paper, not from the paper; effect sizes, p values and how "transition" was defined are unknown to me.
+- Abramson, Metalsky & Alloy 1989: no primary text, abstract not obtained; the two empirical findings attributed to later work come from one search summary of unidentified sources.
+- Scheffer 2009 and Dakos 2012 equations and the claim that autocorrelation is more robust than variance are from search summaries; the two Dakos-related sentences in the summaries point in opposite directions on which indicator is better, and Smit 2025 found variance but not autocorrelation, so the ranking is unsettled.
+- Smit 2025 figures (37 people, 32.9%, variance but not autocorrelation) come from a search summary; the SAGE page returned 403.
+- Huys, Browning et al. (the seed) did not match any paper; possibly a later computational-psychiatry review by Huys, Maia & Frank (2016) or a Browning paper, neither checked.
+- Huys & Dayan 2009 (Cognition) not read. Its DOI resolves, but whether it contains an equation beyond those in the NIPS paper is unknown.
+- Kerr et al. 2012 (human triadic design in snake-phobic subjects, per M&S) not located.
+- The middle part of the Maier & Seligman article (characters 100,000 to the final section was only partly covered) was not read; claims on social-defeat anxiety and sensitisation timing come from the first fetch.
+- Whether Dablander et al. 2023 and the Tonge relapse paper (2024, unverified DOI) change the verdict on EWS: I only have abstracts.

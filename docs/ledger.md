@@ -9,7 +9,7 @@ report gives the yield per cluster.
 ## Line schema
 
 ```json
-{"id":"L0001","kind":"equation","statement":"one line","source":"16 §4","work":"Keramati & Gutkin 2014, doi 10.7554/eLife.04811","provenance":"read","status":"open","cluster":"C","added":"2026-10-29","batch":1,"dup_of":null,"note":""}
+{"id":"L0001","kind":"equation","statement":"one line","source":"16 §4","work":"Keramati & Gutkin 2014, doi 10.7554/eLife.04811","provenance":"read","status":"open","cluster":"C","added":"2026-10-29","batch":1,"dup_of":null,"scale":"group","ethics":"n/a","note":""}
 ```
 
 - `kind`: `drive` | `equation` | `empirical-result` | `contradiction` | `definition`
@@ -22,7 +22,13 @@ report gives the yield per cluster.
   a deep-read settles them.
 - `empirical-result` lines record what a tradition actually predicts or
   controls, and how well, out of sample: the scoring material for the
-  equation set.
+  equation set. They carry `scale`: `membership` (join, stay, leave,
+  conform) | `group` (cohesion, decision, split, efficiency) | `crowd`
+  (adoption, mobilisation, opinion at society scale) — Aldred's three
+  target scales (`notes/2026-10-29-cap-and-target-outcomes.md`).
+- `ethics`: `consent` | `manipulation` | `n/a` — whether the intervention
+  or finding steers people with or without their consent. Positive
+  steering (improving efficiency, wellbeing, decision quality) is in scope.
 
 ## Convergence rule
 

@@ -10,7 +10,7 @@ Status legend: **queued** (not started) / **surveying** (an agent is on it) / **
 
 Kinds: survey, deep-read, cross-check, data, model.
 
-Source: 651 raw directions generated from `docs/prior-work/01`–`42` (41 was still in validation when the map was built) plus new lenses. Near-duplicates were merged into **546 directions** (551 after D547–D551 were added by hand the same day for the modelled-population testbed). Every merged entry keeps the seeds and the `From` sources of all its parts and says what it absorbed. No distinct direction was dropped. IDs are stable: a new direction gets the next free number and is never renumbered into a cluster.
+Source: 651 raw directions generated from `docs/prior-work/01`–`42` (41 was still in validation when the map was built) plus new lenses. Near-duplicates were merged into **546 directions** (551 after D547–D551 for the modelled-population testbed; 560 after clusters O and P were added the same day from Aldred's target outcomes). Every merged entry keeps the seeds and the `From` sources of all its parts and says what it absorbed. No distinct direction was dropped. IDs are stable: a new direction gets the next free number and is never renumbered into a cluster.
 
 ---
 
@@ -609,6 +609,25 @@ Source: 651 raw directions generated from `docs/prior-work/01`–`42` (41 was st
 - **D549** · survey · queued — LLM-agent populations as test subjects: accuracy, known failure modes (over-cooperation, homogeneity, caricature), and how to ground them in data. *Seeds:* Park et al. 2023, 2024 (see 12); search "silicon samples", "LLM social simulation validity". *From:* Aldred 2026-10-29.
 - **D550** · survey · queued — Digital twins of people and groups: definitions, what has been built for organisations, cities and patients, and how twins are kept honest against data. *Seeds:* search "digital twin of organisation", "human digital twin", "social digital twin". *From:* Aldred 2026-10-29.
 - **D551** · cross-check · queued — Circularity and identifiability: methods for testing a model on simulated data without baking the answer in (model-independent generators, parameter-recovery studies, simulation-based calibration). *Seeds:* Talts et al. 2018 simulation-based calibration (verify); Wilson & Collins 2019 "Ten simple rules for computational modeling" (verify). *From:* Aldred 2026-10-29.
+
+## O. Applied practice: where groups are already steered
+
+_Added 2026-10-29 from Aldred's target outcomes (`notes/2026-10-29-cap-and-target-outcomes.md`). For each: variables manipulated, outcome measured, out-of-sample evidence, whether a formal model underlies it; mark which parts have equations and which only doctrine. Cross-reference 07, 13, 35, 38, 39 rather than repeat._
+
+- **D552** · survey · queued — Marketing and persuasion at scale: what variables do practitioners manipulate (scarcity, social proof, framing, targeting), what outcomes do they measure (conversion, retention, share), what out-of-sample evidence exists (A/B archives, field experiments, advertising elasticity meta-analyses), and which parts have formal models (Bass, hierarchy-of-effects, uplift models)? *Seeds:* Cialdini (see 13/35); Sethuraman, Tellis & Briesch 2011 advertising elasticity meta-analysis (verify); DellaVigna & Gentzkow 2010 persuasion review (verify). *From:* Aldred.
+- **D553** · survey · queued — Power and authority structures: how do elites, bureaucracies and parties keep compliance and loyalty, what do they measure, and what is formalised (selectorate, principal–agent, Weberian types)? *Seeds:* see 08, 10, 11; Svolik 2012 The Politics of Authoritarian Rule (verify); Levi 1988 Of Rule and Revenue (verify). *From:* Aldred.
+- **D554** · survey · queued — Military cohesion and command: doctrine on unit cohesion, morale, leadership and training; what is measured (retention, performance, breakdown rates); out-of-sample evidence; formal models (RAND Will to Fight, Lanchester, cohesion scales). *Seeds:* see 24, 39; Siebold; MacCoun, Kier & Belkin 2006 (verify); Wong et al. 2003 "Why they fight" (verify). *From:* Aldred.
+- **D555** · survey · queued — Organisational design as group steering: structure, incentives, culture programmes and team design; measured outcomes (productivity, turnover, safety); evidence from field experiments; formal models. *Seeds:* see 38; Bloom & Van Reenen management practices (verify); Google Project Aristotle (secondary); Edmondson. *From:* Aldred.
+- **D556** · survey · queued — Government and policy nudging at population scale: behavioural insight units, what they manipulate and measure, replication record, formal models (nudge meta-analyses, policy evaluation). *Seeds:* see 35 (Mertens 2022; Maier 2022); DellaVigna & Linos 2022 (verify); UK BIT and US SBST reports. *From:* Aldred.
+- **D557** · survey · queued — Organised religion: recruitment, retention, schism and defection; what variables congregations and movements manipulate (ritual, cost, exclusivity, tithing), measured outcomes (growth, retention), evidence, and formal models (Iannaccone's strict-church model, Stark & Bainbridge). *Seeds:* see 37; Iannaccone 1994 "Why strict churches are strong" (verify); Stark 1996 The Rise of Christianity (verify). *From:* Aldred.
+- **D558** · survey · queued — Positive steering with evidence: interventions shown out of sample to improve group efficiency, wellbeing or decision quality (team interventions, deliberation designs, conflict resolution, collective-intelligence methods), with the ethics of each (consent vs manipulation). *Seeds:* Woolley et al. 2010 collective intelligence (verify); Mercier & Sperber on group reasoning; deliberative-polling evidence (Fishkin, verify); Lacerenza et al. 2018 team interventions meta-analysis (verify). *From:* Aldred.
+
+## P. Cross-cutting: group size, composition and definition
+
+_Answered per cluster, not once; these two directions set the frame and each later dive must say what changes with n and with makeup._
+
+- **D559** · survey · queued — Group size: how operators and outcomes change with n — Dunbar-type layers, scaling laws in groups and cities, size thresholds in cohesion, decision quality, loafing, cooperation and contagion; which results are proven to depend on n and how. *Seeds:* Dunbar (see 09/22); Bettencourt et al. 2007 urban scaling (verify); Karau & Williams (24); Olson (10); Caplow 1957 on small-group size (verify). *From:* Aldred.
+- **D560** · survey · queued — Group composition and definition: heterogeneity and diversity effects, boundary and membership rules, entitativity, what makes a set of people a group at all, and how equations should index it. *Seeds:* Campbell 1958 entitativity (verify); Page 2007 The Difference (verify); Tajfel & Turner (06); Ritchie on groups (14); Lickel et al. 2000 (verify). *From:* Aldred.
 
 ## Recommended for iteration 1
 

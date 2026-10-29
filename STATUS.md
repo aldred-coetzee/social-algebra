@@ -104,9 +104,8 @@ drive. The drive synthesis must end in a candidate equation set with every
 term traced to a validated source or marked as ours.
 
 **Standing instruction (Aldred, 2026-10-29): "go deeper, don't wait for me
-between batches"** — **suspended by next-pattern's quota guard the same
-day** (one batch per day, batch report instead of auto-start) until Aldred
-sets a cap; see `notes/2026-10-29-next-pattern-review-quota-ledger-depth.md`.
+between batches"** — **replaced the same day by Aldred's rule: "Pause after
+each batch and ask me if we should do the next"** (`notes/2026-10-29-cap-and-target-outcomes.md`, which also records his target outcomes: three scales, applied practice, group size and composition, positive steering); see `notes/2026-10-29-next-pattern-review-quota-ledger-depth.md`.
 **Iteration 1** (40 directions → files 043–082) is running as of 2026-10-29
 evening; when it lands: commit, extract ledger lines, report yield per
 cluster. **Iteration 2 = deep-reads first.** Research iterations run back to back as workflow
