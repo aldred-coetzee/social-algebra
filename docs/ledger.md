@@ -90,3 +90,9 @@ Extraction faithful: 19/20 supported by their file, 17/17 works exist,
 paper. Four habits fixed by a Haiku pass and the rules above: prose
 results tagged `equation`; own derivations tagged `sa`; caveats recorded
 as contradictions; two sources pinned to one line.
+
+Hygiene pass applied 2026-10-29 (38 Haiku agents over 1684 lines):
+522 kind changes (contradiction->note 231, equation->empirical-result 191, equation->definition 42, empirical-result->note 19, definition->equation 18, equation->note 15, definition->empirical-result 2, drive->definition 2, definition->note 1, contradiction->empirical-result 1),
+228 provenance changes to `derived`, 232 contradictions demoted to
+note, 470 lines split (originals kept with `status: split`). Now
+3795 lines: definition 550, empirical-result 1068, equation 812, note 330, drive 443, contradiction 122; provenance read 1514, sa 1515, derived 296.
