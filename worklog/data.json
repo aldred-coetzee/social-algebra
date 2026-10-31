@@ -1,0 +1,96 @@
+{
+ "repo": "social-algebra",
+ "generated": "2026-10-31 18:28",
+ "scope": "all time",
+ "idle_gap_min": 15,
+ "totals": {
+  "repo": "social-algebra",
+  "first": "2026-10-28T23:55:20.995000+00:00",
+  "last": "2026-10-29T14:45:04+01:00",
+  "sessions": 1,
+  "prompts": 28,
+  "briefs": 65,
+  "active_s": 12850.003000000044,
+  "wall_s": 49833.322,
+  "turns": 525,
+  "tool_calls": 283,
+  "agents": 96,
+  "tok_in": 2263,
+  "tok_out": 301293,
+  "tok_cr": 107321450,
+  "commits": 86,
+  "ins": 40318,
+  "del": 2812,
+  "jobs": 0,
+  "job_s": 0
+ },
+ "git": {
+  "commits": 86,
+  "first": "2026-10-29T00:47:41+01:00",
+  "last": "2026-10-29T14:45:04+01:00",
+  "ins": 40318,
+  "del": 2812,
+  "per_day": {
+   "2026-10-29": 86
+  }
+ },
+ "jobs": [],
+ "jobs_daily": {},
+ "by_day": {
+  "2026-10-28": {
+   "act": 451.256,
+   "prompts": 0,
+   "commits": 0
+  },
+  "2026-10-29": {
+   "act": 12398.74700000004,
+   "prompts": 28,
+   "commits": 86
+  }
+ },
+ "sessions": [
+  {
+   "id": "1d268f6c-6f44-5e18-a974-0045d46feb88",
+   "start": "2026-10-28T23:55:20.995000+00:00",
+   "end": "2026-10-29T13:45:54.317000+00:00",
+   "wall_s": 49833.322,
+   "active_s": 12850.003000000044,
+   "active_s_by_gap": {
+    "5": 9515.446000000038,
+    "15": 12850.003000000044,
+    "30": 18702.87100000003
+   },
+   "prompts": 28,
+   "briefs": 65,
+   "turns": 525,
+   "tool_calls": 283,
+   "tools": {
+    "Bash": 138,
+    "Agent": 96,
+    "SendMessage": 23,
+    "Workflow": 10,
+    "Write": 3,
+    "Read": 3,
+    "AskUserQuestion": 3,
+    "ToolSearch": 2,
+    "Edit": 2,
+    "TaskStop": 2,
+    "Skill": 1
+   },
+   "agents": 96,
+   "tokens": {
+    "in": 2263,
+    "out": 301293,
+    "cache_read": 107321450,
+    "cache_create": 1925992
+   },
+   "models": [
+    "claude-fable-5-1",
+    "claude-opus-5-5"
+   ],
+   "versions": [
+    "2.1.308"
+   ]
+  }
+ ]
+}
