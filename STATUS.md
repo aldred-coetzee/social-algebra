@@ -129,10 +129,13 @@ matter: the crowd gate is two-sided (Cantoni's substitutes refute a
 universal monotone threshold map); Altafini's dichotomy carries its exact
 hypotheses; dyad partner coupling is bounded tiny beside inertia, so
 "decoupling" is the rule at dyad scale; 6.1 proved in Euler turns; 6.4
-conjecture became a theorem. **Awaiting Aldred: what next** (candidates:
-name the instruments; an explicit-sign longitudinal triad dataset; the
-team-scale certificate test; or the independently built modelled
-population). Then: v0 provenance update, and the
+conjecture became a theorem. **Aldred, 2026-10-31: "Go"** on next-pattern's order: (1) `sim/` as
+regression tests that reproduce the published results of the five
+source-verified equations (Wankhede certificate, Marvel factions,
+Granovetter's two crowds, Leonard's θ_c cases), each test citing its ledger
+id, Python in a uv environment; (2) then the n = 3 refutation test on the
+Newcomb data once D594's lines are read; (3) no new research batch until
+both exist. Naming the instruments remains his open decision. Then: v0 provenance update, and the
 question of what comes next goes back to him. Research iterations run back to back as workflow
 batches from `docs/research-map.md`: dive → separate validation pass →
 cross-check against existing files → commit → next batch. No synthesis and

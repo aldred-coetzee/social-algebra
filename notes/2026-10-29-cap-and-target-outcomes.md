@@ -102,3 +102,11 @@ written against the ledger as it stands, with every term resting on an
 (research-map cluster V, D587–D595, files 095–103). When they land, v0's
 provenance is updated and the inadmissible marks lifted where the read
 confirms the claim.
+
+**2026-10-31:** Aldred: *"Go"* on next-pattern's order after v0.1: `sim/`
+first as regression tests reproducing the published results of the five
+source-verified equations (each test citing its ledger id), then the n = 3
+refutation test on Newcomb, no new research batch until both exist. This
+is not the modelled population and not a new theory: it checks that the
+equations v0.1 adopted do what their papers say, which is why it may come
+before the research is "done".
