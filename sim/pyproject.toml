@@ -1,0 +1,9 @@
+[project]
+name = "social-algebra-sim"
+version = "0.1.0"
+description = "Regression tests that reproduce the published results of the equations adopted in models/00-v0.md"
+requires-python = ">=3.12"
+dependencies = ["numpy", "scipy", "pytest"]
+
+[tool.uv]
+package = false
