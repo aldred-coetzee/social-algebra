@@ -156,9 +156,17 @@ validity-column rule. To fold into v0.2 after batch 4.
 the current and become less derivative."** Agreed and recorded
 (`notes/2026-10-31-derivative-so-far-own-claims.md`): the next model file is
 `models/02-our-claims.md`, ours only, each claim with a test on current
-data; cluster Y on the map (D609–D614). Started: D609 (group state as a
-distribution; merged-crowd equilibrium numerics) and D610 (modern
-explicit-sign and split datasets with licences). Slip
+data; cluster Y on the map (D609–D614). **Done 2026-11-01:** `models/02-our-claims.md` Claim 1 — group drive
+state as a threshold distribution; merge sandwich (never below both
+parts, never above the least common pre-fixed point), ignition with latent
+pressure, non-reducibility (no summary of the parts gives the merged
+equilibrium); proofs ours, numerics exact on 829,756 pairs; audit requested
+from next-pattern. The n = 3 Newcomb test ran (`sim/results/newcomb_n3.md`):
+symmetric triangle rule refuted for directed ties, strict balance refuted,
+weak balance a depletion, conversion undecided; v0.1 §7 updated. File 117
+(modern signed and split datasets) written, in validation. Batch 4 (files
+105–116, signs and datedness) mid-flight. **v0.2 after batch 4: directional
+triad law, sign law if supported, validity column, fold in models/01.** Slip
 the same day: an agent sent Aldred's email to Unpaywall's API; rule added
 to CLAUDE.md. Then: v0 provenance update, and the
 question of what comes next goes back to him. Research iterations run back to back as workflow
