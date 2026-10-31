@@ -89,7 +89,10 @@ figure contents and lists are transcribed only when the source licence
 allows (say which licence) or are reduced to a description. Text derived
 from Wikipedia is marked as CC BY-SA. Paywalled text is read, never
 reproduced; access controls are never circumvented. Every dive records the
-licence of anything quoted or transcribed. The audit and per-file table
+licence of anything quoted or transcribed. **Aldred's email address is never
+sent to an external service** (an agent passed it to Unpaywall's API on
+2026-10-31 as the required contact parameter; harmless, but it broke the
+rule): an API that demands an email gets none, and the lookup is skipped. The audit and per-file table
 live in `docs/licensing.md`; `notes/2026-10-30-licensing-check.md` has the why.
 
 ## How it connects to the rest

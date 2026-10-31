@@ -135,7 +135,18 @@ source-verified equations (Wankhede certificate, Marvel factions,
 Granovetter's two crowds, Leonard's θ_c cases), each test citing its ledger
 id, Python in a uv environment; (2) then the n = 3 refutation test on the
 Newcomb data once D594's lines are read; (3) no new research batch until
-both exist. Naming the instruments remains his open decision. Then: v0 provenance update, and the
+both exist. Naming the instruments remains his open decision.
+**Done 2026-10-31:** `sim/` regression suite (156 passed, 3 xfail; 6.2
+corrected; one Leonard Table 1 claim open) and the Newcomb/Doreian &
+Krackhardt read at source (file 104, validated): both papers read, data
+are ranks with a stated sign recode, exact sign-shuffle null exists, two
+of three one-negative types under-represented and one over-represented
+from week 6, no conversion table printed, 15 waves settled, UCI copy
+CC BY-NC-ND (results publishable, data file not redistributable). **Next:
+the n = 3 test proper needs the rank files recomputed under v0.1's null
+and the sign recode stated as a modelling choice — Aldred's go.** Slip
+the same day: an agent sent Aldred's email to Unpaywall's API; rule added
+to CLAUDE.md. Then: v0 provenance update, and the
 question of what comes next goes back to him. Research iterations run back to back as workflow
 batches from `docs/research-map.md`: dive → separate validation pass →
 cross-check against existing files → commit → next batch. No synthesis and
