@@ -34,6 +34,11 @@ report gives the yield per cluster.
   conform) | `group` (cohesion, decision, split, efficiency) | `crowd`
   (adoption, mobilisation, opinion at society scale) — Aldred's three
   target scales (`notes/2026-10-29-cap-and-target-outcomes.md`).
+- `era`: the years the data were collected (e.g. `1956`, `1989-1992`,
+  `2019`), or `theory` for a result with no data; `medium`: `face-to-face`
+  | `online` | `mixed` | `animal` | `n/a`. Added 2026-10-31 for fluidity
+  (`notes/2026-10-31-go-on-all-and-fluidity.md`): magnitudes are era- and
+  medium-bound and must be re-estimated; forms are not.
 - `ethics`: `consent` | `manipulation` | `n/a` — whether the intervention
   or finding steers people with or without their consent. Positive
   steering (improving efficiency, wellbeing, decision quality) is in scope.
