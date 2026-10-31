@@ -142,9 +142,16 @@ Krackhardt read at source (file 104, validated): both papers read, data
 are ranks with a stated sign recode, exact sign-shuffle null exists, two
 of three one-negative types under-represented and one over-represented
 from week 6, no conversion table printed, 15 waves settled, UCI copy
-CC BY-NC-ND (results publishable, data file not redistributable). **Next:
-the n = 3 test proper needs the rank files recomputed under v0.1's null
-and the sign recode stated as a modelling choice — Aldred's go.** Slip
+CC BY-NC-ND (results publishable, data file not redistributable). **Aldred, 2026-10-31: "Go on all"** (the five steps, in order, no stop
+for a yes; plus fluidity — `notes/2026-10-31-go-on-all-and-fluidity.md`).
+Running: the n = 3 Newcomb test in `sim/` (local data only, CC BY-NC-ND);
+batch 4 = clusters W (where tie signs come from — the hinge for the drives
+hypothesis, D597–D604) and X (drift and datedness, D605–D608), files
+105–116. Written by the session: `models/01-composition-and-levers.md` —
+split inherits the no-escalation certificate (proved), merge needs a
+loop-gain condition (row-sum and block forms, proved), a size law for
+mergers, eight steering levers read off the certified laws, and the
+validity-column rule. To fold into v0.2 after batch 4. Slip
 the same day: an agent sent Aldred's email to Unpaywall's API; rule added
 to CLAUDE.md. Then: v0 provenance update, and the
 question of what comes next goes back to him. Research iterations run back to back as workflow
