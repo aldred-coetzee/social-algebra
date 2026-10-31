@@ -17,6 +17,10 @@ result and were not tuned to pass; a failure is a finding.
 (The old `.venv` from 2026-10-29 was reused by `uv sync` without trouble, so `UV_PROJECT_ENVIRONMENT`
 was not needed.) `uv.lock` is committed. Python >= 3.12; numpy, scipy, pytest only.
 
+Tests on third-party data skip (with the command in the reason) when the data file is absent: the
+files in `data/` are local-use-only and git-ignored, `data/README.md` records where each came from and on
+what terms. Fetch the Newcomb ranks with `~/.local/bin/uv run python -m models.newcomb_report fetch`.
+
 ## Results (2026-10-31): 156 passed, 3 xfailed (strict), 0 failed
 
 | Model | Ledger ids | Published result | Test | Status |
@@ -61,3 +65,35 @@ was not needed.) `uv.lock` is committed. Python >= 3.12; numpy, scipy, pytest on
 3. Test constructions that are v0.1's or ours, not published: Wankhede hostile-pair counterexample,
    the n = 2 cycling F, the Euler-turn norm identity (v0.1 6.1 [derived]), Leonard's use of the
    eta-sign as the stability criterion (derived from L3872).
+
+## Newcomb n = 3 test (2026-11-01): 44 tests (19 need no data, 25 skip without it)
+
+`models/newcomb.py` and `tests/test_newcomb_triads.py` run the n = 3 refutation test of `models/00-v0.md`
+section 7 on the Newcomb fraternity ranks (`docs/prior-work/104`, ledger L4471-L4546);
+`models/newcomb_report.py` writes `results/newcomb_n3.md` (all numbers, tables and the verdict; about a
+minute, seeded). Unlike the rows above this is **new computation**, not a published equation: the static half
+reproduces Doreian & Krackhardt (2001); the conversion half (type-to-type transitions, against a null that
+keeps each man's own persistence) is printed in neither D&K paper.
+
+| Published result | Ledger ids | Test | Status |
+|---|---|---|---|
+| D&K 2001 Figure 1, ten claims stated in words, under their 10,000-draw row-wise sign shuffle: LLD and LDL under-represented from week 1, DLL over-represented from week 6, DDD over from week 5, LLL and LDD over, DLD and DDL under | L4485-L4498 | `test_dk_figure1_pattern_is_reproduced`, `..._exact_values_...` | PASS (10 of 10 at top-4/bottom-3; 7, 7 and 4 of 10 at 3/3, 5/4, 3/2) |
+| 1996 paper on the same ranks: 30-35 reciprocated ties of 68 a wave (36 in weeks 3-5 and 10), null about 17, first-transition turnover "slightly above 30%" | L4520, L4521, L4527 | `test_recode_reproduces_the_1996_papers_...` | PASS (30-36, 36 exactly in waves 3, 4, 5, 10; 31.2%) |
+| 68 + and 51 - ties every wave, 4/3/9 per man | L4476, L4480 | `test_fixed_counts_per_wave` | PASS |
+
+Findings (full tables in `results/newcomb_n3.md`):
+
+1. **The pre-specified undirected cell cannot be run.** With only mutual same-sign ties ("agree" symmetrisation) the
+   data hold one one-negative triangle in 15 waves against 0.25 expected per wave; conversion has 1 and 7 triangles
+   at risk. The "sum" rule (either direction signs a pair) and D&K's directed triples carry the analysis.
+2. **Static half: supported in aggregate, refuted for DLL.** The one-negative pool is below the sign-shuffled null in all
+   15 waves, LLD and LDL in all 15, but DLL (also one-negative, first tie negative) is above it from wave 6; DDD is
+   enriched. Symmetric (4.2b)/(5.1) cannot tell the three apart; strict balance fails, weak survives as a depletion.
+3. **Dynamic half: not decided.** Conversion of a one-negative triple into a complete balanced one is rare (15
+   directed, 33 "sum" events), about 1.5 times its null rate (p 0.10 and 0.02), and not shown faster than the
+   all-negative class (p 0.33 and 0.08). Counting a lost tie as balanced (v0 section 4.2, post hoc), one-negative
+   resolves faster than all-negative, but because all-negative triples are unusually stable.
+4. **The brief's "16 D&K types" are eight** (LLL ... DDD); sixteen is Leskovec et al.'s directed triad count.
+5. **D&K's footnote that the qualitative results hold at top-3/bottom-3 and top-3/bottom-2 (L4478) is true of the
+   contrasts and false of the wave-by-wave details** (7 and 4 of their 10 claims hold). The recode decides the power,
+   not the static verdicts.

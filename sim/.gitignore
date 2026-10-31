@@ -1,3 +1,8 @@
 .venv/
 __pycache__/
 .pytest_cache/
+
+# Local-use-only datasets (licence: see data/README.md). Never commit data files;
+# only the provenance README is tracked.
+data/*
+!data/README.md
