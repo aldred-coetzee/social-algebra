@@ -151,7 +151,14 @@ hypothesis, D597–D604) and X (drift and datedness, D605–D608), files
 split inherits the no-escalation certificate (proved), merge needs a
 loop-gain condition (row-sum and block forms, proved), a size law for
 mergers, eight steering levers read off the certified laws, and the
-validity-column rule. To fold into v0.2 after batch 4. Slip
+validity-column rule. To fold into v0.2 after batch 4.
+**Aldred, later 2026-10-31: "this all seems completely derivative… integrate
+the current and become less derivative."** Agreed and recorded
+(`notes/2026-10-31-derivative-so-far-own-claims.md`): the next model file is
+`models/02-our-claims.md`, ours only, each claim with a test on current
+data; cluster Y on the map (D609–D614). Started: D609 (group state as a
+distribution; merged-crowd equilibrium numerics) and D610 (modern
+explicit-sign and split datasets with licences). Slip
 the same day: an agent sent Aldred's email to Unpaywall's API; rule added
 to CLAUDE.md. Then: v0 provenance update, and the
 question of what comes next goes back to him. Research iterations run back to back as workflow
