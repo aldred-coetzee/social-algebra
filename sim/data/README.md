@@ -186,3 +186,23 @@ with the fetch command in the reason when it is absent.
 replicates; no edge, user or text). They sit here only because this directory is git-ignored; they can be deleted and
 regenerated. The same module reads the wiki-RfA and Bitcoin files above in place, and fetches them with
 `fetch wiki otc alpha` if they are absent (sha256-checked).
+
+## szekely2021/full.csv -- Szekely et al. 2021 threshold public-goods experiment (2026-11-01)
+
+- **What.** `full.csv`, 14,872 rows, 4.5 MB: 286 persons x 28 rounds of a threshold public-goods game (groups of six, reshuffled
+  every round, threshold 300 of 600, disaster probability switching between 0.9 and 0.6 at round 15), with a measured Social Value
+  Orientation angle (`svo_angle`), risk, Big Five and beliefs per person. Study: Szekely, Lipari, Antonioni, Paolucci, Sanchez,
+  Tummolini & Andrighetto (2021), "Evidence from a long-term experiment that collective risks change social norms and promote
+  cooperation", *Nature Communications* 12, 5452, doi:10.1038/s41467-021-25734-w.
+- **Used by.** `sim/models/szekely_composition.py`, `sim/tests/test_szekely_composition.py`, `sim/results/szekely_composition.md`
+  (statistics only). Provenance: `docs/prior-work/118-measured-drive-datasets.md`. Structure of the file (why two rows per
+  person-round, `odr`, `inactive`, `excluded`) is in the results file under "Facts about the data".
+- **Fetch.** `curl -L -o sim/data/szekely2021/full.csv https://osf.io/download/ra9ex/` then check the sha256 below.
+  OSF project https://osf.io/wvgk9 (doi:10.17605/osf.io/wvgk9), public; no login or access control was involved.
+- **Size / checksum.** sha256 `b0f366fe7733b4515428a8a3adb91ac4e113d29d7308477ed7de385bffdbeeb2` (`models.szekely_composition`
+  refuses to run on a file that differs).
+- **Terms.** The article is CC BY 4.0. The OSF project's own licence field is empty, so the data are "available" (the paper's
+  data statement) with attribution, not under an explicit data licence. Treated as **local-use-only: never committed, never
+  redistributed**; the results file holds aggregate statistics and never a participant row.
+- **Credit when publishing results from it.** Szekely et al. 2021 as above; the SVO slider measure is Murphy, Ackermann &
+  Handgraaf (2011) as named by the paper (not read here).

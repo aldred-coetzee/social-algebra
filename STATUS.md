@@ -72,8 +72,32 @@ not beat person rates on held-out outcomes (C2 fails at all sizes), and
 neither does the oracle with the true drives**, which says the test
 indicts the composition rule (ridge on group mean and min), not the
 drives. Exits are too rare at n = 25 (3 of 30 groups) for that outcome to
-mean anything. Next, per the note: a public experiment with measured
-drives, where the composition rule is the thing under test.
+mean anything. Then the measured-drive test, same day: `sim/results/szekely_composition.md`
+on Szekely et al. 2021 (Nature Communications, DOI
+10.1038/s41467-021-25734-w, CC BY 4.0 article; data from OSF wvgk9,
+local-only; survey `docs/prior-work/118-measured-drive-datasets.md`): 286
+people with a measured social value orientation, reshuffled groups of 6,
+threshold public-goods game, 28 rounds; rule fixed before any fit; held-out
+later rounds within each phase, 345 test group-rounds. **Measured SVO is
+weak** (group-mean AUC 0.58 in phase 1, 0.54 in phase 2; K1 met in one
+phase only). **No composition rule beats the mean** (our count-above-cut
+form, Claim 1: −0.025 and +0.005 AUC; K2 not met). **Person rates reach
+AUC 0.81–0.85 and the drive adds nothing to them** (K3 not met; R+M
+changes AUC by −0.001). Last round's contribution ties rates. Single group
+size, so the size question stays open; no public dataset was found with
+measured drives and more than one size.
+
+**Reading across the three experiments of 2026-11-01.** Drives as
+pre-measured dispositions are recoverable from the right channel (ties,
+not activity) but carry little of a group's outcome; what a person did
+last time carries most of it, and a linear composition of drives fails
+even with the true drives in hand. The data supports a *state* algebra
+(persons' current behaviour plus coupling plus structure), which is the
+Gottman/Granovetter form v0 already adopted, not a *trait* algebra. The
+decision on continuing is Aldred's; this session's view is that this is
+the write-up point, with the one remaining honest reframing being
+"drives" as latent states estimated from behaviour, which dissolves the
+hypothesis into existing state-space models.
 
 Housekeeping the same day: auto-compaction at 200k tokens set in this
 project's settings and globally (`CLAUDE.md`, "Context size").
