@@ -1,3 +1,4 @@
 {
-  "model": "fable[1m]"
+  "model": "fable[1m]",
+  "autoCompactWindow": 200000
 }

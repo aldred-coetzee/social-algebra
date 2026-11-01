@@ -88,9 +88,14 @@ where they did, and every DOI must resolve to that work. In practice:
 context passes about 200k tokens, say so and recommend `/compact` at the
 next safe point, after making sure `STATUS.md` and the dated notes carry
 everything a cold session needs; do not wait for the harness's automatic
-compaction, which on a 1M-context model fires far later. The session
-cannot compact itself; Aldred types `/compact`. Requested for every
-session via next-pattern (global brief in `box-config`).
+compaction, which on a 1M-context model fires far later. **The mechanism exists:** Claude Code's
+`autoCompactWindow` setting (tokens; `"autoCompactWindow": 200000`), the
+`/autocompact 200000` command (saves per model to user settings) and the
+`CLAUDE_CODE_AUTO_COMPACT_WINDOW` environment variable. Set to 200000 in
+this project's `.claude/settings.json` on 2026-11-01; the global setting for
+every session is requested via next-pattern (`box-config`). Found in the
+docs at code.claude.com/docs/en/model-config, "Set the auto-compact
+window"; this session had not known of it and should have looked.
 
 ## Licensing (Aldred, 2026-10-30)
 
