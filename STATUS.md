@@ -69,13 +69,14 @@ GitHub is Aldred's step.
 **One blemish before flipping, Aldred's call:** 115 of 125 commit
 messages end with a `Co-Authored-By: Claude …` trailer, added by the
 harness against the global rule of no AI references in commit messages.
-The strip was prepared on 2026-11-01 (a message filter over `main`, tree
-unchanged) but the force-push was declined by the permission layer, so
-history is as pushed. To apply it, run from the repo with Aldred's say-so:
-`git filter-branch -f --msg-filter 'sed "/^Co-Authored-By: Claude/d"' main`
-then `git push --force-with-lease origin main`. Single branch, no tags,
-no other clone, so nothing else needs rebasing. From this date commits
-here carry no trailer.
+Aldred said "run strip" on 2026-11-01; the rewrite is done and sits on
+the local branch `main-stripped` (same tree as `main`, no trailers), but
+the session's permission layer refuses every force-push, so the remote
+still has the trailers. **To finish, from Termux on the box:**
+`cd ~/projects/social-algebra && git checkout main-stripped && git branch -M main && git push --force-with-lease origin main`
+Single branch, no tags, no other clone, so nothing else needs rebasing.
+Delete this paragraph afterwards. Commits since this date carry no
+trailer.
 
 Auto-compaction at 200k tokens is set in this project's
 `.claude/settings.json` and globally (`CLAUDE.md`, "Context size"). The
