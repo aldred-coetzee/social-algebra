@@ -82,6 +82,16 @@ where they did, and every DOI must resolve to that work. In practice:
 - Before anything leaves the repo, a whole-corpus DOI audit resolves every
   DOI against Crossref and compares title and authors with the citing line.
 
+## Context size (Aldred, 2026-11-01)
+
+*"Why aren't you compacting at 200k tokens?"* Rule: once a session's
+context passes about 200k tokens, say so and recommend `/compact` at the
+next safe point, after making sure `STATUS.md` and the dated notes carry
+everything a cold session needs; do not wait for the harness's automatic
+compaction, which on a 1M-context model fires far later. The session
+cannot compact itself; Aldred types `/compact`. Requested for every
+session via next-pattern (global brief in `box-config`).
+
 ## Licensing (Aldred, 2026-10-30)
 
 Nothing goes into the repo that could not be reused when it is open-sourced.
