@@ -66,17 +66,11 @@ over the files added after it). No email address, secret or dataset is
 tracked; `sim/data/` is ignored except its README. Flipping visibility on
 GitHub is Aldred's step.
 
-**One blemish before flipping, Aldred's call:** 115 of 125 commit
-messages end with a `Co-Authored-By: Claude …` trailer, added by the
-harness against the global rule of no AI references in commit messages.
-Aldred said "run strip" on 2026-11-01; the rewrite is done and sits on
-the local branch `main-stripped` (same tree as `main`, no trailers), but
-the session's permission layer refuses every force-push, so the remote
-still has the trailers. **To finish, from Termux on the box:**
-`cd ~/projects/social-algebra && git checkout main-stripped && git branch -M main && git push --force-with-lease origin main`
-Single branch, no tags, no other clone, so nothing else needs rebasing.
-Delete this paragraph afterwards. Commits since this date carry no
-trailer.
+**Commit history is clean of AI trailers since 2026-11-01.** The
+harness's `Co-Authored-By` trailer had been added to 115 commits against
+the global rule; the history was rewritten (tree unchanged) and
+force-pushed by Aldred from Termux, because this session's permission
+layer refuses force-pushes. Commits here carry no trailer.
 
 Auto-compaction at 200k tokens is set in this project's
 `.claude/settings.json` and globally (`CLAUDE.md`, "Context size"). The
