@@ -2,6 +2,16 @@
 
 _Updated 2026-11-01, at the close of the strand._
 
+**Final state, 2026-11-01: closed; reduces to existing work.** Close-out
+done the same day: record corrections (the 16 expected failures, the
+oracle under C2), the Apache review recovered into its results file,
+caveat headers on the Szekely and Bitcoin results, the dyad test listed
+as designed-not-run, an oracle validity check (the generator carries
+memory in its relationship state and exit streak; with both removed C2
+still fails at n = 8 and 25, Review section of
+`sim/results/synthetic_population_identifiability.md`), and an article
+draft at `docs/article-draft.md`. Nothing is left to run.
+
 **Closed with a write-up on 2026-11-01: `docs/write-up.md`.** Aldred, after
 the day's three experiments and the question "is it worth continuing":
 "Ok write up." The strand ran from 2026-10-29 to 2026-11-01. Its history,
@@ -12,16 +22,18 @@ by Aldred after the close), answers six questions from the repo: the
 hypothesis as formulated, every approach in order and why it failed, the
 category of the conclusion (it reduces to existing work), what survived,
 the overlapping literature, and whether the negative is writeable up.
-It also names two places where the write-up overstates the files: the
-Apache fitted-case review is not recorded in its results file, and the
-16 expected failures record refuted claims of v0, not of published work.**
+It also named two places where the write-up overstated the files: the
+Apache fitted-case review was not recorded in its results file, and the
+16 expected failures record refuted claims of v0, not of published work.
+Both were corrected at the close-out the same day.**
 
 ## The finding, in one paragraph
 
 Drives as pre-measured dispositions can be recovered from behaviour when
 the right channel is observed (ties, not activity), but they carry little
 of a group's outcome. What a person did last time carries most of it, and
-composing drives linearly fails even when the true drives are known. The
+composing recovered drives linearly fails at every size; given the true
+drives the same rule beats person rates at n = 8 only. The
 data supports a state algebra (current behaviour, coupling, structure),
 which is the Gottman and Granovetter form the equation set already
 adopted, not a trait algebra. Nothing proves the aim impossible; three
@@ -45,10 +57,15 @@ for drives, as distinct from states, as the primitives.
   local-only under `sim/data/` with checksums in `sim/data/README.md`;
   the Newcomb copy is CC BY-NC-ND and must not be redistributed.
 - **Decisive results:** `sim/results/apache_fitted_case.md` (criterion
-  not met; the review of it happened in a session transcript and is not
-  in the file), `sim/results/synthetic_population_identifiability.md`
-  (drives recoverable via ties only; composition fails even for the
-  oracle), `sim/results/szekely_composition.md` (measured SVO weak; rates
+  not met; the Opus review of it, recovered from the subagent transcript
+  at the close-out, is now the file's Review section),
+  `sim/results/synthetic_population_identifiability.md`
+  (drives recoverable via ties only; composition of recovered drives
+  fails at every size; the oracle passes C2 at n = 8 only, a correction
+  made at the close-out to a flat "fails even for the oracle"; a
+  memoryless re-run at the close-out, Review section, finds the
+  person-rates advantage is not built from the generator's memory),
+  `sim/results/szekely_composition.md` (measured SVO weak; rates
   dominate; no composition rule beats the mean).
 
 ## Open, if anyone returns
@@ -61,7 +78,12 @@ for drives, as distinct from states, as the primitives.
   July 2021 would confirm or kill it.
 - **Group size with measured drives:** no public dataset found with both.
 - **Unrun designs:** the dyad and crowd pre-registered tests in
-  `models/00-v0.md` section 8.
+  `models/00-v0.md` section 8. **The dyad test is designed and not run.**
+  It needs a public dyadic expressed-affect series with a lag; the
+  Gottman SPAFF series are not public and the Sels smartphone samples
+  are the authors'. The one candidate named in section 8, K-EmoCon
+  (16 dyads, Zenodo), was named from memory and its DOI, licence and
+  fit were never checked.
 - **The reframing**, chosen knowingly or not at all: a state algebra of
   person rates plus coupling, aimed at steering. Smaller and more
   derivative than the aim set out.

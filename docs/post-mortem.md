@@ -137,10 +137,13 @@ activity layer: does first-year growth add to size in predicting
 graduation, out of time? Gain +0.014 AUC, interval −0.033 to +0.063,
 criterion (+0.02 with lower log-loss) not met. The file's own caveat: the
 test set is "out-of-time but not unseen". `docs/write-up.md` section 3.2
-says an Opus review recomputed the numbers and found no leakage; that
-review happened in the session transcript and **is not recorded in the
-results file**, which has no Review section (checked 2026-11-01). The
-claim of review should be read as unverified from the repo.
+says an Opus review recomputed the numbers and found no leakage; at the
+time this was written that review existed only in the session transcript
+and the results file had no Review section. At the close-out later the
+same day it was recovered from the subagent transcript and appended to
+the file as its Review section; the numbers agree after rounding, and
+it adds a wording mismatch with `models/00-v0.md` section 8 that the
+file had not mentioned.
 
 **2.9 The modelled population (2026-11-01,
 `sim/results/synthetic_population_identifiability.md`).** The test the
@@ -151,11 +154,17 @@ by a softmax mechanism unlike the equations
 recoverable) met through the tie channel, correlations 0.608 to 0.931 at
 60 steps; from activity alone only the set point survives. Criterion C2
 (a drive composition beats person rates on held-out group outcome) not
-met at any size, and the oracle given the true drives did not beat person
-rates either. One disclosed deviation: the exit rule could not fire and
-was recalibrated on a separate seed. This is the decisive failure: the
-composition rule in `models/01-composition-and-levers.md` loses even when
-the drives are known exactly.
+met at any size. The oracle given the true drives is mixed, and the
+first version of this paragraph, like the write-up, wrongly said it lost
+outright (corrected at the close-out against the file's table, lines
+94-104): on group activity it beats person rates at n = 3 and 8 and
+loses at n = 25; on exits it loses at n = 3 and wins at n = 8 and 25;
+under C2's two conditions it passes at n = 8 only, and the file never
+scores it against C2. One disclosed deviation: the exit rule could not
+fire and was recalibrated on a separate seed. This is the decisive
+failure for recovered drives; for known drives it is a failure of the
+linear mean-and-min predictor form at n = 25 and of exit prediction at
+n = 3, which the file's own caveat attributes to the aggregation.
 
 **2.10 The measured-drive test (2026-11-01,
 `sim/results/szekely_composition.md`).** The only public dataset found
@@ -187,8 +196,9 @@ one the evidence supports; the other three are wrong for stated reasons.
 - *The variables aren't measurable* is half true and not the finding:
   drives were recoverable in the synthetic world through ties (2.9), and a
   measured drive existed on Szekely (2.10). The problem was not measuring
-  them. It was that, measured or oracle-known, they did not compose into
-  outcomes better than last behaviour.
+  them. It was that, measured on Szekely or recovered in the synthetic
+  world, they did not compose into outcomes better than last behaviour,
+  and that even the true drives did so at one size of three.
 - *We simply didn't find it* is the hedge the write-up allows itself
   ("nothing proves the aim impossible", section 4). It is true in the
   trivial sense and misleading as a category. Three pre-registered tests
@@ -295,11 +305,11 @@ What was genuinely different, and it is short:
    finding that the join does not pay, under three pre-registered tests
    and an oracle, is the strand's one original empirical statement.
 2. **The negative was pre-registered and the oracle condition is unusual.**
-   The synthetic test gives the composition rule the true drives and it
-   still loses to person rates
-   (`sim/results/synthetic_population_identifiability.md`, C2). Most
-   trait-versus-state comparisons in the literature cannot run that
-   condition because the truth is not known.
+   The synthetic test gives the composition rule the true drives; it then
+   beats person rates under C2 at n = 8 and fails at n = 3 and 25
+   (`sim/results/synthetic_population_identifiability.md`, lines
+   94-104). Most trait-versus-state comparisons in the literature cannot
+   run that condition because the truth is not known.
 3. **The merge sandwich** in `models/02-our-claims.md` and the exact
    split, merge and add-member laws of `models/01-composition-and-levers.md`
    have no direct source in the survey. They are untested on data beyond
@@ -343,8 +353,9 @@ A one-paragraph abstract would read:
 > equations. Drives were recoverable from tie events but not from
 > activity. Every sign law of our own reduced to a per-person propensity.
 > On held-out outcomes, a composition of recovered drives did not beat a
-> model of each member's last behaviour at any group size, and neither did
-> a composition of the true drives in the synthetic world. On the one
+> model of each member's last behaviour at any group size, and a
+> composition of the true drives in the synthetic world did so at one
+> size of three. On the one
 > dataset with a drive measured before play, the drive added nothing to
 > past behaviour. The surviving model is a per-person latent state with
 > inertia, coupling and size, which is existing work. We report the

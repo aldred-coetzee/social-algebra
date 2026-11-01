@@ -130,3 +130,25 @@ RMSE is in the outcome's own units; 'rel' is RMSE divided by the RMSE of predict
     ~/.local/bin/uv run python -m models.synthetic_population rule      # once: writes the rule into this file, no number
     ~/.local/bin/uv run python -m models.synthetic_population report    # the single run; writes this file
     ~/.local/bin/uv run pytest -q tests/test_synthetic_population.py
+
+## Review (2026-11-01): does the generator carry memory, and C2 with a memoryless generator
+
+_Added at the close-out. Question put by Aldred: does the softmax behaviour generator carry per-agent inertia or state persistence, any term where an agent's action at t depends on its own action at t−1 or on an accumulated personal variable? If so, the C2 result (person rates beat drive composition) is partly by construction, and C2 is to be re-run once with a memoryless generator, same seeds and criteria._
+
+**Reading of the generator (`sim/models/synthetic_population.py`).** The activity choice carries no own-action term: U(act) = s_i + 0.5·m_{−i}(t−1), where m_{−i} is the mean activity of the *others* at the previous step, the person's own previous action excluded. Two accumulated personal variables do exist. (1) The relationship state r_ij is updated by the person's own approach (+1) and avoid (−1) events and decays by 0.8 per step; it enters U(approach) with −0.3·r_ij and U(avoid) with +0.3·r_ij, so a person's own past tie choices shape their next tie choice (negative feedback, not inertia, but memory). (2) The exit rule needs ten consecutive steps of realised utility below c, a per-person streak counter. So the generator is **not memoryless** by the definition above, and the question of construction is live for the tie channel and for exits, though not for activity.
+
+**The memoryless variant.** A copy of the module with the relationship coefficient set to 0.0 (r_ij then never enters any utility), the exit streak set to 1 (exit on any single step below c), and the calibration grid for c extended downward (−6.0 to −1.5 added), because a one-step rule needs a lower threshold. Everything else unchanged: same seeds (20261101 training, 20261102 held-out, 20261100 calibration), same sizes, T = 120, window 60, the same three methods, the same C1, C2 and C3 margins. The term 0.5·m_{−i}(t−1) was kept: it is others' behaviour, not the agent's own memory. The copy wrote its output to a scratch path so this file was untouched; the copy is not committed (the programme is closed and no model is to be modified), and the diff is the three constants above plus the output path.
+
+**Calibration outcome.** Every negative c gave no exits at any size; the chosen c was +1.0 with score 0.10, the same score as the original run. Exits were rare at n = 25 (1 of 30 held-out groups) and n = 3 (3 of 30), and 12 of 30 at n = 8. At n = 3 only 19 of 90 held-out persons were still present at step 60, so that size is as degenerate as in the original run, and outcome (ii) at n = 3 and n = 25 rests on one to three events.
+
+**C1, memoryless.** Met at every size through ties (corr with the truth, s/a/f, 60 steps): n = 3 0.742 / 0.642 / 0.536; n = 8 0.667 / 0.835 / 0.876; n = 25 0.605 / 0.887 / 0.845. Activity only: not met at any size (affiliation 0.082 / 0.055 / 0.077; aversion 0.220 / 0.488 / 0.415; set point 0.626 / 0.581 / 0.558). The channel finding is unchanged.
+
+**C2 and C3, memoryless** (held-out groups; RMSE on (i) relative to the training-mean baseline in brackets; AUC on (ii)):
+
+| size | P person effects | D drive recovery | O oracle | C2 D beats P | C3 |
+|---|---|---|---|---|---|
+| 3 | [0.954], AUC 0.580 | [0.883], AUC 0.741 | [0.959], AUC 0.728 | MET (RMSE gap +0.074 > 0.05; AUC gap +0.160 > 0.02) | MET (D/O 0.921) |
+| 8 | [0.993], AUC 0.741 | [0.926], AUC 0.593 | [0.798], AUC 0.657 | NOT MET (RMSE gap +0.067; AUC gap −0.148) | NOT MET |
+| 25 | [0.357], AUC 0.828 | [0.800], AUC 0.621 | [0.669], AUC 0.690 | NOT MET (RMSE gap −1.24; AUC gap −0.207) | NOT MET |
+
+**Interpretation.** Removing the memory changes one cell: C2 passes at n = 3, on three exit events and nineteen surviving persons, which the original caveats already call too few to read. At n = 8 and n = 25 it fails as before, on both conditions at n = 25 and on the AUC condition at n = 8. The oracle with the true drives still loses to person rates on group activity at n = 25 ([0.669] against [0.357]) and on exit AUC at n = 8 and 25. So the person-rates advantage does not come from the generator's memory: with no accumulated personal variable at all, per-person act rates remain the better predictor of held-out group activity at the two larger sizes, for the reason the Caveats give, that total activity is a sum of per-person softmax probabilities and the rates measure it directly while the linear mean-and-min composition does not. The C2 result was not partly by construction through memory; its construction lies in the composition rule, which the file already discloses. One run, same small held-out sets, no intervals; the n = 3 pass is not evidence either way.

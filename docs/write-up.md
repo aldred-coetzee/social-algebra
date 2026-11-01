@@ -64,7 +64,7 @@ condition, and places it against the prior art (Granovetter; Topkis and
 Milgrom and Roberts; Macy and Evtushenko; Granovetter and Soong; Oliver,
 Marwell and Teixeira).
 
-**A simulator** (`sim/`, Python, uv-managed; 681 tests collected at close, of which 16 are expected failures that record refuted published claims). It
+**A simulator** (`sim/`, Python, uv-managed; 681 tests collected at close, of which 16 are strict expected failures: 13 record refuted claims of v0 itself, two for the dead zone and eleven for the sign registry, and 3 record Leonard's Table 1 transverse condition, which our reduction could not reproduce). It
 reproduces the adopted published results before fitting anything, then
 fits open data under rules written before any number is computed.
 
@@ -106,7 +106,9 @@ Growth over size: +0.014 AUC, 95% bootstrap interval from −0.033 to
 +0.063. The criterion, a gain above 0.02 with lower log-loss, was not
 met. An Opus review recomputed the numbers from the frozen predictions,
 found no leakage, and confirmed from the transcript that the rule
-preceded the first fit. Size predicting graduation is close to a
+preceded the first fit; it lived only in the session transcript until
+the close-out of 2026-11-01, when it was copied into the results file
+as its Review section. Size predicting graduation is close to a
 tautology and supports no mechanism. The interval, not the verdict word,
 is the information: the test set's noise is wider than the margin.
 
@@ -128,9 +130,22 @@ dataset gave size and set point; the signed datasets gave person
 propensities.
 
 A ridge composition of the recovered drives did not beat person rates on
-held-out group activity or exits at any size. Neither did the oracle
-given the true drives. So the failure is of the composition rule, not of
-the drives. One deviation is disclosed: the rule's exit condition could
+held-out group activity or exits at any size (C2 not met at n = 3, 8
+and 25). The oracle given the true drives is a mixed picture, not the
+flat loss an earlier version of this paragraph claimed (corrected at the
+close-out, 2026-11-01, against the file's table): on group activity it
+beats person rates at n = 3 and 8 and loses at n = 25; on exits it loses
+at n = 3 and wins at n = 8 and 25; applying C2's two conditions to it, it
+passes only at n = 8. The file applies C2 to the recovered drives only
+and never scores the oracle against it. So the failure is of the
+composition rule given recovered drives, and of its linear mean-and-min
+form, which the file's own caveat says favours person rates; it is not a
+proof that true drives cannot compose. A close-out check (the file's
+Review section) found that the generator does carry per-agent memory, a
+decaying relationship state and a ten-step exit streak; with both removed,
+same seeds and criteria, C2 still fails at n = 8 and 25 and passes only
+at n = 3 on three exit events, so the person-rates advantage is not built
+from that memory. One deviation is disclosed: the rule's exit condition could
 not fire, which was proved before the run and repaired by calibrating the
 threshold once on a separate seed.
 
