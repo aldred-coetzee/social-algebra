@@ -332,16 +332,6 @@ Lines in `docs/ledger.jsonl` (from 084) that this reading confirms, qualifies or
 
 ---
 
-## 10. Licences of quoted and transcribed material
-
-- **LHK 2010b** (arXiv:1003.2429v1; the IW3C2 proceedings copy carries the same notice): the PDF states copyright held by IW3C2; the arXiv listing is under arXiv's default non-exclusive distribution licence (`arxiv.org/licenses/nonexclusive-distrib/1.0/`), not a Creative Commons licence. This file restates definitions and equations in my own notation, gives numbers (facts), and reduces Tables 2-7 to descriptions and selected values (Tables 8 and 9 are small and their values are given in prose as facts); no table is reproduced as a grid, figures are described, quotations are under 30 words.
-- **Guha et al. 2004** (IW3C2 archive copy): the PDF states copyright held by the author(s); no open licence. Table 3 is reduced to ranges and named cells, Table 4 to a description with selected values, quotations short.
-- **Chiang et al.** (arXiv:1302.5145): arXiv licence not checked beyond the default; two short quotations and numbers only. **Kumar et al.**: author copy of an IEEE paper; numbers and description only.
-- **SNAP files**: used for counting only, nothing redistributed. The Wikipedia election file derives from Wikipedia content (CC BY-SA); only counts and dates appear here. The SNAP pages state no dataset licence in the text read.
-- My code and intermediate files are in the session scratchpad, not in the repo.
-
----
-
 ## Does it reduce to a drive basis?
 
 **Mostly no for the laws; partly yes for the one strong predictor; and nothing in these two papers measures a drive.** "Drives as primitives" is the hypothesis under test; this tradition neither supports nor refutes it, because where it touches anything person-level it touches a count, not a drive.
@@ -476,3 +466,15 @@ Settled: the scope of Cartwright & Harary's structure theorem. 096's validation 
 ### Verdict
 
 The numbers and readings in 106 hold against the other files, with the conflicts listed above. The forms (the 16-type table, the two theorems, the operator words) are era-invariant given their hypotheses. The magnitudes are not, and the two cheap checks that could refresh them (a per-platform refit and a degree-preserving re-run of the formation counts) are named above. The conflicts that most change what is attributed to which dataset are the Epinions and Wikipedia shares (contradictions 5 and 6). The enemy-of-my-enemy claim (contradiction 1) most needs a scoped statement.
+
+## Licences of quoted and transcribed material (2026-11-01)
+
+- Leskovec, Huttenlocher & Kleinberg 2010b (WWW '10; arXiv:1003.2429v1; the IW3C2 proceedings copy carries the same notice): copyright held by IW3C2; the arXiv listing is under arXiv's default non-exclusive distribution licence, not a Creative Commons licence. Used as restated definitions and equations in our notation, numbers (facts), descriptions of Tables 2-7 with selected values (Tables 8 and 9 are small and given in prose), approximate values read off Figures 1 and 3 by eye (our own readings, tagged [fig]), and short quotations (each under about 30 words). No table is reproduced as a grid.
+- Guha et al. 2004 (WWW '04, IW3C2 archive copy): copyright held by the author(s); no open licence. Used as restated operators, described tables (Table 3 reduced to ranges and named cells, Table 4 to a description with selected values) and short quotations.
+- Chiang et al. 2014 (arXiv:1302.5145 / JMLR): arXiv licence not checked beyond the default; JMLR copyright presumed. Used as numbers and two short quotations.
+- Kumar et al. 2016 (IEEE ICDM, author copy): not determined; publisher copyright presumed. Used as numbers and description only.
+- Facchetti et al. 2011 (PNAS, read on PMC): not determined; publisher copyright presumed. Used as numbers only.
+- Leskovec et al. 2010a (CHI), Davis 1963 and 1967, Cartwright & Harary 1956, Wasserman & Faust 1994, West et al. 2014, DuBois et al. 2011, Colbaugh et al. 2012, Sotiropoulos et al. 2019: not read here (or read in other files), cited only; not determined; publisher copyright presumed.
+- SNAP datasets (`soc-sign-epinions`, `soc-sign-Slashdot090221`, `wikiElec.ElecBs3`): the SNAP pages state no dataset licence in the text read. Used for counting only; nothing from the files is redistributed, and only counts and percentages are held here. The Wikipedia election file derives from Wikipedia content (CC BY-SA); only counts and dates appear, no text of any vote or page.
+- My code and intermediate files are in the session scratchpad, not in the repo.
+- No Wikipedia-derived text is used in this file. "Wikipedia" appears only as a dataset or site name.

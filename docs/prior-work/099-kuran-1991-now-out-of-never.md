@@ -185,3 +185,10 @@ Grep of `docs/prior-work/` for Kuran, the 1989 and 1991 papers, the DOIs, Granov
 - Limit (read, pp. 44-45): prediction is limited by imperfect observability, and the theory is falsifiable by a rival forecast or by showing falsification played no part in past surprises.
 
 **Not done.** The journal text of 1991 (World Politics 44(1)) was not read by anyone in this folder; every 1991 claim here is [read, WP] only. No file was committed.
+
+## Licences of quoted and transcribed material (2026-11-01)
+
+- Kuran 1991, "Now Out of Never", Papers in Political Economy No. 27, Univ. of Western Ontario (repository scan): licence not stated on the record; not determined; copyright presumed. Used as short quotations (all under 40 words), the worked ten-person threshold sequences reduced to their numbers and results (a description of the paper's examples, with our recomputation), and survey percentages (Allensbach; Leipzig) as facts. No page text is reproduced at length.
+- Kuran 1991, World Politics 44(1) (the journal version): paywalled; not read; cited only.
+- Kuran 1989 (Public Choice), Kuran 1990, Granovetter 1978, Lohmann 1994, Cantoni et al. 2019, Fischhoff 1975, Hart 1983, Rasmusen and Brummitt et al. (via other files): cited only, not read here; not determined; publisher copyright presumed.
+- No datasets are reproduced and no Wikipedia-derived text is used in this file.

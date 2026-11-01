@@ -225,3 +225,12 @@ None found. Three points where this file moves past or sits awkwardly beside ano
 | Reading depth of Ames et al. | Table (top) says "Abstract only read"; section 2 and the validation log say Section 5 of paper II was read. | No other file covers it. | Internal inconsistency in this file, not a cross-file one. The validation log is later and more specific: abstracts plus paper II section 5 and a keyword search. The table cell is stale. |
 
 Also noted: this file dates Ames-Moeller-Tabuada "2025" in the table, while section 2 gives the Applied Categorical Structures 34(6) 2026 publication; the arXiv posting is 2025 and the journal version 2026, so both are right.
+
+## Licences of quoted and transcribed material (2026-11-01)
+
+- Capucci & Myers 2026 (arXiv:2604.03017), Forni & Sepulchre 2013 (arXiv:1305.3456), Angulo & Slotine (arXiv:1603.06483), Ames et al. (arXiv:2502.15276, arXiv:2505.22968), Kawano & Bullo (arXiv:2607.05640): read as arXiv preprints; arXiv, licence not stated. Used as restated equations, definitions and theorem conditions in our words, plus a few short quoted phrases (all well under 60 words).
+- Baez & Fong 2018 (TAC 33, arXiv:1504.05625), Vagner-Spivak-Lerman 2015, Schultz-Spivak-Vasilakopoulou, Libkind et al. 2022, Myers 2021: abstracts and introductions read; licence not determined; publisher copyright presumed. Used as short quoted phrases and description only; the introduction's flow/effort table is mentioned, not reproduced.
+- Willems 1972, Moylan & Hill 1978, Arcak 2007, Sontag 1989 and 2008, Jiang-Teel-Praly 1994, Dashkovskiy-Ruffer-Wirth 2007, Lohmiller & Slotine 1998, Russo et al. 2013, Angulo-Liu-Slotine 2015, Bakirtzis et al. 2021, Fong et al. 2016: cited only (not read, or abstract only); publisher copyright presumed. Statements are the standard account, restated.
+- Datasets: none used.
+- No Wikipedia-derived text is used in this file.
+- No email addresses or personal contact details appear in this file.

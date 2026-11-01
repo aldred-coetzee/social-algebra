@@ -26,7 +26,7 @@ Date: 2026-10-31. Kind: deep-read. Question: does wanting the same thing generat
 | Sack (2012), "Character Networks for Narrative Generation", AIIDE 2012 workshop, AAAI Technical Report WS-12-14; Proc. AIIDE 8(2): 38-43, doi:10.1609/aiide.v8i2.12541 (Crossref-confirmed) | *added in validation*: model sections read (pp. 40-42) | Open PDF, ojs.aaai.org; AAAI copyright. Not the target: Sack's earlier signed-network model, whose 2014 chapter version Sack 2021 cites. |
 | Doreian & Krackhardt (2001) and the Newcomb data | [104] | Not re-read; 104 has an independent validation log. |
 
-**Bot-gated routes not worked around.** Springer, ResearchGate, CORE, PMC, J. Neurosci. and Sydney Open Journals answered 403 or a challenge. Deutsch (1949), "A theory of co-operation and competition", doi:10.1177/001872674900200204, is marked free to read (bronze) by Unpaywall but SAGE answered 403 to scripted requests. For disclosure, because file 038's audit flags the practice: my SAGE request already carried a browser-style User-Agent string, and I retried the Sydney request once with a fuller one after a first 403; both returned 403 and nothing was obtained that way. Deutsch therefore stays unread. (*Validation:* the PMC article page for Lebreton et al. answered a plain request with the full text, so PMC is not uniformly gated; the J. Neurosci. site and the Europe PMC PDF render still answered 403 and were left alone.)
+**Bot-gated routes not worked around.** Springer, ResearchGate, CORE, PMC, J. Neurosci. and Sydney Open Journals answered 403 or a challenge. Deutsch (1949), "A theory of co-operation and competition", doi:10.1177/001872674900200204, is marked free to read (bronze) by Unpaywall but SAGE answered 403 to scripted requests. Disclosed, as file 038's audit asks: the SAGE request carried a browser-style user-agent and the Sydney request was retried once with a fuller one; both got 403 and nothing was obtained that way. Deutsch therefore stays unread. (*Validation:* the PMC article page for Lebreton et al. answered a plain request with the full text, so PMC is not uniformly gated; the J. Neurosci. site and the Europe PMC PDF render still answered 403 and were left alone.)
 
 ## 1. Result in brief
 
@@ -246,7 +246,7 @@ No result on the sign of a tie was found from online data, from any sample after
 
 ## Validation log (2026-10-30)
 
-Run on 2026-11-01, independently of the author; the heading carries the date the workflow assigned. DOIs were resolved at api.crossref.org, with OpenAlex and Europe PMC used for identifier lookups only. Open copies were fetched with plain requests: no user-agent changes, and no 403 worked around. Web search allowed three queries before the budget shared by the workflow ran out, so no "nothing exists" claim was re-searched (section 15). One line per work:
+Run on 2026-11-01, independently of the author; the heading carries the date the workflow assigned. DOIs were resolved at api.crossref.org, with OpenAlex and Europe PMC used for identifier lookups only. Open copies were fetched with plain requests; refused routes were not pursued. Web search allowed three queries before the budget shared by the workflow ran out, so no "nothing exists" claim was re-searched (section 15). One line per work:
 
 - Sack 2021, Springer Proc. Complexity pp. 217-243, 10.1007/978-3-030-83418-0_13: ✓ record (single author, 18 references, reference list as transcribed); affiliations confirmed in OpenAlex; OpenAlex says closed, no repository copy. Content stays [abs]; nothing upgraded.
 - Sack 2012, AIIDE workshop, 10.1609/aiide.v8i2.12541: ✓ added and read (model sections). A signed balance model with the enmity share as an input.
@@ -347,3 +347,21 @@ D599's map entry asks for Sack 2021 read in full. It was not obtained (§0, §1 
 ### Ledger lines
 
 The structured return holds 90 lines: drive 8, definition 37, equation 19, empirical-result 17, contradiction 9. Each carries provenance as tagged here, dup_of_file, and era and medium. Ids are for the coordinator (see §13).
+
+## Licences of quoted and transcribed material (2026-11-01)
+
+- Sack (2021), Springer chapter: closed (Unpaywall `is_oa: false`); publisher copyright. Not read; only metadata, the reference list as deposited at Crossref and short search-engine-excerpt wording of the abstract (a few phrases) are held.
+- Girard's books (JHU Press, Athlone): copyright. Not read; the sentences quoted in section 3 are taken from Grande's quotations and are short (each under about 30 words, attributed with Grande's locators). One further line (section 15) is a short quotation seen in a search summary, not used above.
+- Grande, "The Mimetic Nature of Desire" (open PDF at girardstudies.com): licence not stated; publisher copyright presumed. Used as short quotations and paraphrase.
+- Hobbes, *Leviathan* (1651), Project Gutenberg #3207: public domain. Quoted verbatim in places (section 4).
+- Sherif et al. (1954/1961), Classics in the History of Psychology (psychclassics.yorku.ca): the page does not state a licence for the original; not determined; publisher copyright presumed. Used as short quotations, counts and percentages (facts) and descriptions; no table is reproduced.
+- d'Artigues & Vignolo (2003), *Economics Bulletin* (open PDF, accessecon.com): licence not determined; publisher copyright presumed. Used as restated equations (in my notation) and short quotations.
+- Hiller (2017), *Theoretical Economics* 12(3): CC BY-NC 4.0 (per the open PDF). Used as restated payoff and propositions and short paraphrase.
+- Antunes, Nunes & Coelho (2014), AAMAS extended abstract (IFAAMAS): copyright, all rights reserved. Used as two short quotations (one of them Dupuy's, as quoted there) and a description.
+- Paes (2025), CoMSES Computational Model Library v1.0.1: MIT (as recorded in section 0). Used as description and parameter values; the project page is quoted in two short phrases.
+- Forgeot d'Arc et al. (2016), *Molecular Autism* 7: 45: CC BY 4.0. Used as numbers and one short quotation.
+- Lebreton et al. (2012), *J. Neurosci.* 32(21): Europe PMC lists CC BY-NC-SA. Used as numbers only.
+- Sack (2012), AIIDE workshop (AAAI): AAAI copyright. Used as a description of the model.
+- Treinen et al. (2012), Tyerman & Spencer (1983), van de Ven et al. (2009), Deutsch (1949), Ku et al. (2005), Malhotra (2010), Perry (2018), Livingston (1992), Asplund (1989), Newcomb data (via 104), Doreian & Krackhardt (2001) and the other leads in section 15: not read here (abstract, record or secondary account only); not determined; publisher copyright presumed. Cited only. The Newcomb data are not held in the repo.
+- No datasets are copied. No table of Sherif et al. is reproduced; only the percentages given in the text are held. The tables in this file are our own provenance, derived and cross-check tables.
+- No Wikipedia-derived text is used in this file.

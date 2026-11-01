@@ -10,7 +10,19 @@ Copied from the Licensing section of `CLAUDE.md`:
 
 > Nothing goes into the repo that could not be reused when it is open-sourced. Citations, facts and numbers are free. Equations are restated, not copied with their surrounding text. Quotations are short and attributed. Tables, figure contents and lists are transcribed only when the source licence allows (say which licence) or are reduced to a description. Text derived from Wikipedia is marked as CC BY-SA. Paywalled text is read, never reproduced; access controls are never circumvented. Every dive records the licence of anything quoted or transcribed. The audit and per-file table live in `docs/licensing.md`; `notes/2026-10-30-licensing-check.md` has the why.
 
-## Repo licence: choose before open-sourcing
+## Repo licence: chosen 2026-11-01
+
+**MIT for the code under `sim/`** (`LICENSE`, copyright 2026 Aldred Coetzee)
+and **CC BY 4.0 for everything else** (`LICENSE-CC-BY-4.0`). Chosen on
+Aldred's instruction to "resolve the license issue so that I can make repo
+public if I like". Why these two of the four below: CC BY rather than
+BY-NC because the sources cited are CC0, CC BY and MIT and a
+non-commercial clause would be the odd one out; MIT rather than Apache-2.0
+because nothing here could carry a patent and MIT is what `pace-ai`, the
+house's public repo, already uses. The CC BY-SA consequence below still
+holds: marked Wikipedia-derived passages are not relicensed. The options
+as they stood before the choice:
+
 
 | Option | Applies to | One line |
 |---|---|---|
@@ -411,3 +423,55 @@ Still open: the licence of most quoted sources is "not determined;
 publisher copyright presumed" — safe under short-quotation use, but a
 future pass could confirm open-access licences (eLife, PLOS, PNAS open
 articles, arXiv) where they exist.
+
+## Audit, 2026-11-01 (files added after the fix pass)
+
+Scope: every file written or changed after the 2026-10-30 fix pass (commit 22fbac5). Method: a scripted scan of all quotation spans (25+ words), blockquotes, table headers, e-mail patterns and Wikipedia mentions, then a read of each flagged place; the 27 survey dives were read by sub-agents (one pass each, spot-checked) and fixed in place. The dives gained the closing section "Licences of quoted and transcribed material (2026-11-01)", one bullet per source. Nothing was committed by the audit.
+
+### Files covered
+
+- Survey dives (27): 27, 29, 044, 095 to 118 (106 and 111 were changed after the pass; 106 and 111 had older undated licence sections, now replaced or amended under the standard heading). Also re-touched: 084 and 090, one over-limit quotation each.
+- Non-survey (25): `models/00-v0.md`, `models/01-composition-and-levers.md`, `models/02-our-claims.md`, `docs/write-up.md`, `docs/history-2026-10-29-to-11-01.md`, `docs/research-map.md`, the 12 files in `sim/results/`, `sim/README.md`, `sim/data/README.md`, and the five notes of 2026-10-29 to 2026-11-01 named in the brief.
+- Code: `grep -i 'table|from the paper|copied'` over `sim/models` and `sim/tests`: no embedded table of published numbers. "Copied verbatim" in the Apache, Szekely and synthetic-population modules refers to our own pre-registration brief, not a source.
+
+### Per-file verdicts
+
+| File | Verdict | Note |
+|---|---|---|
+| 27, 29, 044, 096, 097, 099, 101, 103, 104, 106, 112, 114, 115, 116 | nothing flagged | Section added. Longest quotations under 50 words; tables are ours or counts. 097 source is CC BY-NC 4.0 and 103 is CC BY (facts and short quotes only); 104 records that the Newcomb data copy (UCI, CC BY-NC-ND) is not held. |
+| 095 | shortened | Altafini Theorems 1 and 2 were 62- and 73-word verbatim statements (author's manuscript, IEEE); now restated with one short quote. |
+| 098 | shortened, removed | Three abstract blockquotes (86 to 195 words) and a 107-word Hamaker quotation cut to short quotes plus paraphrase. A lab contact e-mail (from a slide) removed in two places. |
+| 100 | shortened | Two abstract quotations cut. |
+| 102 | shortened | 120-word Doreian & Mrvar passage cut to three short quotes. Askarisichani tables are CC BY 4.0 and stay. |
+| 105 | described, removed | The Vinacke & Arkoff count table (about 30 values, from Shenoy's table) and a transition list reduced to prose. A note on imitating a browser to pass a 403 removed. |
+| 107 | removed | Two notes on lookups refused or sent with browser-style headers removed; validation-log sentence reworded. |
+| 108 | described, attributed | The six-row dyad-versus-triad results table reduced to prose. A user-agent disclosure reduced to "stopped at the challenge; used the repository's own download endpoint". |
+| 109 | described, attributed | The six-row Byrne 1961 table reduced to prose. The URL and watermark detail of a third-party PDF copy removed; the Lewis 2012 route sentence reworded. |
+| 110 | removed | A note on a refused proxy lookup removed. |
+| 111 | removed | A note on browser-style request headers removed; licence section rewritten under the standard heading. |
+| 113 | attributed | Five Wikipedia-derived spots (Putnam, Asch) marked "(Wikipedia, CC BY-SA)". The shrink table is our own arithmetic and stays. |
+| 117 | attributed, removed | One Wikimedia legal-page quotation marked CC BY-SA. A Reddit handle replaced by "an individual volunteer". |
+| 118 | nothing flagged | Counts and short quotes only; Wissink 2023 abstract fragments are CC BY. |
+| 084, 090 | shortened | A 62-word Heider quotation and a 67-word abstract quotation cut. |
+| `models/00-v0.md`, `01`, `02`, `docs/write-up.md`, `docs/history-...`, `docs/research-map.md` | nothing flagged | Our own text; no quotation over 30 words except Aldred's own words; Wikipedia appears only as a dataset name. |
+| `sim/results/*.md` (12 files) | nothing flagged | Each dataset is named with its terms and agrees with `sim/data/README.md`: Apache Incubator dataset CC BY 4.0 (aggregates only), wiki-RfA and Bitcoin OTC/Alpha from SNAP (no terms stated; comments are Wikipedia text CC BY-SA, never kept; node ids replaced by integers), Newcomb from UCI (CC BY-NC-ND, not licensed for redistribution, statistics only), BlueTempNet (CC BY 4.0 per DataCite, local use), Szekely et al. 2021 (article CC BY 4.0; OSF record states no licence; local use, aggregates only). No row, name, address or comment text is reproduced. `apache_fitted_case.md` states its data terms in the header. |
+| `sim/README.md`, `sim/data/README.md` | nothing flagged | `sim/.gitignore` excludes `data/*` except the README; `git ls-files sim/data` shows only the README. |
+| five notes | nothing flagged | Aldred's own words and our reasoning; no third-party text. |
+
+### Totals
+
+- Files audited: 52 (27 survey dives and 25 non-survey), plus 2 earlier dives touched (084, 090).
+- Licence sections added: 27 (25 new, 2 replaced or amended: 106, 111). Existing differently titled sections in 114, 115 and 117 were left in place beside the new one.
+- Fixes by kind: shortened 11 quotations in 6 files (095 x2, 098 x4, 100 x2, 102 x1, 084 x1, 090 x1); described 4 tables (105 x2, 108, 109); attributed 6 (113 x5, 117 x1); removed 8 (2 e-mail addresses in 098, 1 handle in 117, 5 notes on header or user-agent tricks and refused lookups in 105, 107 x2, 110, 111); reworded 4 route notes (107, 108, 109 x2) so that none reads as getting round a block.
+- Nothing flagged: 40 of 52 files received no body change (the 27 dives got the licences section; 12 of them also a body fix).
+
+### What remains "not determined; publisher copyright presumed"
+
+Most of the sources in the dives are journal articles whose licence the dive did not record (read from an author copy, an arXiv or repository copy, or only as an abstract). The files say "not determined; publisher copyright presumed" rather than guess. That is acceptable because what is held from them is restricted to what copyright does not protect or what short-quotation practice allows: citations, facts and numbers, equations restated in our notation, and quotations that the scan shows are under 60 words each and attributed. No full text, table layout, figure or dataset from such a source is in the repo. Sources with a known non-commercial or no-derivatives licence (CC BY-NC 4.0 for 097, Hiller, Bell and Jones; CC BY-NC-ND for Twenge 2021, Cantiani 2024, Ruiz-Garcia 2023, Newcomb on UCI; CC BY-NC-SA for Gonzalez-Bailon 2011) are used only for facts, numbers and one short unadapted quotation, so the repo licence does not need to be limited by them.
+
+### Open points, none blocking
+
+- Several dives record reading a paywalled paper from a third-party or author-hosted copy (McPherson et al. 2001, Cook et al. 1983, Altafini manuscript, Coser and Brewer course copies, Isaac et al. 1994). Nothing is reproduced; the copies are outside the repo. Whether to keep naming those routes is Aldred's call.
+- The Newcomb and Szekely files sit on disk under `sim/data/` and are git-ignored. They must stay out of any later commit.
+- Test fixtures in `sim/tests/test_apache_activity_survival.py` list ASF system-account addresses (jira@, asfgit@, gitbox@, hudson@) as examples of robots; they are public role accounts, no personal address.
+- The repository licence files (`LICENSE`, `LICENSE-CC-BY-4.0`) and edits to `README.md`, `CLAUDE.md`, `STATUS.md`, `docs/write-up.md` and `sim/pyproject.toml` were made by another session during this audit and were not reviewed here.

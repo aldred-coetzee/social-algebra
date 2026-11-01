@@ -125,3 +125,11 @@ Searched the prior-work directory for this paper's authors, title words, equatio
 - 083 line 284 describes this paper as "a cross-cultural review of fissions with a kin-assortment index tested on Ache and Piaroa fissions, per the search summary" (tag `[sa]`). This file's abstract tag [abs] says "ethnographic review", does not say "cross-cultural", and says the Ache index is compared with controlled simulations while the Piaroa case is a single lineal fission. The validation log above does not settle the wording. Both claims are recorded; **unresolved** until the full text is read.
 
 Sources checked here: the files named above, read by grep and targeted line reads. No new external source was opened.
+
+## Licences of quoted and transcribed material (2026-11-01)
+
+- Walker & Hill 2014, Human Nature 25(4):465-475 (Springer, paywalled): not determined; publisher copyright presumed. Full text not read and not reproduced. Only the public abstract was read; it is used as a paraphrase with short quotations (each under 30 words, five in all).
+- HRAF (eHRAF) hypothesis records 2896 and document 909: licence not determined; HRAF content presumed copyright. Used only as a one-sentence description of the two coded hypotheses; no coded content is reproduced.
+- The reference list deposited at Crossref: bibliographic facts (author, year, title) cited in one paragraph as a description of the evidence base; no text from those works is used. Crossref metadata is a factual record.
+- Carneiro 1987, Chagnon 1975, Hill et al. 2011, Hamilton 1964, Wright 1922 and the other works named from the reference list: cited only, not read; not determined; publisher copyright presumed.
+- No datasets are reproduced and no Wikipedia-derived text is used in this file.

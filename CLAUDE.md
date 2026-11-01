@@ -121,13 +121,31 @@ sent to an external service** (an agent passed it to Unpaywall's API on
 rule): an API that demands an email gets none, and the lookup is skipped. The audit and per-file table
 live in `docs/licensing.md`; `notes/2026-10-30-licensing-check.md` has the why.
 
+**Repo licence, chosen 2026-11-01** (Aldred: "resolve the license issue
+so that I can make repo public if I like"): **MIT for the code under
+`sim/`** (`LICENSE`, copyright 2026 Aldred Coetzee, matching `pace-ai`,
+the house's one public repo) and **CC BY 4.0 for everything else**
+(`LICENSE-CC-BY-4.0`). CC BY rather than BY-NC because the sources we
+cite are CC0, CC BY and MIT and a non-commercial clause would sit oddly
+beside them; MIT rather than Apache-2.0 because nothing here could carry a
+patent and MIT is what the house already uses. Our licence covers our own
+words only; quoted and restated third-party material keeps its owner's
+licence, and Wikipedia-derived passages stay CC BY-SA and are marked. New
+survey files still end with a "Licences of quoted and transcribed
+material" section, and anything added after an audit gets audited before
+the next time the repo's visibility matters.
+
 ## How it connects to the rest
 
 - Separate from the writing pipeline. Nothing here is drafted or published
   unless Aldred one day decides to write about it, and then it goes through
   the normal path from the `writing` workspace. This repo is the work.
-- Private to start, like the others. Open-sourcing is a licence and a
-  visibility flip; nothing personal beyond the thinking itself lives here.
+- Private at the start, like the others; **licensed and audited for
+  opening since 2026-11-01** (see Licensing above), so going public is
+  only the visibility flip on GitHub. Nothing personal beyond the thinking
+  itself lives here, and the sweep that confirmed it (no email address,
+  secret or dataset tracked) is repeated by any session that touches the
+  licensing.
 
 ## Not decided
 

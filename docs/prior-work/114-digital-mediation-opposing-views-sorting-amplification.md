@@ -516,3 +516,15 @@ G (influence, contagion, exposure, sorting, tie formation); K (interventions and
 ### Verdict
 
 The agreements are mostly dependencies, not independent confirmations: 115, 109 and 089 cite or restate this file or read the same primaries. The independent checks are Rathje (064 abstract, 111 main text), González-Bailón (089), Kramer (064 and 27), Pettigrew and Tropp (13), and the identity matches for Brady, Crockett, Enikolopov and Guess. The contradictions that matter most for the algebra are X1 (the sign of Bail's response), X6 and X7 (Rathje's era and effect range), and X8 (the Törnberg regime). None is resolved here. Nothing was committed.
+
+## Licences of quoted and transcribed material (2026-11-01)
+
+- Bail et al. 2018 (PNAS), Törnberg 2022 (PNAS), Allcott et al. 2024, Huszár et al. 2022, Mosleh et al. 2021, Guess et al. 2021: CC BY-NC-ND 4.0 (as Crossref records them; Nyhan et al. 2023 is Nature open access, licence not stated here). Used as short attributed quotations (each under 60 words), restated equations and counts only; no transcription of text or figures.
+- Lorenz-Spreen et al. 2023, Rathje et al. 2021, Cinelli et al. 2021, Milli et al. 2025, Takács et al. 2016, Jones et al. 2017, Casas et al. 2023 (abstract), the Bail preprint (SocArXiv), Paluck et al. 2019: CC BY or CC BY 4.0. Used as short attributed quotations and counts.
+- Brady et al. 2021 (Science Advances): CC BY-NC 4.0. Used as short quotations and counts.
+- González-Bailón et al. 2011: CC BY-NC-SA 3.0 (share-alike). One short quotation, attributed and unadapted; nothing else is taken from the text.
+- Bond et al. 2012, Centola 2010, Pettigrew and Tropp 2006 (abstract), the NBER working papers (Allcott, Levy, Boxell): not determined; publisher copyright presumed. Used as a few words of attributed quotation and facts and numbers only.
+- Santoro and Broockman 2022, Combs et al. 2023, Enos, Bakshy et al., Guess et al. 2023, González-Bailón et al. 2023, Brady et al. 2017 and other items read at abstract level only: not determined; publisher copyright presumed. Used as facts, numbers and a few words of quotation.
+- Datasets and code: Törnberg's deposited model code (github.com/cssmodels/tornberg2022pnas) is MIT licensed and is cited and restated as an equation only; no code or data is reproduced. No other dataset content is held in this file.
+- The tables in this file are our own provenance, comparison and ledger tables, or counts reduced to the numbers used; no table or figure from a source is transcribed.
+- No Wikipedia-derived text is used in this file.

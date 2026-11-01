@@ -48,3 +48,11 @@ No dataset found that has BOTH an individually measured drive (SVO etc.) AND mor
 - https://research.rug.nl/... (Bouman and Dijkstra): N=120, groups of 5, 6 rounds; no data statement shown.
 - https://api.osf.io/v2/nodes/wvgk9/ : public true, licence null, created 2018-04-25.
 - https://api.osf.io/v2/nodes/wvgk9/files/osfstorage/ : 10 items listed above.
+
+## Licences of quoted and transcribed material (2026-11-01)
+
+- Szekely et al. (2021), Nature Communications 12, 5452: CC BY 4.0 (Crossref record). Used as citation and described facts (sample sizes, design, measures); no text quoted.
+- Szekely et al. OSF project (osf.io/wvgk9): the project's licence field is null (no licence set); the article's data statement says the data are deposited there. Only the file listing was read; no data was downloaded for this file. (A later fetch of full.csv sits git-ignored under sim/data/szekely2021; not committed.)
+- Diederich, Goeschl & Waichman (2016), Eur. Econ. Rev., and its heiDATA / Mendeley Data records: licence not determined; publisher copyright presumed. Described from a b2find summary (design only); no data downloaded.
+- Pereda, Capraro & Sanchez (Zenodo 10.5281/zenodo.2565197): CC BY 4.0 as listed; cited only. Cartwright, Xue & Chai, Bouman & Dijkstra (2025, CC BY 4.0 per Crossref) and Marshall & Paler: cited only; data not examined.
+- No Wikipedia-derived text is used in this file. No email address or contact detail appears in this file.

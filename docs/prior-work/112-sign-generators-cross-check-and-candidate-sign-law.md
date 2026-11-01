@@ -673,3 +673,19 @@ Other files, noted for their authors (not edited): 111 §4.2 gives "15 Eagle cho
 
 - No closed work was read. Caplow 1956, 1959 and 1968; Vinacke and Arkoff 1957; Gamson 1961; Gould 2002; Stein 1976; Byrne and Nelson 1965; Lawler and Yoon 1996; and Cook and Emerson 1978 remain closed. Tyerman and Spencer 1983 is known from its abstract only.
 - No ledger was written: `docs/ledger.jsonl` is untouched. Nothing is committed. No file other than this one was edited.
+
+## Licences of quoted and transcribed material (2026-11-01)
+
+- Leskovec, Huttenlocher and Kleinberg 2010 (arXiv:1003.2429v1): copyright IW3C2/ACM per file 106. Table values (6 to 8) restated as numbers only; no table transcribed.
+- Axelrod and Bennett 1993: author-hosted scan; Cambridge University Press copyright. Equations restated in our notation; one short quotation.
+- Galam 1998 (arXiv cond-mat/9901062), Marvel et al. 2011 (arXiv:1010.1814), Shalizi and Thomas 2011 (arXiv:1004.4704v3), Cheon and Poghosyan (arXiv:1512.07715v2): arXiv, licence not stated. Equations restated; a paragraph and a figure caption described, not copied.
+- Hiller 2017: CC BY-NC 4.0. Wissink et al. 2022 (PMC8801643): CC BY 4.0. Muis and Reeskens 2022 (SSOAR 92395): CC BY 4.0. Numbers and short phrases only.
+- Sherif et al. 1954/61 (York "Classics" site): copyright not stated. Percentages as facts and one short quotation.
+- Hobbes 1651 (Project Gutenberg #3207): public domain. One 17-word quotation.
+- Lawler 2001 (Cornell eCommons): "reprinted with permission" of the University of Chicago Press; copyright presumed. Assumptions and propositions described, not reproduced.
+- McPherson, Smith-Lovin and Cook 2001: publisher PDF from a third-party host marked "For personal use only"; the host's right to distribute is doubtful. Short quotations and definitions only; the copy is not circulated and is kept outside the repo.
+- Shenoy 1978 (author-hosted copy, Academic Press copyright) and Kossinets and Watts 2009 (Google-hosted copy; Table 3 numbers): numbers only.
+- Joel et al. 2017 (OSF), Joel et al. 2020 (Goldsmiths repository), Bol et al. 2021 (OSF, QPE WP 2020-1 v3), Esaiasson et al. 2021 (OSF): preprints, licence not stated. Numbers only.
+- Cited only (via sibling files or Crossref, not read): Caplow 1956/59/68, Vinacke and Arkoff, Gamson, Byrne and Nelson, Gould, Stein, Lawler and Yoon, Cook and Emerson, Girard, Sack, Newcomb, Currarini, Chetty, Salganik, Gorski, Tyerman and Spencer and others: not determined; publisher copyright presumed. Crossref metadata is used for DOIs.
+- Datasets: Epinions, Slashdot and Wikipedia signed networks (SNAP) are described through published statistics only; Bitcoin OTC/Alpha, wiki-RfA and BlueTempNet counts come from sibling file 117. No dataset copy is held in the repo.
+- No Wikipedia-derived text is used in this file (wiki-RfA and the Wikipedia vote network are datasets, not text).

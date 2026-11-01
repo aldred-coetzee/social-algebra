@@ -180,3 +180,11 @@ Scale and ethics: all empirical lines are group scale; no membership, crowd or i
 Cluster letter not assigned here.
 
 Not committed. Only this file was edited.
+
+## Licences of quoted and transcribed material (2026-11-01)
+
+- Friedkin, Jia & Bullo 2016, Sociological Science 3:444-472, and its supplement S3: Creative Commons Attribution (CC BY; recorded in this file). Used as short quotations (under 15 words), restated model equations 1-8, a paraphrase of the chip-allocation instrument, and regression estimates and fit statistics (facts). Credit: Friedkin, Jia & Bullo, Sociological Science, CC BY.
+- Friedkin & Johnsen 2011, Social Influence Network Theory (CUP): paywalled; chapter 4 not read and not reproduced; the front-matter PDF (free on assets.cambridge.org) was read for its table of contents and figure list only. Used as a short quotation ("dynamic social cognition mechanism") and a description of chapter 4 from the publisher's summary. Not determined; publisher copyright presumed.
+- Bruggeman 2018 (arXiv:1602.00614v8) and Ravazzi et al. 2018 (arXiv:1804.07220): arXiv, licence not stated. One quoted sentence each (under 25 words).
+- Friedkin & Bullo 2017 (PNAS 114(43)): read only through a summarising fetch; numbers only; not determined; publisher copyright presumed. Stoner 1961, Wallach, Kogan & Bem 1962, Moussaid et al. 2013 and 2015, Soll & Larrick 2009, Moussaid, Noriega Campero & Almaatouq 2018: cited only, not read; not determined; publisher copyright presumed.
+- No datasets are reproduced and no Wikipedia-derived text is used in this file.

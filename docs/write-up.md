@@ -188,9 +188,8 @@ states, are the primitives from which group outcomes compose.
 - **Open decisions** are listed in `models/00-v0.md` section 9: the
   activity instrument per size, the Person sort for non-humans, the
   Object and Setting sorts, symmetrisation of the coupling, the two-sided
-  gate settings, and the repository licence before open-sourcing
-  (`docs/licensing.md` has the options: CC BY 4.0 for text, MIT or
-  Apache-2.0 for code).
+  gate settings. (The repository licence, once listed here, was settled
+  the same day: MIT for `sim/`, CC BY 4.0 for the text; `docs/licensing.md`.)
 - **The conversation-concentration lead** on Apache (concentration of
   development-list talk predicting survival, +0.083 AUC over size on
   already-seen podlings) is the one lead never confirmed on new data;

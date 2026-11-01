@@ -331,3 +331,12 @@ Reliability here is an overall judgment from the numbers above, not a pooled est
 - No fabricated works found; nothing ✗ removed.
 
 **Verdict.** Every cited work exists and every DOI resolves, and the large headline figures (Houben, Forbes, Kramer, Brady, van de Leemput, Dejonckheere) are right. The errors were in the secondhand details: a wrong implicit-explicit correlation, a misattributed retest source, a mis-stated critique of the hedonometer, a "between groups" that should be "within groups", and an early-warning section that understated how weak the follow-ups are. The headline claim that no momentary measure of a named drive exists was overstated and has been narrowed to the absence of a behaviour-validated, commensurable one.
+
+## Licences of quoted and transcribed material (2026-11-01)
+
+- All sources in this file (about 70 papers, books and chapters in sections A-I; DOIs listed in the file) were seen through abstracts, PMC or Frontiers open-access text, or search summaries, not copied. Licence not determined; publisher copyright presumed, except the open-access papers noted below. Used as short quoted phrases (each under 30 words, for example "little added value over mean levels of positive and negative affect"), reported numbers (effect sizes, sample sizes, reliabilities, percentages) and equations written in our own standard-form notation.
+- Open-access items from which numbers were read: Kramer, Guillory & Hancock 2014 (PNAS, via PMC), van de Leemput et al. 2014 (PNAS, via PMC), Köllner & Schultheiss 2014 (Frontiers in Psychology, open access), Dodds et al. 2011 and Kloumann et al. 2012 (PLoS ONE, open access, normally CC BY), Vachon et al. 2019 (JMIR, open access). The licence is not recorded in this file for any of them; only facts and numbers are taken.
+- Table K is our own derived summary of reliability judgements, not a transcription of any source table; the numbers in it are facts taken from the cited studies.
+- Datasets: none downloaded or reproduced. The labMT happiness lexicon, LIWC and the Moral Foundations Dictionary are mentioned as instruments only; none of their word lists is reproduced.
+- No Wikipedia-derived text is used in this file (Lydon-Staley et al. measured curiosity from Wikipedia browsing; that is a study description, not Wikipedia text).
+- No email addresses or personal contact details appear in this file.

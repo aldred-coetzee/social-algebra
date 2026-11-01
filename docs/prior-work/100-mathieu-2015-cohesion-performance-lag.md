@@ -19,7 +19,7 @@ Date: 2026-10-29. Kind: deep-read. **Outcome: the full text could not be read. L
 
 **What the abstract says [abs, Europe PMC, verbatim in substance].**
 - Part A, meta-analysis: "we synthesize findings from 17 CLP design studies, and analyze their results using SEM. Results support that team cohesion and performance are related reciprocally with each other over time." No direction, no coefficients in the abstract.
-- Part B, new longitudinal study: 205 members of 57 student teams, a complex business simulation over 10 weeks. Questions: (a) reciprocal over multiple periods; (b) relative magnitude; (c) stability over time. Findings: "cohesion and performance were related positively, and reciprocally, over time. However, the cohesion -> performance relationship was significantly higher than the performance -> cohesion relationship. Moreover, the cohesion -> performance relationship grew stronger over time whereas the performance -> cohesion relationship remained fairly consistent over time."
+- Part B, new longitudinal study: 205 members of 57 student teams, a complex business simulation over 10 weeks. Questions: (a) reciprocal over multiple periods; (b) relative magnitude; (c) stability over time. Findings: cohesion and performance were "related positively, and reciprocally, over time"; the cohesion -> performance relationship was significantly higher than the performance -> cohesion relationship; and the cohesion -> performance relationship grew stronger over time while the performance -> cohesion relationship stayed fairly consistent.
 - Shared leadership related positively to cohesion but not directly to performance; mean member academic competence related positively to performance and not to cohesion.
 - A replication on a second student business-simulation sample "mostly replicated" the earlier relationships.
 
@@ -35,7 +35,7 @@ Date: 2026-10-29. Kind: deep-read. **Outcome: the full text could not be read. L
 
 ## 2. Mullen and Copper 1994 (comparison)
 
-**Abstract [abs, OpenAlex, from the DTIC record], verbatim in substance:** "Overall, the cohesiveness-performance effect was highly significant and of small magnitude." The effect "was significantly stronger when cohesiveness was operationalized in terms of measurements of group members' perceptions of cohesiveness than when cohesiveness was operationalized in terms of experimental inductions of cohesiveness. The results of this analysis suggest that the more direct effect may be from performance to cohesiveness rather than from cohesiveness to performance."
+**Abstract [abs, OpenAlex, from the DTIC record], verbatim in substance:** "Overall, the cohesiveness-performance effect was highly significant and of small magnitude." The effect was significantly stronger when cohesiveness was measured as members' perceptions than when it was induced experimentally, and the authors suggest "the more direct effect may be from performance to cohesiveness rather than from cohesiveness to performance".
 
 Note what this does and does not say. The direction claim is an inference from the contrast between correlational and experimental effects, hedged ("may be"). That is a different evidential basis from a cross-lagged panel. 087's claim that Mullen and Copper "examined seven cross-lagged panel analyses" and that performance influenced cohesion more is MacCoun and Hix's account [sa] and is **not in the abstract**; I could not check it. No coefficient, study count or "smaller groups" moderator appears in the abstract. Experimental inductions of cohesiveness are interventions, but on contrived lab groups, and by manipulation of the group's cue, not with the members' stated consent to be made cohesive.
 
@@ -129,3 +129,11 @@ Checked against the other prior-work files by grep for the same authors, works, 
 **Consent and manipulation**: Mathieu 2015 is observational, so none. Mullen and Copper's experimental inductions are interventions on contrived lab groups, per the abstract.
 
 **Summary**: 100 duplicates 087 §3b on the Mathieu and Mullen and Copper claims and adds nothing new that changes a verdict. The only new facts are the 2019 review's time-moderation sentence and the abstract-level reading of Mullen and Copper's hedge. Nothing in this section is a full-text [read] and nothing may feed an equation. L3911 stays open.
+
+## Licences of quoted and transcribed material (2026-11-01)
+
+- Mathieu, Kukenberger, D'Innocenzo & Reilly 2015, J. Appl. Psychol. 100(3):713-734 (APA, closed access): not determined; publisher copyright presumed. Full text not read; the Europe PMC abstract was paraphrased with two short quotations (under 15 words each; the longer abstract passages were cut to paraphrase in this audit).
+- Mullen & Copper 1994, Psychol. Bull. 115(2):210-227: not determined; publisher copyright presumed. Abstract (OpenAlex) paraphrased with two short quotations; full text not read.
+- Mathieu, Gallagher, Domingo & Klock 2019, Annu. Rev. Organ. Psychol. Organ. Behav. 6:17-46: not determined; publisher copyright presumed (the PDF copy read was at psychiatry.ucsd.edu, provenance unconfirmed). Used as two short quotations and reported meta-analytic correlations (facts).
+- Beal et al. 2003, Hülsheger et al. 2009, Castaño et al. 2013, Chiocchio & Essiembre 2009, MacCoun & Hix: cited via the review only, not read; not determined; publisher copyright presumed.
+- No datasets are reproduced and no Wikipedia-derived text is used in this file.

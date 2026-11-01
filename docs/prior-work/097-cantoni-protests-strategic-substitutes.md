@@ -183,3 +183,9 @@ Checked against the other files in `docs/prior-work/` by name, DOI, equation and
 - NBER w23110 (the 2017 working paper) is named in 089 as the source of the abstract. 097 records its content as not compared. Nothing in 089 contradicts 097 on this.
 
 Ledger lines (provenance, dup_of_file, and the read/sa split) were returned to the orchestrating session in structured form, not written to any other file.
+
+## Licences of quoted and transcribed material (2026-11-01)
+
+- Cantoni, Yang, Yuchtman & Zhang 2019, QJE 134(2):1021-1077: CC BY-NC 4.0 (recorded in this file; Crossref and the LSE Research Online copy). Used as short quotations (all under 40 words), restated equations (Section V benchmark and the three substitute sources), reported coefficients and standard errors (facts), and a description of the three-part design (our own summary table, not a copy of the paper's). The NC condition means this source's text must not be reproduced at length in a commercially licensed release; only facts, numbers, restated equations and short attributed quotations are held here.
+- Online Appendix: not read. Shadmehr 2021, Gerber & Green 2000, DellaVigna & Gentzkow 2010, Bénabou & Tirole 2011, Shadmehr & Bernhardt 2011, Myatt 2017, Granovetter 1978, Kuran 1989, NBER WP 23110: cited only, not read; not determined; publisher copyright presumed.
+- No datasets are reproduced and no Wikipedia-derived text is used in this file.

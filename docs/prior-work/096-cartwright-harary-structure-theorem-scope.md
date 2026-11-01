@@ -166,3 +166,13 @@ Grep of `docs/prior-work/*.md` for Cartwright, Harary, Jordan, Horowitz, Zaslavs
 ### Ledger
 
 Lines are returned in the structured output: definitions (s-graph, product rule, balance, b(G), N-balance, local balance, path and structure theorems), the influence corollary and its conditional, the derived counts for K_n, the Horowitz and Jordan results at membership scale, the Heider tension and tendency verbal postulate, and the contradictions above. Provenance follows the file's tags. [derived] items are listed as sa, because the schema has no derived value; they are the file's own derivations, not source claims.
+
+## Licences of quoted and transcribed material (2026-11-01)
+
+- Cartwright & Harary 1956 (Psychol. Rev. 63(5):277-293, doi:10.1037/h0046049): read from third-party scans (sitpor.org repost; snap.stanford.edu copy), not the APA copy; licence not determined; publisher copyright (APA) presumed. Used as short quotations (definitions and theorem statements, each under 60 words, with page numbers), restated equations and a few numbers (Jordan means, figure point and line counts). No figures, tables or lists reproduced.
+- Harary 1953 (Michigan Math. J. 2(2):143-146): not read; cited via C&H and Zaslavsky only; publisher copyright presumed.
+- Zaslavsky, arXiv:1303.2770v1: arXiv, licence not stated. Used as the theorem's gist restated and two very short phrases.
+- Horowitz, Lyons & Perlmutter 1951; Jordan 1953; Harary 1955: cited only through C&H's account, not read; publisher copyright presumed. Only reported numbers (facts) are used.
+- Datasets: none used; the counts in sections 3-4 are our own derivations.
+- No Wikipedia-derived text is used in this file (one passing mention that Wikipedia gives different page numbers is a cross-reference, not text).
+- No email addresses or personal contact details appear in this file.

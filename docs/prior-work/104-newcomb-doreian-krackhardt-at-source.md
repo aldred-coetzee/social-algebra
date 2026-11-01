@@ -195,3 +195,10 @@ Second pass, independent of the author. Both author-hosted PDFs re-fetched (HTTP
 - `networkdata` fraternity: **confirmed** 15 igraph objects; package MIT, no data terms.
 - Section 8 vs models/00-v0.md §7: **consistent** in substance; corrected the claim that D&K's shuffle is "the exact null the test names" (v0 names no specific shuffle) and noted the two-week transition.
 
+
+## Licences of quoted and transcribed material (2026-11-01)
+
+- Doreian & Krackhardt (2001), J. Math. Sociol. 25(1) and Doreian, Kapuscinski, Krackhardt & Szczypula (1996), J. Math. Sociol. 21(1-2) (author-hosted copies; (c) OPA / Gordon and Breach, published under licence): not determined; publisher copyright presumed. Used as short quotations (each under 30 words), restated definitions and equations, and reported numbers (facts) with page references. Tables 1-5 and Figures 1-3 are described, not reproduced; the per-type table in section 3.3 is our own description of the trajectories the authors state in their text, with values read by eye marked [fig].
+- Doreian & Mrvar (1996), Nakao & Romney (1993), Feld & Elmore (1982), White, Boorman & Breiger (1976), Newcomb (1961), Nordlie (1958): not read; cited only. Not determined; publisher copyright presumed.
+- Dataset: Newcomb fraternity data (Newcomb 1961, Nordlie 1958; UCINET distribution, UCI Network Data Repository copy, R package `networkdata`). The UCI copy states CC BY-NC-ND 2.5 (conditional on the source stating nothing else); the original UCINET/Pajek listing states no terms; the package licence (MIT) does not cover the data. None of the data is committed to this repo or reproduced in this file: only statistics (reported by the papers or computed) and locations are held in version control; a fetched copy (per `sim/data/README.md`) sits under `sim/data/`, which `sim/.gitignore` excludes. Any later analysis must fetch the data at run time and keep it git-ignored, as section 5 records.
+- No Wikipedia-derived text is used in this file.

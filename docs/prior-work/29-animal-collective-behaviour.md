@@ -275,3 +275,13 @@ Animal-group work is the best existing source of **explicit, analysable equation
 - Closing claims: ✎ "curiosity and desire essentially absent" corrected (scout novelty-seeking, exploration term γ, exploratory tendency, appetitive boldness); "no common state space" stands.
 
 **Verdict.** The bibliography is reliable: every DOI resolves to the paper claimed and nothing was fabricated. The weak points were in the mechanisms, where the survey worked from summaries: the B1 pitchfork, flagged as a guess, turns out to be correct and now has an exact threshold, but Marshall 2009 was conflated with cross-inhibition and the fish-leadership papers were misattributed to boldness. Treat [read: abstract] statements as sound and [standard account] equations, apart from B1, as still unchecked against full text.
+
+## Licences of quoted and transcribed material (2026-11-01)
+
+- Pais et al. 2013 (PLoS ONE 8(9):e73216): full text read; PLoS ONE is open access (normally CC BY; the licence is not recorded in this file). Used as restated equations (the commitment model, the threshold sigma*, the Weber-form relation) with one short phrase quoted ("similar to Weber's law" and the pitchfork sentence, each under 30 words).
+- Seeley et al. 2012 (Science), Couzin et al. 2011 (Science), Marshall et al. 2009, Rosenthal et al. 2015, Flack et al. 2006, Strandburg-Peshkin et al. 2015, Harcourt et al. 2009, Jolles et al. 2017, Ward et al. 2011, Muro et al. 2011, Liang et al. 2012: abstracts only (Europe PMC or search summaries); licence not determined; publisher copyright presumed. Used as short quoted phrases (each under 40 words) and reported results described in our words.
+- Bonabeau et al. 1996/1998, Beshers & Fewell 2001, Theraulaz & Bonabeau 1995, Pratt 2005 and 2002, Hamilton 1964, Clutton-Brock 2002, Pulliam 1973, Aureli et al. 2008, Fernald 2012, Greene & Gordon 2003, Jandt et al., Modlmeier et al., Giraldeau et al. 2002 and the items under "Missing important work": cited from titles and standard accounts, not read; publisher copyright presumed. Equations for the response-threshold model are the canonical forms restated, not copied.
+- The motif table is our own derived summary, not a transcription of a source table.
+- Datasets: none used or reproduced.
+- No Wikipedia-derived text is used in this file ("Wikipedia-style editing" and the Wikipedia-browsing study are mentions, not text).
+- No email addresses or personal contact details appear in this file.

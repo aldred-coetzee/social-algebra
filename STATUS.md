@@ -43,8 +43,6 @@ for drives, as distinct from states, as the primitives.
 
 ## Open, if anyone returns
 
-- **Repository licence** before open-sourcing: CC BY 4.0 for text, MIT or
-  Apache-2.0 for code (`docs/licensing.md`). Aldred's call.
 - **Open modelling decisions** in `models/00-v0.md` section 9 (activity
   instrument per size, Person sort for non-humans, Object and Setting
   sorts, coupling symmetrisation, two-sided gate settings).
@@ -59,6 +57,14 @@ for drives, as distinct from states, as the primitives.
   derivative than the aim set out.
 
 ## Housekeeping
+
+**Ready to be made public, since 2026-11-01.** Licence chosen and added:
+MIT for `sim/` (`LICENSE`), CC BY 4.0 for everything else
+(`LICENSE-CC-BY-4.0`); reasoning in `docs/licensing.md`. The licensing
+audit now covers every file (the 2026-10-30 pass plus a 2026-11-01 pass
+over the files added after it). No email address, secret or dataset is
+tracked; `sim/data/` is ignored except its README. Flipping visibility on
+GitHub is Aldred's step.
 
 Auto-compaction at 200k tokens is set in this project's
 `.claude/settings.json` and globally (`CLAUDE.md`, "Context size"). The
