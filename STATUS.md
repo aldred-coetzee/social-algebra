@@ -178,7 +178,11 @@ one Hong Kong march), one newlywed cohort carries 22%.
 **v0.2 being written** (Fable): the hinge stated; directional triad law; the
 sign-law registry; the validity column; models/01 and 02 folded in; medium
 and non-human members. **Running:** the wiki-RfA tie-conversion test
-(sim/, local data). **Decision for Aldred after v0.2:** keep "holds/splits"
+(sim/, local data) and, on Aldred's "more tests and variations", a battery of
+six empirical tests with model variants (sign registry; crowd gate on
+Wikipedia elections; directed triad rules compared; Apache activity vs
+survival; Bitcoin reciprocity gate; crowd-law identifiability), each
+reviewed and re-run by a second agent; results land in `sim/results/`. **Decision for Aldred after v0.2:** keep "holds/splits"
 as the first outcome, or switch to one where drives are the obvious
 variables (conformity/compliance at membership scale; effort/efficiency at
 group scale). Slip

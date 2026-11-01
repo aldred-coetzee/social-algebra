@@ -34,3 +34,16 @@ team-scale dataset hunt; (5) only then the modelled population.
   medium and whether it was re-tested after 2015.
 - Contemporary explicit-relation data (project forks, community schisms)
   are preferred for the team-scale test for the same reason.
+
+**2026-11-01, after the hinge finding and the first-outcome question:**
+Aldred: *"More tests and variations."* Before deciding the first outcome,
+a battery of empirical tests and model variations runs on the catalogued
+modern data (local use only) and on synthetic crowds: the sign-registry's
+five tests (person terms vs triad terms is the one named as settling the
+decision); the crowd gate's sign on Wikipedia elections 2003–2013; a
+comparison of directed triad rules (strict, weak, first-tie asymmetric,
+status, person baseline); team-scale activity distribution vs survival on
+Apache Incubator; a reciprocity gate on the Bitcoin trust networks;
+identifiability of the crowd law from aggregate curves. Each test is built
+by one agent and its method re-run and reviewed by another. Results in
+`sim/results/`.
