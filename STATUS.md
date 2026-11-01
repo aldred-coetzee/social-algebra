@@ -164,9 +164,24 @@ equilibrium); proofs ours, numerics exact on 829,756 pairs; audit requested
 from next-pattern. The n = 3 Newcomb test ran (`sim/results/newcomb_n3.md`):
 symmetric triangle rule refuted for directed ties, strict balance refuted,
 weak balance a depletion, conversion undecided; v0.1 §7 updated. File 117
-(modern signed and split datasets) written, in validation. Batch 4 (files
-105–116, signs and datedness) mid-flight. **v0.2 after batch 4: directional
-triad law, sign law if supported, validity column, fold in models/01.** Slip
+(modern signed and split datasets) written, in validation. **Batch 4 landed 2026-11-01** (files 105–116; 36 agents, 17.2M tokens — deep
+reads are the expensive kind; ledger now 5,817 lines, with era and medium).
+**The hinge finding (112, 116):** in nothing read do drives fix the sign of a
+tie; the same drive state gives opposite signs across settings; person-level
+sender/receiver propensities carry most predictable sign variance, with no
+mechanism; only the set-point term survives a change of era and sample; for
+"holds/splits" the load-bearing content is structure, payoffs and
+composition. 112 proposes a registry of gated sign laws with the sign as a
+state; 116 proposes the validity column (fields, rules, statuses). v0.1's
+empirical base: of 46 lines, 14 rest on pre-2000 data, 4 on post-2015 (all
+one Hong Kong march), one newlywed cohort carries 22%.
+**v0.2 being written** (Fable): the hinge stated; directional triad law; the
+sign-law registry; the validity column; models/01 and 02 folded in; medium
+and non-human members. **Running:** the wiki-RfA tie-conversion test
+(sim/, local data). **Decision for Aldred after v0.2:** keep "holds/splits"
+as the first outcome, or switch to one where drives are the obvious
+variables (conformity/compliance at membership scale; effort/efficiency at
+group scale). Slip
 the same day: an agent sent Aldred's email to Unpaywall's API; rule added
 to CLAUDE.md. Then: v0 provenance update, and the
 question of what comes next goes back to him. Research iterations run back to back as workflow
