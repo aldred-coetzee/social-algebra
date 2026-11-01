@@ -203,8 +203,16 @@ qualifiers (the sign residue is the size of a substantial per-triad
 mechanism, not "small"; the Wikipedia gate result is co-movement, not
 influence; the Bitcoin dead-zone verdict is about a band on the single
 received rating, so (S3)'s dead zone is untested, not refuted; the
-identifiability fix needs the right parametric family). **v0.3 being
-written: activity-first, two layers.** **Decision for Aldred after v0.2:** keep "holds/splits"
+identifiability fix needs the right parametric family). **v0.3 written 2026-11-01** (339 lines): activity first with its
+instrument per size; holds/splits a produced Layer B; two new theorems
+checked by this session — 7.5 activity certificate (ρ(R+Γ) < 1 gives one
+globally attracting steady state with coupling only raising activity;
+ρ ≥ 1 with irreducible M gives unbounded growth, no bistability) and 7.6
+the reactive-newcomer iff; demotions from the battery applied. Not yet
+audited (token cost; Aldred's call). **Proposed next and only step: one
+fitted case** — Apache Incubator, train on podlings started 2003–12, predict
+2013–21 before looking, size + first-year growth vs size alone; about 2M
+tokens; result decides whether the project continues. **Decision for Aldred after v0.2:** keep "holds/splits"
 as the first outcome, or switch to one where drives are the obvious
 variables (conformity/compliance at membership scale; effort/efficiency at
 group scale). Slip
