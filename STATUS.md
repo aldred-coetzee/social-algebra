@@ -1,10 +1,58 @@
 # Status
 
-_Updated 2026-10-29._
+_Updated 2026-11-01._
 
 Scaffolded 2026-10-29: brief, `notes/`, `models/`, `docs/`. On GitHub
 (private) at `aldred-coetzee/social-algebra`. Model pinned to Fable 5.1 for
 this project (see `CLAUDE.md`).
+
+## Where we are (2026-11-01): the fitted case did not meet its criterion
+
+The single pre-registered test that was to decide whether the team-scale
+activity layer continues has run: `sim/results/apache_fitted_case.md`,
+code `sim/models/apache_fitted_case.py`, tests
+`sim/tests/test_apache_fitted_case.py`. Rule written into the file before
+any number was computed (`report` refuses to run without it). Apache
+Incubator podlings started 2003–12 train, 2013–21 test, scored once.
+
+| model | held-out AUC | held-out log-loss |
+|---|---|---|
+| base rate | 0.500 | 0.540 |
+| A size only | 0.764 | 0.454 |
+| B size + first-year growth | 0.778 | 0.451 |
+| C size + growth + start year | 0.775 | 0.457 |
+
+B − A in AUC is +0.014, 95% bootstrap [−0.033, +0.063]; log-loss −0.002.
+The criterion (B beats A by more than 0.02 AUC **and** lower log-loss) is
+**not met**: only the log-loss half holds. A separate Opus review recomputed
+the numbers from the frozen predictions (B − A is exactly 21/1470), found
+no leakage (standardisation and ridge fit on training rows only; the
+landmark table pools nothing across podlings), and confirmed from the
+transcript that the rule was written four seconds before the first fit.
+Its one wording finding: `models/00-v0.md` §8 "Team" says "does not beat
+size alone" with no margin; the applied criterion is the 2026-11-01
+brief's, with the 0.02 margin, and §8 now says so.
+
+What the result means, and does not: first-year growth adds nothing that
+this test can see beyond size, on a test set of 91 podlings (21 retired)
+whose noise is wider than the margin. Size predicting graduation is close to
+a tautology and supports no mechanism. The secondary conversation-lead
+result (AUC +0.083 [+0.018, +0.152] over size) is the lead from the
+in-sample file re-scored on podlings that file had already seen, found in a
+42-variant search; it is a lead, not a confirmation. Nothing here touches
+the certificate theorems (7.5–7.7), which the dataset cannot reach.
+
+**Per the plan Aldred approved with "Go": if the criterion failed, stop and
+write up.** The decision is his. Options as this session sees them:
+(1) stop here and write up, the repo as it stands being the write-up;
+(2) one more test on a different dataset or size (the dyad or crowd tests
+of v0.3 §8), at similar cost (about 2M tokens each); (3) chase the
+conversation lead on podlings started after July 2021, which is the only
+new-data confirmation available at this scale. Token spend to date is
+about 85M. No new research batches are planned.
+
+Housekeeping the same day: auto-compaction at 200k tokens set in this
+project's settings and globally (`CLAUDE.md`, "Context size").
 
 ## Prior-work survey (in progress)
 
