@@ -18,6 +18,15 @@ assumed. **First outcome (Aldred, 2026-11-01): activity** — how much the
 group does and whether it runs away — with holds/splits as a second layer
 the model produces, not an input (`notes/2026-11-01-first-outcome-activity.md`).
 
+**Closed 2026-11-01 with `docs/write-up.md`** (Aldred: "Ok write up",
+after three pre-registered experiments in one day found that drives as
+pre-measured dispositions carry little of a group's outcome and that what
+a person did last time, plus coupling and structure, carries most of it).
+Nothing below is retracted; it is the brief the work was done under. A
+session that reopens the strand starts from `STATUS.md` "Open, if anyone
+returns" and `docs/write-up.md` section 5, and does not re-run the survey:
+the three decisive experiments cost about one percent of it.
+
 This file is the standing brief. Keep it current — each session starts with
 no memory of the last, and the repo is the only continuity. Environment and
 working-style rules are in `~/.claude/CLAUDE.md` and are not repeated here.
