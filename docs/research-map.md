@@ -14,7 +14,8 @@ Existing societies and groups are working models: commonalities to abstract
 from, and better-behaving groups to learn the factors from. Tested first on
 a modelled population built independently of the equations, then on data.
 "Drives as primitives" is the working hypothesis, tested by every dive, not
-assumed.
+assumed. **First outcome (Aldred, 2026-11-01): activity**, with holds/splits as
+a produced second layer.
 
 Date: 2026-10-29
 

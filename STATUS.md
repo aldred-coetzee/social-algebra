@@ -196,8 +196,15 @@ Bitcoin, weak balance the best single rule; Apache: size predicts
 graduation, mean activity and distribution shape do not, growth vs
 collapse does; Bitcoin: dead-zone gate refuted, graded response with a
 strong sign gate; crowd law identifiable from aggregates only up to the
-stall. **Decision put to Aldred: first outcome = activity (recommended) or
-holds/splits.** Then v0.3. **Decision for Aldred after v0.2:** keep "holds/splits"
+stall. **Aldred, 2026-11-01: activity first** (`notes/2026-11-01-first-outcome-activity.md`);
+holds/splits becomes the produced second layer. next-pattern audited the
+battery: numbers stand; four headlines had dropped the files' own
+qualifiers (the sign residue is the size of a substantial per-triad
+mechanism, not "small"; the Wikipedia gate result is co-movement, not
+influence; the Bitcoin dead-zone verdict is about a band on the single
+received rating, so (S3)'s dead zone is untested, not refuted; the
+identifiability fix needs the right parametric family). **v0.3 being
+written: activity-first, two layers.** **Decision for Aldred after v0.2:** keep "holds/splits"
 as the first outcome, or switch to one where drives are the obvious
 variables (conformity/compliance at membership scale; effort/efficiency at
 group scale). Slip
