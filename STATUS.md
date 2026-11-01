@@ -66,6 +66,17 @@ over the files added after it). No email address, secret or dataset is
 tracked; `sim/data/` is ignored except its README. Flipping visibility on
 GitHub is Aldred's step.
 
+**One blemish before flipping, Aldred's call:** 115 of 125 commit
+messages end with a `Co-Authored-By: Claude …` trailer, added by the
+harness against the global rule of no AI references in commit messages.
+The strip was prepared on 2026-11-01 (a message filter over `main`, tree
+unchanged) but the force-push was declined by the permission layer, so
+history is as pushed. To apply it, run from the repo with Aldred's say-so:
+`git filter-branch -f --msg-filter 'sed "/^Co-Authored-By: Claude/d"' main`
+then `git push --force-with-lease origin main`. Single branch, no tags,
+no other clone, so nothing else needs rebasing. From this date commits
+here carry no trailer.
+
 Auto-compaction at 200k tokens is set in this project's
 `.claude/settings.json` and globally (`CLAUDE.md`, "Context size"). The
 Remote Control unit `claude-rc-social-algebra` stays installed. Token spend
