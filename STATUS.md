@@ -175,9 +175,12 @@ composition. 112 proposes a registry of gated sign laws with the sign as a
 state; 116 proposes the validity column (fields, rules, statuses). v0.1's
 empirical base: of 46 lines, 14 rest on pre-2000 data, 4 on post-2015 (all
 one Hong Kong march), one newlywed cohort carries 22%.
-**v0.2 being written** (Fable): the hinge stated; directional triad law; the
-sign-law registry; the validity column; models/01 and 02 folded in; medium
-and non-human members. **Running:** the wiki-RfA tie-conversion test
+**v0.2 written 2026-11-01** (`models/00-v0.md`, 421 lines; 411 ledger ids,
+300 admissible, 53 ⚠): §0.5 states the hinge; §4.2 the directed first-tie
+law with weak balance as a depletion and strict balance only as the
+structure theorem; §4.5 the sign registry with the sign as a state; §0.6
+and §9.2 the validity record on every term; models/01 and Claim 1 folded;
+§5.5 medium and non-human members. Audit requested from next-pattern. **Running:** the wiki-RfA tie-conversion test
 (sim/, local data) and, on Aldred's "more tests and variations", a battery of
 six empirical tests with model variants (sign registry; crowd gate on
 Wikipedia elections; directed triad rules compared; Apache activity vs
