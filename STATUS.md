@@ -7,7 +7,14 @@ the day's three experiments and the question "is it worth continuing":
 "Ok write up." The strand ran from 2026-10-29 to 2026-11-01. Its history,
 with every decision and its reasoning in date order, is
 `docs/history-2026-10-29-to-11-01.md`; the dated `notes/` carry the why of
-each turn.
+each turn. **A post-mortem, `docs/post-mortem.md` (2026-11-01, asked for
+by Aldred after the close), answers six questions from the repo: the
+hypothesis as formulated, every approach in order and why it failed, the
+category of the conclusion (it reduces to existing work), what survived,
+the overlapping literature, and whether the negative is writeable up.
+It also names two places where the write-up overstates the files: the
+Apache fitted-case review is not recorded in its results file, and the
+16 expected failures record refuted claims of v0, not of published work.**
 
 ## The finding, in one paragraph
 
@@ -30,13 +37,16 @@ for drives, as distinct from states, as the primitives.
 - **Equation set:** `models/00-v0.md` (v0.3), `models/01-composition-and-levers.md`,
   `models/02-our-claims.md`. The theorems are checked; v0.3 was not given
   an outside audit (token cost).
-- **Simulator:** `sim/`, uv-managed; 681 tests collected, 16 expected
-  failures that record refuted published claims. Every result file in
+- **Simulator:** `sim/`, uv-managed; 681 tests collected, 16 strict
+  expected failures: 13 record refuted claims of v0's own (two dead-zone,
+  eleven sign-registry), 3 record Leonard's Table 1 transverse condition,
+  which our reduction could not reproduce. Every result file in
   `sim/results/` carries its rule, counts, intervals and caveats. Data is
   local-only under `sim/data/` with checksums in `sim/data/README.md`;
   the Newcomb copy is CC BY-NC-ND and must not be redistributed.
 - **Decisive results:** `sim/results/apache_fitted_case.md` (criterion
-  not met, Opus-reviewed), `sim/results/synthetic_population_identifiability.md`
+  not met; the review of it happened in a session transcript and is not
+  in the file), `sim/results/synthetic_population_identifiability.md`
   (drives recoverable via ties only; composition fails even for the
   oracle), `sim/results/szekely_composition.md` (measured SVO weak; rates
   dominate; no composition rule beats the mean).

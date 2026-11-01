@@ -11,7 +11,10 @@ drives as pre-measured dispositions carry little of a group's outcome;
 what a person did last time, plus coupling and structure, carries most of
 it. The equation set (`models/`), the survey (`docs/prior-work/`), the
 claim ledger (`docs/ledger.jsonl`) and the simulator (`sim/`) stand as
-built.
+built. `docs/post-mortem.md` answers, from the repo, what was
+hypothesised, what was tried and why each attempt failed, what the
+conclusion reduces to, what survived, and whether the negative result is
+worth writing up.
 
 ## Licence
 
