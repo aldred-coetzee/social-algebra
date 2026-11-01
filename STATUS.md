@@ -51,6 +51,17 @@ conversation lead on podlings started after July 2021, which is the only
 new-data confirmation available at this scale. Token spend to date is
 about 85M. No new research batches are planned.
 
+**Aldred, later the same day:** "Are we saying that what we've done so far
+categorically proves that this is not possible?" No: every test ran on
+traces with no measured drive. Decision, "Ok go but be mindful of tokens":
+first the modelled-population identifiability experiment (synthetic world
+with known drives, generator not v0's form, three sizes; can the drives be
+recovered, and does a drive model beat person effects on held-out
+outcomes?), then one test on a public experiment with measured drives.
+Reasoning and order in `notes/2026-11-01-not-refuted-modelled-population-first.md`.
+Running as one Sonnet agent with a pre-registered rule; result will land in
+`sim/results/synthetic_population_identifiability.md`.
+
 Housekeeping the same day: auto-compaction at 200k tokens set in this
 project's settings and globally (`CLAUDE.md`, "Context size").
 
