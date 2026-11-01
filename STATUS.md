@@ -180,8 +180,13 @@ one Hong Kong march), one newlywed cohort carries 22%.
 law with weak balance as a depletion and strict balance only as the
 structure theorem; §4.5 the sign registry with the sign as a state; §0.6
 and §9.2 the validity record on every term; models/01 and Claim 1 folded;
-§5.5 medium and non-human members. Audit requested from next-pattern. **Running:** the wiki-RfA tie-conversion test
-(sim/, local data) and, on Aldred's "more tests and variations", a battery of
+§5.5 medium and non-human members. Audit requested from next-pattern. **Done 2026-11-01:** the wiki-RfA tie-conversion test
+(`sim/results/wikirfa_conversion.md`): 1,201 conversions; repair toward
+weak balance 56.7% vs 50.0% null, mostly direction mix; a weak,
+setting-specific agreement term, not a law; first-tie asymmetry only when
+the negative tie touches the voter. v0.2.1 committed after next-pattern's
+audit (scope words restored in the hinge; two-factor directed law).
+**Running:** on Aldred's "more tests and variations", a battery of
 six empirical tests with model variants (sign registry; crowd gate on
 Wikipedia elections; directed triad rules compared; Apache activity vs
 survival; Bitcoin reciprocity gate; crowd-law identifiability), each
