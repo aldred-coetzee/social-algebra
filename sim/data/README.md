@@ -12,7 +12,9 @@ with the fetch command in the reason when it is absent.
   no ties; ranks only, no signs. Study: Newcomb (1961), *The Acquaintance Process*; rank data as recorded by
   Nordlie (1958), PhD thesis, University of Michigan (neither read here).
 - **Used by.** `sim/models/newcomb.py`, `sim/models/newcomb_report.py`, `sim/tests/test_newcomb_triads.py`,
-  `sim/results/newcomb_n3.md`. Prior work: `docs/prior-work/104-newcomb-doreian-krackhardt-at-source.md`;
+  `sim/results/newcomb_n3.md`; also `sim/models/triad_rule_comparison.py` (its post hoc re-read of the Newcomb pattern,
+  through `models.newcomb.load_ranks`, sha256-checked), its test and `sim/results/triad_rule_comparison.md` section 4.1
+  (computed statistics only). Prior work: `docs/prior-work/104-newcomb-doreian-krackhardt-at-source.md`;
   ledger L4471-L4546.
 - **Fetch.** `cd sim && ~/.local/bin/uv run python -m models.newcomb_report fetch` (stdlib `urllib`; refuses
   any download whose sha256 differs from the one below; sends no identity beyond urllib's default agent).
@@ -54,8 +56,12 @@ with the fetch command in the reason when it is absent.
 - **Used by.** `sim/models/wikirfa.py`, `sim/models/wikirfa_report.py`, `sim/tests/test_wikirfa_conversion.py`,
   `sim/results/wikirfa_conversion.md`; also `sim/models/triad_rule_comparison.py`,
   `sim/tests/test_triad_rule_comparison.py`, `sim/results/triad_rule_comparison.md` (which read this file in place and
-  never fetch it). Prior work: `docs/prior-work/117-modern-signed-and-split-datasets.md`
-  section 3.3; ledger L4561-L4564, L4855.
+  never fetch it); and `sim/models/crowd_gate_wikirfa.py`, `sim/tests/test_crowd_gate_wikirfa.py`,
+  `sim/results/crowd_gate_wikirfa.md` (the crowd gate: it reads this file in place, parses it with its own loader that
+  skips the comments, and has a `fetch` that is used only if the file is absent); and `sim/models/sign_registry_battery.py`,
+  its test and `sim/results/sign_registry_battery.md` (the sign-registry battery: same terms, its own comment-skipping
+  loader, `fetch wiki` only if absent; added at review 2026-11-01). Prior work:
+  `docs/prior-work/117-modern-signed-and-split-datasets.md` section 3.3; ledger L4561-L4564, L4855.
 - **Fetch.** `cd sim && ~/.local/bin/uv run python -m models.wikirfa_report fetch` (stdlib `urllib`; refuses any
   download whose sha256 differs from the one below; sends no identity beyond urllib's default agent).
 - **Source URL.** `https://snap.stanford.edu/data/wiki-RfA.txt.gz` (page `https://snap.stanford.edu/data/wiki-RfA.html`),
@@ -63,7 +69,8 @@ with the fetch command in the reason when it is absent.
   directories.
 - **Size / checksum.** 14,936,383 bytes (50,110,991 uncompressed; `Last-Modified` 2018-07-10); sha256
   `88d53196fb2564a2e20286dbba818832f718cc352bb181a2101d23d2556f0862`. Counts re-made on 2026-11-01 match 117:
-  198,275 records, 144,451 support / 41,176 oppose / 12,648 neutral, per-year totals, 11,380 named voters, 1,661
+  198,275 records, 144,451 support / 41,176 oppose / 12,648 neutral, per-year totals, 11,380 distinct user names (117's
+  "named voters", L4562; but 10,416 of them vote and 964 are candidates who never do, recounted 2026-11-01), 1,661
   records with an empty voter field; also found here: 9,367 records without a time and one with an impossible one
   (hour 31), three month names with slips (`Mya`, `Julu`, `Janry`), and 18 elections carrying both outcome labels (15 as
   a complete copy).
@@ -84,7 +91,9 @@ with the fetch command in the reason when it is absent.
   among 5,881 nodes, 2010-11-08 to 2016-01; Alpha: 24,186 among 3,783, 2010-11-08 to 2016-01.
 - **Used by.** the same three files, and `sim/models/triad_rule_comparison.py` with its test and results (which read
   these files in place and never fetch them); `sim/models/gate_reciprocity_bitcoin.py`, its `_report.py`, test and
-  `sim/results/gate_reciprocity_bitcoin.md` (the reciprocity-gate test); 117 section 3.4, ledger L4567-L4580.
+  `sim/results/gate_reciprocity_bitcoin.md` (the reciprocity-gate test); `sim/models/sign_registry_battery.py`, its test
+  and `sim/results/sign_registry_battery.md` (in place; `fetch otc alpha` only if absent; added at review 2026-11-01); 117
+  section 3.4, ledger L4567-L4580.
 - **Fetch.** the same command; sha256 is checked before anything is written. The Bitcoin files alone:
   `cd sim && ~/.local/bin/uv run python -m models.gate_reciprocity_bitcoin_report fetch`. Both local files were compared
   byte for byte with a fresh download from the source URLs on 2026-11-01 and are identical. Time resolution (found while

@@ -19,7 +19,8 @@ was not needed.) `uv.lock` is committed. Python >= 3.12; numpy, scipy, pytest on
 
 Tests on third-party data skip (with the command in the reason) when the data file is absent: the
 files in `data/` are local-use-only and git-ignored, `data/README.md` records where each came from and on
-what terms. Fetch the Newcomb ranks with `~/.local/bin/uv run python -m models.newcomb_report fetch`.
+what terms. Fetch the Newcomb ranks with `~/.local/bin/uv run python -m models.newcomb_report fetch`, the SNAP
+wiki-RfA and Bitcoin files with `~/.local/bin/uv run python -m models.wikirfa_report fetch`.
 
 ## Results (2026-10-31): 156 passed, 3 xfailed (strict), 0 failed
 
@@ -97,3 +98,145 @@ Findings (full tables in `results/newcomb_n3.md`):
 5. **D&K's footnote that the qualitative results hold at top-3/bottom-3 and top-3/bottom-2 (L4478) is true of the
    contrasts and false of the wave-by-wave details** (7 and 4 of their 10 claims hold). The recode decides the power,
    not the static verdicts.
+
+## Wiki-RfA conversion and Bitcoin formation (2026-11-01): 61 tests (44 need no data, 17 skip without it)
+
+`models/wikirfa.py` and `tests/test_wikirfa_conversion.py` run the tie-CONVERSION half of the n = 3 test of
+`models/00-v0.md` section 7 on SNAP wiki-RfA, where a voter rates the same candidate at two candidacies
+(`docs/prior-work/117` section 3.3, L4564), and the formation half on Bitcoin OTC and Alpha (117 section 3.4);
+`models/wikirfa_report.py` writes `results/wikirfa_conversion.md` (all numbers, tables and the verdict; about 7 minutes
+on an idle 8-core box, seeded). Data are local-use-only (`data/README.md`: source, terms, sha256). Like the Newcomb run this
+is **new computation**, not a published equation; the anchors are 117's own counts.
+
+| Counted by 117 | Ledger ids | Test | Status |
+|---|---|---|---|
+| wiki-RfA: 198,275 votes (144,451 / 41,176 / 12,648), per-year totals, 11,380 named voters | L4562, L4563 | `test_wikirfa_reproduces_117s_vote_counts` | PASS |
+| re-signing: 3,761 pairs vote in more than one year, 7,793 pairs carry more than one vote (16,330 votes), 519 + 158 = 677 changes | L4564, L4855 | `test_wikirfa_resign_counts_reproduce_117_for_the_changes` | PASS (the two non-changing cells give 1,971 and 632 against 117's 1,946 and 647) |
+| Bitcoin OTC: 21,492 pairs, 33,493 triangles, 29,900 balanced (89.3%) against a shuffled 69.3%, the closing table, 3,354 one-negative | L4572-L4575 | `test_bitcoin_reproduces_117s_counts_and_the_product_rule` | PASS |
+| Bitcoin Alpha: 14,124 pairs, 22,153 triangles (20,016 strictly ordered), 17,567 balanced (87.8%) | L4572, L4576, L4577 | same | PASS |
+
+Findings (full tables in `results/wikirfa_conversion.md`):
+
+1. **Counts.** 198,275 records give 4,047 candidacies, 5,990 re-votes and 1,201 conversions (951 oppose-to-support, 250
+   support-to-oppose; 117's 677 is a lower bound and is reproduced exactly), in 229,424 (re-vote, third party,
+   orientation) triple instances. The file holds 18 elections under both outcome labels (15 as complete copies), which
+   grouping by result turns into 618 spurious zero-day re-votes.
+2. **Against the brief's null (signs shuffled within voter, 10,000 draws) conversion moves triples toward weak balance:**
+   56.7% of the weak-balance changes are repairs against 50.0% (p < 1e-4), but 4.3 to 6.4 of the 6.7 points are the 79%
+   oppose-to-support direction mix (a candidate who failed and ran again is judged better).
+3. **Holding the network and permuting who converts (Newcomb's conditional design) leaves +3.1 points** (same new candidacy and
+   old sign, z +6.8), **+1.4** (same voter, z +2.9) and +1.2 (also voter generosity, z +3.2); a re-vote in a one-negative triple
+   flips at 31.4% against 27.9 / 30.0 / 29.6%. The part only balance could produce (a double-difference contrast that cancels
+   the voter's generosity and the candidate's reception) sits in triples where u and v rated the same third party; the
+   chain u -> w -> v shows none.
+4. **v0 section 7's contrast (one-negative faster than all-negative)** holds against its null only without a voter control
+   (+4.7 points, z +5.0; within voter +0.1).
+5. **First-tie asymmetry:** a positive tie turns negative above null only when the lone negative tie touches the voter
+   (DLL-FF, DLL-BF, LLD-FB: 11.4% against 7.6%), not when it is the third party's tie to the candidate (7.0% against 6.9%); with
+   the voter held fixed the contrast is zero, so it is the voter's negativity, not the triple.
+6. **Bitcoin:** 117's closure figure reproduces exactly and shrinks under a within-rater (72.7%) and within-ratee (80.1%) shuffle
+   in OTC and vanishes in Alpha (strictly ordered, ratee null 87.6% against 87.8%); the all-negative triangle is enriched under
+   the global shuffle but, in OTC, depleted under the rater and ratee shuffles, so 117's "strict balance fails" depends on the baseline.
+7. **Not decided:** the v0 section 7 criterion "conversion at the null rate" has no unique null, and the answer depends on which is
+   taken; votes are not friendships, a vote is a one-shot evaluation, the clock is the candidacy, and re-voters are 3% of pairs.
+
+## Reciprocity gate on the Bitcoin OTC and Alpha networks (2026-11-01): 57 tests (41 need no data, 16 skip without it)
+
+`models/gate_reciprocity_bitcoin.py` (loader, response pairs and covariates, responder-fixed-effects least squares by Gram
+matrices, the one-sided / two-sided / dead-zone forms with grid-searched thresholds, cross-validation that re-chooses the
+thresholds inside every training fold, cluster bootstrap, Wald and trend tests), `models/gate_reciprocity_bitcoin_report.py`
+(every analysis, the verdict guards, and the commands `fetch`, `check`, `report`, `render`) and
+`tests/test_gate_reciprocity_bitcoin.py` run v0's O-jive prediction (zero influence inside a band of small partner levels,
+L0857) on the SNAP Bitcoin OTC and Alpha ratings (117 section 3.4, L4567-L4580): the rating a trader gives back against the
+rating received from the same counterparty, time-ordered. New computation, not a published equation; tables and the verdict
+are in `results/gate_reciprocity_bitcoin.md` (about three minutes, seeded; `report --pickle f` then `render f` re-renders the
+text without recomputing). The slow end-to-end test needs `GATE_RECIPROCITY_E2E=1`.
+
+| Fact | Ledger ids | Test | Status |
+|---|---|---|---|
+| OTC 35,592 and Alpha 24,186 ratings, 5,881 and 3,783 nodes, 32,029 / 3,563 and 22,650 / 1,536 positive / negative, 358 and 248 reciprocated pairs with opposite signs, 21,492 and 14,124 pairs | L4568, L4570-L4572 | `test_files_match_the_recorded_checksums_and_117_counts` | PASS |
+| OTC 14,100 reciprocated pairs, none tied; Alpha 10,062, of which 7,323 share a timestamp (its times are whole days, 04:00 or 05:00 UTC), 2,739 ordered, every gap at least a day (found here, not in 117) | L4571 | `test_pairing_counts_and_time_resolution` | PASS |
+| v0 prediction: the response is flat over a band of small received ratings | L0857 | `test_v0_prediction_a_flat_band_of_small_received_ratings` | XFAIL (strict): +2 is 0.85 above +1, chi2(1) = 221 |
+| v0 prediction: the step O-jive with free thresholds is at least as good out of sample as a graded form with no band | L0857 | `test_v0_prediction_the_step_odjive_beats_a_graded_form_without_a_band` | XFAIL (strict): worse by 6.5 SE |
+| Planted truths (an O-jive, a sign jump with two slopes, a sign-only step, a one-sided rule, a synthetic network with a planted response): the search and the cross-validation recover them | none (constructed) | `test_search_recovers_...`, `test_cross_validation_...`, `test_pipeline_recovers_...` | PASS |
+
+Findings (full tables in the results file):
+
+1. **Dead zone in the response: refuted on OTC, and on Alpha for every band reaching +2** (Alpha's band {-1, +1} is not
+   rejected: 17 responses to a -1, p = 0.07). The response at +2 is 0.85 points (SE 0.06) above the response at +1 on OTC and
+   1.06 (0.24) on Alpha; flatness over +1..+4 is rejected at p < 1e-10 on both; the response climbs 0.83 per rating point
+   from +1 (95% CI 0.77-0.89; Alpha 0.64-1.02), with responder fixed effects, and the same under none, two-way effects,
+   habit covariates and earlier-events-only covariates. As a claim about influence it needs one more step (a shared view of
+   the deal adds slope inside any band): no O-jive step sits on top of a linear slope over +1..+4 (equal increments, p = 0.90
+   on OTC, 0.54 on Alpha).
+2. **The O-jive as written fits worse than a graded response with no band**: out of sample the step form with free thresholds
+   loses to a two-sided graded form with the band closed by 0.46 squared rating points (6.5 SE) on OTC and 0.59 (3.1 SE) on
+   Alpha; one-sided forms lose by 1.2 to 1.7. Its thresholds (K+ = 3 or 4, K- = -1 or -2) are a step standing in for a ramp.
+3. **The best dead-zone fit is a band of the single rating +1** (K+ = 2, K- = -1 in 100% of 1,000 OTC bootstrap draws), and that is
+   concavity, not a zone: a step at +2 plus the slope after it span exactly the functions of a no-band curve with two slopes
+   and a knee at +2 (equal residual sums of squares, `test_dead_zone_graded_with_the_one_rating_band_is_a_two_slope_curve...`);
+   moving the knee to +8 fits better with one threshold instead of two (OTC BIC -120, Alpha -35; out of sample no worse). Against
+   the responder's own habit the response to +1 is +0.05 (SE 0.05): +1 is the zero-crossing, the modal rating.
+4. **The sign gate is large**: a negative received rating shifts the response by -8.4 (0.34) points against +1 (Alpha -6.6);
+   even -1 moves it by -4.1. The level of the received rating predicts better than its deviation from the sender's habit.
+   Knee of the positive response about 7 (6-8).
+5. **Drift**: the form holds in 2011-2015 (OTC) and 2011-2014 (Alpha); the OTC 1-4 slope rises 0.72 to 0.87 (trend +0.07 per
+   year, SE 0.03; +0.06 (0.03) from the yearly estimates); the negative jump and the 9-10 level show no trend once the
+   year-to-year scatter is allowed for; 2010 and 2016 have 51 and 21 OTC pairs, too few. Shape does not change with embeddedness; OTC and Alpha
+   agree like for like (gap of a day or more).
+6. **Caution on meaning**: 58% of OTC responses come within ten minutes and 83% of those repeat the received rating exactly
+   (72% of all OTC responses), so this is an association net of the persons' levels (time order is necessary, not sufficient); the negative side is
+   asymmetric in time (a negative first rating is answered negatively 95% of the time, but only 47% of negative responses
+   followed a negative first rating).
+7. **A bug the tests caught**: `ratings_from_array` cast ratings to integers before validating them, so 2.5 became 2
+   silently; integrality is now checked first (`test_loader_validation_rejects_malformed_files`).
+8. **Review (2026-11-01)**, appended to the results file. Fixed: the two-sided hinge was labelled "no dead zone" but is
+   flat over {-1, +1} (a hinge is zero at its knot), so the D-hinge "empty band" was wrong; the earlier-events control set
+   used the first rater's whole-file habit; the drift claims for the negative jump and the 9-10 level ignored the
+   year-to-year scatter; the verdict claimed Alpha's {-1, +1} refuted. Tests: `test_a_hinge_is_zero_at_its_knot...`,
+   `test_increment_test_...`, `test_year_trend_...`, and brute-force checks of the new earlier-events covariate.
+
+## Sign-registry battery (2026-11-01): 102 tests (42 need no data, 60 skip without it); 91 passed, 11 xfailed (strict)
+
+`models/sign_registry_battery.py` and `tests/test_sign_registry_battery.py` run the five tests of `docs/prior-work/112`
+section 6.5 on the registry's sign law R-E (person terms a_i + b_j plus the 16 directed triad types, forward chains pp +, pm -,
+mp -, mm -; ledger L5421, L4811, L4833) on wiki-RfA, Bitcoin OTC, Bitcoin Alpha and BlueTempNet's feed-creator graph (fetched
+from the authors' public GitHub LFS endpoint, checksum-verified; `data/README.md`). `python -m models.sign_registry_battery
+compute SITE` caches the statistics (minutes to tens of minutes, seeded); `report` writes `results/sign_registry_battery.md`
+(tables, the person-only null, planted mechanisms, variations). The decision rules are constants pinned by a test and were fixed
+before any result; amendments made after a first look are listed in the module docstring and in the results file.
+
+| Registry prediction (112 section 6.5) | Ledger ids | Test | Status |
+|---|---|---|---|
+| 1: FFmm < 0 in the 16-type fit alone (LHK's reading) | L4833, L5421 | `test_t1_ffmm_is_negative_in_the_16_type_fit_alone` | PASS wiki-RfA, Alpha, BlueTempNet; XFAIL OTC (z -1.8) |
+| 1: the whole forward chain pp +, pm -, mp -, mm - | L4811 | `test_t1_the_whole_forward_chain_pattern_...` | PASS wiki-RfA, BlueTempNet; XFAIL OTC, Alpha (FFpp undecided) |
+| 1: FFmm < 0 survives person terms (R-E as written) | L5421 | `test_t1_ffmm_survives_person_terms_in_the_fit` | XFAIL all four (+0.01, +0.02, -0.06 undecided; +0.11 at BlueTempNet) |
+| 2: person terms carry more than triad terms | L5444, L4850 | `test_t2_person_terms_carry_more_than_triad_terms` | PASS all four (D +0.056 to +0.152 AUC) |
+| 2: the triad terms add a material mechanism (R2 0.02) | L4829 | `test_t2_triad_terms_add_no_material_...` | not material anywhere (G -0.006 to +0.010); R2 NO |
+| 3: sign pattern stable by date, intercepts move | L4857, L4859 | `test_t3_...` | PASS all four |
+| 4: opposite-sign reciprocation rare (10% or less) | L4812 | `test_t4_opposite_sign_reciprocation_is_rare` | PASS OTC, Alpha, BlueTempNet; XFAIL wiki-RfA (14.6%) |
+| 5: received majority beats own history at C = 0 | L4852, L5444 | `test_t5_target_majority_beats_own_history_...` | PASS wiki-RfA (+0.177); XFAIL OTC, Alpha, BlueTempNet |
+
+Findings (full tables in `results/sign_registry_battery.md`):
+
+1. **Do signs have a mechanism beyond person propensities? No, not a material one.** Held out in time, person terms alone beat triad
+   terms alone at every site, and the 16 triad types add G = -0.006 (Alpha), +0.005 (wiki-RfA), +0.009 (BlueTempNet), +0.010 (OTC) AUC
+   to person terms: R2 (material = 0.02) is NO at four of four, with receiver-cluster and with sender-and-receiver intervals. At C >= 5
+   (dense triad evidence) OTC reaches +0.031.
+2. **FFmm < 0 is a person effect.** Fitted alone, as LHK did, it is supported at wiki-RfA, Alpha and BlueTempNet (OTC undecided), but
+   signs redrawn from person propensities on the same networks give -0.58 to -0.80, and with person terms in the fit FFmm is
+   +0.01, +0.02, -0.06 (undecided) and +0.11 at BlueTempNet (positive). Power is firm at wiki-RfA (a planted -0.3 returns -0.33),
+   weak at the Bitcoin sites (-0.04, -0.18).
+3. **A small residue is real** (above a person-only world at wiki-RfA, OTC, BlueTempNet; not at Alpha), in mixed-sign chains (FFpm,
+   FFmp: a third to two thirds of their size without person terms) and in agreement through a shared third party (FBpp, FBmm, BFpp,
+   BFmm positive; FBmp, BFpm negative); and in reciprocity, which R-E lacks (+0.001 to +0.019 AUC).
+4. **Drift**: no forward-chain type is contradicted in two date bins at any site while intercepts move (0.9 to 2.7 logit) and the
+   between-user variance of the sign moves (BlueTempNet sender ICC 0.37 to 0.70). Opposite-sign reciprocation rises with the date at every site.
+5. **Visibility**: the received-majority advantage at low embeddedness (+0.177) is wiki-RfA's and vanishes by C >= 25 as in LHK; it is
+   absent at OTC and BlueTempNet. It cannot be read as visibility (quality and shared information are not separated).
+6. **Variations**: strict and weak balance are indistinguishable once person terms are in the model (weak beats strict alone, +0.024 at
+   wiki-RfA); status adds at most +0.001 AUC; the best of the registry's own forms is person plus 16 types plus status (person plus
+   strict balance plus status at Alpha); the best variant overall adds the reverse-tie sign and interactions.
+7. **What the test could and could not see**: a planted forward-chain effect of 0.3 per triad adds only +0.004 to +0.009 AUC on
+   these skeletons (most edges have little triad evidence), and the static design returns about a quarter to a third of a planted effect
+   at wiki-RfA where the causal design returns all of it.
