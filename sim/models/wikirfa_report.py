@@ -175,6 +175,18 @@ def table(header: list[str], rows: list[list[str]], align: str | None = None) ->
 
 # ------------------------------------------------------------------ the report
 
+def _keep_review(text, path):
+    """`text` with a hand-written '## Review (' section at the end of the existing file at `path` kept, so
+    regenerating the numbers does not delete a review of them."""
+    p = Path(path)
+    if p.exists():
+        old = p.read_text(encoding="utf-8")
+        i = old.find("\n## Review (")
+        if i >= 0:
+            return text.rstrip("\n") + "\n" + old[i:]
+    return text
+
+
 def build_report(out: dict) -> str:
     B, seed = out["n_draws"], out["seed"]
     M, V, C, O = out["main"], out["variants"], out["char"], out["obs"]
@@ -620,6 +632,7 @@ def main(argv: list[str] | None = None) -> int:
             args.dump.write_text(json.dumps(out, default=lambda o: o.tolist() if hasattr(o, "tolist") else str(o)))
         text = build_report(out)
         args.out.parent.mkdir(parents=True, exist_ok=True)
+        text = _keep_review(text, args.out)
         args.out.write_text(text, encoding="utf-8")
         print(f"wrote {args.out} ({len(text.splitlines())} lines)")
     return 0

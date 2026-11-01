@@ -132,6 +132,18 @@ def waves_flag(flags, kind: str) -> str:
 
 # ------------------------------------------------------------------ the report
 
+def _keep_review(text, path):
+    """`text` with a hand-written '## Review (' section at the end of the existing file at `path` kept, so
+    regenerating the numbers does not delete a review of them."""
+    p = Path(path)
+    if p.exists():
+        old = p.read_text(encoding="utf-8")
+        i = old.find("\n## Review (")
+        if i >= 0:
+            return text.rstrip("\n") + "\n" + old[i:]
+    return text
+
+
 def build_report(out: dict) -> str:
     P = out["recodes"][nc.PRIMARY_RECODE]
     B = out["n_draws"]
@@ -799,6 +811,7 @@ def main(argv: list[str] | None = None) -> int:
         out = run(args.draws, args.seed)
         text = build_report(out)
         args.out.parent.mkdir(parents=True, exist_ok=True)
+        text = _keep_review(text, args.out)
         args.out.write_text(text, encoding="utf-8")
         print(f"wrote {args.out} ({len(text.splitlines())} lines)")
     return 0

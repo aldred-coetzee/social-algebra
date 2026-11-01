@@ -1766,8 +1766,10 @@ def format_report(R: dict) -> str:
         f"{w10p['null_mean']:+.2f} (z {_z(w10p)}), with z >= 2 in {len(loc_years)} of the {len(yrs05)} years from 2005 on "
         f"(2004 has {n04} elections and no power) and in {len(loc_sizes)} of the {len(sz)} size classes; the same holds for the previous 5 and 20, in an "
         "election-fixed-effect model, and in the agreement of a vote with the majority of the last 5 to 10 votes (2.2). "
-        "A net negative association (substitutes as co-movement) is refuted at this scale. This is an association: whether a "
-        "negative causal response sits under a stronger shared shock is not decided by these data (the third point).")
+        f"A net negative association (substitutes as co-movement) is refuted at this scale. The z of {_z(w10p)} belongs to this "
+        "previous-10 SHARE estimator alone (other windows and estimators differ). This is co-movement with the crowd just before a "
+        "vote, not shown to be influence: influence against a shared shock is undecided by these data, and so is whether a "
+        "negative causal response sits under a stronger shared shock (the third point).")
     add(f"- *The cumulative running share, the state variable the law names, carries little of it.* Out of sample, on votes with at "
         f"least {M_MIN_FORMS} earlier votes (where the cumulative share and a short window differ), the cumulative "
         f"share adds {ex[k_cum]:+.2f} log-likelihood per 1000 votes in its linear (Kuran) form and {ex[k_spl]:+.2f} as a spline "
@@ -1820,7 +1822,7 @@ def format_report(R: dict) -> str:
         "Participation falls when the running tally is against the candidate, already in the first 24 hours, before almost any "
         f"early closure (bands below 50% and 50-70%: {hx('1-24 h', 'band0'):+.2f} and {hx('1-24 h', 'band1'):+.2f} log-points against "
         f"the path-free null), and more over the week ({hx('1-168 h', 'band0'):+.2f} and {hx('1-168 h', 'band1'):+.2f}, which includes "
-        "elections the rule had closed); it is flat once support passes about 70%, and the bands above 85% do not fall. "
+        "elections the rule had closed); it is flat once support passes 70% (a band edge, SHARE_BANDS, not an estimated breakpoint), and the bands above 85% do not fall. "
         "**No upper gate at decisive success shows in the path of the running share; failure closes the process** "
         f"(no vote after 72 h: {st72[0][2]:.0%} of elections ending below 40% support, {st72[1][2]:.0%} at 40-60%, "
         f"{st72[4][2]:.1%} at 90% or more; {n_st72 - n_st72_prom} of the {n_st72} elections silent after 72 h failed).")
@@ -1852,7 +1854,7 @@ def format_report(R: dict) -> str:
     add("- *Supported:* positive local co-movement of signs (sigma > 0 as an association), short-memory, strongest within an hour, "
         f"in {every(loc_years, len(yrs05), 'year', 'years')} from 2005 and {every(loc_sizes, len(sz), 'size class', 'size classes')}; "
         "a one-sided, saturating dependence of participation on the running support share "
-        "(a fall below 70%, present in the first day; flat above); a stall (closure) that attaches to failure and rises as "
+        "(a fall below 70%, a band edge and not an estimated breakpoint, present in the first day; flat above); a stall (closure) that attaches to failure and rises as "
         f"final support falls ({n_st72 - n_st72_prom} of the {n_st72} elections silent after 72 h failed).")
     add("- *Not found:* state-triggered late acceleration (ignition): the contested band's late rise is no larger than "
         f"composition alone predicts (the {late_top} band's is larger, z {_z(lc[late_top])}: not where ignition would show); "

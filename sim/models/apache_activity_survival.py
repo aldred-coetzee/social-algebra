@@ -2192,7 +2192,7 @@ def write_report(R: dict, panel: Panel, path: Path = RESULTS) -> str:
         f"({', '.join(D['unmatched'])}) have no podling of that name in the file (old top-level projects that were never podlings, and `pubscribe`) and are left out; two names were matched by an explicit alias table "
         "(`empire` is Empire-db, `openoffice` is OpenOffice.org). "
         f"All {D['resolved']} matched projects are resolved by the data end, so a later cut-off for the labels changes nothing: "
-        f"**{D['graduated']} graduated and {D['retired']} retired**: the MSR paper's 269 labelled projects (L4628), and against the APEX paper's 273 = 211 + 62 (L4630) six fewer graduated and two more retired (the labels of those papers are not on the Zenodo record, so the difference is not explained).")
+        f"**{D['graduated']} graduated and {D['retired']} retired**: the MSR paper's 269 labelled projects (L4628), and against the APEX paper's 273 = 211 + 62 (L4629) six fewer graduated and two more retired (the labels of those papers are not on the Zenodo record, so the difference is not explained).")
     q = D["exit_month_quantiles"]
     add(f"- **Time.** Month 0 is the podling's start month. The exit month (graduation or retirement) has quartiles {q['graduated'][0]:.0f}, {q['graduated'][1]:.0f}, {q['graduated'][2]:.0f} for graduated "
         f"and {q['retired'][0]:.0f}, {q['retired'][1]:.0f}, {q['retired'][2]:.0f} for retired podlings. The files cover the incubation only: {100 * D['share_events_after_exit_month']:.1f}% of events fall after the exit month. "

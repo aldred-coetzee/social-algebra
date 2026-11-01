@@ -2881,7 +2881,7 @@ def verdict_text(Rs):
           f"{_rng(Dd)} higher at the {n} sites, every interval above 0 (the registry's prediction, 112 section 6.5 item 2, holds). "
           f"Adding the triad types to the person terms adds {_rng(Gd)} AUC against the pre-registered 0.02 for a material "
           f"mechanism: R2 is **{r2_overall(tiers)}** (material at none of {n}; the same with sender-and-receiver intervals)."]
-    L += [f"- **A residue beyond static person propensities is real, and small in AUC.** Against the null (signs redrawn from person "
+    L += [f"- **A residue beyond static person propensities is real: in AUC it is 0.5 to 1.0 points, which exceeds a planted 0.3 log-odds-per-triad mechanism at Bitcoin OTC and BlueTempNet, and it is of a different form from the registry's.** Against the null (signs redrawn from person "
           f"propensities on the same network, G {_rng(G_null)}) the observed G is clearly above it at {_names(above)} (z "
           f"{', '.join(f'{zG[k][2]:+.1f}' for k in above)} in units of the null's replicate spread, which holds the person effects fixed; "
           "the two-way bootstrap interval of the observed G, which is wider, also lies above the null mean at each); where triad "
@@ -2984,8 +2984,9 @@ def verdict_text(Rs):
     L += ["**For the first-outcome decision (Aldred's, not made here).** On this evidence the sign that a 'holds together or splits' "
           "model needs is a person-level propensity (a sender's habit, a receiver's standing) plus a local residue worth about one "
           f"point of AUC overall ({100 * max(t2[k]['G_c5']['diff'] for k in ks):.0f} where triads are dense at the best site), not an "
-          "output of the registry's triad terms as written; v0.2 section 2.2 already treats the sign as an input, and the residue is "
-          "too small in AUC, and too unlike the registry's form, to derive the sign from structure or composition instead. It does "
+          "output of the registry's triad terms as written; v0.2 section 2.2 already treats the sign as an input, and the residue "
+          "(0.5 to 1.0 AUC points, more than a planted 0.3 log-odds-per-triad mechanism adds at Bitcoin OTC and BlueTempNet, but of a "
+          "different form from the registry's) is too unlike the registry's triad terms to derive the sign from structure or composition instead. It does "
           "not say whether those propensities are drives (no site measures one) or whether the residue is a mechanism or drifting "
           "propensities, and it says nothing about conformity or effort outcomes.", ""]
     return L

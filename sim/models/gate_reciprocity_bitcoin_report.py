@@ -365,6 +365,18 @@ def guards(res: dict) -> list[str]:
 
 # ------------------------------------------------------------------ rendering
 
+def _keep_review(text, path):
+    """`text` with a hand-written '## Review (' section at the end of the existing file at `path` kept, so
+    regenerating the numbers does not delete a review of them."""
+    p = Path(path)
+    if p.exists():
+        old = p.read_text(encoding="utf-8")
+        i = old.find("\n## Review (")
+        if i >= 0:
+            return text.rstrip("\n") + "\n" + old[i:]
+    return text
+
+
 def render(res: dict) -> str:
     O, A = res["otc"], res["alpha"]
     info = res["info"]
@@ -1003,7 +1015,7 @@ def main(argv=None) -> int:
         with open(args.pickle, "rb") as fh:
             res = pickle.load(fh)
         ok = guards(res)
-        Path(args.out).write_text(render(res), encoding="utf-8")
+        Path(args.out).write_text(_keep_review(render(res), args.out), encoding="utf-8")
         print(f"wrote {args.out}; {len(ok)} guards held (re-rendered, nothing recomputed)")
         return 0
     res = analyse(B=args.boot)
@@ -1012,7 +1024,7 @@ def main(argv=None) -> int:
         with open(args.pickle, "wb") as fh:
             pickle.dump(res, fh)
     ok = guards(res)
-    text = render(res)
+    text = _keep_review(render(res), args.out)
     Path(args.out).write_text(text, encoding="utf-8")
     print(f"wrote {args.out}; {len(ok)} guards held; {res['elapsed']:.0f} s")
     return 0

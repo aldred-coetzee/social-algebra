@@ -20,6 +20,18 @@ import numpy as np
 
 from models.identifiability_crowd import FITTED, RESULTS, SEED, run_all
 
+def _keep_review(text, path):
+    """`text` with a hand-written '## Review (' section at the end of the existing file at `path` kept, so
+    regenerating the numbers does not delete a review of them."""
+    p = Path(path)
+    if p.exists():
+        old = p.read_text(encoding="utf-8")
+        i = old.find("\n## Review (")
+        if i >= 0:
+            return text.rstrip("\n") + "\n" + old[i:]
+    return text
+
+
 def _md(headers, rows):
     out = ["| " + " | ".join(headers) + " |", "|" + "|".join(["---"] * len(headers)) + "|"]
     out += ["| " + " | ".join(str(c) for c in r) + " |" for r in rows]
@@ -1112,6 +1124,7 @@ def write_report(results, path=RESULTS, quick=False):
              section_misspec(results), section_twosided(results), section_ignition(results), section_variations(results),
              CAVEATS, REPRODUCE]
     text = "\n\n".join(p.strip("\n") for p in parts) + "\n"
+    text = _keep_review(text, path)
     Path(path).write_text(text)
     return text
 
