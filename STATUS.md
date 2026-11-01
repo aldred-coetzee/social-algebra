@@ -186,11 +186,18 @@ weak balance 56.7% vs 50.0% null, mostly direction mix; a weak,
 setting-specific agreement term, not a law; first-tie asymmetry only when
 the negative tie touches the voter. v0.2.1 committed after next-pattern's
 audit (scope words restored in the hinge; two-factor directed law).
-**Running:** on Aldred's "more tests and variations", a battery of
-six empirical tests with model variants (sign registry; crowd gate on
-Wikipedia elections; directed triad rules compared; Apache activity vs
-survival; Bitcoin reciprocity gate; crowd-law identifiability), each
-reviewed and re-run by a second agent; results land in `sim/results/`. **Decision for Aldred after v0.2:** keep "holds/splits"
+**Battery landed 2026-11-01** (`sim/results/*.md`, each with its review; suite
+615 passed): signs are person propensities plus a small residue — triad
+terms add ≤ +0.01 AUC, so the registry has no mechanism beyond person
+terms; the crowd gate co-moves with the recent majority on Wikipedia
+elections (z 16, 2005–13), substitutes refuted as a net association,
+one-sided lower gate, no ignition; the first-tie law (4.2d) refuted on
+Bitcoin, weak balance the best single rule; Apache: size predicts
+graduation, mean activity and distribution shape do not, growth vs
+collapse does; Bitcoin: dead-zone gate refuted, graded response with a
+strong sign gate; crowd law identifiable from aggregates only up to the
+stall. **Decision put to Aldred: first outcome = activity (recommended) or
+holds/splits.** Then v0.3. **Decision for Aldred after v0.2:** keep "holds/splits"
 as the first outcome, or switch to one where drives are the obvious
 variables (conformity/compliance at membership scale; effort/efficiency at
 group scale). Slip
