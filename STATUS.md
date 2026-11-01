@@ -59,8 +59,21 @@ with known drives, generator not v0's form, three sizes; can the drives be
 recovered, and does a drive model beat person effects on held-out
 outcomes?), then one test on a public experiment with measured drives.
 Reasoning and order in `notes/2026-11-01-not-refuted-modelled-population-first.md`.
-Running as one Sonnet agent with a pre-registered rule; result will land in
-`sim/results/synthetic_population_identifiability.md`.
+**Run the same day**, `sim/results/synthetic_population_identifiability.md`
+(rule first; one deviation disclosed: the rule's exit condition could not
+fire, so the threshold was calibrated once on a third seed before any
+world was drawn). Result: **drives are recoverable** from the observables
+at every size (correlations 0.61–0.93 at 60 steps), **but only through the
+tie channel**: with activity alone, affiliation and aversion drop to
+0.03–0.50 and only the set point survives. That is exactly the battery's
+pattern (Apache, activity only, gave size and set point; the signed sites
+gave person propensities). **A linear composition of recovered drives does
+not beat person rates on held-out outcomes (C2 fails at all sizes), and
+neither does the oracle with the true drives**, which says the test
+indicts the composition rule (ridge on group mean and min), not the
+drives. Exits are too rare at n = 25 (3 of 30 groups) for that outcome to
+mean anything. Next, per the note: a public experiment with measured
+drives, where the composition rule is the thing under test.
 
 Housekeeping the same day: auto-compaction at 200k tokens set in this
 project's settings and globally (`CLAUDE.md`, "Context size").
