@@ -1,36 +1,37 @@
 {
  "repo": "social-algebra",
- "generated": "2026-11-04 03:30",
+ "generated": "2026-11-05 03:30",
  "scope": "all time",
  "idle_gap_min": 15,
  "totals": {
   "repo": "social-algebra",
-  "first": "2026-10-28T23:55:20.995000+00:00",
-  "last": "2026-11-03T03:30:39+01:00",
+  "first": "2026-10-29T00:47:41+01:00",
+  "last": "2026-11-04T03:31:08+01:00",
   "sessions": 1,
-  "prompts": 100,
-  "briefs": 183,
-  "active_s": 38225.34299999985,
-  "wall_s": 305966.395,
-  "turns": 1741,
-  "tool_calls": 885,
-  "agents": 233,
-  "tok_in": 8258,
-  "tok_out": 555313,
-  "tok_cr": 208049254,
-  "commits": 132,
-  "ins": 90761,
-  "del": 3979,
+  "prompts": 0,
+  "briefs": 0,
+  "active_s": 200.356,
+  "wall_s": 200.356,
+  "turns": 15,
+  "tool_calls": 8,
+  "agents": 0,
+  "tok_in": 294,
+  "tok_out": 7245,
+  "tok_cr": 866774,
+  "commits": 133,
+  "ins": 90779,
+  "del": 3990,
   "jobs": 0,
   "job_s": 0
  },
  "git": {
-  "commits": 132,
+  "commits": 133,
   "first": "2026-10-29T00:47:41+01:00",
-  "last": "2026-11-03T03:30:39+01:00",
-  "ins": 90761,
-  "del": 3979,
+  "last": "2026-11-04T03:31:08+01:00",
+  "ins": 90779,
+  "del": 3990,
   "per_day": {
+   "2026-11-04": 1,
    "2026-11-03": 1,
    "2026-11-02": 1,
    "2026-11-01": 34,
@@ -41,24 +42,19 @@
  "jobs": [],
  "jobs_daily": {},
  "by_day": {
-  "2026-10-28": {
-   "act": 451.256,
-   "prompts": 0,
-   "commits": 0
-  },
   "2026-10-29": {
-   "act": 12398.74700000004,
-   "prompts": 56,
+   "act": 0.0,
+   "prompts": 0,
    "commits": 86
   },
   "2026-10-31": {
-   "act": 6353.208000000004,
-   "prompts": 10,
+   "act": 0.0,
+   "prompts": 0,
    "commits": 10
   },
   "2026-11-01": {
-   "act": 19022.132000000016,
-   "prompts": 34,
+   "act": 200.356,
+   "prompts": 0,
    "commits": 34
   },
   "2026-11-02": {
@@ -70,54 +66,43 @@
    "act": 0.0,
    "prompts": 0,
    "commits": 1
+  },
+  "2026-11-04": {
+   "act": 0.0,
+   "prompts": 0,
+   "commits": 1
   }
  },
  "sessions": [
   {
    "id": "1d268f6c-6f44-5e18-a974-0045d46feb88",
-   "start": "2026-10-28T23:55:20.995000+00:00",
+   "start": "2026-11-01T12:51:27.034000+00:00",
    "end": "2026-11-01T12:54:47.390000+00:00",
-   "wall_s": 305966.395,
-   "active_s": 38225.34299999985,
+   "wall_s": 200.356,
+   "active_s": 200.356,
    "active_s_by_gap": {
-    "5": 24530.356000000073,
-    "15": 38225.34299999985,
-    "30": 52024.665999999655
+    "5": 200.356,
+    "15": 200.356,
+    "30": 200.356
    },
-   "prompts": 100,
-   "briefs": 183,
-   "turns": 1741,
-   "tool_calls": 885,
+   "prompts": 0,
+   "briefs": 0,
+   "turns": 15,
+   "tool_calls": 8,
    "tools": {
-    "Bash": 452,
-    "Agent": 233,
-    "SendMessage": 70,
-    "Edit": 37,
-    "Workflow": 24,
-    "Read": 23,
-    "Write": 16,
-    "AskUserQuestion": 8,
-    "ToolSearch": 6,
-    "WebFetch": 6,
-    "TaskStop": 4,
-    "Skill": 3,
-    "ListAgents": 2,
-    "SendUserFile": 1
+    "Bash": 8
    },
-   "agents": 233,
+   "agents": 0,
    "tokens": {
-    "in": 8258,
-    "out": 555313,
-    "cache_read": 208049254,
-    "cache_create": 6378871
+    "in": 294,
+    "out": 7245,
+    "cache_read": 866774,
+    "cache_create": 72681
    },
    "models": [
-    "claude-fable-5-1",
-    "claude-opus-5-5"
+    "claude-fable-5-1"
    ],
-   "versions": [
-    "2.1.308"
-   ]
+   "versions": []
   }
  ]
 }
