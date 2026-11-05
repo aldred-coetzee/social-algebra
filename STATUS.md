@@ -1,6 +1,6 @@
 # Status
 
-_Updated 2026-11-01, at the close of the strand._
+_Updated 2026-11-05: the repo is public. The strand closed 2026-11-01._
 
 **Final state, 2026-11-01: closed; reduces to existing work.** Close-out
 done the same day: record corrections (the 16 expected failures, the
@@ -90,13 +90,22 @@ for drives, as distinct from states, as the primitives.
 
 ## Housekeeping
 
-**Ready to be made public, since 2026-11-01.** Licence chosen and added:
+**Public since 2026-11-05** (Aldred flipped the visibility on GitHub;
+confirmed from outside the same day, the API reports `visibility:
+public`). The sweep was repeated at the flip: no email address, secret
+or dataset in any tracked file; the nine files changed after the
+2026-11-01 audit (post-mortem, article draft, the four results-file
+additions, write-up, STATUS, README) hold only our own words and short
+quotations of Aldred's; `worklog/` holds counts only, no prompt text.
+One thing a public git history always shows and this one does: the
+author email on every commit (268 of them). Nothing was done about it;
+changing it would mean another history rewrite and force-push, which is
+Aldred's call. Licence chosen and added 2026-11-01:
 MIT for `sim/` (`LICENSE`), CC BY 4.0 for everything else
 (`LICENSE-CC-BY-4.0`); reasoning in `docs/licensing.md`. The licensing
 audit now covers every file (the 2026-10-30 pass plus a 2026-11-01 pass
 over the files added after it). No email address, secret or dataset is
-tracked; `sim/data/` is ignored except its README. Flipping visibility on
-GitHub is Aldred's step.
+tracked; `sim/data/` is ignored except its README.
 
 **Commit history is clean of AI trailers since 2026-11-01.** The
 harness's `Co-Authored-By` trailer had been added to 115 commits against

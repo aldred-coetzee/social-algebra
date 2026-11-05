@@ -140,9 +140,11 @@ the next time the repo's visibility matters.
 - Separate from the writing pipeline. Nothing here is drafted or published
   unless Aldred one day decides to write about it, and then it goes through
   the normal path from the `writing` workspace. This repo is the work.
-- Private at the start, like the others; **licensed and audited for
-  opening since 2026-11-01** (see Licensing above), so going public is
-  only the visibility flip on GitHub. Nothing personal beyond the thinking
+- **Public since 2026-11-05** (Aldred flipped the visibility; private
+  from 2026-10-29 until then, licensed and audited for opening on
+  2026-11-01, see Licensing above). Every commit is now published the
+  moment it is pushed, so the licensing rules above apply before the
+  push, not before a later flip. Nothing personal beyond the thinking
   itself lives here, and the sweep that confirmed it (no email address,
   secret or dataset tracked) is repeated by any session that touches the
   licensing.

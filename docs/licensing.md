@@ -475,3 +475,27 @@ Most of the sources in the dives are journal articles whose licence the dive did
 - The Newcomb and Szekely files sit on disk under `sim/data/` and are git-ignored. They must stay out of any later commit.
 - Test fixtures in `sim/tests/test_apache_activity_survival.py` list ASF system-account addresses (jira@, asfgit@, gitbox@, hudson@) as examples of robots; they are public role accounts, no personal address.
 - The repository licence files (`LICENSE`, `LICENSE-CC-BY-4.0`) and edits to `README.md`, `CLAUDE.md`, `STATUS.md`, `docs/write-up.md` and `sim/pyproject.toml` were made by another session during this audit and were not reviewed here.
+
+## Audit, 2026-11-05 (at the visibility flip)
+
+The repo was made public by Aldred on 2026-11-05. Scope: the nine files
+changed after the 2026-11-01 audit commit (4cc72d0): `docs/post-mortem.md`,
+`docs/article-draft.md`, `docs/write-up.md`, `STATUS.md`, `README.md` and
+additions to four files under `sim/results/` (Apache fitted case, Bitcoin
+gate reciprocity, synthetic population, Szekely). Method: a scan of every
+added line for quotation spans and blockquotes, and the tracked-file sweep
+for email addresses, secrets and data files.
+
+- Quotations: three, all of Aldred's own words (25 to 50 words, attributed).
+  No third-party text is quoted. The one blockquote is the post-mortem's
+  abstract, ours. No Wikipedia-derived passage.
+- Numbers restated from our own results files; citations of published
+  work are by name and title only.
+- Sweep: no email address in any tracked file other than the ASF role
+  accounts and invented fixtures already noted above; no secret; nothing
+  tracked under `sim/data/` but its README; no data file by extension.
+  `worklog/` holds counts and session metadata, no prompt text.
+- Not in scope and not changed: commit metadata. The author email appears
+  on every commit, as in any public git history.
+
+Nothing flagged.
