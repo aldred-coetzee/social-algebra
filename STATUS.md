@@ -1,6 +1,6 @@
 # Status
 
-_Updated 2026-11-05: the repo is public. The strand closed 2026-11-01._
+_Updated 2026-11-12 (wrap; nothing new since the public flip of 2026-11-05). The strand closed 2026-11-01._
 
 **Final state, 2026-11-01: closed; reduces to existing work.** Close-out
 done the same day: record corrections (the 16 expected failures, the
@@ -98,9 +98,11 @@ or dataset in any tracked file; the nine files changed after the
 additions, write-up, STATUS, README) hold only our own words and short
 quotations of Aldred's; `worklog/` holds counts only, no prompt text.
 One thing a public git history always shows and this one does: the
-author email on every commit (268 of them). Nothing was done about it;
-changing it would mean another history rewrite and force-push, which is
-Aldred's call. Licence chosen and added 2026-11-01:
+author email on every commit (142 at the 2026-11-12 wrap; an earlier
+figure of 268 here had counted author and committer lines together).
+Aldred ruled on 2026-11-06, in the next-pattern session: "I don't care
+about my address in public commit history." So history stays as it is.
+Licence chosen and added 2026-11-01:
 MIT for `sim/` (`LICENSE`), CC BY 4.0 for everything else
 (`LICENSE-CC-BY-4.0`); reasoning in `docs/licensing.md`. The licensing
 audit now covers every file (the 2026-10-30 pass plus a 2026-11-01 pass
