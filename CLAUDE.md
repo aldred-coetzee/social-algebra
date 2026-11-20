@@ -36,7 +36,16 @@ Remote Control session, `claude-rc-social-algebra`, since 2026-10-29 (Aldred:
 "we need a session for it"); unit file in `deploy/systemd/`. **Model pinned to Fable 5.1** in
 `.claude/settings.json` (2026-10-29, Aldred: Opus is "not good enough to
 define research parameters"); the apps stay on Opus, which is the global
-default. A session already running when this landed needs `/model fable` once. `STATUS.md` is the honest state.
+default (`"model"` in `~/.claude/settings.json`). Fable 5.1 is on the
+subscription, checked 2026-10-29 with a real `claude -p --model
+claude-fable-5-1` call; the `fable` and `opus` short names both work. A
+project's `.claude/settings.json` is read only by sessions in that
+directory, so the pin reaches no other project. A session already running when this landed needs `/model fable` once. `STATUS.md` is the honest state.
+
+_Moved here 2026-11-20 from the global brief, which Aldred had slimmed
+("Go ahead", next-pattern session, 14:46 UTC); the global now carries one
+line for this repo. The old text is in
+`box-config/docs/brief/global-before-split-2026-11-20.md`._
 
 ## What it is
 
@@ -147,7 +156,9 @@ the next time the repo's visibility matters.
   push, not before a later flip. Nothing personal beyond the thinking
   itself lives here, and the sweep that confirmed it (no email address,
   secret or dataset tracked) is repeated by any session that touches the
-  licensing.
+  licensing. The box pushes with its own deploy key and the
+  `github-social-algebra` ssh alias, one key per repository as the global
+  brief requires.
 
 ## Not decided
 
