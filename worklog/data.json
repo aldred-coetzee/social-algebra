@@ -1,36 +1,37 @@
 {
  "repo": "social-algebra",
- "generated": "2026-11-20 03:30",
+ "generated": "2026-11-21 03:30",
  "scope": "all time",
  "idle_gap_min": 15,
  "totals": {
   "repo": "social-algebra",
   "first": "2026-10-29T00:47:41+01:00",
-  "last": "2026-11-19T03:31:45+01:00",
-  "sessions": 2,
-  "prompts": 2,
-  "briefs": 0,
-  "active_s": 180.616,
-  "wall_s": 180.61599999999999,
-  "turns": 14,
-  "tool_calls": 6,
+  "last": "2026-11-20T19:56:42.475000+00:00",
+  "sessions": 3,
+  "prompts": 3,
+  "briefs": 2,
+  "active_s": 266.437,
+  "wall_s": 730851.25,
+  "turns": 31,
+  "tool_calls": 13,
   "agents": 0,
-  "tok_in": 164,
-  "tok_out": 2481,
-  "tok_cr": 482017,
-  "commits": 150,
-  "ins": 91262,
-  "del": 4604,
+  "tok_in": 360,
+  "tok_out": 6522,
+  "tok_cr": 844768,
+  "commits": 152,
+  "ins": 91293,
+  "del": 4617,
   "jobs": 0,
   "job_s": 0
  },
  "git": {
-  "commits": 150,
+  "commits": 152,
   "first": "2026-10-29T00:47:41+01:00",
-  "last": "2026-11-19T03:31:45+01:00",
-  "ins": 91262,
-  "del": 4604,
+  "last": "2026-11-20T19:27:49+01:00",
+  "ins": 91293,
+  "del": 4617,
   "per_day": {
+   "2026-11-20": 2,
    "2026-11-19": 1,
    "2026-11-18": 1,
    "2026-11-17": 1,
@@ -161,39 +162,48 @@
    "act": 0.0,
    "prompts": 0,
    "commits": 1
+  },
+  "2026-11-20": {
+   "act": 85.82100000000003,
+   "prompts": 1,
+   "commits": 2
   }
  },
  "sessions": [
   {
    "id": "1d268f6c-6f44-5e18-a974-0045d46feb88",
    "start": "2026-11-12T08:55:51.243000+00:00",
-   "end": "2026-11-12T08:58:51.795000+00:00",
-   "wall_s": 180.552,
-   "active_s": 180.55200000000002,
+   "end": "2026-11-20T19:56:42.333000+00:00",
+   "wall_s": 730851.09,
+   "active_s": 266.277,
    "active_s_by_gap": {
-    "5": 180.55200000000002,
-    "15": 180.55200000000002,
-    "30": 180.55200000000002
+    "5": 266.277,
+    "15": 266.277,
+    "30": 266.277
    },
    "prompts": 1,
-   "briefs": 0,
-   "turns": 14,
-   "tool_calls": 6,
+   "briefs": 2,
+   "turns": 31,
+   "tool_calls": 13,
    "tools": {
-    "Bash": 5,
-    "Skill": 1
+    "Bash": 10,
+    "Skill": 1,
+    "ToolSearch": 1,
+    "SendMessage": 1
    },
    "agents": 0,
    "tokens": {
-    "in": 164,
-    "out": 2481,
-    "cache_read": 482017,
-    "cache_create": 273521
+    "in": 360,
+    "out": 6522,
+    "cache_read": 844768,
+    "cache_create": 392921
    },
    "models": [
     "claude-fable-5-1"
    ],
-   "versions": []
+   "versions": [
+    "2.1.311"
+   ]
   },
   {
    "id": "b4e7e216-5e3b-4499-ac75-dd21b7f8ad50",
@@ -205,6 +215,34 @@
     "5": 0.064,
     "15": 0.064,
     "30": 0.064
+   },
+   "prompts": 1,
+   "briefs": 0,
+   "turns": 0,
+   "tool_calls": 0,
+   "tools": {},
+   "agents": 0,
+   "tokens": {
+    "in": 0,
+    "out": 0,
+    "cache_read": 0,
+    "cache_create": 0
+   },
+   "models": [],
+   "versions": [
+    "2.1.311"
+   ]
+  },
+  {
+   "id": "7957b95f-f562-40dd-94c3-a3610554e39f",
+   "start": "2026-11-20T19:56:42.379000+00:00",
+   "end": "2026-11-20T19:56:42.475000+00:00",
+   "wall_s": 0.096,
+   "active_s": 0.096,
+   "active_s_by_gap": {
+    "5": 0.096,
+    "15": 0.096,
+    "30": 0.096
    },
    "prompts": 1,
    "briefs": 0,
