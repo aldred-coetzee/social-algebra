@@ -1,16 +1,16 @@
 # social-algebra work log
 
-_Generated 2026-11-21 03:30 (all time). Git history predates the transcripts (box sessions began 2026-09-13)._
+_Generated 2026-11-22 03:30 (all time). Git history predates the transcripts (box sessions began 2026-09-13)._
 
 | Repo | First | Last | Ses | Prm | Brf | Act h | Wall h | Trn | Tool | Agt | In M | Out M | CR M | Cmt | + | − | Jobs | Job m |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| social-algebra | 2026-10-29 | 2026-11-20 | 3 | 3 | 2 | 0.1 | 203.0 | 31 | 13 | 0 | 0.0 | 0.0 | 0.8 | 152 | 91293 | 4617 | 0 | 0 |
+| social-algebra | 2026-10-29 | 2026-11-21 | 3 | 4 | 2 | 0.1 | 203.0 | 31 | 13 | 0 | 0.0 | 0.0 | 0.8 | 153 | 91374 | 4655 | 0 | 0 |
 
 ## Sessions
 
 | Id | Start | End | Wall h | Act h | Prm | Brf | Trn | Tool | Agt | Tok in/out/CR | Model | Ver |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1d268f6c | 2026-11-12 08:55 | 2026-11-20 19:56 | 203.0 | 0.1 | 1 | 2 | 31 | 13 | 0 | 0k/7k/0.8M | fable-5-1 | 2.1.311 |
+| 1d268f6c | 2026-11-12 08:55 | 2026-11-20 19:56 | 203.0 | 0.1 | 2 | 2 | 31 | 13 | 0 | 0k/7k/0.8M | fable-5-1 |  |
 | b4e7e216 | 2026-11-12 08:58 | 2026-11-12 08:58 | 0.0 | 0.0 | 1 | 0 | 0 | 0 | 0 | 0k/0k/0.0M |  | 2.1.311 |
 | 7957b95f | 2026-11-20 19:56 | 2026-11-20 19:56 | 0.0 | 0.0 | 1 | 0 | 0 | 0 | 0 | 0k/0k/0.0M |  | 2.1.311 |
 
@@ -39,7 +39,8 @@ _Generated 2026-11-21 03:30 (all time). Git history predates the transcripts (bo
 | 2026-11-17 | 0.0 | 0 | 1 |
 | 2026-11-18 | 0.0 | 0 | 1 |
 | 2026-11-19 | 0.0 | 0 | 1 |
-| 2026-11-20 | 0.0 | 1 | 2 |
+| 2026-11-20 | 0.0 | 2 | 2 |
+| 2026-11-21 | 0.0 | 0 | 1 |
 
 ## Jobs
 
