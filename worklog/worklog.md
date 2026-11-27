@@ -1,10 +1,10 @@
 # social-algebra work log
 
-_Generated 2026-11-26 03:30 (all time). Git history predates the transcripts (box sessions began 2026-09-13)._
+_Generated 2026-11-27 03:30 (all time). Git history predates the transcripts (box sessions began 2026-09-13)._
 
 | Repo | First | Last | Ses | Prm | Brf | Act h | Wall h | Trn | Tool | Agt | In M | Out M | CR M | Cmt | + | − | Jobs | Job m |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| social-algebra | 2026-10-29 | 2026-11-25 | 3 | 6 | 2 | 0.1 | 253.3 | 35 | 14 | 0 | 0.0 | 0.0 | 0.9 | 157 | 91498 | 4750 | 0 | 0 |
+| social-algebra | 2026-10-29 | 2026-11-26 | 3 | 6 | 2 | 0.1 | 253.3 | 35 | 14 | 0 | 0.0 | 0.0 | 0.9 | 158 | 91516 | 4761 | 0 | 0 |
 
 ## Sessions
 
@@ -45,6 +45,7 @@ _Generated 2026-11-26 03:30 (all time). Git history predates the transcripts (bo
 | 2026-11-23 | 0.0 | 0 | 1 |
 | 2026-11-24 | 0.0 | 0 | 1 |
 | 2026-11-25 | 0.0 | 0 | 1 |
+| 2026-11-26 | 0.0 | 0 | 1 |
 
 ## Jobs
 
